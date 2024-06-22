@@ -34,3 +34,18 @@ nav {
     width: 50px;
     height: 60px;
 }
+
+/* BOTTOM BAR */
+
+.bottom-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+
+    p {
+        padding: 15px 40px;
+    }
+}
