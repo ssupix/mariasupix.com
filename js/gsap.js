@@ -2,36 +2,38 @@
 
 gsap.registerPlugin(ScrollTrigger);
   
-    // GSAP timeline for spinning to the right
-  gsap.to(".logo-spinner", {
+// GSAP timeline for spinning to the right
+gsap.to(".logo-spinner", {
     rotation: 360,
-    duration: 10,
+    duration: 15,
     repeat: -1,
     ease: "linear"
-  });
+});
 
-  // Function to reverse the spinning direction
-  function reverseSpin() {
+// Function to reverse the spinning direction
+function reverseSpin() {
     gsap.to(".logo-spinner", {
-      rotation: -360,
-      duration: 10,
-      repeat: -1,
-      ease: "linear"
+        rotation: -360,
+        duration: 15,
+        repeat: -1,
+        ease: "linear"
     });
-  }
+}
 
-  // ScrollTrigger to detect scrolling
-  ScrollTrigger.create({
+// ScrollTrigger to detect scrolling
+ScrollTrigger.create({
     onUpdate: (self) => {
-      if (self.direction === 1) { // scrolling down
+        if (self.direction === 1) { // scrolling down
         reverseSpin();
-      } else if (self.direction === -1) { // scrolling up
-        gsap.to(".logo-spinner", {
-          rotation: 360,
-          duration: 10,
-          repeat: -1,
-          ease: "linear"
-        });
-      }
+        } else if (self.direction === -1) { // scrolling up
+            gsap.to(".logo-spinner", {
+                rotation: 360,
+                duration: 15,
+                repeat: -1,
+                ease: "back.out(1.7)"
+            });
+        }
     }
-  });
+});
+
+  

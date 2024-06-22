@@ -3,3 +3,9 @@ h1 {
     font-family: "Space Mono", monospace;
     font-weight: 500;
 }
+
+p {
+    font-size: 12px;
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+}
