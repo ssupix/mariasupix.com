@@ -30,7 +30,7 @@ ScrollTrigger.create({
                 rotation: 360,
                 duration: 20,
                 repeat: -1,
-                ease: "back.out(1.7)"
+                ease: "linear"
             });
         }
     }
