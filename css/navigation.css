@@ -1,3 +1,12 @@
+:root {
+    --stormy: #646A82;
+    --blue: #97A0C4;
+    --icy: #C4CBE7;
+    --berry: #DB1D6F;
+    --ribbon: #E36A98;
+    --babypink: #FFACCC;
+}
+
 /* NAV BA% */
 
 nav {
@@ -33,6 +42,15 @@ nav {
 .logo {
     width: 50px;
     height: 60px;
+}
+
+.logo svg {
+    fill: black;
+    transition: all .5s;
+}
+
+.logo svg:hover {
+    fill: var(--berry);
 }
 
 /* BOTTOM BAR */
