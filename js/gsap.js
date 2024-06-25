@@ -7,7 +7,7 @@ gsap.to(".logo-spinner", {
     rotation: 360,
     duration: 20,
     repeat: -1,
-    ease: "ease"
+    ease: "linear"
 });
 
 // Function to reverse the spinning direction
@@ -16,7 +16,7 @@ function reverseSpin() {
         rotation: -360,
         duration: 20,
         repeat: -1,
-        ease: "ease"
+        ease: "linear"
     });
 }
 
@@ -30,7 +30,7 @@ ScrollTrigger.create({
                 rotation: 360,
                 duration: 20,
                 repeat: -1,
-                ease: "ease"
+                ease: "linear"
             });
         }
     }
