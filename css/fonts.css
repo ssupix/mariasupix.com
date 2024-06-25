@@ -1,3 +1,12 @@
+:root {
+    --stormy: #646A82;
+    --blue: #97A0C4;
+    --icy: #C4CBE7;
+    --berry: #DB1D6F;
+    --ribbon: #E36A98;
+    --babypink: #FFACCC;
+}
+
 h1 {
     font-size: 96px;
     font-family: "Space Mono", monospace;
@@ -11,6 +20,13 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-size: 20px;
+    font-family: "Space Mono", monospace;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
 p {
     font-size: 12px;
     font-family: "Space Mono", monospace;
@@ -18,8 +34,15 @@ p {
 }
 
 a {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Space Mono", monospace;
     font-weight: 200;
     text-transform: uppercase;
+    color: var(--berry);
+    transition: all .5s;
 }
+
+a:hover {
+    color: var(--ribbon);
+}
+
