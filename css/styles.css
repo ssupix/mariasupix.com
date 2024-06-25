@@ -154,7 +154,7 @@ h1 {
     justify-content: space-between;
     border: 1px solid black;
     gap: 60px;
-    background-color: white;
+    /* background-color: white; */
 
     a {
         text-align: right;
@@ -207,22 +207,32 @@ h1 {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        cursor: pointer;
     }
 
     .cover video {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        cursor: pointer;
+    }
+
+    h3 {
+        cursor: pointer;
     }
 }
 
 .cover  {
-    transition: all .1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    border: rgb(255, 255, 255) solid 1px;
 }
 
 .cover:hover {
     padding: 5%;
-    border: black solid 1px;
+    border: rgb(0, 0, 0) solid 1px;
 
     img {
         border-radius: 0;

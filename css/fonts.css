@@ -8,7 +8,7 @@
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 6rem;
     font-family: "Space Mono", monospace;
     font-weight: 500;
 }
@@ -39,10 +39,11 @@ a {
     font-weight: 200;
     text-transform: uppercase;
     color: var(--berry);
-    transition: all .5s;
+    transition: all .3s;
+    cursor: pointer;
 }
 
 a:hover {
-    color: var(--ribbon);
+    color: var(--babypink);
 }
 
