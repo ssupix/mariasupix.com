@@ -89,6 +89,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 }
 
 .running-line {
@@ -97,7 +98,7 @@ footer {
     width: 100%;
     overflow: hidden;
     margin-top: 150px;
-    padding: 25px 0;
+    padding: 25px 0 40px 0;
     line-height: 1;
     background-color: rgba(227, 106, 152, .45);
     margin-bottom: 150px;
@@ -128,7 +129,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
 }
 
 .contact-info {
@@ -175,7 +176,7 @@ form {
 
     textarea {
         width: 96%;
-        height: 30vmin;
+        height: 25vmin;
         padding: 2%;
         outline: none;
         border: solid 1px var(--berry);
@@ -239,8 +240,7 @@ form {
     font-size: 20px;
     color: black;
     text-decoration: none;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 70px;
 
     a {
         color: black;
