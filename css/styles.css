@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -259,11 +260,13 @@ h1 {
     background-color: rgba(151, 160, 196, .45);
 }
 
-.prapgic-wrap {
+.graphic-wrap {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+
 }
 
 .graphic {
@@ -274,15 +277,10 @@ h1 {
     justify-content: center;
     align-items: center;
     border: 1px black solid;
-    margin-bottom: 300px;
 
     img {
         width: 50%;
     }
 }
-
-
-
-
 
 
