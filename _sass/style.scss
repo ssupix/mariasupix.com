@@ -1,0 +1,19 @@
+// Master CSS File
+
+
+@import "vendor/normalize";
+
+@import "variables";
+@import "text";
+
+@import "nav";
+@import "footer";
+@import "home";
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}

@@ -1,12 +1,3 @@
-:root {
-    --stormy: #646A82;
-    --blue: #97A0C4;
-    --icy: #C4CBE7;
-    --berry: #DB1D6F;
-    --ribbon: #E36A98;
-    --babypink: #FFACCC;
-}
-
 h1 {
     font-size: 96px;
     font-family: "Space Mono", monospace;
@@ -38,12 +29,12 @@ a {
     font-family: "Space Mono", monospace;
     font-weight: 200;
     text-transform: uppercase;
-    color: var(--berry);
+    color: $berry;
     transition: all .3s;
     cursor: pointer;
 }
 
 a:hover {
-    color: var(--babypink);
+    color: $babypink;
 }
 
