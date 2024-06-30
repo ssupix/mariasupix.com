@@ -478,9 +478,6 @@ footer {
   flex-direction: column;
   justify-content: space-between;
 }
-.contact-info p {
-  /* width: min-content; */
-}
 .contact-info ul {
   list-style: none;
 }
