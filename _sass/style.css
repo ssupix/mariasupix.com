@@ -321,21 +321,27 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-  font-family: "Space Mono", monospace;
+  font-size: 76px;
+  font-family: "Inter", monospace;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 h3 {
   font-size: 20px;
   font-family: "Space Mono", monospace;
-  font-weight: 300;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "Space Mono", monospace;
+  font-weight: 200;
   text-transform: uppercase;
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Space Mono", monospace;
   font-weight: 200;
 }
@@ -506,7 +512,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .running-line {
@@ -515,7 +522,7 @@ footer {
   width: 100%;
   overflow: hidden;
   margin-top: 150px;
-  padding: 25px 0 40px 0;
+  padding: 30px 0;
   line-height: 1;
   background-color: rgba(227, 106, 152, 0.45);
   margin-bottom: 150px;
@@ -533,18 +540,21 @@ footer {
   margin-left: 5px;
 }
 
-.running-line ul li a {
+.running-line ul li p {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
   color: #000000;
   font-weight: 400;
   font-size: 20px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .contact-wrap {
   width: 95%;
   height: 90%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 100px;
 }
@@ -569,33 +579,26 @@ footer {
 }
 
 .contact-form {
-  width: 60%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: right;
+}
+.contact-form .graphic {
+  display: flex;
+  width: 100%;
+  align-items: end;
+  justify-content: flex-end;
+}
+.contact-form .graphic img {
+  width: 100%;
+  height: auto;
 }
 
 .contact-me {
   font-size: 20px;
   margin-bottom: 20px;
-}
-
-form {
-  border: solid 1px var(--berry);
-  width: 85%;
-  height: -moz-min-content;
-  height: min-content;
-  padding: 2%;
-}
-form textarea {
-  width: 96%;
-  height: 25vmin;
-  padding: 2%;
-  outline: none;
-  border: solid 1px var(--berry);
-  margin-bottom: 2%;
-  font-family: "Space Mono", monospace;
-  background-color: rgba(255, 178, 224, 0.3);
-}
-form textarea:focus {
-  border: solid 1px var(--babypink);
 }
 
 .inside-form {
@@ -707,6 +710,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(../assets/img/pink.jpg);
+  background-position: bottom;
+  background-size: cover;
 }
 
 .banner-section {
@@ -723,6 +729,7 @@ h1 {
   height: auto;
   padding: 70px;
   border: 1px solid black;
+  background-color: white;
   justify-content: space-around;
   width: 50vmin;
   height: 60vmin;
@@ -771,6 +778,10 @@ h1 {
   font-size: 20px;
 }
 
+.pink-bg {
+  position: absolute;
+}
+
 .featured-project {
   width: 100%;
   display: flex;
@@ -803,13 +814,8 @@ h1 {
   padding: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid black;
+  justify-content: center;
   gap: 60px;
-  /* background-color: white; */
-}
-.project-description a {
-  text-align: right;
 }
 
 .home-projects-wrap {
@@ -817,7 +823,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 .home-projects {
@@ -841,26 +847,5 @@ h1 {
 }
 
 .right {
-  width: 50%;
-}
-
-.graphic-wrap {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.graphic {
-  width: 95%;
-  height: 80vh;
-  display: flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px black solid;
-}
-.graphic img {
   width: 50%;
 }/*# sourceMappingURL=style.css.map */
