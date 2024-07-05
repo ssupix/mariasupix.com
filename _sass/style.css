@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -857,10 +863,4 @@ h1 {
 }
 .graphic img {
   width: 50%;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
 }/*# sourceMappingURL=style.css.map */
