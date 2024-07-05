@@ -411,8 +411,8 @@ a:hover {
   font-size: 14px;
   padding: 7px 35px;
   border-radius: 15px;
+  border: 1px solid #E36A98;
   color: #E36A98;
-  background-color: rgba(227, 106, 152, 0.45);
 }
 
 .pill-blue {
@@ -421,8 +421,8 @@ a:hover {
   font-size: 14px;
   padding: 7px 35px;
   border-radius: 15px;
-  color: var(--blue);
-  background-color: rgba(151, 160, 196, 0.45);
+  color: #97A0C4;
+  border: 1px solid #97A0C4;
 }
 
 /* NAV BAR */

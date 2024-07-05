@@ -61,8 +61,8 @@
     font-size: 14px;
     padding: 7px 35px;
     border-radius: 15px;
-    color: #E36A98;
-    background-color: rgba(227, 106, 152, .45);
+    border: 1px solid $ribbon;
+    color: $ribbon;
 }
 
 .pill-blue {
@@ -71,6 +71,6 @@
     font-size: 14px;
     padding: 7px 35px;
     border-radius: 15px;
-    color: var(--blue);
-    background-color: rgba(151, 160, 196, .45);
+    color: $blue;
+    border: 1px solid $blue;
 }
