@@ -1,20 +1,36 @@
 // Master CSS File
 
+@import "vendor/normalize";
+
+@import "variables";
+@import "text";
+
 * {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
 }
 
-@import "vendor/normalize";
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
 
-@import "variables";
-@import "text";
+main {
+    width: 100%;
+    max-width: 1730px;
+}
+
+
 @import "cards";
-
 @import "nav";
 @import "footer";
 
-@import "home";
+// HOME PAGE
+@import "home/hero";
+@import "home/banner";
+@import "home/projects";
+
 
 

@@ -1,0 +1,26 @@
+.hero {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+}
+
+h1 {
+    max-width: 1300px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+
+.logo-spinner {
+    width: 350px;
+    position: absolute;
+    margin-bottom: 90px;
+    z-index: -3;
+}
