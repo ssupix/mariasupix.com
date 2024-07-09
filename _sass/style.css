@@ -364,11 +364,19 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  --color: #E1E1E1;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+  background-size: 55px 55px;
 }
 
 main {
   width: 100%;
   max-width: 1730px;
+  background-color: white;
 }
 
 .card {
@@ -447,10 +455,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px;
+  padding: 3%;
   position: sticky;
   top: 0;
   z-index: 999;
+  width: 97%;
 }
 
 .nav-links {
@@ -493,13 +502,15 @@ nav {
   cursor: pointer;
 }
 
-.logo svg {
+.logo a svg {
   fill: black;
-  transition: all 0.5s;
+  color: black;
+  transition: all 0.3s;
 }
 
-.logo svg:hover {
+.logo a svg:hover {
   fill: var(--berry);
+  color: var(--berry);
 }
 
 /* BOTTOM BAR */
@@ -647,7 +658,7 @@ h1 {
   width: 350px;
   position: absolute;
   margin-bottom: 90px;
-  z-index: -3;
+  z-index: -1;
 }
 
 .banner {

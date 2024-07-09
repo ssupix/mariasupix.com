@@ -4,10 +4,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px;
+    padding: 3%;
     position: sticky;
     top: 0;
     z-index: 999;
+    width: 97%;
 }
 
 .nav-links {
@@ -50,13 +51,15 @@ nav {
     cursor: pointer;
 }
 
-.logo svg {
+.logo a  svg {
     fill: black;
-    transition: all .5s;
+    color: black;
+    transition: all .3s;
 }
 
-.logo svg:hover {
+.logo a svg:hover {
     fill: var(--berry);
+    color: var(--berry);
 }
 
 /* BOTTOM BAR */
