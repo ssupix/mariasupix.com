@@ -852,7 +852,7 @@ h1 {
 }
 
 #insight {
-  height: 90vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -892,5 +892,17 @@ h1 {
 
 .drag-item img {
   width: 100%;
+  height: auto;
+}
+
+.cv {
+  height: 50vh;
+  display: flex;
+  padding: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.cv img {
+  width: 50%;
   height: auto;
 }/*# sourceMappingURL=style.css.map */
