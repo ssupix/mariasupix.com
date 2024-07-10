@@ -8,7 +8,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 999;
-    width: 97%;
+    width: 95%;
 }
 
 .nav-links {
@@ -49,18 +49,17 @@ nav {
     width: 50px;
     height: 60px;
     cursor: pointer;
+
+    svg {
+        fill: black;
+        transition: all .3s;
+    }
 }
 
-.logo a  svg {
-    fill: black;
-    color: black;
-    transition: all .3s;
-}
-
-.logo a svg:hover {
+a:hover svg{
     fill: var(--berry);
-    color: var(--berry);
 }
+
 
 /* BOTTOM BAR */
 

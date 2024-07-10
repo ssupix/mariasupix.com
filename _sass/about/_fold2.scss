@@ -1,0 +1,38 @@
+#insight {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 500;
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        width: 40%;
+    }
+}
+
+#insight h2 {
+    text-transform: uppercase;
+    width: 40%;
+    margin: 0;
+    user-select: none;
+}
+
+.drag-item {
+    width: 30vmin;
+    height: 30vmin;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    /* mix-blend-mode:hard-light; */
+    /* this looks cool */
+}
+
+.drag-item img {
+    width: 100%;
+    height: auto;
+}

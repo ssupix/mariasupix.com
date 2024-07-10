@@ -453,7 +453,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 999;
-  width: 97%;
+  width: 95%;
 }
 
 .nav-links {
@@ -495,16 +495,13 @@ nav {
   height: 60px;
   cursor: pointer;
 }
-
-.logo a svg {
+.logo svg {
   fill: black;
-  color: black;
   transition: all 0.3s;
 }
 
-.logo a svg:hover {
+a:hover svg {
   fill: var(--berry);
-  color: var(--berry);
 }
 
 /* BOTTOM BAR */
@@ -762,7 +759,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 60px;
+  gap: 5rem;
 }
 
 .home-projects-wrap {
@@ -795,4 +792,100 @@ h1 {
 
 .right {
   width: 50%;
+}
+
+.about-me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.about-me-wrap {
+  display: flex;
+  width: 75%;
+}
+
+.about-card {
+  width: 50%;
+  display: flex;
+  align-content: center;
+  padding: 60px;
+}
+.about-card img {
+  width: 100%;
+  height: auto;
+}
+
+.about-description {
+  width: 50%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+}
+.about-description .skill-wrap {
+  display: flex;
+}
+.about-description .skill-wrap .skill-col {
+  padding: 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.about-description .skill-wrap .skill-col .design {
+  color: #DB1D6F;
+}
+.about-description .skill-wrap .skill-col .dev {
+  color: #97A0C4;
+}
+.about-description .skill-wrap .skill-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  list-style: none;
+}
+
+#insight {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 500;
+}
+#insight .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 40%;
+}
+
+#insight h2 {
+  text-transform: uppercase;
+  width: 40%;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.drag-item {
+  width: 30vmin;
+  height: 30vmin;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  /* mix-blend-mode:hard-light; */
+  /* this looks cool */
+}
+
+.drag-item img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
