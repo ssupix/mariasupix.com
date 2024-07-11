@@ -1,16 +1,22 @@
 .featured-project {
-    width: 100%;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 300px;
+    padding: 60px;
+
+    h2 {
+        text-align: left;
+        width: 75%;
+        margin-bottom: 5rem;
+    }
 }
 
 .project-wrap {
     display: flex;
+    flex-direction: row;
     width: 75%;
-    margin-top: 100px;
 }
 
 .project-video {
@@ -18,10 +24,10 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 60px;
+    padding: 0 0 60px 60px;
 
     video {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
@@ -29,7 +35,7 @@
 
 .project-description {
     width: 50%;
-    padding: 60px;
+    padding: 0 60px 60px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +43,7 @@
 }
 
 .home-projects-wrap {
+    margin-top: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -45,7 +52,8 @@
 }
 
 .home-projects {
-    width: 85%;
+    width: 95%;
+    max-width: 1700px;
     display: flex;
     gap: 20px;
 }
@@ -68,4 +76,124 @@
 
 .right {
     width: 50%;
+}
+
+@media only screen and (min-width: 2200px) {
+
+    .home-projects {
+        max-width: 1800px;
+    }
+}
+
+@media only screen and (max-width: 1970px) {
+
+    .featured-project {
+        h2 {
+            width: 85%;
+        }
+    }
+
+    .project-wrap {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+
+    .featured-project {
+        h2 {
+            width: 90%;
+        }
+    }
+
+    .project-wrap {
+        width: 90%;
+    }
+
+    .project-description {
+        padding: 0;
+    }
+
+    .project-video {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .featured-project {
+        h2 {
+            width: 85%;
+        }
+    }
+
+    .project-wrap {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .project-description {
+            width: 85%;
+            margin-top: 5rem;
+        }
+
+        .project-video {
+            width: 85%;
+        }
+    }
+
+    .home-projects-wrap {
+        flex-direction: column;
+
+        .home-projects {
+            flex-direction: column-reverse;
+
+            a {
+                text-align: center;
+                margin-top: 5rem;
+            }
+        }
+
+        .left,
+        .right {
+            width: 100%;
+        }
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 720px) {
+
+    .featured-project {
+        h2 {
+            width: 85%;
+        }
+    }
+
+    .project-wrap {
+        .project-video {
+            video {
+                width: 100%;
+            }
+        }
+    }
+    
+    .left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        .cards {
+            flex-direction: column;
+    
+            .card {
+                width: 100%;
+            }
+        }
+    }
+    
 }

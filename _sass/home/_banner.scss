@@ -71,3 +71,44 @@
     }
 }
 
+@media only screen and (max-width: 1420px) {
+
+    .banner-section  {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        
+        .banner-right-text {
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .banner {
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .banner {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .banner {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .banner {
+        height: 55vh;
+    }
+}
