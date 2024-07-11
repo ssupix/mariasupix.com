@@ -339,6 +339,7 @@ p {
   line-height: 1.5;
   font-family: "Space Mono", monospace;
   font-weight: 200;
+  z-index: 100;
 }
 
 a {
@@ -367,13 +368,13 @@ a:hover {
   h1 {
     font-size: 4rem;
   }
+  h2 {
+    font-size: 2.3rem;
+  }
 }
 @media only screen and (max-width: 750px) {
   h1 {
     font-size: 2.8rem;
-  }
-  h2 {
-    font-size: 2.3rem;
   }
   h3 {
     font-size: 1rem;
@@ -418,6 +419,7 @@ main {
 }
 
 .card {
+  position: relative;
   width: 100%;
   gap: 15px;
   height: -moz-min-content;
@@ -442,6 +444,17 @@ main {
   cursor: pointer;
 }
 
+.cover:hover::after {
+  content: "Quality branding packaging design, using vector and raster graphics.";
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Space Mono", monospace;
+  position: absolute;
+  margin-top: 1em;
+}
+
 .cover {
   display: flex;
   align-items: center;
@@ -457,7 +470,7 @@ main {
 .cover:hover img {
   border-radius: 0;
 }
-.cover:hover video {
+.cover:hover video::after {
   border-radius: 0;
 }
 
@@ -684,6 +697,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 60vh;
+  z-index: 10;
 }
 .hero h1 {
   max-width: 1300px;
@@ -864,7 +878,9 @@ footer {
   }
 }
 .featured-project {
-  margin-top: 100px;
+  margin-top: 200px;
+  height: -moz-max-content;
+  height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -902,6 +918,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   gap: 5rem;
+}
+.project-description h3 {
+  margin-top: 5rem;
 }
 
 .home-projects-wrap {
@@ -946,6 +965,8 @@ footer {
 @media only screen and (max-width: 1970px) {
   .featured-project h2 {
     width: 85%;
+    margin-bottom: 0;
+    margin-top: 5rem;
   }
   .project-wrap {
     width: 85%;
@@ -968,6 +989,10 @@ footer {
 @media only screen and (max-width: 1200px) {
   .featured-project h2 {
     width: 85%;
+    text-align: center;
+  }
+  .featured-project h3 {
+    margin-top: 0;
   }
   .project-wrap {
     flex-direction: column-reverse;

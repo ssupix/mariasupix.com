@@ -1,6 +1,7 @@
 // HOME
 
 .card {
+    position: relative;
     width: 100%;
     gap: 15px;
     height: min-content;
@@ -27,6 +28,17 @@
     }
 }
 
+.cover:hover::after{
+    content: "Quality branding packaging design, using vector and raster graphics.";
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "Space Mono", monospace;
+    position: absolute;
+    margin-top: 1em;
+}
+
 .cover  {
     display: flex;
     align-items: center;
@@ -43,7 +55,7 @@
         border-radius: 0;
     }
 
-    video {
+    video::after {
         border-radius: 0;
     }
 }
