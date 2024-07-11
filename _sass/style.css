@@ -335,7 +335,8 @@ h4 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.5;
   font-family: "Space Mono", monospace;
   font-weight: 200;
 }
@@ -449,11 +450,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   position: sticky;
   top: 0;
   z-index: 999;
-  width: 95%;
+  width: 96%;
 }
 
 .nav-links {
@@ -501,7 +502,7 @@ nav {
 }
 
 a:hover svg {
-  fill: var(--berry);
+  fill: #DB1D6F;
 }
 
 /* BOTTOM BAR */
@@ -605,6 +606,14 @@ footer {
   width: 60%;
   height: auto;
   margin-top: 5%;
+}
+.contact-form .contact-me::after {
+  content: "Meet me for a cup of tea!";
+  display: block;
+  margin-top: 1em;
+}
+.contact-form .contact-me {
+  display: inline;
 }
 
 .contact-me {
@@ -771,7 +780,7 @@ h1 {
 }
 
 .home-projects {
-  width: 95%;
+  width: 85%;
   display: flex;
   gap: 20px;
 }

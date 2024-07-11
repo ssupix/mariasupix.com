@@ -92,6 +92,16 @@ footer {
         }
     }
 
+    .contact-me::after{
+        content: "Meet me for a cup of tea!";
+        display: block;
+        margin-top: 1em;
+    }
+    
+    .contact-me {
+        display: inline;
+    }
+
 }
 
 .contact-me {

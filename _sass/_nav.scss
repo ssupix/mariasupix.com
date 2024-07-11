@@ -4,11 +4,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
+    padding: 2%;
     position: sticky;
     top: 0;
     z-index: 999;
-    width: 95%;
+    width: 96%;
 }
 
 .nav-links {
@@ -57,7 +57,7 @@ nav {
 }
 
 a:hover svg{
-    fill: var(--berry);
+    fill: $berry;
 }
 
 
