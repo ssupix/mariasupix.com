@@ -878,7 +878,6 @@ footer {
   }
 }
 .featured-project {
-  margin-top: 200px;
   height: -moz-max-content;
   height: max-content;
   display: flex;
