@@ -446,7 +446,7 @@ main {
 
 .cover:hover::after {
   content: "Quality branding packaging design, using vector and raster graphics.";
-  height: 100%;
+  text-align: center;
   width: 100%;
   font-size: 1rem;
   line-height: 1.5;
@@ -711,7 +711,8 @@ footer {
 .hero .logo-spinner {
   width: 350px;
   position: absolute;
-  margin-bottom: 90px;
+  margin-bottom: 160px;
+  margin-right: 350px;
   z-index: -1;
 }
 
