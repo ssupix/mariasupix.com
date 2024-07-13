@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 // GSAP timeline for spinning to the right
 gsap.to(".logo-spinner", {
     rotation: 360,
-    duration: 20,
+    duration: 30,
     repeat: -1,
     ease: "linear"
 });
@@ -14,7 +14,7 @@ gsap.to(".logo-spinner", {
 function reverseSpin() {
     gsap.to(".logo-spinner", {
         rotation: -360,
-        duration: 20,
+        duration: 30,
         repeat: -1,
         ease: "linear"
     });
@@ -28,7 +28,7 @@ ScrollTrigger.create({
         } else if (self.direction === -1) { // scrolling up
             gsap.to(".logo-spinner", {
                 rotation: 360,
-                duration: 20,
+                duration: 30,
                 repeat: -1,
                 ease: "linear"
             });

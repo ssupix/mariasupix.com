@@ -309,7 +309,7 @@ template {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4.7rem;
   font-family: "Space Mono", monospace;
   font-weight: 500;
 }
@@ -700,7 +700,7 @@ footer {
   z-index: 10;
 }
 .hero h1 {
-  max-width: 1300px;
+  max-width: 900px;
   text-align: justify;
   text-transform: uppercase;
 }
@@ -712,7 +712,7 @@ footer {
   width: 350px;
   position: absolute;
   margin-bottom: 160px;
-  margin-right: 350px;
+  margin-right: 300px;
   z-index: -1;
 }
 
