@@ -638,10 +638,10 @@ footer {
   text-transform: lowercase;
 }
 .contact-info ul li a {
-  color: #97A0C4;
+  color: #E36A98;
 }
 .contact-info ul li a:hover {
-  color: #646A82;
+  color: #DB1D6F;
 }
 .contact-info .social-links {
   display: flex;
@@ -1059,10 +1059,9 @@ footer {
   }
 }
 .about-me {
-  min-height: -moz-min-content;
-  min-height: min-content;
-  height: -moz-max-content;
-  height: max-content;
+  min-height: -moz-max-content;
+  min-height: max-content;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
