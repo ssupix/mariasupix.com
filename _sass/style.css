@@ -315,7 +315,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4.75rem;
+  font-size: 4rem;
   font-family: "Inter", monospace;
   font-weight: 600;
 }
@@ -359,9 +359,6 @@ a:hover {
 @media only screen and (max-width: 1420px) {
   h1 {
     font-size: 4.7rem;
-  }
-  h2 {
-    font-size: 4rem;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -1043,9 +1040,9 @@ footer {
   }
 }
 .about-me {
+  min-height: -moz-max-content;
+  min-height: max-content;
   height: 100vh;
-  min-height: -moz-min-content;
-  min-height: min-content;
   width: 100%;
   display: flex;
   flex-direction: column;
