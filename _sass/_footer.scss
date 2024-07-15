@@ -47,13 +47,14 @@ footer {
     width: 95%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .contact-info {
     width: 30%;
     display: flex;
     flex-direction: column;
+    gap: 30px;
     justify-content: space-between;
 
     ul {
@@ -65,11 +66,46 @@ footer {
     }
 
     ul li a {
-        color: var(--stormy);
+        color: $blue;
     }
 
     ul li a:hover {
-        color: var(--blue);
+        color: $stormy;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 15px;
+
+        li.inst {
+            background-image: url(../assets/img/inst.png);
+            background-size: cover;
+            width: 55px;
+            height: 55px;
+        }
+        
+        li.git {
+            background-image: url(../assets/img/git.png);
+            background-size: cover;
+            width: 55px;
+            height: 55px;
+        }
+
+        li.linkdn {
+            background-image: url(../assets/img/linkdn.png);
+            background-size: cover;
+            width: 55px;
+            height: 55px;
+        }
+
+        li {
+            transition: transform .3s;
+        }
+
+        li:hover {
+            animation: icon .3s ease-in forwards;
+        }
     }
 }
 
@@ -78,6 +114,11 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: right;
+    justify-content: space-between;
+
+    p {
+        font-size: 20px;
+    }
 
     .graphic {
         display: flex;
@@ -90,16 +131,6 @@ footer {
             height: auto;
             margin-top: 5%;
         }
-    }
-
-    .contact-me::after{
-        content: "Meet me for a cup of tea!";
-        display: block;
-        margin-top: 1em;
-    }
-    
-    .contact-me {
-        display: inline;
     }
 
 }
@@ -122,5 +153,11 @@ footer {
         scroll-behavior: smooth;
         font-size: 20px;
     }
+}
+
+@keyframes icon {
+    50% {
+        scale: 1.1;
+    } 
 }
 

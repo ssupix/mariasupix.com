@@ -1,5 +1,6 @@
 .banner {
     height: 100vh;
+    min-height: min-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -12,6 +13,7 @@
 
 .banner-section {
     width: 95%;
+    height: 100%;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -102,13 +104,13 @@
 @media only screen and (max-width: 520px) {
 
     .banner {
-        height: 60vh;
+        height: 80vh;
     }
 }
 
 @media only screen and (max-width: 420px) {
 
     .banner {
-        height: 55vh;
+        height: 80vh;
     }
 }

@@ -363,13 +363,13 @@ a:hover {
 }
 @media only screen and (max-width: 1200px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.9rem;
   }
   h2 {
     font-size: 2.3rem;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 720px) {
   h1 {
     font-size: 2.8rem;
   }
@@ -621,13 +621,14 @@ footer {
   width: 95%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .contact-info {
   width: 30%;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   justify-content: space-between;
 }
 .contact-info ul {
@@ -637,10 +638,39 @@ footer {
   text-transform: lowercase;
 }
 .contact-info ul li a {
-  color: var(--stormy);
+  color: #97A0C4;
 }
 .contact-info ul li a:hover {
-  color: var(--blue);
+  color: #646A82;
+}
+.contact-info .social-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.contact-info .social-links li.inst {
+  background-image: url(../assets/img/inst.png);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+}
+.contact-info .social-links li.git {
+  background-image: url(../assets/img/git.png);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+}
+.contact-info .social-links li.linkdn {
+  background-image: url(../assets/img/linkdn.png);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+}
+.contact-info .social-links li {
+  transition: transform 0.3s;
+}
+.contact-info .social-links li:hover {
+  animation: icon 0.3s ease-in forwards;
 }
 
 .contact-form {
@@ -648,6 +678,10 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: right;
+  justify-content: space-between;
+}
+.contact-form p {
+  font-size: 20px;
 }
 .contact-form .graphic {
   display: flex;
@@ -659,14 +693,6 @@ footer {
   width: 60%;
   height: auto;
   margin-top: 5%;
-}
-.contact-form .contact-me::after {
-  content: "Meet me for a cup of tea!";
-  display: block;
-  margin-top: 1em;
-}
-.contact-form .contact-me {
-  display: inline;
 }
 
 .contact-me {
@@ -688,6 +714,11 @@ footer {
   font-size: 20px;
 }
 
+@keyframes icon {
+  50% {
+    scale: 1.1;
+  }
+}
 .hero {
   display: flex;
   position: relative;
@@ -698,6 +729,7 @@ footer {
 }
 .hero h1 {
   max-width: 900px;
+  padding: 20px;
   text-align: justify;
   text-transform: uppercase;
 }
@@ -715,7 +747,7 @@ footer {
 
 @media only screen and (max-width: 1620px) {
   .hero h1 {
-    max-width: 1200px;
+    max-width: 900px;
   }
 }
 @media only screen and (max-width: 1420px) {
@@ -725,12 +757,7 @@ footer {
 }
 @media only screen and (max-width: 1200px) {
   .hero h1 {
-    max-width: 700px;
-  }
-  .hero .logo-spinner {
-    scale: 3;
-    top: 0;
-    right: 0;
+    max-width: 850px;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -738,10 +765,7 @@ footer {
     height: 40vh;
   }
   .hero h1 {
-    max-width: 500px;
-  }
-  .hero .logo-spinner {
-    scale: 2;
+    max-width: 600px;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -749,12 +773,8 @@ footer {
     height: 30vh;
   }
   .hero h1 {
-    max-width: 380px;
+    max-width: 400px;
     text-align: left;
-  }
-  .hero .logo-spinner {
-    scale: 1.2;
-    transform: translateX(120px);
   }
 }
 @media only screen and (max-width: 420px) {
@@ -762,16 +782,14 @@ footer {
     height: 30vh;
   }
   .hero h1 {
-    max-width: 300px;
+    max-width: 320px;
     text-align: left;
-  }
-  .hero .logo-spinner {
-    scale: 1;
-    transform: translateX(150px);
   }
 }
 .banner {
   height: 100vh;
+  min-height: -moz-min-content;
+  min-height: min-content;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -783,6 +801,7 @@ footer {
 
 .banner-section {
   width: 95%;
+  height: 100%;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -867,12 +886,12 @@ footer {
 }
 @media only screen and (max-width: 520px) {
   .banner {
-    height: 60vh;
+    height: 80vh;
   }
 }
 @media only screen and (max-width: 420px) {
   .banner {
-    height: 55vh;
+    height: 80vh;
   }
 }
 .featured-project {
@@ -963,7 +982,6 @@ footer {
   .featured-project h2 {
     width: 85%;
     margin-bottom: 0;
-    margin-top: 5rem;
   }
   .project-wrap {
     width: 85%;
@@ -1019,9 +1037,10 @@ footer {
     width: 100%;
   }
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) and (max-width: 720px) {
   .featured-project h2 {
     width: 85%;
+    justify-content: flex-start;
   }
   .project-wrap .project-video video {
     width: 100%;
@@ -1040,18 +1059,14 @@ footer {
   }
 }
 .about-me {
-  min-height: -moz-max-content;
-  min-height: max-content;
-  height: 100vh;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  height: -moz-max-content;
+  height: max-content;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.about-me h2 {
-  text-align: left;
-  width: 72%;
-  padding: 0 0 0 60px;
 }
 
 .about-me-wrap {
@@ -1104,8 +1119,35 @@ footer {
   list-style: none;
 }
 
+@media only screen and (max-width: 1420px) {
+  .about-card {
+    width: 30%;
+  }
+  .about-description {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-me-wrap {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .about-me-wrap .about-description {
+    width: 85%;
+  }
+  .about-me-wrap .about-card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .about-card {
+    padding-top: 60px;
+  }
+}
 #insight {
-  height: 85vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1120,7 +1162,6 @@ footer {
   gap: 3rem;
   width: 30%;
 }
-
 #insight h2 {
   text-transform: uppercase;
   width: 30%;
@@ -1148,14 +1189,19 @@ footer {
   height: auto;
 }
 
-.cv {
-  height: 50vh;
-  display: flex;
-  padding: 10rem;
-  justify-content: center;
-  align-items: center;
+@media only screen and (max-width: 1200px) {
+  #insight .text {
+    width: 50%;
+  }
+  #insight h2 {
+    width: 50%;
+  }
 }
-.cv img {
-  width: 50%;
-  height: auto;
+@media only screen and (max-width: 720px) {
+  #insight .text {
+    width: 70%;
+  }
+  #insight h2 {
+    width: 70%;
+  }
 }/*# sourceMappingURL=style.css.map */

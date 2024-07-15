@@ -1,5 +1,5 @@
 #insight {
-    height: 85vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -14,13 +14,13 @@
         gap: 3rem;
         width: 30%;
     }
-}
 
-#insight h2 {
-    text-transform: uppercase;
-    width: 30%;
-    margin: 0;
-    user-select: none;
+    h2 {
+        text-transform: uppercase;
+        width: 30%;
+        margin: 0;
+        user-select: none;
+    }
 }
 
 .drag-item {
@@ -39,4 +39,31 @@
 .drag-item img {
     width: 100%;
     height: auto;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    #insight {
+        .text {
+            width: 50%;
+        }
+
+        h2 {
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    #insight {
+        .text {
+            width: 70%;
+        }
+
+        h2 {
+            width: 70%;
+        }
+    }
 }

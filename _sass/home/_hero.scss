@@ -8,6 +8,7 @@
 
     h1 {
         max-width: 900px;
+        padding: 20px;
         text-align: justify;
         text-transform: uppercase;
 
@@ -32,7 +33,7 @@
     .hero {
 
         h1 {
-            max-width: 1200px;
+            max-width: 900px;
         }
     }
 }
@@ -52,13 +53,7 @@
     .hero {
 
         h1 {
-            max-width: 700px;
-        }
-
-        .logo-spinner {
-            scale: 3;
-            top: 0;
-            right: 0;
+            max-width: 850px;
         }
     }
 }
@@ -69,11 +64,7 @@
         height: 40vh;
 
         h1 {
-            max-width: 500px;
-        }
-
-        .logo-spinner {
-            scale: 2;
+            max-width: 600px;
         }
     }
 }
@@ -84,13 +75,8 @@
         height: 30vh;
 
         h1 {
-            max-width: 380px;
+            max-width: 400px;
             text-align: left;
-        }
-
-        .logo-spinner {
-            scale: 1.2;
-            transform: translateX(120px);
         }
     }
 }
@@ -101,13 +87,8 @@
         height: 30vh;
 
         h1 {
-            max-width: 300px;
+            max-width: 320px;
             text-align: left;
-        }
-
-        .logo-spinner {
-            scale: 1;
-            transform: translateX(150px);
         }
     }
 }
