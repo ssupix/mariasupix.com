@@ -1,0 +1,12 @@
+.work-projects {
+    margin-top: 2em;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+        max-width: 49%;
+        margin-bottom: 20px;
+    }
+}

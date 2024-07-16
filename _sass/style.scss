@@ -22,11 +22,16 @@ body {
 
 main {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     // max-width: 1730px;
 }
 
 
 @import "cards";
+@import "dropdowns";
 @import "nav";
 @import "footer";
 
@@ -38,6 +43,10 @@ main {
 // ABOUT PAGE
 @import "about/fold1";
 @import "about/fold2";
+
+// WORK PAGE
+@import "work/header";
+@import "work/projects";
 
 
 

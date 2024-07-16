@@ -1,0 +1,39 @@
+.work-header {
+    width: 95%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .filter-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        .filter {
+            margin: 0;
+            padding: 0;
+            width: 49%;
+        }
+    }
+}
+
+.view-switch {
+    font-size: 1.8rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+    cursor: pointer;
+
+    .active-switch {
+        color: $berry;
+    }
+
+    .switch {
+        transition: color .2s;
+    }
+
+    .switch:hover {
+        color: $ribbon;
+    }
+}

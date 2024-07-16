@@ -1,0 +1,109 @@
+.filter {
+    min-width: 15rem;
+    position: relative;
+    margin: 2em;
+    font-size: 1.25rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+
+    .select {
+        background: #FFE0F2;
+        color: black;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px black solid;
+        border-radius: .5em;
+        cursor: pointer;
+        transition: background .3s;
+        padding: 1.3rem;
+    }
+
+    .select:hover {
+        background: #fccee8;
+    }
+
+    .caret {
+        width: 0;
+        height: 0;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-top: 8px solid #000000;
+        transition: .3s;
+    }
+
+    .menu {
+        list-style: none;
+        padding: .2rem .5rem;
+        background: #FFE0F2;
+        border: 1px solid black;
+        border-radius: .5rem;
+        position: absolute;
+        top: 5rem;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+        opacity: 0;
+        display: none;
+        transition: .2s;
+        z-index: 900;
+
+        li {
+            padding: .7em .5em;
+            margin: .2em 0;
+            border-radius: .5em;
+            cursor: pointer;
+            color: $ribbon;
+            text-transform: uppercase;
+        }
+
+        li:hover {
+            background: #fccee8;
+        }
+    }
+
+    // JS classes
+
+    .select-clicked {
+        border: 1px $berry solid;
+    }
+
+    .caret-rotate {
+        transform: rotate(180deg);
+    }
+
+    .active {
+        font-weight: 600;
+        color: $berry !important;
+    }
+
+    .menu-open {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.filter * {
+    box-sizing: border-box;
+}
+
+// JS classes
+
+.select-clicked {
+    border: 1px $berry solid;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.active {
+    font-weight: 600;
+    color: black;
+}
+
+.menu-open {
+    display: block;
+    opacity: 1;
+}
