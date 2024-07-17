@@ -445,17 +445,6 @@ main {
   cursor: pointer;
 }
 
-.cover:hover::after {
-  content: "Quality branding packaging design, using vector and raster graphics.";
-  text-align: center;
-  width: 100%;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-family: "Space Mono", monospace;
-  position: absolute;
-  margin-top: 1em;
-}
-
 .cover {
   display: flex;
   align-items: center;
