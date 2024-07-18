@@ -29,7 +29,6 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    cursor: pointer;
     z-index: 1;
     /* mix-blend-mode:hard-light; */
     /* this looks cool */
@@ -39,6 +38,53 @@
     width: 100%;
     height: auto;
 }
+
+// .drag-item:nth-child(1) {
+//     top: 10%;
+//     left: 15%;
+// }
+
+// .drag-item:nth-child(2) {
+//     top: 30%;
+//     left: 70%;
+// }
+
+.drag-item:nth-child(3) {
+    top: 80%;
+    left: 40%;
+} //ssupix
+
+.drag-item:nth-child(4) {
+    top: 20%;
+    left: 75%;
+} //miau
+
+.drag-item:nth-child(5) {
+    top: 70%;
+    left: 80%;
+} //mx master
+
+.drag-item:nth-child(6) {
+    top: 50%;
+    left: 10%;
+} //flower
+
+.drag-item:nth-child(7) {
+    top: 10%;
+    left: 20%;
+} //teacup
+
+.drag-item:nth-child(8) {
+    top: 5%;
+    left: 50%;
+} //donut
+
+.drag-item:nth-child(9) {
+    top: 10%;
+    left: 10%;
+} //cv
+
+
 
 
 @media only screen and (max-width: 1200px) {

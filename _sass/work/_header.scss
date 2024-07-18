@@ -1,6 +1,7 @@
 .work-header {
     margin-top: 150px;
-    width: 75%;
+    width: 95%;
+    max-width: 1700px;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -38,5 +39,12 @@
     .grid-switch:hover,
     .list-switch:hover {
         color: $ribbon;
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+
+    .work-header{
+        max-width: 1800px;
     }
 }

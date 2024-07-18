@@ -1,6 +1,7 @@
 .work-projects {
     margin-top: 2em;
-    width: 75%;
+    width: 95%;
+    max-width: 1700px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -14,7 +15,8 @@
 
 .work-projects-list {
     margin-top: 2em;
-    width: 75%;
+    width: 95%;
+    max-width: 1700px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -39,5 +41,13 @@
         opacity: 0;
     } 100% {
         opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+
+    .work-projects-list,
+    .work-projects{
+        max-width: 1800px;
     }
 }

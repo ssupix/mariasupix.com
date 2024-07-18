@@ -781,7 +781,6 @@ footer {
   padding: 0;
   width: 100%;
   overflow: hidden;
-  margin-top: 100px;
   padding: 30px 0;
   line-height: 1;
   background-color: rgba(227, 106, 152, 0.45);
@@ -1002,7 +1001,7 @@ footer {
   background-image: url(../assets/img/pink.jpg);
   background-position: bottom;
   background-size: cover;
-  animation: bannerLoad 1s forwards;
+  animation: bannerLoad 1s forwards ease-out;
 }
 
 @keyframes bannerLoad {
@@ -1392,7 +1391,6 @@ footer {
   justify-content: center;
   align-items: center;
   position: absolute;
-  cursor: pointer;
   z-index: 1;
   /* mix-blend-mode:hard-light; */
   /* this looks cool */
@@ -1401,6 +1399,41 @@ footer {
 .drag-item img {
   width: 100%;
   height: auto;
+}
+
+.drag-item:nth-child(3) {
+  top: 80%;
+  left: 40%;
+}
+
+.drag-item:nth-child(4) {
+  top: 20%;
+  left: 75%;
+}
+
+.drag-item:nth-child(5) {
+  top: 70%;
+  left: 80%;
+}
+
+.drag-item:nth-child(6) {
+  top: 50%;
+  left: 10%;
+}
+
+.drag-item:nth-child(7) {
+  top: 10%;
+  left: 20%;
+}
+
+.drag-item:nth-child(8) {
+  top: 5%;
+  left: 50%;
+}
+
+.drag-item:nth-child(9) {
+  top: 10%;
+  left: 10%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1435,7 +1468,8 @@ footer {
 
 .work-header {
   margin-top: 150px;
-  width: 75%;
+  width: 95%;
+  max-width: 1700px;
   height: 40vh;
   display: flex;
   flex-direction: column;
@@ -1471,9 +1505,15 @@ footer {
   color: #E36A98;
 }
 
+@media only screen and (min-width: 2200px) {
+  .work-header {
+    max-width: 1800px;
+  }
+}
 .work-projects {
   margin-top: 2em;
-  width: 75%;
+  width: 95%;
+  max-width: 1700px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -1486,7 +1526,8 @@ footer {
 
 .work-projects-list {
   margin-top: 2em;
-  width: 75%;
+  width: 95%;
+  max-width: 1700px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -1510,5 +1551,11 @@ footer {
   }
   100% {
     opacity: 1;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  .work-projects-list,
+  .work-projects {
+    max-width: 1800px;
   }
 }/*# sourceMappingURL=style.css.map */
