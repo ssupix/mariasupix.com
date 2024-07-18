@@ -20,6 +20,26 @@
         margin: 0;
         user-select: none;
     }
+
+    h4 {
+        animation: textColor 5s infinite;
+    }
+}
+
+@keyframes textColor {
+    0% {
+        color: $babypink;
+    } 20% {
+        color: $ribbon;
+    } 40% {
+        color: $berry;
+    } 60% {
+        color: $blue;
+    } 80% {
+        color: $icy;
+    } 100% {
+        color: $babypink;
+    }
 }
 
 .drag-item {
@@ -50,37 +70,37 @@
 // }
 
 .drag-item:nth-child(3) {
-    top: 80%;
+    top: 85%;
     left: 40%;
 } //ssupix
 
 .drag-item:nth-child(4) {
-    top: 20%;
+    top: 30%;
     left: 75%;
 } //miau
 
 .drag-item:nth-child(5) {
-    top: 70%;
-    left: 80%;
+    top: 65%;
+    left: 75%;
 } //mx master
 
 .drag-item:nth-child(6) {
-    top: 50%;
+    top: 60%;
     left: 10%;
 } //flower
 
 .drag-item:nth-child(7) {
-    top: 10%;
-    left: 20%;
+    top: 5%;
+    left: 30%;
 } //teacup
 
 .drag-item:nth-child(8) {
     top: 5%;
-    left: 50%;
+    left: 60%;
 } //donut
 
 .drag-item:nth-child(9) {
-    top: 10%;
+    top: 20%;
     left: 10%;
 } //cv
 

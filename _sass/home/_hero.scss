@@ -12,6 +12,7 @@
         padding: 20px;
         text-align: justify;
         text-transform: uppercase;
+        animation: textLoad 1s forwards  ease-out;
 
         .inter {
             font-family: "Inter", sans-serif;
@@ -26,7 +27,8 @@
         margin-bottom: 160px;
         margin-right: 300px;
         z-index: -1;
-        animation: spinnerLoad 1s forwards;
+        opacity: 0;
+        animation: spinnerLoad 1s .3s forwards;
     }
     
 }
@@ -38,6 +40,20 @@
 
     } 100% {
 
+        opacity: 1;
+
+    }
+}
+
+@keyframes textLoad {
+    0% {
+
+        transform: translateX(100px);
+        opacity: 0;
+
+    } 100% {
+
+        transform: translateX(0);
         opacity: 1;
 
     }
