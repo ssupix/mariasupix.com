@@ -8,7 +8,16 @@
     background-image: url(../assets/img/pink.jpg);
     background-position: bottom;
     background-size: cover;
+    animation: bannerLoad 1s forwards;
 
+}
+
+@keyframes bannerLoad {
+    0% {
+        transform: translateY(600px);
+    } 100% {
+        transform: translateY(0);
+    }
 }
 
 .banner-section {
