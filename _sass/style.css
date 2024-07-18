@@ -428,6 +428,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  animation: cardDisplay 0.5s forwards;
 }
 .card .cover img {
   width: 100%;
@@ -488,6 +489,7 @@ main {
 
 .card-list {
   position: relative;
+  cursor: pointer;
   gap: 3rem;
   height: -moz-min-content;
   height: min-content;
@@ -495,6 +497,8 @@ main {
   flex-direction: row;
   padding: 20px;
   border: 1px solid black;
+  transition: background 0.3s;
+  animation: cardDisplay 0.5s forwards;
 }
 .card-list .cover {
   width: 35%;
@@ -550,6 +554,10 @@ main {
   border: 1px solid #97A0C4;
 }
 
+.card-list:hover {
+  border: #DB1D6F solid 1px;
+}
+
 .tags {
   display: flex;
   gap: 10px;
@@ -565,6 +573,7 @@ main {
   border-radius: 15px;
   border: 1px solid #E36A98;
   color: #E36A98;
+  background-color: white;
 }
 
 .pill-blue {
@@ -575,8 +584,17 @@ main {
   border-radius: 15px;
   color: #97A0C4;
   border: 1px solid #97A0C4;
+  background-color: white;
 }
 
+@keyframes cardDisplay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .filter {
   min-width: 15rem;
   position: relative;
@@ -612,7 +630,7 @@ main {
 .filter .menu {
   list-style: none;
   padding: 0.2rem 0.5rem;
-  background: #FFE0F2;
+  background: rgba(255, 224, 242, 0.9);
   border: 1px solid black;
   border-radius: 0.5rem;
   position: absolute;
@@ -634,7 +652,7 @@ main {
   text-transform: uppercase;
 }
 .filter .menu li:hover {
-  background: #fccee8;
+  background: rgba(255, 148, 209, 0.3);
 }
 .filter .select-clicked {
   border: 1px #DB1D6F solid;
@@ -679,7 +697,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 2%;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 999;
   width: 96%;
@@ -895,6 +913,7 @@ footer {
   }
 }
 .hero {
+  margin-top: 150px;
   display: flex;
   position: relative;
   justify-content: center;
@@ -999,6 +1018,8 @@ footer {
 
 .banner-image {
   position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .banner-image::before {
@@ -1007,7 +1028,7 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
-  height: 81.3%;
+  height: 99.5%;
   background: rgba(227, 106, 152, 0.3);
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
@@ -1047,9 +1068,6 @@ footer {
   }
   .banner-section .banner-right-text {
     text-align: center;
-  }
-  .banner-section .banner-image::before {
-    height: 99.4%;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -1239,11 +1257,11 @@ footer {
 .about-me {
   min-height: -moz-max-content;
   min-height: max-content;
-  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .about-me-wrap {
@@ -1324,7 +1342,6 @@ footer {
   }
 }
 #insight {
-  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1382,8 +1399,23 @@ footer {
     width: 70%;
   }
 }
+.scroll-section {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.scroll-section .panel {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+.scroll-section footer {
+  scroll-snap-align: end;
+}
+
 .work-header {
-  width: 95%;
+  margin-top: 150px;
+  width: 75%;
   height: 40vh;
   display: flex;
   flex-direction: column;
@@ -1410,19 +1442,22 @@ footer {
 .view-switch .active-switch {
   color: #DB1D6F;
 }
-.view-switch .switch {
+.view-switch .grid-switch,
+.view-switch .list-switch {
   transition: color 0.2s;
 }
-.view-switch .switch:hover {
+.view-switch .grid-switch:hover,
+.view-switch .list-switch:hover {
   color: #E36A98;
 }
 
 .work-projects {
   margin-top: 2em;
-  width: 95%;
+  width: 75%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  animation: cardDisplay 1s forwards;
 }
 .work-projects .card {
   max-width: 49%;
@@ -1431,15 +1466,29 @@ footer {
 
 .work-projects-list {
   margin-top: 2em;
-  width: 95%;
+  width: 75%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 2em;
   flex-direction: column;
   gap: 0.5rem;
+  animation: cardDisplay 0.5s forwards;
 }
 .work-projects-list .card-list {
   max-width: 100%;
   margin-bottom: 20px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@keyframes cardDisplay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */

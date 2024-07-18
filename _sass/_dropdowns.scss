@@ -36,7 +36,7 @@
     .menu {
         list-style: none;
         padding: .2rem .5rem;
-        background: #FFE0F2;
+        background: rgba(255, 224, 242, .9);
         border: 1px solid black;
         border-radius: .5rem;
         position: absolute;
@@ -59,7 +59,7 @@
         }
 
         li:hover {
-            background: #fccee8;
+            background: rgba(255, 148, 209, 0.3);
         }
     }
 

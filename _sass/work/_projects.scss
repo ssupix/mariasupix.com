@@ -1,9 +1,10 @@
 .work-projects {
     margin-top: 2em;
-    width: 95%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    animation: cardDisplay 1s forwards;
 
     .card {
         max-width: 49%;
@@ -13,16 +14,30 @@
 
 .work-projects-list {
     margin-top: 2em;
-    width: 95%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 2em;
     flex-direction: column;
     gap: .5rem;
+    animation: cardDisplay .5s forwards;
+
 
     .card-list {
         max-width: 100%;
         margin-bottom: 20px;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+@keyframes cardDisplay {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
     }
 }

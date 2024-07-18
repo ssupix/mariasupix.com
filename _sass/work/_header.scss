@@ -1,5 +1,6 @@
 .work-header {
-    width: 95%;
+    margin-top: 150px;
+    width: 75%;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -29,11 +30,13 @@
         color: $berry;
     }
 
-    .switch {
+    .grid-switch,
+    .list-switch {
         transition: color .2s;
     }
 
-    .switch:hover {
+    .grid-switch:hover,
+    .list-switch:hover {
         color: $ribbon;
     }
 }
