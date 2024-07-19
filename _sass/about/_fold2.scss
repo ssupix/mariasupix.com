@@ -27,19 +27,12 @@
 }
 
 @keyframes textColor {
-    0% {
-        color: $babypink;
-    } 20% {
-        color: $ribbon;
-    } 40% {
-        color: $berry;
-    } 60% {
-        color: $blue;
-    } 80% {
-        color: $icy;
-    } 100% {
-        color: $babypink;
-    }
+    0% { color: $babypink; } 
+    20% { color: $ribbon; } 
+    40% { color: $berry; } 
+    60% { color: $blue; } 
+    80% { color: $icy; } 
+    100% { color: $babypink; }
 }
 
 .drag-item {

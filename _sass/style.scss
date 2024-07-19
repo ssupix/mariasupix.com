@@ -4,6 +4,7 @@
 
 @import "variables";
 @import "text";
+@import "grid";
 
 * {
     padding: 0;
@@ -29,7 +30,6 @@ main {
     // max-width: 1730px;
 }
 
-
 @import "cards";
 @import "dropdowns";
 @import "nav";
@@ -46,6 +46,9 @@ main {
 // WORK PAGE
 @import "work/header";
 @import "work/projects";
+
+// PROJECTS
+@import "projects/project";
 
 
 

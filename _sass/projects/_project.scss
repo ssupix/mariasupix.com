@@ -1,0 +1,19 @@
+.project-container {
+    margin-top: 150px;
+    width: 95%;
+    max-width: 1700px;
+    border-radius: .5rem;
+    border: black solid 1px;
+
+    section {
+        width: 100%;
+    }
+
+    .project-banner video,
+    .project-banner img {
+        width: 100%;
+        height: auto;
+        border-radius: .5rem;
+    }
+}
+
