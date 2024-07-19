@@ -1798,16 +1798,21 @@ footer {
   margin-top: 150px;
   margin-bottom: 150px;
   width: 95%;
-  max-width: 1700px;
+  max-width: 1500px;
   border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: black solid 1px;
 }
 .project-container section {
-  width: 100%;
+  width: 90%;
   margin-bottom: 8rem;
 }
 .project-container .project-banner {
   height: 60vh;
+  width: 100%;
   overflow: hidden;
 }
 .project-container .project-banner video,
@@ -1817,6 +1822,7 @@ footer {
   border-radius: 0.5rem;
 }
 
-.title {
+.title p {
   text-transform: uppercase;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
