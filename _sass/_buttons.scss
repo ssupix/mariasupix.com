@@ -1,0 +1,33 @@
+button {
+    padding: 1rem 2.5rem;
+    min-width: fit-content;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+    transition: all .3s ease;
+}
+
+.live {
+    color: $berry;
+    border: 1px solid $berry;
+}
+
+.code {
+    color: $stormy;
+    border: 1px solid $stormy;
+}
+
+button:hover {
+    border-radius: .25rem;
+}
+
+.live:hover {
+    background-color: $babypink;
+}
+
+.code:hover {
+    background-color: $icy;
+}
