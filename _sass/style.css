@@ -802,7 +802,7 @@ main {
   }
 }
 button {
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 3rem;
   min-width: -moz-fit-content;
   min-width: fit-content;
   text-transform: uppercase;
@@ -1859,6 +1859,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 .project-container .project-banner video,
 .project-container .project-banner img {
@@ -1913,4 +1914,20 @@ footer {
 .process .si img {
   width: 100%;
   height: auto;
+}
+
+.showcase img {
+  width: 100%;
+  height: auto;
+  border: 1px black solid;
+}
+.showcase .sp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.showcase .text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }/*# sourceMappingURL=style.css.map */
