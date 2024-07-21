@@ -147,3 +147,34 @@
         }
     }
 }
+
+.more-projects {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: visible;
+    width: 100%;
+    max-width: 1400px;
+
+    h2 {
+        margin-bottom: 12rem;
+        max-width: 1400px;
+    }
+
+    .project-scroll {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll visible;
+        width: 100%;
+        margin-left: 10%;
+        margin-bottom: 12rem;
+        gap: 2rem;
+
+        .card {
+            width: 100%;
+            height: auto;
+            min-width: 700px;
+        }
+    }
+}
