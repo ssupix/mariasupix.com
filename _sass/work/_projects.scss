@@ -6,6 +6,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     animation: cardDisplay 1s forwards;
+    margin-bottom: 10rem;
 
     .card {
         max-width: 49%;
@@ -24,6 +25,7 @@
     flex-direction: column;
     gap: .5rem;
     animation: cardDisplay .5s forwards;
+    margin-bottom: 10rem;
 
 
     .card-list {

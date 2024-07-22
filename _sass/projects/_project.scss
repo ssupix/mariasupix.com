@@ -1,5 +1,5 @@
 .project-container {
-    margin-top: 130px;
+    margin-top: 2rem;
     margin-bottom: 150px;
     width: 95%;
     max-width: 1400px;
@@ -21,7 +21,7 @@
         overflow: hidden;
         display: flex;
         align-items: center;
-        justify-content: center;
+        // justify-content: center;
         margin-bottom: 3rem;
     }
 
@@ -33,10 +33,20 @@
     }
 }
 
-.title p{
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+.title {
+    width: 95%;
+    max-width: 1400px;
+    margin-top: 140px;
+
+    p {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        text-align: justify;
+    }
+
+    .name {
+        color: $stormy;
+    }
 }
 
 .buttons {
@@ -45,8 +55,8 @@
 
 .button-wrap {
     display: flex;
-    justify-content: space-between;
-    gap: .5rem;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .detail {
@@ -123,7 +133,7 @@
 
         q {
             font-family: "Inter";
-            font-size: 3.25rem;
+            font-size: 3rem;
             font-weight: 600;
         }
     }
