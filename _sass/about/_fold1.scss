@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    animation: aboutLoad 1s forwards ease-out;
 
     img {
         width: 100%;
@@ -62,6 +63,20 @@
                 list-style: none;
             }
         }
+    }
+}
+
+@keyframes aboutLoad {
+    0% {
+
+        opacity: 0;
+        transform: translateX(30vh);
+
+    } 100% {
+
+        opacity: 1;
+        transform: translateY(0);
+
     }
 }
 

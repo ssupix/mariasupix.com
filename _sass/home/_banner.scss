@@ -10,19 +10,60 @@
     background-size: cover;
     animation: bannerLoad 1s forwards ease-out;
 
+    .intro {
+        text-align: center;
+    }
+
     .banner-row {
         width: 95%;
+        margin-top: 2rem;
 
         .banner-image {
+            display: flex;
+            justify-content: center;
             padding: 10%;
+            height: 70%;
+            position: relative;
             background-color: white;
             border: 1px solid black;
 
             img {
                 max-width: 100%;
+                max-height: 100%;
                 background-color: white;
                 border: 1px solid black;
             }
+        }
+
+        .banner-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(227, 106, 152, 0.3); 
+            backdrop-filter: blur(3px); 
+            transition: opacity 0.7s ease, backdrop-filter 0.7s ease;
+        }
+        
+        .banner-image:hover::before {
+            opacity: 0;
+            backdrop-filter: blur(0px); 
+        }
+    }
+    
+    .banner-right-text {
+        text-align: end;
+    
+        p {
+            margin-bottom: 30px;
+        }
+    
+        .important {
+            text-transform: uppercase;
+            color: var(--berry);
+            font-size: 20px;
         }
     }
 
@@ -51,19 +92,6 @@
     justify-content: space-between;
 }
 
-.banner-image img{
-    // justify-content: space-around;
-    // width: 100%;
-    height: auto;
-    // padding: 70px;
-    border: 1px solid black;
-    background-color: white;
-    justify-content: space-around;
-    // width: 50vmin;
-    // height: 60vmin;
-    // max-height: 950px;
-    // max-width: 800px;
-}
 
 .banner-image {
     position: relative;
@@ -107,7 +135,7 @@
 
 @media only screen and (max-width: 1420px) {
 
-    .banner-section  {
+    .banner-row  {
         flex-direction: column;
         align-items: center;
         justify-content: center;

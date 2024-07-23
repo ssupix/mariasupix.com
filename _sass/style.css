@@ -1266,18 +1266,57 @@ footer {
   background-size: cover;
   animation: bannerLoad 1s forwards ease-out;
 }
+.banner .intro {
+  text-align: center;
+}
 .banner .banner-row {
   width: 95%;
+  margin-top: 2rem;
 }
 .banner .banner-row .banner-image {
+  display: flex;
+  justify-content: center;
   padding: 10%;
+  height: 70%;
+  position: relative;
   background-color: white;
   border: 1px solid black;
 }
 .banner .banner-row .banner-image img {
   max-width: 100%;
+  max-height: 100%;
   background-color: white;
   border: 1px solid black;
+}
+.banner .banner-row .banner-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(227, 106, 152, 0.3);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  transition: opacity 0.7s ease, -webkit-backdrop-filter 0.7s ease;
+  transition: opacity 0.7s ease, backdrop-filter 0.7s ease;
+  transition: opacity 0.7s ease, backdrop-filter 0.7s ease, -webkit-backdrop-filter 0.7s ease;
+}
+.banner .banner-row .banner-image:hover::before {
+  opacity: 0;
+  -webkit-backdrop-filter: blur(0px);
+          backdrop-filter: blur(0px);
+}
+.banner .banner-right-text {
+  text-align: end;
+}
+.banner .banner-right-text p {
+  margin-bottom: 30px;
+}
+.banner .banner-right-text .important {
+  text-transform: uppercase;
+  color: var(--berry);
+  font-size: 20px;
 }
 
 @keyframes bannerLoad {
@@ -1297,13 +1336,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.banner-image img {
-  height: auto;
-  border: 1px solid black;
-  background-color: white;
-  justify-content: space-around;
 }
 
 .banner-image {
@@ -1350,13 +1382,13 @@ footer {
 }
 
 @media only screen and (max-width: 1420px) {
-  .banner-section {
+  .banner-row {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 50px;
   }
-  .banner-section .banner-right-text {
+  .banner-row .banner-right-text {
     text-align: center;
   }
 }
@@ -1566,6 +1598,7 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
+  animation: aboutLoad 1s forwards ease-out;
 }
 .about-card img {
   width: 100%;
@@ -1604,6 +1637,16 @@ footer {
   list-style: none;
 }
 
+@keyframes aboutLoad {
+  0% {
+    opacity: 0;
+    transform: translateX(30vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 @media only screen and (max-width: 1420px) {
   .about-card {
     width: 30%;
@@ -1865,6 +1908,7 @@ footer {
   justify-content: center;
   align-items: center;
   border: black solid 1px;
+  animation: projectLoad 1s forwards ease-out;
 }
 .project-container section {
   width: 70%;
@@ -1885,6 +1929,16 @@ footer {
   size: cover;
 }
 
+@keyframes projectLoad {
+  0% {
+    opacity: 0.5;
+    transform: translateY(70vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .title {
   width: 95%;
   max-width: 1400px;
