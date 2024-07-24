@@ -951,8 +951,17 @@ button:hover {
 .menu-open {
   display: block;
   opacity: 1;
+  animation: menuOpen 0.5s forwards;
 }
 
+@keyframes menuOpen {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* NAV BAR */
 nav {
   display: flex;
@@ -1801,8 +1810,6 @@ footer {
 }
 .scroll-section {
   height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
 }
 .scroll-section .panel {
   height: 100vh;
