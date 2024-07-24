@@ -2,8 +2,19 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: auto;
-    overflow: scroll visible ;
     gap: 1rem;
+}
+
+.grid-scroll {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    overflow: visible;
+    gap: 1rem;
+
+    ::-webkit-scrollbar {
+        height: 0;
+    }
 }
 
 

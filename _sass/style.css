@@ -400,8 +400,18 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: auto;
-  overflow: scroll visible;
   gap: 1rem;
+}
+
+.grid-scroll {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: auto;
+  overflow: visible;
+  gap: 1rem;
+}
+.grid-scroll ::-webkit-scrollbar {
+  height: 0;
 }
 
 .col-1 {
@@ -1878,6 +1888,10 @@ footer {
   max-width: 100%;
   margin-bottom: 20px;
 }
+.work-projects-list a {
+  text-decoration: none;
+  color: black;
+}
 
 .hidden {
   display: none !important;
@@ -2045,13 +2059,14 @@ footer {
 }
 
 .more-projects {
+  border-right: 1px solid black;
   display: flex;
   min-height: 50vh;
   flex-direction: column;
   justify-content: space-between;
   overflow: visible;
   width: 100%;
-  max-width: 1400px;
+  margin-left: 10%;
 }
 .more-projects h2 {
   margin-bottom: 12rem;
@@ -2060,14 +2075,12 @@ footer {
 .more-projects .project-scroll {
   display: flex;
   flex-direction: row;
-  overflow-x: scroll visible;
-  width: 100%;
-  margin-left: 10%;
   margin-bottom: 12rem;
   gap: 2rem;
+  overflow: scroll;
 }
 .more-projects .project-scroll .card {
   width: 100%;
   height: auto;
-  min-width: 700px;
+  min-width: 800px;
 }/*# sourceMappingURL=style.css.map */
