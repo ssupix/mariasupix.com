@@ -1612,8 +1612,8 @@ footer {
 }
 .about-card img {
   width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 
 .about-description {
@@ -1890,6 +1890,7 @@ footer {
 }
 .work-projects-list a {
   text-decoration: none;
+  text-transform: none;
   color: black;
 }
 
