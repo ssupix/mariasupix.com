@@ -1118,22 +1118,40 @@ footer {
   margin-bottom: 15px;
 }
 .contact-info .social-links li.inst {
+  width: 55px;
+  height: 55px;
+  display: flex;
+}
+.contact-info .social-links li.inst a {
+  width: 100%;
+  height: 100%;
   background-image: url(../assets/img/inst.svg);
   background-size: cover;
-  width: 55px;
-  height: 55px;
+  color: transparent;
 }
 .contact-info .social-links li.git {
+  width: 55px;
+  height: 55px;
+  display: flex;
+}
+.contact-info .social-links li.git a {
+  width: 100%;
+  height: 100%;
   background-image: url(../assets/img/git.svg);
   background-size: cover;
-  width: 55px;
-  height: 55px;
+  color: transparent;
 }
 .contact-info .social-links li.linkdn {
-  background-image: url(../assets/img/linkdn.svg);
-  background-size: cover;
   width: 55px;
   height: 55px;
+  display: flex;
+}
+.contact-info .social-links li.linkdn a {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/img/linkdn.svg);
+  background-size: cover;
+  color: transparent;
 }
 .contact-info .social-links li {
   transition: transform 0.3s;
