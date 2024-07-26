@@ -8,11 +8,16 @@
     justify-content: space-between;
     margin-bottom: 10rem;
 
+    h2 {
+        animation: headerLoad .5s ease;
+    }
+
 
     .about-description {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+        animation: headerLoad 1s ease;
 
         h4,
         p,
@@ -34,11 +39,20 @@
     .about-images {
         border: 1px black solid;
         padding: 10%;
+        opacity: 0;
+        animation: headerLoad 1s ease forwards;
 
         img {
             height: 100%;
             width: 100%;
+            opacity: 0;
+            animation: headerLoad 1s .2s ease forwards;
         }
     }
+}
+
+@keyframes headerLoad {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
