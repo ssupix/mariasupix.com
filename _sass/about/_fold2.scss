@@ -1,9 +1,12 @@
 .skills {
+    height: 80vh;
+    width: 95%;
     margin-bottom: 10rem; 
     opacity: 0;
     animation: headerLoad 1s .5s forwards;
 
     .cv {
+        height: min-content;
         border: 1px #000000 solid;
         padding: 10%;
         transition: all .3s ease;
@@ -16,7 +19,7 @@
     
     .cv:hover {
         border: 1px $berry solid;
-        padding: 5%;
+        padding: 7%;
     
         & img {
             height: 100%;

@@ -10,6 +10,7 @@
 
     h2 {
         animation: headerLoad .5s ease;
+        margin-bottom: 3rem;
     }
 
 
@@ -27,11 +28,6 @@
             li {
                 width: 70px;
                 height: 70px;
-            }
-
-            .cv {
-                margin-top: 2rem;
-                width: fit-content;
             }
         }
     }
@@ -54,5 +50,12 @@
 @keyframes headerLoad {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@media only screen and (min-width: 2200px) {
+
+    .about-fold1{
+        max-width: 1800px;
+    }
 }
 

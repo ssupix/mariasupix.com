@@ -692,7 +692,7 @@ main {
 .card .cover:hover img {
   border-radius: 0;
 }
-.card .cover:hover video::after {
+.card .cover:hover video:hover {
   border-radius: 0;
 }
 .card .tags {
@@ -829,6 +829,7 @@ main {
   }
 }
 button {
+  cursor: pointer;
   padding: 1.5rem 3rem;
   min-width: -moz-fit-content;
   min-width: fit-content;
@@ -1040,6 +1041,7 @@ a:hover svg {
 }
 .bottom-bar p {
   padding: 15px 40px;
+  mix-blend-mode: difference;
 }
 
 /* FOOTER */
@@ -1207,6 +1209,26 @@ footer {
     scale: 1.1;
   }
 }
+#text {
+  padding: 0 10px 0 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+#cursor {
+  margin: 0;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.scrambled {
+  color: #ff0000; /* Color for new text */
+}
+
+.unscrambled {
+  color: #000000; /* Color for original text */
+}
+
 .hero {
   margin-top: 150px;
   display: flex;
@@ -1235,7 +1257,7 @@ footer {
   margin-right: 300px;
   z-index: -1;
   opacity: 0;
-  animation: spinnerLoad 1s 0.3s forwards;
+  animation: spinnerLoad 1s 0.5s forwards;
 }
 
 @keyframes spinnerLoad {
@@ -1254,6 +1276,14 @@ footer {
   100% {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+@keyframes spanLoad {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 @media only screen and (max-width: 1620px) {
@@ -1308,6 +1338,14 @@ footer {
   background-position: bottom;
   background-size: cover;
   animation: bannerLoad 1s forwards ease-out;
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
 }
 .banner .intro {
   text-align: center;
@@ -1631,6 +1669,7 @@ footer {
 }
 .about-fold1 h2 {
   animation: headerLoad 0.5s ease;
+  margin-bottom: 3rem;
 }
 .about-fold1 .about-description {
   display: flex;
@@ -1648,13 +1687,6 @@ footer {
 .about-fold1 .about-description .contact-info li {
   width: 70px;
   height: 70px;
-}
-.about-fold1 .about-description h4 .cv,
-.about-fold1 .about-description p .cv,
-.about-fold1 .about-description .contact-info .cv {
-  margin-top: 2rem;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 .about-fold1 .about-images {
   border: 1px black solid;
@@ -1677,12 +1709,21 @@ footer {
     opacity: 1;
   }
 }
+@media only screen and (min-width: 2200px) {
+  .about-fold1 {
+    max-width: 1800px;
+  }
+}
 .skills {
+  height: 80vh;
+  width: 95%;
   margin-bottom: 10rem;
   opacity: 0;
   animation: headerLoad 1s 0.5s forwards;
 }
 .skills .cv {
+  height: -moz-min-content;
+  height: min-content;
   border: 1px #000000 solid;
   padding: 10%;
   transition: all 0.3s ease;
@@ -1693,7 +1734,7 @@ footer {
 }
 .skills .cv:hover {
   border: 1px #DB1D6F solid;
-  padding: 5%;
+  padding: 7%;
 }
 .skills .cv:hover img {
   height: 100%;
