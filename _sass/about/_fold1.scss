@@ -1,136 +1,44 @@
-.about-me {
-    min-height: max-content;
-    width: 100%;
-    display: flex;
-    padding-top: 50px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-me-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-}
-
-.about-card {
-    max-width: 40%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    animation: aboutLoad 1s forwards ease-out;
-
-    img {
-        height: 100%;
-        max-height: 740px;
-        width: 100%;
-        max-width: 570px;
-    }
-}
-
-
-.about-description {
-    width: 55%;
-    padding: 60px;
+.about-fold1 {
+    margin-top: 150px;
+    width: 95%;
+    max-width: 1700px;
+    height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 60px;
+    justify-content: space-between;
+    margin-bottom: 10rem;
 
-    .about-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1.5rem;
-    }
-
-    .skill-wrap {
-        display: flex;
-
-        .skill-col {
-            padding: 0;
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-
-            .design {
-                color: $berry;
-            }
-
-            .dev {
-                color: $blue;
-            }
-
-            ul {
-                display: flex;
-                flex-direction: column;
-                gap: .25rem;
-                list-style: none;
-            }
-        }
-    }
-}
-
-@keyframes aboutLoad {
-    0% {
-
-        opacity: 0;
-        transform: translateX(30vh);
-
-    } 100% {
-
-        opacity: 1;
-        transform: translateY(0);
-
-    }
-}
-
-@media only screen and (max-width: 1620px) {
-
-    .about-me-wrap {
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 1420px) {
-
-    .about-card {
-        width: 30%;
-    }
 
     .about-description {
-        width: 65%;
-    }
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
 
-    .about-me {
-        margin-bottom: 200px;
-    }
-}
+        h4,
+        p,
+        .contact-info {
+            width: 90%;
 
-@media only screen and (max-width: 1200px) {
+            li {
+                width: 70px;
+                height: 70px;
+            }
 
-    .about-me-wrap {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-
-        .about-description {
-            width: 85%;
-        }
-
-        .about-card {
-            width: 45%;
+            .cv {
+                margin-top: 2rem;
+                width: fit-content;
+            }
         }
     }
-}
 
-@media only screen and (max-width: 720px) {
+    .about-images {
+        border: 1px black solid;
+        padding: 10%;
 
-    .about-card {
-        padding-top: 60px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
     }
 }
+

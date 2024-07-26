@@ -1618,122 +1618,96 @@ footer {
     width: 100%;
   }
 }
-.about-me {
-  min-height: -moz-max-content;
-  min-height: max-content;
-  width: 100%;
+.about-fold1 {
+  margin-top: 150px;
+  width: 95%;
+  max-width: 1700px;
+  height: 70vh;
   display: flex;
-  padding-top: 50px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 10rem;
 }
-
-.about-me-wrap {
+.about-fold1 .about-description {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 75%;
+  flex-direction: column;
+  gap: 3rem;
 }
-
-.about-card {
-  max-width: 40%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  animation: aboutLoad 1s forwards ease-out;
+.about-fold1 .about-description h4,
+.about-fold1 .about-description p,
+.about-fold1 .about-description .contact-info {
+  width: 90%;
 }
-.about-card img {
+.about-fold1 .about-description h4 li,
+.about-fold1 .about-description p li,
+.about-fold1 .about-description .contact-info li {
+  width: 70px;
+  height: 70px;
+}
+.about-fold1 .about-description h4 .cv,
+.about-fold1 .about-description p .cv,
+.about-fold1 .about-description .contact-info .cv {
+  margin-top: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.about-fold1 .about-images {
+  border: 1px black solid;
+  padding: 10%;
+}
+.about-fold1 .about-images img {
   height: 100%;
-  max-height: 740px;
   width: 100%;
-  max-width: 570px;
 }
 
-.about-description {
-  width: 55%;
-  padding: 60px;
+.skills {
+  margin-bottom: 10rem;
+}
+.skills .cv {
+  border: 1px #000000 solid;
+  padding: 10%;
+  transition: all 0.3s ease;
+}
+.skills .cv img {
+  height: 100%;
+  width: 100%;
+}
+.skills .cv:hover {
+  border: 1px #DB1D6F solid;
+  padding: 5%;
+}
+.skills .cv:hover img {
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: hard-light;
+}
+.skills .skills-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 60px;
+  align-items: center;
+  gap: 10rem;
 }
-.about-description .about-text {
+.skills .skills-description .skill-wrap {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.skills .skills-description .skill-wrap .skill-col {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
-.about-description .skill-wrap {
-  display: flex;
+.skills .skills-description .skill-wrap .design {
+  color: #E36A98;
 }
-.about-description .skill-wrap .skill-col {
-  padding: 0;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.about-description .skill-wrap .skill-col .design {
-  color: #DB1D6F;
-}
-.about-description .skill-wrap .skill-col .dev {
+.skills .skills-description .skill-wrap .dev {
   color: #97A0C4;
 }
-.about-description .skill-wrap .skill-col ul {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  list-style: none;
-}
 
-@keyframes aboutLoad {
-  0% {
-    opacity: 0;
-    transform: translateX(30vh);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@media only screen and (max-width: 1620px) {
-  .about-me-wrap {
-    width: 80%;
-  }
-}
-@media only screen and (max-width: 1420px) {
-  .about-card {
-    width: 30%;
-  }
-  .about-description {
-    width: 65%;
-  }
-  .about-me {
-    margin-bottom: 200px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .about-me-wrap {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  .about-me-wrap .about-description {
-    width: 85%;
-  }
-  .about-me-wrap .about-card {
-    width: 45%;
-  }
-}
-@media only screen and (max-width: 720px) {
-  .about-card {
-    padding-top: 60px;
-  }
-}
 #insight {
   width: 100%;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1847,17 +1821,6 @@ footer {
     width: 70%;
   }
 }
-.scroll-section {
-  height: 100vh;
-}
-.scroll-section .panel {
-  height: 100vh;
-  scroll-snap-align: center;
-}
-.scroll-section footer {
-  scroll-snap-align: end;
-}
-
 .work-header {
   margin-top: 150px;
   width: 95%;
