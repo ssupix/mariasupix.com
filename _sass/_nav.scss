@@ -53,10 +53,15 @@ nav {
     svg {
         fill: black;
         transition: all .3s;
+        overflow: visible;
+
+        path {
+            transition: fill 0.3s ease, stroke 0.3s ease, stroke-width 0.3s ease;
+        }
     }
 }
 
-a:hover svg{
+a:hover svg path{
     fill: $berry;
 }
 
