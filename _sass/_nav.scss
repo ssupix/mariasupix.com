@@ -68,12 +68,15 @@ a:hover svg{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    justify-content: end;
     position: fixed;
     bottom: 0;
     z-index: 999;
 
     p {
         padding: 15px 40px;
-        mix-blend-mode: difference;
+        mix-blend-mode: difference;   
+        background-color: rgba(255, 178, 224, 0.5);
+
     }
 }

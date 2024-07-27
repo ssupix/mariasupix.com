@@ -806,7 +806,6 @@ main {
   border-radius: 15px;
   border: 1px solid #E36A98;
   color: #E36A98;
-  background-color: white;
 }
 
 .pill-blue {
@@ -817,7 +816,6 @@ main {
   border-radius: 15px;
   color: #97A0C4;
   border: 1px solid #97A0C4;
-  background-color: white;
 }
 
 @keyframes cardDisplay {
@@ -1035,6 +1033,7 @@ a:hover svg {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  justify-content: end;
   position: fixed;
   bottom: 0;
   z-index: 999;
@@ -1042,6 +1041,7 @@ a:hover svg {
 .bottom-bar p {
   padding: 15px 40px;
   mix-blend-mode: difference;
+  background-color: rgba(255, 178, 224, 0.5);
 }
 
 /* FOOTER */
@@ -1196,7 +1196,7 @@ footer {
   font-size: 20px;
   color: black;
   text-decoration: none;
-  margin-bottom: 3%;
+  margin-bottom: 4%;
 }
 .footer-bottom a {
   color: black;
@@ -1243,7 +1243,6 @@ footer {
   padding: 20px;
   text-align: justify;
   text-transform: uppercase;
-  animation: textLoad 1s forwards ease-out;
 }
 .hero h1 .inter {
   font-family: "Inter", sans-serif;
@@ -1274,7 +1273,7 @@ footer {
     opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -1725,7 +1724,7 @@ footer {
   height: -moz-min-content;
   height: min-content;
   border: 1px #000000 solid;
-  padding: 10%;
+  padding: 7%;
   transition: all 0.3s ease;
 }
 .skills .cv img {
@@ -1734,7 +1733,7 @@ footer {
 }
 .skills .cv:hover {
   border: 1px #DB1D6F solid;
-  padding: 7%;
+  padding: 10%;
 }
 .skills .cv:hover img {
   height: 100%;

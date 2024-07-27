@@ -12,12 +12,11 @@
         padding: 20px;
         text-align: justify;
         text-transform: uppercase;
-        animation: textLoad 1s forwards  ease-out;
+        // animation: textLoad 1s forwards  ease-out;
 
         .inter {
             font-family: "Inter", sans-serif;
             font-weight: 100;
-            // animation: spanLoad 1s 1s forwards ease-out;
         }
     }
     
@@ -54,7 +53,7 @@
 
     } 100% {
 
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
 
     }
