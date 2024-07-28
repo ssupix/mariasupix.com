@@ -1706,6 +1706,26 @@ footer {
   animation: headerLoad 1s 0.2s ease forwards;
 }
 
+.carousel {
+  width: 100%;
+}
+
+.flickity-button {
+  background-color: none !important;
+  color: #DB1D6F !important;
+  padding: 0;
+  border-radius: 0 !important;
+}
+
+.carousel-cell {
+  width: 100%;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: auto;
+}
+
 @keyframes headerLoad {
   0% {
     opacity: 0;

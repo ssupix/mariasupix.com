@@ -48,6 +48,27 @@
     }
 }
 
+.carousel {
+    width: 100%;
+}
+
+.flickity-button {
+    background-color: none !important;
+    color: $berry!important;
+    padding: 0;
+    border-radius: 0 !important;
+
+}
+
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: auto;
+}
+
 @keyframes headerLoad {
     0% {opacity: 0;}
     100% {opacity: 1;}
