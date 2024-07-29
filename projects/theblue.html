@@ -37,8 +37,11 @@
     <main>
         <section class="title">
             <div class="grid">
+                <div class="col-8">
+                    <h2>the blue - water website</h2>
+                </div>
                 <div class="col-12">
-                    <p><span class="name">The Blue – Water Website</span>, an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
+                    <p>an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
                 </div>
             </div>
         </section>
@@ -46,17 +49,6 @@
             <section class="project-banner">
                 <video src="../assets/video/dddd.mp4" autoplay muted looped></video>
             </section>
-            <!-- <section class="title">
-                <div class="grid">
-                    <div class="col-12">
-                        <p>The Blue – Water Website, an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
-                    </div>
-                    <div class="s-3 button-wrap">
-                        <button class="live">VIEW LIVE</button>
-                        <button class="code">VIEW CODE</button>
-                    </div>
-                </div>
-            </section> -->
             <section class="buttons">
                 <div class="grid">
                     <div class="s-3 button-wrap">
@@ -104,8 +96,34 @@
                         <p>This website has interesting interactions and animation, that were made using GSAP.</p>
                         <p>I found out that GSAP is great at handling wide variety or animation with minimum code. By adding CDN link and a couple of additional HTML classes you get all control you need for quick and easy animating.</p>
                     </div>
-                    <div class="col-6 si">
-                        <img src="../assets/img/usinggsap.png" alt="Drag and Drop GSAP Demo">
+                    <div class="col-12">
+                        <div class="code-show">
+                            <div class="select">
+                                <span class="selected">drag and drop</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="code">
+                                <img src="../assets/img/dragdrop.png" alt="">
+                            </ul>
+                        </div>
+                        <div class="code-show">
+                            <div class="select">
+                                <span class="selected">running line</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="code">
+                                <img src="../assets/img/runningline.png" alt="">
+                            </ul>
+                        </div>
+                        <div class="code-show">
+                            <div class="select">
+                                <span class="selected">scroll trigger</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="code">
+                                <img src="../assets/img/scrolltrigger.png" alt="">
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-6 si">
                         <img src="../assets/img/npminstall.png" alt="Installing Plugins with NPM">
@@ -115,11 +133,25 @@
                         <p>Other than GSAP I explored other possibilities with Node Package Manager, used through VS Code Terminal.</p>
                         <p>To begin, I initialized my project with npm, creating a package.json file to manage project dependencies and scripts. I installed these packages using the following command: npm install “library”. </p>
                     </div>
-                </div>
-            </section>
-            <section>
-                <div class="drig">
-                    <div class="s-2">
+                    <div class="col-6 sp"> 
+                        <h2>scroll reveal.</h2>
+                        <p>One noteworthy find was the AOS (Animate On Scroll) library, which provides a minimalist approach to animating sections upon scroll. This library stood out due to its ease of use and minimal code requirements, making it an excellent choice for enhancing the user experience in my project.</p>
+                    </div>
+                    <div class="col-6 sp">
+                        <video src="../assets/video/scroll.mp4" autoplay muted loop></video>
+                    </div>
+                    <div class="col-12">
+                        <div class="code-show">
+                            <div class="select">
+                                <span class="selected">scroll reveal</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="code">
+                                <img src="../assets/img/scrollreveal.png" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-7">
                         <p>During development I turned my “I don’t know how to make it” into “Let me see if can make it” in a span of two weeks. I explored a lot of YouTube tutorials, Code Pen demos, even opened a paper book
                             and read through a lot of documentation. It really got me thinking how sharing and caring dev community is, because the amount of free
                             knowledge I received is borderline illegal.</p>
@@ -153,24 +185,20 @@
                     </div>
                 </div>
             </section>
+            <section class="buttons">
+                <div class="grid">
+                    <div class="s-3 button-wrap">
+                        <button class="live">VIEW LIVE</button>
+                        <button class="code">VIEW CODE</button>
+                    </div>
+                </div>
+            </section>
         </div>
 
         <section class="more-projects">
             <h2>more work.</h2>
             <div class="grid-scroll">
                 <div class="project-scroll col-12">
-                    <div class="card" data-category="1">
-                        <div class="cover">
-                            <video src="../assets/video/dddd.mp4" autoplay muted loop></video>
-                        </div>
-                        <h4>water website - the blue</h4>
-                        <div class="tags">
-                            <div class="pill-blue">ux research</div>
-                            <div class="pill-pink">ui design</div>
-                            <div class="pill-pink">branding</div>
-                            <div class="pill-pink">Figma</div>
-                        </div>
-                    </div>
                     <div class="card" data-category="2">
                         <div class="cover">
                             <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
@@ -279,6 +307,7 @@
     
     <script src="../js/scroll.js"></script>
     <script src="../js/scramble.js"></script>
+    <script src="../js/dropdown.js"></script>
 
 </body>
 </html>

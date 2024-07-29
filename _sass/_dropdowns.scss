@@ -1,7 +1,8 @@
+// FILTER
+
 .filter {
-    min-width: 15rem;
     position: relative;
-    margin: 2em;
+    // margin: 2em;
     font-size: 1.25rem;
     font-family: "Space Mono", monospace;
     font-weight: 200;
@@ -60,6 +61,114 @@
 
         li:hover {
             background: rgba(255, 148, 209, 0.3);
+        }
+    }
+
+    // JS classes
+
+    .select-clicked {
+        border: 1px $berry solid;
+    }
+
+    .caret-rotate {
+        transform: rotate(180deg);
+    }
+
+    .active {
+        font-weight: 600;
+        color: $berry !important;
+    }
+
+    .menu-open {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.filter * {
+    box-sizing: border-box;
+}
+
+// JS classes
+
+.select-clicked {
+    border: 1px $berry solid;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.active {
+    font-weight: 600;
+    color: black;
+}
+
+.menu-open {
+    display: block;
+    opacity: 1;
+    animation: menuOpen .5s forwards;
+}
+
+@keyframes menuOpen {
+    0%      { opacity: 0; }
+    100%    { opacity: 1; }
+}
+
+// CODE
+
+.code-show {
+    // position: relative;
+    margin-bottom: 2rem;
+    // margin: 2em;
+    font-size: 1.25rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+
+    .select {
+        background: #FFE0F2;
+        color: black;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px black solid;
+        border-radius: .5em;
+        cursor: pointer;
+        transition: background .3s;
+        padding: 1.3rem;
+    }
+
+    .select:hover {
+        background: #fccee8;
+    }
+
+    .caret {
+        width: 0;
+        height: 0;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-top: 8px solid #000000;
+        transition: .3s;
+    }
+
+    .code {
+        margin-top: 1rem;
+        list-style: none;
+        padding: 2rem;
+        background: #ffe0f2;
+        border: 1px solid black;
+        border-radius: .5rem;
+        // position: absolute;
+        top: 5rem;
+        opacity: 0;
+        display: none;
+        transition: .2s;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
         }
     }
 

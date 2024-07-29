@@ -2,7 +2,8 @@
     margin-top: 150px;
     width: 95%;
     max-width: 1700px;
-    height: 70vh;
+    height: fit-content;
+    min-height: 550px;
     min-height: fit-content;
     display: flex;
     flex-direction: column;
@@ -53,11 +54,10 @@
 }
 
 .flickity-button {
-    background-color: none !important;
+    background: none !important;
     color: $berry!important;
     padding: 0;
     border-radius: 0 !important;
-
 }
 
 .carousel-cell {

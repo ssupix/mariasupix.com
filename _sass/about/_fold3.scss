@@ -1,13 +1,12 @@
 #insight {
     width: 100%;
-    height: 90vh;
-    min-height: fit-content;
+    min-height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 500;
+    // z-index: 500;
 
     .text {
         display: flex;
@@ -38,16 +37,18 @@
 }
 
 .drag-item {
-    width: 20vmin;
+    width: 200px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     z-index: 1;
-    /* mix-blend-mode:hard-light; */
-    /* this looks cool */
 }
+
+// .drag-item:hover {
+//     mix-blend-mode:difference; 
+// }
 
 .drag-item img {
     width: 100%;

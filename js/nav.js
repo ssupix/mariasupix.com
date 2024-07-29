@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
   ScrollTrigger.create({
     trigger: 'window', // Trigger on the body to start immediately
     start: 'top top',
-    end: '5% top',
+    end: '130px top',
+    // markers: true,
     onUpdate: (self) => {
       const progress = self.progress;
       

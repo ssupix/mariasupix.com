@@ -7,28 +7,30 @@ button {
     font-family: "Inter";
     font-weight: 600;
     text-transform: uppercase;
-    background-color: white;
     transition: all .3s ease;
+    background-color: white;
 }
 
 .live {
     color: $berry;
     border: 1px solid $berry;
+    background-color: rgba(255, 172, 204, .5);
 }
 
 .code {
     color: $stormy;
     border: 1px solid $stormy;
-}
-
-button:hover {
-    border-radius: .25rem;
+    background-color: rgba(196, 203, 231, .5);
 }
 
 .live:hover {
-    background-color: $babypink;
+    background-color: rgba(255, 172, 204, 1);
+    color: white;
+    border: 1px solid $babypink;
 }
 
 .code:hover {
-    background-color: $icy;
+    background-color: rgba(196, 203, 231, 1);
+    color: white;
+    border: 1px solid $icy;
 }
