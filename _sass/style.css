@@ -1892,6 +1892,11 @@ footer {
   color: #97A0C4;
 }
 
+@media only screen and (min-width: 2200px) {
+  .skills {
+    max-width: 1800px;
+  }
+}
 @keyframes headerLoad {
   0% {
     opacity: 0;
