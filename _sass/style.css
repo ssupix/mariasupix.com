@@ -1758,7 +1758,7 @@ footer {
 .about-fold1 {
   margin-top: 150px;
   width: 95%;
-  max-width: 1700px;
+  max-width: 1500px;
   height: -moz-fit-content;
   height: fit-content;
   min-height: 550px;
@@ -1840,6 +1840,7 @@ footer {
   height: -moz-fit-content;
   height: fit-content;
   min-height: 1200px;
+  max-width: 1500px;
   min-height: -moz-fit-content;
   min-height: fit-content;
   width: 95%;
@@ -2135,7 +2136,7 @@ CV Modal
 .work-header {
   margin-top: 150px;
   width: 95%;
-  max-width: 1700px;
+  max-width: 1500px;
   height: 40vh;
   display: flex;
   flex-direction: column;
@@ -2188,7 +2189,7 @@ CV Modal
 .work-projects {
   margin-top: 2em;
   width: 95%;
-  max-width: 1700px;
+  max-width: 1500px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
