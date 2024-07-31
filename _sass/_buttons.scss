@@ -8,7 +8,6 @@ button {
     font-weight: 600;
     text-transform: uppercase;
     transition: all .3s ease;
-    background-color: white;
 }
 
 .live {
@@ -25,12 +24,12 @@ button {
 
 .live:hover {
     background-color: rgba(255, 172, 204, 1);
-    color: white;
+    color: $white;
     border: 1px solid $babypink;
 }
 
 .code:hover {
     background-color: rgba(196, 203, 231, 1);
-    color: white;
+    color: $white;
     border: 1px solid $icy;
 }

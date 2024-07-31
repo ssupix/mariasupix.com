@@ -35,7 +35,7 @@
     }
 
     .about-images {
-        border: 1px black solid;
+        border: 1px $black solid;
         padding: 10%;
         opacity: 0;
         animation: headerLoad 1s ease forwards;

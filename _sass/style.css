@@ -632,6 +632,8 @@ a:hover {
 }
 
 body {
+  background-color: #f7f5f5;
+  color: #131313;
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
@@ -685,11 +687,11 @@ main {
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease;
-  border: rgb(255, 255, 255) solid 1px;
+  border: #f7f5f5 solid 1px;
 }
 .card .cover:hover {
   padding: 5%;
-  border: rgb(0, 0, 0) solid 1px;
+  border: #131313 1px;
 }
 .card .cover:hover img {
   border-radius: 0;
@@ -731,7 +733,7 @@ main {
   display: flex;
   flex-direction: row;
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid #131313;
   transition: background 0.3s;
   animation: cardDisplay 0.5s forwards;
 }
@@ -839,7 +841,6 @@ button {
   font-weight: 600;
   text-transform: uppercase;
   transition: all 0.3s ease;
-  background-color: white;
 }
 
 .live {
@@ -856,13 +857,13 @@ button {
 
 .live:hover {
   background-color: rgb(255, 172, 204);
-  color: white;
+  color: #f7f5f5;
   border: 1px solid #FFACCC;
 }
 
 .code:hover {
   background-color: rgb(196, 203, 231);
-  color: white;
+  color: #f7f5f5;
   border: 1px solid #C4CBE7;
 }
 
@@ -1045,7 +1046,7 @@ button {
 
 .active {
   font-weight: 600;
-  color: black;
+  color: #131313;
 }
 
 .menu-open {
@@ -1085,7 +1086,7 @@ nav {
   font-size: 20px;
   text-transform: uppercase;
   background-color: rgba(255, 178, 224, 0.3);
-  color: black;
+  color: #131313;
   font-family: "Space Mono", monospace;
   font-weight: 400;
   font-style: normal;
@@ -1114,7 +1115,7 @@ nav {
   cursor: pointer;
 }
 .logo svg {
-  fill: black;
+  fill: #131313;
   transition: all 0.3s;
   overflow: visible;
 }
@@ -1181,7 +1182,7 @@ footer {
   margin: 0;
   padding: 0;
   line-height: 0;
-  color: #000000;
+  color: #131313;
   font-weight: 400;
   font-size: 20px;
   text-decoration: none;
@@ -1293,7 +1294,7 @@ footer {
   width: 95%;
   justify-content: space-between;
   font-size: 20px;
-  color: black;
+  color: #131313;
   text-decoration: none;
   margin-bottom: 4%;
 }
@@ -1318,14 +1319,6 @@ footer {
   margin: 0;
   font-size: 1em;
   display: inline-block;
-}
-
-.scrambled {
-  color: #ff0000; /* Color for new text */
-}
-
-.unscrambled {
-  color: #000000; /* Color for original text */
 }
 
 .hero {
@@ -1458,14 +1451,14 @@ footer {
   padding: 10%;
   height: 70%;
   position: relative;
-  background-color: white;
-  border: 1px solid black;
+  background-color: #f7f5f5;
+  border: 1px solid #131313;
 }
 .banner .banner-row .banner-image img {
   max-width: 100%;
   max-height: 100%;
-  background-color: white;
-  border: 1px solid black;
+  background-color: #f7f5f5;
+  border: 1px solid #131313;
 }
 .banner .banner-row .banner-image::before {
   content: "";
@@ -1791,7 +1784,7 @@ footer {
   height: 70px;
 }
 .about-fold1 .about-images {
-  border: 1px black solid;
+  border: 1px #131313 solid;
   padding: 10%;
   opacity: 0;
   animation: headerLoad 1s ease forwards;
@@ -1851,7 +1844,7 @@ footer {
 .skills .cv {
   height: -moz-min-content;
   height: min-content;
-  border: 1px #000000 solid;
+  border: 1px #131313 solid;
   padding: 7%;
   transition: all 0.3s ease;
 }
@@ -2257,7 +2250,7 @@ CV Modal
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: black solid 1px;
+  border: #131313 solid 1px;
   animation: projectLoad 1s forwards ease-out;
 }
 .project-container section {
@@ -2326,7 +2319,7 @@ CV Modal
   margin-top: 0.5rem;
 }
 .detail.border {
-  border: solid 1px black;
+  border: solid 1px #131313;
 }
 .detail p {
   font-family: "Inter";
@@ -2355,7 +2348,7 @@ CV Modal
 .showcase img {
   width: 100%;
   height: auto;
-  border: 1px black solid;
+  border: 1px #131313 solid;
 }
 .showcase .sp {
   display: flex;
@@ -2387,7 +2380,7 @@ CV Modal
 .thoughts .visual video {
   width: 100%;
   height: auto;
-  border: solid 1px black;
+  border: solid 1px #131313;
   margin-top: 2rem;
 }
 .thoughts .visual img {
@@ -2397,7 +2390,7 @@ CV Modal
 }
 
 .more-projects {
-  border-right: 1px solid black;
+  border-right: 1px solid #131313;
   display: flex;
   min-height: 50vh;
   flex-direction: column;

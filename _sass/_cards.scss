@@ -38,12 +38,12 @@
         align-items: center;
         justify-content: center;
         transition: all .4s ease;
-        border: rgb(255, 255, 255) solid 1px;
+        border: $white solid 1px;
     }
     
     .cover:hover {
         padding: 5%;
-        border: rgb(0, 0, 0) solid 1px;
+        border: $black 1px;
     
         img {
             border-radius: 0;
@@ -105,7 +105,7 @@
     flex-direction: row;
     // justify-content: space-between;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid $black;
     transition: background .3s;
     animation: cardDisplay .5s forwards;
 

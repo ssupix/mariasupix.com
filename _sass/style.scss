@@ -13,7 +13,8 @@
 }
 
 body {
-    // background-color: rgb(247, 245, 245);
+    background-color: $white;
+    color: $black;
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
