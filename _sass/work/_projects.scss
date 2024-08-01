@@ -2,15 +2,11 @@
     margin-top: 2em;
     width: 95%;
     max-width: 1500px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     animation: cardDisplay 1s forwards;
     margin-bottom: 10rem;
 
     .card {
-        max-width: 49%;
-        margin-bottom: 20px;
+        margin-bottom: 3rem;
     }
 }
 
@@ -18,26 +14,9 @@
     margin-top: 2em;
     width: 95%;
     max-width: 1700px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 2em;
-    flex-direction: column;
     gap: .5rem;
     animation: cardDisplay .5s forwards;
     margin-bottom: 10rem;
-
-
-    .card-list {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        text-transform: none;
-        color: black;
-    }
 }
 
 .hidden {
@@ -56,6 +35,6 @@
 
     .work-projects-list,
     .work-projects{
-        max-width: 1800px;
+        max-width: 1700px;
     }
 }

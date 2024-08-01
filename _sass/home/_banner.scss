@@ -1,5 +1,4 @@
 .banner {
-    // height: 100vh;
     min-height: min-content;
     width: 100%;
     display: flex;
@@ -134,49 +133,18 @@
 
     .important {
         text-transform: uppercase;
-        color: var(--berry);
+        color: $berry !important;
         font-size: 20px;
     }
 }
 
-@media only screen and (max-width: 1420px) {
 
-    .banner-row  {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-        
-        .banner-right-text {
-            text-align: center;
+@media only screen and (max-width: 1080px) {
+
+        .banner {
+            p {
+                text-align: center;
+                width: 100%;
+            }
         }
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-
-    .banner {
-        height: 90vh;
-    }
-}
-
-@media only screen and (max-width: 720px) {
-
-    .banner {
-        height: 80vh;
-    }
-}
-
-@media only screen and (max-width: 520px) {
-
-    .banner {
-        height: 80vh;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-
-    .banner {
-        height: 80vh;
-    }
 }

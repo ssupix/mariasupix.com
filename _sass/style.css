@@ -367,12 +367,12 @@ a:hover {
     font-size: 4.7rem;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1080px) {
   h1 {
     font-size: 3.9rem;
   }
   h2 {
-    font-size: 2.3rem;
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -691,7 +691,7 @@ main {
 }
 .card .cover:hover {
   padding: 5%;
-  border: #131313 1px;
+  border: #131313 1px solid;
 }
 .card .cover:hover img {
   border-radius: 0;
@@ -805,7 +805,7 @@ main {
 .pill-pink {
   text-transform: uppercase;
   font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-size: 8vw;
   padding: 7px 35px;
   border-radius: 15px;
   border: 1px solid #E36A98;
@@ -815,7 +815,7 @@ main {
 .pill-blue {
   text-transform: uppercase;
   font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-size: 8vw;
   padding: 7px 35px;
   border-radius: 15px;
   color: #97A0C4;
@@ -1549,64 +1549,37 @@ footer {
 }
 .banner-right-text .important {
   text-transform: uppercase;
-  color: var(--berry);
+  color: #DB1D6F !important;
   font-size: 20px;
 }
 
-@media only screen and (max-width: 1420px) {
-  .banner-row {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-  }
-  .banner-row .banner-right-text {
+@media only screen and (max-width: 1080px) {
+  .banner p {
     text-align: center;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .banner {
-    height: 90vh;
-  }
-}
-@media only screen and (max-width: 720px) {
-  .banner {
-    height: 80vh;
-  }
-}
-@media only screen and (max-width: 520px) {
-  .banner {
-    height: 80vh;
-  }
-}
-@media only screen and (max-width: 420px) {
-  .banner {
-    height: 80vh;
+    width: 100%;
   }
 }
 .featured-project {
+  margin-top: 8rem;
   height: -moz-max-content;
   height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px;
 }
 .featured-project h2 {
-  text-align: left;
-  width: 75%;
   margin-bottom: 5rem;
 }
 
 .project-wrap {
   display: flex;
-  flex-direction: row;
-  width: 75%;
+  flex-direction: column;
+  width: 95%;
+  max-width: 1500px;
 }
 
 .project-video {
-  width: 50%;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -1618,7 +1591,6 @@ footer {
 }
 
 .project-description {
-  width: 50%;
   padding: 0 60px 60px 0;
   display: flex;
   flex-direction: column;
@@ -1635,117 +1607,39 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
 }
 
 .home-projects {
   width: 95%;
-  max-width: 1700px;
+  max-width: 1500px;
   display: flex;
   gap: 20px;
 }
 
-.left {
+.cards {
+  display: flex;
+  gap: 20px;
+}
+.cards .card {
   width: 50%;
+}
+
+.left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.left .cards {
-  display: flex;
-  gap: 20px;
-}
-.left .cards .card {
-  width: 50%;
-}
 
-.right {
-  width: 50%;
-}
-
-@media only screen and (min-width: 2200px) {
-  .home-projects {
-    max-width: 1800px;
+@media only screen and (max-width: 1080px) {
+  .featured-project h2, .featured-project h3 {
+    text-align: center;
+    width: 100%;
+    margin: 0 !important;
   }
-}
-@media only screen and (max-width: 1970px) {
-  .featured-project h2 {
-    width: 85%;
-    margin-bottom: 0;
-  }
-  .project-wrap {
-    width: 85%;
-  }
-}
-@media only screen and (max-width: 1420px) {
-  .featured-project h2 {
-    width: 90%;
-  }
-  .project-wrap {
-    width: 90%;
-  }
+  .project-video,
   .project-description {
-    padding: 0;
-  }
-  .project-video {
-    padding: 0;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .featured-project h2 {
-    width: 85%;
-    text-align: center;
-  }
-  .featured-project h3 {
-    margin-top: 0;
-  }
-  .project-wrap {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  .project-wrap .project-description {
-    width: 85%;
-    margin-top: 5rem;
-  }
-  .project-wrap .project-video {
-    width: 85%;
-  }
-  .home-projects-wrap {
-    flex-direction: column;
-  }
-  .home-projects-wrap .home-projects {
-    flex-direction: column-reverse;
-  }
-  .home-projects-wrap .home-projects a {
-    text-align: center;
-    margin-top: 5rem;
-  }
-  .home-projects-wrap .left,
-  .home-projects-wrap .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 1200px) and (max-width: 720px) {
-  .featured-project h2 {
-    width: 85%;
-    justify-content: flex-start;
-  }
-  .project-wrap .project-video video {
-    width: 100%;
-  }
-  .left {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .left .cards {
-    flex-direction: column;
-  }
-  .left .cards .card {
-    width: 100%;
+    padding: 60px;
   }
 }
 .about-fold1 {
@@ -2162,6 +2056,7 @@ CV Modal
   }
 }
 .view-switch {
+  text-align: end;
   font-size: 1.8rem;
   font-family: "Space Mono", monospace;
   font-weight: 200;
@@ -2188,38 +2083,20 @@ CV Modal
   margin-top: 2em;
   width: 95%;
   max-width: 1500px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   animation: cardDisplay 1s forwards;
   margin-bottom: 10rem;
 }
 .work-projects .card {
-  max-width: 49%;
-  margin-bottom: 20px;
+  margin-bottom: 3rem;
 }
 
 .work-projects-list {
   margin-top: 2em;
   width: 95%;
   max-width: 1700px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 2em;
-  flex-direction: column;
   gap: 0.5rem;
   animation: cardDisplay 0.5s forwards;
   margin-bottom: 10rem;
-}
-.work-projects-list .card-list {
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-.work-projects-list a {
-  text-decoration: none;
-  text-transform: none;
-  color: black;
 }
 
 .hidden {
@@ -2237,7 +2114,7 @@ CV Modal
 @media only screen and (min-width: 2200px) {
   .work-projects-list,
   .work-projects {
-    max-width: 1800px;
+    max-width: 1700px;
   }
 }
 .project-container {
