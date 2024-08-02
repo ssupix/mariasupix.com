@@ -79,7 +79,7 @@
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque pariatur, rem.</p> -->
                                 <div class="tags">
-                                    <div class="pill-pink">brandinggggg</div>
+                                    <div class="pill-pink">branding</div>
                                     <div class="pill-pink">Photoshop</div>
                                     <div class="pill-pink">Packaging</div>
                                 </div>
