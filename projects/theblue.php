@@ -95,37 +95,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-<pre><code><span class="code-comment">// OCEAN ELEMENTS</span>
-<span class="code-comment">// DRAGGABLE FISH</span>
-
-<span class="code-comment">// runs code when all the content is loaded</span>
-<span class="code-blue">document</span><span class="code-light">.</span><span class="light-pink-code">addEventListener</span><span class="code-light">(</span><span class="code-pink">"DOMContentLoaded"</span><span class="code-light">, </span><span class="code-light">function()</span><span class="code-light">{</span>
-    <span class="code-comment">// Function to add initial random positions to fish elements</span>
-    <span class="code-light">function </span><span class="code-blue">addInitialRandomPositions</span><span class="code-light">() {</span>
-        <span class="code-comment">// Select all fish elements</span>
-        <span class="code-light">const </span><span class="code-blue">fishElements </span><span class="code-light">= </span><span class="code-blue">document</span><span class="code-light">.</span><span class="light-pink-code">querySelectorAll</span><span class="code-light">(</span><span class="code-pink">".drag-item"</span><span class="code-light">);</span>
-
-        <span class="code-comment">// Loop through each fish element and set initial random positions</span>
-        <span class="code-blue">fishElements</span><span class="code-light">.</span><span class="light-pink-code">forEach</span><span class="code-light">(</span><span class="code-light">function (<span class="code-pink">fish</span>) {</span>
-            <span class="code-blue">fish</span><span class="code-light">.</span><span class="code-blue">style</span><span class="lightpink-code">.</span><span class="light-pink-code">left </span><span class="code-light">= </span><span class="code-blue">Math</span><span class="code-light">.</span><span class="code-blue">random</span><span class="code-light">() * (</span><span class="code-blue">window</span><span class="code-light">.</span><span class="code-blue">innerWidth</span><span class="code-light"> - </span><span class="code-pink">fish</span><span class="code-light">.</span><span class="code-blue">clientWidth</span><span class="code-light">) + </span><span class="code-pink">"px"</span><span class="code-light">;</span>
-            <span class="code-blue">fish</span><span class="code-light">.</span><span class="code-blue">style</span><span class="code-light">.</span><span class="light-pink-code">top </span><span class="code-light">= </span><span class="code-blue">Math</span><span class="code-light">.</span><span class="code-blue">random</span><span class="code-light">() * (</span><span class="code-blue">window</span><span class="code-light">.</span><span class="code-blue">innerHeight</span><span class="code-light"> - </span><span class="code-pink">fish</span><span class="code-light">.</span><span class="code-blue">clientHeight</span><span class="code-light">) + </span><span class="code-pink">"px"</span><span class="code-light">;</span>
-        <span class="code-light">});</span>
-    <span class="code-light">}</span>
-
-    <span class="code-comment">// Call the function to add initial random positions to fish elements</span>
-    <span class="code-blue">addInitialRandomPositions</span><span class="code-light">();</span>
-<span class="code-light">});</span>
-
-<span class="code-comment">// DRAG AND DROP</span>
-<span class="code-comment">// register the plugin</span>
-<span class="light-pink-code">gsap</span><span class="code-light">.</span><span class="code-blue">registerPlugin</span><span class="code-light">(</span><span class="code-blue">Draggable</span><span class="code-light">);</span>
-
-<span class="code-comment">// use this plugin on elements with class .drag-item</span>
-<span class="code-blue">Draggable</span><span class="code-light">.</span><span class="code-blue">create</span><span class="code-light">(</span><span class="code-pink">".drag-item"</span><span class="code-light">, {</span>
-    <span class="code-comment">// you can drag elements outside of #ocean div</span>
-    <span class="code-blue">bounds</span><span class="code-light">: </span><span class="code-pink">"#ocean"</span>
-<span class="code-light">});</span>
-</code></pre>
+                                <?php include '../components/dragdrop.php'; ?>
                             </ul>
                         </div>
                         <div class="code-show">
@@ -134,53 +104,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-<pre><code><span class="code-comment">// waits for all the content to be loaded before running the function</span>
-<span class="code-blue">document</span><span class="code-light">.</span><span class="light-pink-code">addEventListener</span><span class="code-light">(</span><span class="code-pink">"DOMContentLoaded"</span><span class="code-light">, </span><span class="code-light">function()</span><span class="code-light">{</span>
-    <span class="code-comment">// register the scroll trigger plugin</span>
-    <span class="light-pink-code">gsap</span><span class="code-light">.</span><span class="code-blue">registerPlugin</span><span class="code-light">(</span><span class="code-blue">ScrollTrigger</span><span class="code-light">);</span>
-
-    <span class="code-comment">// RIVER ELEMENTS</span>
-    <span class="code-comment">// SIDE SCROLLING</span>
-    <span class="code-comment">// convert all elements with the class "content" inside the element with id "river" into an array</span>
-    <span class="code-light">const </span><span class="code-blue">contents</span><span class="code-light"> = </span><span class="light-pink-code">gsap</span><span class="code-light">.</span><span class="code-blue">utils</span><span class="code-light">.</span><span class="light-pink-code">toArray</span><span class="code-light">(</span><span class="code-pink">"#river .content"</span><span class="code-light">);</span>
-
-    <span class="code-comment">// create an animation to move the contents horizontally</span>
-    <span class="light-pink-code">gsap</span><span class="code-light">.</span><span class="code-blue">to</span><span class="code-light">(</span><span class="code-blue">contents</span><span class="code-light">, {</span>
-        <span class="code-comment">// move the contents horizontally by the width of a single content multiplied by the number of contents minus 1</span>
-        <span class="code-comment">// this effectively aligns all contents horizontally</span>
-        <span class="code-blue">xPercent</span><span class="code-light">: </span><span class="code-blue">-100</span><span class="code-light"> * (</span><span class="code-blue">contents</span><span class="code-light">.</span><span class="light-pink-code">length</span><span class="code-light"> - </span><span class="code-blue">1</span><span class="code-light">),</span>
-        <span class="code-comment">// define the plugin options</span>
-        <span class="code-blue">scrollTrigger</span><span class="code-light">: {</span>
-            <span class="code-comment">// set the trigger element</span>
-            <span class="code-blue">trigger</span><span class="code-light">: </span><span class="code-pink">"#river"</span><span class="code-light">,</span>
-            <span class="code-comment">// pin the trigger element during the animation</span>
-            <span class="code-blue">pin</span><span class="code-light">: </span><span class="code-pink">true</span><span class="code-light">,</span>
-            <span class="code-comment">// set the scrubbing speed</span>
-            <span class="code-blue">scrub</span><span class="code-light">: </span><span class="code-pink">0.5</span>
-        <span class="code-light">}</span>
-    <span class="code-light">});</span>
-
-    <span class="code-comment">// ARROW</span>
-    <span class="code-comment">// assign animation to .path</span>
-    <span class="light-pink-code">gsap</span><span class="code-light">.</span><span class="code-blue">to</span><span class="code-light">(</span><span class="code-pink">"path"</span><span class="code-light">, {</span>
-        <span class="code-comment">// animation is triggered when ".arrow-container" enters the viewport</span>
-        <span class="code-blue">scrollTrigger</span><span class="code-light">: {</span>
-            <span class="code-comment">// animation is triggered when ".arrow-container" enters the viewport</span>
-            <span class="code-blue">trigger</span><span class="code-light">: </span><span class="code-pink">".arrow-container"</span><span class="code-light">,</span>
-            <span class="code-comment">// start the animation when the top of the trigger element is 70% from the top of the viewport</span>
-            <span class="code-blue">start</span><span class="code-light">: </span><span class="code-pink">"top 70%"</span><span class="code-light">,</span>
-            <span class="code-comment">// end the animation when the top of the trigger element is at the top of the viewport</span>
-            <span class="code-blue">end</span><span class="code-light">: </span><span class="code-pink">"top 0"</span><span class="code-light">,</span>
-            <span class="code-comment">// smooth animation</span>
-            <span class="code-blue">scrub</span><span class="code-light">: </span><span class="code-pink">true</span>
-        <span class="code-light">},</span>
-        <span class="code-comment">// set the stroke dash offset to 0</span>
-        <span class="code-blue">strokeDashoffset</span><span class="code-light">: </span><span class="code-blue">0</span>
-    <span class="code-light">});</span>
-
-<span class="code-light">});</span>
-</code></pre>
-                                    
+                                <?php include '../components/scrolltrigger.php'; ?>
                             </ul>
                         </div>
                         <div class="code-show">
@@ -189,19 +113,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-<pre><code><span class="code-comment">// RUNNING TEXT LINE</span>
-    <span class="code-comment">// animates elements with the class .running ul li</span>
-    <span class="light-pink-code">gsap</span><span class="code-light">.</span><span class="code-blue">to</span><span class="code-light">(</span><span class="code-pink">".running ul li"</span><span class="code-light">, {</span>
-        <span class="code-comment">// set the animation duration to 6 seconds</span>
-        <span class="code-blue">duration</span><span class="code-light">: </span><span class="code-pink">6</span><span class="code-light">,</span>
-        <span class="code-comment">// moves the elements horizontally by -102%</span>
-        <span class="code-blue">x</span><span class="code-light">: </span><span class="code-pink">"-102%"</span><span class="code-light">,</span>
-        <span class="code-comment">// linear easing</span>
-        <span class="code-blue">ease</span><span class="code-light">: </span><span class="code-pink">"linear"</span><span class="code-light">,</span>
-        <span class="code-comment">// makes the animation repeat infinitely</span>
-        <span class="code-blue">repeat</span><span class="code-light">: </span><span class="code-pink">-1</span>
-    <span class="code-light">});</span>
-</code></pre>
+                                <?php include '../components/scrolltrigger.php'; ?>
                             </ul>
                         </div>
                     </div>
@@ -232,32 +144,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-<pre><code><span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish-tank"</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    
-    <span class="code-comment">&lt;!-- Scroll Reveal --></span>
-    <span class="code-light"><</span><span class="light-pink-code">script</span> <span class="code-blue">src</span><span class="code-light">=</span><span class="code-pink">"https://unpkg.com/aos@2.3.1/dist/aos.js"</span><span class="code-light">></span><span class="code-light"><</span><span class="light-pink-code">/script</span><span class="code-light">></span>
-    
-    <span class="code-comment">&lt;!-- Initialize Scroll Reveal --></span>
-    <span class="code-light"><</span><span class="light-pink-code">script</span><span class="code-light">></span>
-    <span class="code-blue">AOS</span><span class="code-light">.</span><span class="code-blue">init</span><span class="code-light">();</span>
-    <span class="code-light"><</span><span class="light-pink-code">/script</span><span class="code-light">></span>
-</code></pre>
+                                <?php include '../components/scrollreveal.php'; ?>
                             </ul>
                         </div>
                     </div>
