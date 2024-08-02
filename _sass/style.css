@@ -322,7 +322,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.65rem;
   font-family: "Space Mono", monospace;
   font-weight: 600;
   text-transform: uppercase;
@@ -353,6 +353,10 @@ a {
   cursor: pointer;
 }
 
+q {
+  font-size: 2.5rem;
+}
+
 a:hover {
   color: #FFACCC;
 }
@@ -360,6 +364,9 @@ a:hover {
 @media only screen and (min-width: 1620px) {
   p {
     font-size: 1rem;
+  }
+  q {
+    font-size: 2.7rem;
   }
 }
 @media only screen and (max-width: 1420px) {
@@ -374,16 +381,19 @@ a:hover {
   h2 {
     font-size: 3rem;
   }
+  q {
+    font-size: 2rem;
+  }
 }
 @media only screen and (max-width: 720px) {
   h1 {
     font-size: 2.8rem;
   }
-  h3 {
-    font-size: 1rem;
-  }
   p {
     font-size: 0.8rem;
+  }
+  q {
+    font-size: 1.8rem;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -392,6 +402,9 @@ a:hover {
   }
   h2 {
     font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -640,6 +653,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 1.5;
 }
 
 main {
@@ -767,7 +781,6 @@ main {
 .card-list .tags {
   display: flex;
   gap: 10px;
-  width: 60%;
   max-width: -moz-max-content;
   max-width: max-content;
   flex-wrap: wrap;
@@ -1146,6 +1159,7 @@ a:hover svg path {
 
 /* FOOTER */
 footer {
+  width: 100%;
   height: -moz-min-content;
   height: min-content;
   display: flex;
@@ -1191,13 +1205,11 @@ footer {
 
 .contact-wrap {
   width: 95%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 3%;
+  margin-bottom: 3rem;
 }
 
 .contact-info {
-  width: 30%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -1264,7 +1276,6 @@ footer {
 }
 
 .contact-form {
-  width: 40%;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -1293,10 +1304,10 @@ footer {
   display: flex;
   width: 95%;
   justify-content: space-between;
-  font-size: 20px;
   color: #131313;
   text-decoration: none;
-  margin-bottom: 4%;
+  margin-bottom: 5rem;
+  font-size: 20px;
 }
 .footer-bottom a {
   color: black;
@@ -1307,6 +1318,35 @@ footer {
 @keyframes icon {
   50% {
     scale: 1.1;
+  }
+}
+@media screen and (max-width: 568px) {
+  footer {
+    height: -moz-min-content;
+    height: min-content;
+  }
+  .contact-info {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .contact-form {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 3rem;
+    align-items: center;
+  }
+  .contact-form .graphic {
+    width: 80%;
+  }
+  .contact-form .graphic img {
+    width: 100%;
+    height: auto;
+  }
+  .footer-bottom h4 {
+    font-size: 16px;
+  }
+  .footer-bottom a {
+    font-size: 16px;
   }
 }
 #text {
@@ -1567,9 +1607,10 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8rem;
 }
 .featured-project h2 {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .project-wrap {
@@ -1597,23 +1638,28 @@ footer {
   justify-content: center;
   gap: 5rem;
 }
+.project-description .text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 .project-description h3 {
   margin-top: 5rem;
 }
 
 .home-projects-wrap {
-  margin-top: 200px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 
 .home-projects {
   width: 95%;
   max-width: 1500px;
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -1654,7 +1700,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 .about-fold1 h2 {
   animation: headerLoad 0.5s ease;
@@ -1671,11 +1717,8 @@ footer {
 .about-fold1 .about-description .contact-info {
   width: 90%;
 }
-.about-fold1 .about-description h4 li,
-.about-fold1 .about-description p li,
-.about-fold1 .about-description .contact-info li {
-  width: 70px;
-  height: 70px;
+.about-fold1 .about-description h4 {
+  font-size: 25px;
 }
 .about-fold1 .about-images {
   border: 1px #131313 solid;
@@ -1741,6 +1784,7 @@ footer {
   border: 1px #131313 solid;
   padding: 7%;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 .skills .cv img {
   height: 100%;
@@ -2076,7 +2120,15 @@ CV Modal
 
 @media only screen and (min-width: 2200px) {
   .work-header {
-    max-width: 1800px;
+    max-width: 1700px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .view-switch {
+    display: none;
+  }
+  .work-header {
+    height: 20vh;
   }
 }
 .work-projects {
@@ -2174,6 +2226,7 @@ CV Modal
 }
 .title h2 {
   color: #97A0C4;
+  width: 100%;
 }
 
 .buttons {
@@ -2190,7 +2243,7 @@ CV Modal
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  padding: 5rem 0rem 5rem 2rem;
+  padding: 5rem 2rem 5rem 2rem;
 }
 .detail h3 {
   margin-top: 0.5rem;
@@ -2203,11 +2256,9 @@ CV Modal
   font-weight: 300;
 }
 
-.process {
-  display: flex;
-}
 .process .grid {
-  gap: 5rem;
+  gap: 3rem;
+  margin-bottom: 5rem;
 }
 .process .sp {
   display: flex;
@@ -2246,7 +2297,6 @@ CV Modal
 }
 .thoughts .quote q {
   font-family: "Inter";
-  font-size: 3rem;
   font-weight: 600;
 }
 .thoughts .visual {
@@ -2292,4 +2342,10 @@ CV Modal
   width: 100%;
   height: auto;
   min-width: 800px;
+}
+
+@media screen and (max-width: 834px) {
+  .process .grid {
+    gap: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */

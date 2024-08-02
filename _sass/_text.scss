@@ -11,7 +11,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 1.65rem;
     font-family: "Space Mono", monospace;
     font-weight: 600;
     text-transform: uppercase;
@@ -42,6 +42,10 @@ a {
     cursor: pointer;
 }
 
+q {
+    font-size: 2.5rem;
+}
+
 a:hover {
     color: $babypink;
 }
@@ -50,6 +54,10 @@ a:hover {
 
     p {
         font-size: 1rem;
+    }
+
+    q {
+        font-size: 2.7rem;
     }
 }
 
@@ -69,6 +77,10 @@ a:hover {
     h2 {
         font-size: 3rem;
     }
+
+    q {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -77,12 +89,12 @@ a:hover {
         font-size: 2.8rem;
     }
 
-    h3 {
-        font-size: 1rem;
-    }
-
     p {
         font-size: .8rem;
+    }
+
+    q {
+        font-size: 1.8rem;
     }
 }
 
@@ -94,6 +106,10 @@ a:hover {
 
     h2 {
         font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
     }
 }
 
