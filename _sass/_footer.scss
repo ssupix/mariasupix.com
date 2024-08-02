@@ -88,6 +88,10 @@ footer {
                 background-size: cover;
                 color: transparent;
             }
+
+            a:hover {
+                background-image: url(../assets/img/instreverse.svg);
+            }
         }
         
         li.git {
@@ -102,6 +106,10 @@ footer {
                 background-size: cover;
                 color: transparent;
             }
+
+            a:hover {
+                background-image: url(../assets/img/gitreverse.svg);
+            }
         }
 
         li.linkdn {
@@ -115,6 +123,10 @@ footer {
                 background-image: url(../assets/img/linkdn.svg);
                 background-size: cover;
                 color: transparent;
+            }
+
+            a:hover {
+                background-image: url(../assets/img/linkdnreverse.svg);
             }
         }
 

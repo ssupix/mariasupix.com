@@ -28,7 +28,7 @@
         & img {
             height: 100%;
             width: 100%;
-            mix-blend-mode: hard-light;
+            // mix-blend-mode: hard-light;
         } 
     }
 
@@ -40,14 +40,20 @@
         gap: 10rem;
 
         .skill-wrap {
-            width: 70%;
+            width: 85%;
             display: flex;
             justify-content: space-between;
+            max-width: 400px;
 
             .skill-col {
                 display: flex;
                 flex-direction: column;
-                gap: 2rem;
+                gap: 1rem;
+
+                ul {
+                  list-style: none;
+                  line-height: 2;
+                }
             }
 
             .design {
@@ -59,13 +65,6 @@
             }
         }
     }
-}
-
-@media only screen and (min-width: 2200px) {
-
-  .skills{
-      max-width: 1800px;
-  }
 }
 
 @keyframes headerLoad {
@@ -95,7 +94,7 @@ CV Modal
 .modal__container {
     background-color: #fff;
     padding: 30px;
-    max-width: 40%;
+    max-width: 60%;
     max-height: 80vh;
     border-radius: 4px;
     overflow-y: auto;
@@ -200,4 +199,83 @@ CV Modal
     will-change: transform;
   }
 
+}
+
+@media only screen and (min-width: 2200px) {
+
+  .skills{
+      max-width: 1800px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .skills {
+  
+    .skills-description {
+      gap: 3rem;
+
+      .skill-wrap {
+        flex-direction: column;
+        width: 50%;
+        gap: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .skills {
+  
+    .skills-description {
+      gap: 3rem;
+      margin-top: 3rem;
+
+      .skill-wrap {
+        flex-direction: row;
+        width: 50%;
+        gap: 3rem;
+      }
+    }
+  }
+
+  .cv-modal {
+
+    .modal__container {
+      background-color: #fff;
+      padding: none;
+      max-width: 90%;
+      max-height: 80vh;
+      border-radius: 4px;
+      overflow-y: auto;
+
+    }
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .skills {
+  
+    .skills-description {
+      gap: 3rem;
+      margin-top: 3rem;
+
+      .skill-wrap {
+        flex-direction: column;
+        width: 90%;
+        gap: 3rem;
+      }
+    }
+  }
+
+  .cv-modal {
+
+    .modal__container {
+      padding: none;
+      max-width: 90%;
+      max-height: 90vh;
+      border-radius: 4px;
+      overflow-y: auto;
+
+    }
+  }
 }

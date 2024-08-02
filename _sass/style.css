@@ -340,7 +340,6 @@ p {
   line-height: 1.5;
   font-family: "Space Mono", monospace;
   font-weight: 200;
-  z-index: 100;
 }
 
 a {
@@ -1084,7 +1083,7 @@ nav {
   padding: 2%;
   position: fixed;
   top: 0;
-  z-index: 999;
+  z-index: 998;
   width: 96%;
 }
 
@@ -1149,7 +1148,7 @@ a:hover svg path {
   justify-content: end;
   position: fixed;
   bottom: 0;
-  z-index: 999;
+  z-index: 998;
 }
 .bottom-bar p {
   padding: 15px 40px;
@@ -1160,9 +1159,10 @@ a:hover svg path {
 /* off-screen-menu */
 .off-screen-menu {
   background-color: rgba(110, 121, 167, 0.8);
-  z-index: 900;
+  z-index: 999;
   height: 100vh;
   width: 100%;
+  max-width: 834px;
   position: fixed;
   top: 0;
   right: -100%;
@@ -1337,6 +1337,9 @@ footer {
   background-size: cover;
   color: transparent;
 }
+.contact-info .social-links li.inst a:hover {
+  background-image: url(../assets/img/instreverse.svg);
+}
 .contact-info .social-links li.git {
   width: 55px;
   height: 55px;
@@ -1349,6 +1352,9 @@ footer {
   background-size: cover;
   color: transparent;
 }
+.contact-info .social-links li.git a:hover {
+  background-image: url(../assets/img/gitreverse.svg);
+}
 .contact-info .social-links li.linkdn {
   width: 55px;
   height: 55px;
@@ -1360,6 +1366,9 @@ footer {
   background-image: url(../assets/img/linkdn.svg);
   background-size: cover;
   color: transparent;
+}
+.contact-info .social-links li.linkdn a:hover {
+  background-image: url(../assets/img/linkdnreverse.svg);
 }
 .contact-info .social-links li {
   transition: transform 0.3s;
@@ -1889,7 +1898,6 @@ footer {
 .skills .cv:hover img {
   height: 100%;
   width: 100%;
-  mix-blend-mode: hard-light;
 }
 .skills .skills-description {
   display: flex;
@@ -1899,14 +1907,19 @@ footer {
   gap: 10rem;
 }
 .skills .skills-description .skill-wrap {
-  width: 70%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
+  max-width: 400px;
 }
 .skills .skills-description .skill-wrap .skill-col {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+}
+.skills .skills-description .skill-wrap .skill-col ul {
+  list-style: none;
+  line-height: 2;
 }
 .skills .skills-description .skill-wrap .design {
   color: #E36A98;
@@ -1915,11 +1928,6 @@ footer {
   color: #97A0C4;
 }
 
-@media only screen and (min-width: 2200px) {
-  .skills {
-    max-width: 1800px;
-  }
-}
 @keyframes headerLoad {
   0% {
     opacity: 0;
@@ -1951,7 +1959,7 @@ CV Modal
 .cv-modal .modal__container {
   background-color: #fff;
   padding: 30px;
-  max-width: 40%;
+  max-width: 60%;
   max-height: 80vh;
   border-radius: 4px;
   overflow-y: auto;
@@ -2048,6 +2056,58 @@ CV Modal
   will-change: transform;
 }
 
+@media only screen and (min-width: 2200px) {
+  .skills {
+    max-width: 1800px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .skills .skills-description {
+    gap: 3rem;
+  }
+  .skills .skills-description .skill-wrap {
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 834px) {
+  .skills .skills-description {
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  .skills .skills-description .skill-wrap {
+    flex-direction: row;
+    width: 50%;
+    gap: 3rem;
+  }
+  .cv-modal .modal__container {
+    background-color: #fff;
+    padding: none;
+    max-width: 90%;
+    max-height: 80vh;
+    border-radius: 4px;
+    overflow-y: auto;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .skills .skills-description {
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  .skills .skills-description .skill-wrap {
+    flex-direction: column;
+    width: 90%;
+    gap: 3rem;
+  }
+  .cv-modal .modal__container {
+    padding: none;
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 4px;
+    overflow-y: auto;
+  }
+}
 #insight {
   width: 100%;
   min-height: 1000px;
