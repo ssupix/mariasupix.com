@@ -1157,6 +1157,99 @@ a:hover svg path {
   background-color: rgba(255, 178, 224, 0.5);
 }
 
+/* off-screen-menu */
+.off-screen-menu {
+  background-color: rgba(110, 121, 167, 0.8);
+  z-index: 900;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  transition: 0.3s ease;
+}
+
+.off-screen-menu.active {
+  right: 0;
+  z-index: 10;
+}
+
+.off-screen-menu ul {
+  width: 90%;
+  flex-direction: column;
+  background: none;
+  list-style: none;
+  text-align: left;
+}
+
+.off-screen-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 4vmin;
+}
+
+.ham-menu {
+  height: 50px;
+  width: 40px;
+  margin-left: auto;
+  position: relative;
+  display: none;
+  margin-right: 20px;
+  z-index: 999;
+}
+
+.ham-menu span {
+  height: 5px;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+  top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+  top: 75%;
+}
+
+.ham-menu.active span {
+  background-color: white;
+}
+
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@media (max-width: 834px) {
+  .nav-links {
+    display: none;
+  }
+  .ham-menu {
+    display: block;
+  }
+}
 /* FOOTER */
 footer {
   width: 100%;
@@ -1368,7 +1461,6 @@ footer {
   justify-content: center;
   align-items: center;
   height: 60vh;
-  z-index: 10;
 }
 .hero h1 {
   max-width: 900px;
