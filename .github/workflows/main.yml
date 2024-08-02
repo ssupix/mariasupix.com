@@ -14,3 +14,4 @@ jobs:
         server: ftp://mashasupix.com
         username: u704810582.ssupix22
         password: ${{ secrets.ftp_password }}
+        protocol: ftps
