@@ -165,10 +165,35 @@
         display: none;
         transition: .2s;
 
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
+        pre {
+            background-color: #131313;
+            color: #d8dee9;
+            text-wrap: wrap;
+            padding: 20px;
+            font-size: 12px;
+            border-radius: 8px;
+            overflow: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .code-comment {
+            color: #636363;
+        }
+        
+        .code-blue {
+            color: #0CE3E5;
+        }
+        
+        .code-pink {
+            color: #b14395;
+        }
+        
+        .light-pink-code {
+            color: #E09ECE;
+        }
+
+        .code-light {
+            color: #DDDDDD;
         }
     }
 

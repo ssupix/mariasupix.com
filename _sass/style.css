@@ -1024,10 +1024,30 @@ button {
   display: none;
   transition: 0.2s;
 }
-.code-show .code img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.code-show .code pre {
+  background-color: #131313;
+  color: #d8dee9;
+  text-wrap: wrap;
+  padding: 20px;
+  font-size: 12px;
+  border-radius: 8px;
+  overflow: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+.code-show .code .code-comment {
+  color: #636363;
+}
+.code-show .code .code-blue {
+  color: #0CE3E5;
+}
+.code-show .code .code-pink {
+  color: #b14395;
+}
+.code-show .code .light-pink-code {
+  color: #E09ECE;
+}
+.code-show .code .code-light {
+  color: #DDDDDD;
 }
 .code-show .select-clicked {
   border: 1px #DB1D6F solid;
@@ -1566,7 +1586,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/assets/img/supixpink.svg);
+  background-image: url(../assets/img/supixpink.svg);
   background-position: bottom;
   background-size: cover;
   animation: bannerLoad 1s forwards ease-out;
@@ -2331,9 +2351,8 @@ CV Modal
 }
 .project-container {
   margin-top: 2rem;
-  margin-bottom: 150px;
   width: 95%;
-  max-width: 1400px;
+  max-width: 1500px;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -2416,9 +2435,16 @@ CV Modal
   font-weight: 300;
 }
 
+.process {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.process h4 {
+  margin-bottom: 1rem;
+}
 .process .grid {
   gap: 3rem;
-  margin-bottom: 5rem;
 }
 .process .sp {
   display: flex;
@@ -2479,27 +2505,38 @@ CV Modal
 .more-projects {
   border-right: 1px solid #131313;
   display: flex;
-  min-height: 50vh;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   overflow: visible;
   width: 100%;
-  margin-left: 10%;
+  margin-bottom: 8rem;
+  margin-top: 2rem;
 }
 .more-projects h2 {
+  width: 95%;
+  max-width: 1500px;
   margin-bottom: 12rem;
-  max-width: 1400px;
 }
 .more-projects .project-scroll {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 12rem;
-  margin-right: 10rem;
   gap: 2rem;
-  overflow: scroll;
-}
-.more-projects .project-scroll .card {
+  margin: 0;
+  padding: 0;
   width: 100%;
+  overflow: hidden;
+}
+.more-projects .project-scroll ul {
+  list-style: none;
+  display: flex;
+}
+.more-projects .project-scroll ul li {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  margin-left: 5px;
+}
+.more-projects .project-scroll ul li .card {
+  width: 500px;
   height: auto;
   min-width: 800px;
 }
