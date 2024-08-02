@@ -15,6 +15,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- Metadata -->
+    <meta name="description" content="Masha Supikhanova. Front-end developer & product designer. Creating meaningful experiences online.">
+    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver">
+    <meta property="og:url" content="https://mashasupix.com/" />
+    <meta property="og:type" content="website" />
+
+        <!-- Canonical Tag -->
+        <link rel="canonical" href="https://mashasupix.com/">
+
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow">
+
+    <!-- OG Metadata -->
     <meta property="og:title" content="Masha Supikhanova | Web Developer Portfolio" />
     <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
     <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />

@@ -99,11 +99,12 @@
 
         <div class="work-projects-list hidden grid">
             <div class="card-list col-12" data-category="1">
+                <div class="cover">
                     <video src="./assets/video/dddd.mp4" autoplay muted loop></video>
                 </div>
                 <div class="description">
                     <h4>water website - the blue</h4>
-                    <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                    <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
                     <div class="tags">
                         <div class="pill-blue">ux research</div>
                         <div class="pill-pink">ui design</div>
@@ -118,7 +119,7 @@
                 </div>
                 <div class="description">
                     <h4>ezt - online tea shop</h4>
-                    <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                    <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
                     <div class="tags">
                         <div class="pill-blue">ux research</div>
                         <div class="pill-pink">ui design</div>
