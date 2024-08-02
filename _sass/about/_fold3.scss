@@ -66,13 +66,13 @@
 // }
 
 .drag-item:nth-child(3) {
-    top: 85%;
-    left: 40%;
+    top: 80%;
+    left: 60%;
 } //ssupix
 
 .drag-item:nth-child(4) {
-    top: 30%;
-    left: 75%;
+    top: 35%;
+    left: 80%;
 } //miau
 
 .drag-item:nth-child(5) {
@@ -81,24 +81,28 @@
 } //mx master
 
 .drag-item:nth-child(6) {
-    top: 60%;
-    left: 10%;
+    top: 70%;
+    left: 5%;
 } //flower
 
 .drag-item:nth-child(7) {
     top: 5%;
-    left: 30%;
+    left: 15%;
 } //teacup
 
 .drag-item:nth-child(8) {
     top: 5%;
-    left: 60%;
+    left: 70%;
 } //donut
 
 .drag-item:nth-child(9) {
-    top: 20%;
-    left: 10%;
-} //cv
+    top: 40%;
+    left: 5%;
+
+    img {
+        width: 65%;
+    }
+} //headphones
 
 
 
@@ -107,24 +111,31 @@
 
     #insight {
         .text {
-            width: 50%;
+            width: 40%;
         }
 
         h2 {
-            width: 50%;
+            width: 40%;
         }
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1080px) {
+
+    .drag-item {
+        scale: .8;
+    }
+}
+
+@media only screen and (max-width: 568px) {
 
     #insight {
         .text {
-            width: 70%;
+            width: 60%;
         }
 
         h2 {
-            width: 70%;
+            width: 60%;
         }
     }
 }
