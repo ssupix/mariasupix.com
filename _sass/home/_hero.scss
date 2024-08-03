@@ -3,9 +3,9 @@
 .hero {
     display: flex;
     position: relative;
-    // overflow-x: hidden;
     justify-content: center;
     align-items: center;
+    overflow-inline: hidden;
     height: 60vh;
     margin-bottom: 0;
 

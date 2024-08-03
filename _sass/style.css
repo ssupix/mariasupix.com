@@ -1477,8 +1477,6 @@ footer {
 }
 section {
   margin-bottom: 12rem;
-  width: 100%;
-  overflow-x: hidden;
 }
 
 .hero {
@@ -1486,6 +1484,7 @@ section {
   position: relative;
   justify-content: center;
   align-items: center;
+  overflow-inline: hidden;
   height: 60vh;
   margin-bottom: 0;
 }
@@ -1718,8 +1717,6 @@ section {
 }
 section {
   margin-bottom: 8rem;
-  width: 100%;
-  overflow-x: hidden;
 }
 
 .about-fold1 {
@@ -2142,8 +2139,6 @@ section {
 }
 section {
   margin-bottom: 12rem;
-  width: 100%;
-  overflow-x: hidden;
 }
 
 .work-header {
