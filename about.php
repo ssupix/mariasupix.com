@@ -18,12 +18,25 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
+   
+    <!-- Metadata -->
+    <meta name="description" content="About Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
+    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, UX, UI, Figma, HTML, CSS, JavaScript, php, sass>
+    <meta property="og:url" content="https://mashasupix.com/about" />
     <meta property="og:title" content="Masha Supikhanova | About Me" />
-    <meta property="og:description" content="Showcasing projects including front-end development, UX & UI design, and branding." />
+    <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
     <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />
+    <meta property="og:type" content="website" />
 
-    <title>About Masha</title>
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://mashasupix.com/about">
+
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow">
+
+    <title>Masha Supikhanova | About Me</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
+    <link rel="apple-touch-icon" href="./assets/img/logo.svg" />
 </head>
 <body>
     
