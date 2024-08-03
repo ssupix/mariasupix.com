@@ -39,7 +39,7 @@
     <?php include 'components/nav.php'; ?>
     
     <main>
-    <div class="work-header">
+    <section class="work-header">
         <h2>WORK.</h2>
         <div class="grid">
             <div class="filter col-12 col-6-md">
@@ -58,8 +58,8 @@
                 <span class="grid-switch active-switch">GRID</span>/<span class="list-switch list">LIST</span>
             </div>
         </div>
-    </div>
-    <div class="work-projects grid">
+    </section>
+    <section class="work-projects grid">
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/theblue';" data-category="1">
                 <div class="cover">
                     <video src="./assets/video/dddd.mp4" autoplay muted loop></video>
@@ -106,71 +106,69 @@
                 <div class="pill-pink">Blender</div>
             </div>
         </div>
-    </div>
-
-
-        <div class="work-projects-list hidden grid">
-            <div class="card-list col-12" onclick="window.location.href='./projects/theblue';" data-category="1">
-                <div class="cover">
-                    <video src="./assets/video/dddd.mp4" autoplay muted loop></video>
-                </div>
-                <div class="description">
-                    <h4>water website - the blue</h4>
-                    <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
-                    <div class="tags">
-                        <div class="pill-blue">ux research</div>
-                        <div class="pill-pink">ui design</div>
-                        <div class="pill-pink">branding</div>
-                        <div class="pill-pink">Figma</div>
-                    </div>
-                </div>
+    </section>
+    <section class="work-projects-list hidden grid">
+        <div class="card-list col-12" onclick="window.location.href='./projects/theblue';" data-category="1">
+            <div class="cover">
+                <video src="./assets/video/dddd.mp4" autoplay muted loop></video>
             </div>
-            <div class="card-list col-12" data-category="2">
-                <div class="cover">
-                    <video src="./assets/video/ezt-mockup.mp4" autoplay muted loop></video>
-                </div>
-                <div class="description">
-                    <h4>ezt - online tea shop</h4>
-                    <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
-                    <div class="tags">
-                        <div class="pill-blue">ux research</div>
-                        <div class="pill-pink">ui design</div>
-                        <div class="pill-pink">branding</div>
-                        <div class="pill-pink">Figma</div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-list col-12" data-category="3">
-                <div class="cover">
-                    <img src="./assets/img/meowdy-mockup.jpg" alt="">
-                </div>
-                <div class="description">
-                    <h4>ezt - online tea shop</h4>
-                    <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
-                    <div class="tags">
-                        <div class="pill-blue">ux research</div>
-                        <div class="pill-pink">ui design</div>
-                        <div class="pill-pink">branding</div>
-                        <div class="pill-pink">Figma</div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-list col-12" data-category="3">
-                <div class="cover">
-                    <img src="./assets/img/kabinet-mockup.jpg" alt="">
-                </div>
-                <div class="description">
-                    <h4>ezt - online tea shop</h4>
-                    <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
-                    <div class="tags">
-                        <div class="pill-blue">ux research</div>
-                        <div class="pill-pink">ui design</div>
-                        <div class="pill-pink">branding</div>
-                        <div class="pill-pink">Figma</div>
-                    </div>
+            <div class="description">
+                <h4>water website - the blue</h4>
+                <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                <div class="tags">
+                    <div class="pill-blue">ux research</div>
+                    <div class="pill-pink">ui design</div>
+                    <div class="pill-pink">branding</div>
+                    <div class="pill-pink">Figma</div>
                 </div>
             </div>
         </div>
+        <div class="card-list col-12" data-category="2">
+            <div class="cover">
+                <video src="./assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+            </div>
+            <div class="description">
+                <h4>ezt - online tea shop</h4>
+                <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                <div class="tags">
+                    <div class="pill-blue">ux research</div>
+                    <div class="pill-pink">ui design</div>
+                    <div class="pill-pink">branding</div>
+                    <div class="pill-pink">Figma</div>
+                </div>
+            </div>
+        </div>
+        <div class="card-list col-12" data-category="3">
+            <div class="cover">
+                <img src="./assets/img/meowdy-mockup.jpg" alt="">
+            </div>
+            <div class="description">
+                <h4>ezt - online tea shop</h4>
+                <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                <div class="tags">
+                    <div class="pill-blue">ux research</div>
+                    <div class="pill-pink">ui design</div>
+                    <div class="pill-pink">branding</div>
+                    <div class="pill-pink">Figma</div>
+                </div>
+            </div>
+        </div>
+        <div class="card-list col-12" data-category="3">
+            <div class="cover">
+                <img src="./assets/img/kabinet-mockup.jpg" alt="">
+            </div>
+            <div class="description">
+                <h4>ezt - online tea shop</h4>
+                <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                <div class="tags">
+                    <div class="pill-blue">ux research</div>
+                    <div class="pill-pink">ui design</div>
+                    <div class="pill-pink">branding</div>
+                    <div class="pill-pink">Figma</div>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
 
     <?php include 'components/footer.php'; ?>

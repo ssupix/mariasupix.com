@@ -1,7 +1,6 @@
 // = ABOUT ME STYLING pt.1 = //
 
 .about-fold1 {
-    margin-top: 150px;
     width: 95%;
     max-width: 1500px;
     height: fit-content;
@@ -10,7 +9,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 8rem;
 
     h2 {
         animation: headerLoad .5s ease;

@@ -1,7 +1,6 @@
 // = WORK HEADER STYLING = //
 
 .work-header {
-    margin-top: 150px;
     width: 95%;
     max-width: 1500px;
     height: 40vh;
@@ -9,6 +8,7 @@
     flex-direction: column;
     justify-content: space-between;
     animation: headerLoad .5s ease;
+    margin-bottom: 0;
 
     .filter-wrap {
         width: 100%;

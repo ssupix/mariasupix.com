@@ -1,12 +1,12 @@
 // = HOME PAGE HERO STYLING = //
 
 .hero {
-    margin-top: 150px;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     height: 60vh;
+    margin-bottom: 0;
 
     h1 {
         max-width: clamp(320px, 90vw, 900px);

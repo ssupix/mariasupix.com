@@ -669,6 +669,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 140px;
 }
 
 .card {
@@ -1164,7 +1165,7 @@ a:hover svg path {
   fill: #DB1D6F;
 }
 
-/* BOTTOM PERCENTAGE STYLING */
+/* BOTTOM PERCENTAGE BAR STYLING */
 .bottom-bar {
   display: flex;
   width: 100%;
@@ -1474,13 +1475,17 @@ footer {
     font-size: 16px;
   }
 }
+section {
+  margin-bottom: 12rem;
+}
+
 .hero {
-  margin-top: 150px;
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
   height: 60vh;
+  margin-bottom: 0;
 }
 .hero h1 {
   max-width: clamp(320px, 90vw, 900px);
@@ -1538,8 +1543,6 @@ footer {
   }
 }
 .banner {
-  min-height: -moz-min-content;
-  min-height: min-content;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1560,10 +1563,9 @@ footer {
   display: flex;
   justify-content: center;
   padding: 10%;
+  margin: 0 70px 0 70px;
   height: 70%;
   position: relative;
-  height: -moz-fit-content;
-  height: fit-content;
   background-color: #f7f5f5;
   border: 1px solid #131313;
 }
@@ -1627,36 +1629,22 @@ footer {
   }
 }
 .featured-project {
-  margin-top: 8rem;
-  height: -moz-max-content;
-  height: max-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8rem;
-}
-.featured-project h2 {
-  margin-bottom: 1rem;
-}
-.featured-project .project-wrap {
   display: flex;
   flex-direction: column;
   width: 95%;
-  max-width: 1500px;
+  max-width: 1400px;
 }
 .featured-project .project-video {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 0 0 60px 60px;
+  padding: 0 0 0 70px;
 }
 .featured-project .project-video video {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 .featured-project .project-description {
-  padding: 0 60px 60px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1665,34 +1653,35 @@ footer {
 .featured-project .project-description .text {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 .featured-project .project-description h3 {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
-.home-projects-wrap {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8rem;
-}
-.home-projects-wrap .home-projects {
+.home-projects {
   width: 95%;
-  max-width: 1500px;
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.home-projects-wrap .cards {
+.home-projects .desktop-link {
+  display: block;
+}
+.home-projects .breakpoint-link {
+  display: none;
+  margin-top: 3rem;
+  text-align: center;
+}
+.home-projects .cards {
   display: flex;
   gap: 20px;
 }
-.home-projects-wrap .cards .card {
+.home-projects .cards .card {
   width: 50%;
 }
-.home-projects-wrap .left {
+.home-projects .left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1707,12 +1696,24 @@ footer {
   .featured-project .project-video {
     padding: 0;
   }
+  .featured-project .project-video video {
+    width: 80%;
+  }
   .featured-project .project-description {
     padding: 60px;
   }
+  .home-projects .desktop-link {
+    display: none;
+  }
+  .home-projects .breakpoint-link {
+    display: block;
+  }
 }
+section {
+  margin-bottom: 8rem;
+}
+
 .about-fold1 {
-  margin-top: 150px;
   width: 95%;
   max-width: 1500px;
   height: -moz-fit-content;
@@ -1723,7 +1724,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 8rem;
 }
 .about-fold1 h2 {
   animation: headerLoad 0.5s ease;
@@ -1800,6 +1800,7 @@ footer {
   margin-bottom: 10rem;
   opacity: 0;
   animation: headerLoad 1s 0.5s forwards;
+  margin-bottom: 0;
 }
 .skills .cv {
   height: -moz-min-content;
@@ -2016,6 +2017,7 @@ footer {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 0;
 }
 #insight .text {
   display: flex;
@@ -2129,8 +2131,11 @@ footer {
     width: 60%;
   }
 }
+section {
+  margin-bottom: 12rem;
+}
+
 .work-header {
-  margin-top: 150px;
   width: 95%;
   max-width: 1500px;
   height: 40vh;
@@ -2138,6 +2143,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   animation: headerLoad 0.5s ease;
+  margin-bottom: 0;
 }
 .work-header .filter-wrap {
   width: 100%;
@@ -2232,7 +2238,6 @@ footer {
 .title {
   width: 95%;
   max-width: 1400px;
-  margin-top: 140px;
 }
 .title h2 {
   color: #97A0C4;

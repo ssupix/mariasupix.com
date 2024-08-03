@@ -1,4 +1,4 @@
-// Master CSS File
+// Master SCSS File
 
 @import "vendor/normalize";
 
@@ -31,6 +31,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 140px;
 }
 
 @import "cards";
@@ -39,19 +40,14 @@ main {
 @import "nav";
 @import "footer";
 
-// * HOME PAGE * //
-@import "home/hero";
-@import "home/banner";
-@import "home/projects";
+// * PAGES * //
+@import "home/page";
 
 // * ABOUT PAGE * //
-@import "about/fold1";
-@import "about/fold2";
-@import "about/fold3";
+@import "about/page";
 
 // * WORK PAGE * //
-@import "work/header";
-@import "work/projects";
+@import "work/page";
 
 // * PROJECTS *//
 @import "projects/theblue";

@@ -64,68 +64,65 @@
             </div>
         </section>
         <section class="featured-project">
-            <div class="project-wrap">
-                <h2>featured project.</h2>
-                <div class="grid">
-                    <div class="project-description col-12 col-6-lg">
-                        <h3>The blue - water website</h3>
-                        <div class="text">
-                            <p>An interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
-                            <p>Experimental website, created to see how I can extend functionality and interactivity of my work using different JavaScript plugins, Libraries or Frameworks. On this site you can see anything from basic effects like parallax and background videos, made with jQuery plugins to more complex animation and interactions using GSAP, Three.js and other. TheBlue showed me how far I’ve come in my web development journey and how much more is out there to know, experience and learn.</p>
-                        </div>
-                        <a href="./projects/theblue">learn more</a>
+            <h2>featured project.</h2>
+            <div class="grid">
+                <div class="project-description col-12 col-6-lg">
+                    <h3>The blue - water website</h3>
+                    <div class="text">
+                        <p>An interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
+                        <p>Experimental website, created to see how I can extend functionality and interactivity of my work using different JavaScript plugins, Libraries or Frameworks. On this site you can see anything from basic effects like parallax and background videos, made with jQuery plugins to more complex animation and interactions using GSAP, Three.js and other. TheBlue showed me how far I’ve come in my web development journey and how much more is out there to know, experience and learn.</p>
                     </div>
-                    <div class="project-video col-12 col-6-lg">
-                        <video src="./assets/video/sss.mp4" loop muted autoplay></video>
-                    </div>
+                    <a href="./projects/theblue">learn more</a>
+                </div>
+                <div class="project-video col-12 col-6-lg">
+                    <video src="./assets/video/sss.mp4" loop muted autoplay></video>
                 </div>
             </div>
         </section>
-        <section class="home-projects-wrap">
-            <div class="home-projects">
-                <div class="grid">
-                    <div class="col-12 col-6-lg left">
-                        <div class="grid">
-                            <div class="card small col-12 col-6-sm">
-                                <div class="cover">
-                                    <img src="./assets/img/meowdy-mockup.jpg" alt="Cat surprise boxes mockup">
-                                </div>
-                                <h4>meowdy! Cat surprise boxes</h4>
-                                <div class="tags">
-                                    <div class="pill-pink">branding</div>
-                                    <div class="pill-pink">Photoshop</div>
-                                    <div class="pill-pink">Packaging</div>
-                                </div>
+        <section class="home-projects">
+            <div class="grid">
+                <div class="col-12 col-6-lg left">
+                    <div class="grid">
+                        <div class="card small col-12 col-6-sm">
+                            <div class="cover">
+                                <img src="./assets/img/meowdy-mockup.jpg" alt="Cat surprise boxes mockup">
                             </div>
-                            <div class="card small col-12 col-6-sm">
-                                <div class="cover">
-                                    <img src="./assets/img/kabinet-mockup.jpg" alt="Kabinet Nails Mockup">
-                                </div>
-                                <h4>kabinet nails</h4>
-                                <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
-                                </div>
+                            <h4>meowdy! Cat surprise boxes</h4>
+                            <div class="tags">
+                                <div class="pill-pink">branding</div>
+                                <div class="pill-pink">Photoshop</div>
+                                <div class="pill-pink">Packaging</div>
                             </div>
                         </div>
-                        <!-- <a href="">more projects</a> -->
-                    </div>
-                    <div class="col-12 col-6-lg ">
-                        <div class="card">
+                        <div class="card small col-12 col-6-sm">
                             <div class="cover">
-                                <video src="./assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                <img src="./assets/img/kabinet-mockup.jpg" alt="Kabinet Nails Mockup">
                             </div>
-                            <h4>ezt - online tea shop</h4>
+                            <h4>kabinet nails</h4>
                             <div class="tags">
-                                <div class="pill-blue">ux research</div>
-                                <div class="pill-pink">ui design</div>
-                                <div class="pill-pink">branding</div>
-                                <div class="pill-pink">Figma</div>
+                                <div class="pill-pink">Branding</div>
+                                <div class="pill-pink">Illustrator</div>
+                                <div class="pill-pink">Blender</div>
                             </div>
+                        </div>
+                    </div>
+                    <a href="" class="desktop-link">more projects</a>
+                </div>
+                <div class="col-12 col-6-lg ">
+                    <div class="card">
+                        <div class="cover">
+                            <video src="./assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                        </div>
+                        <h4>ezt - online tea shop</h4>
+                        <div class="tags">
+                            <div class="pill-blue">ux research</div>
+                            <div class="pill-pink">ui design</div>
+                            <div class="pill-pink">branding</div>
+                            <div class="pill-pink">Figma</div>
                         </div>
                     </div>
                 </div>
+                <a href="" class="col-12 breakpoint-link">more projects</a>
             </div>
         </section>
     </main>

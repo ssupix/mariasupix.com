@@ -1,71 +1,59 @@
 // = FEATURED PROJECT STYLING =//
 
 .featured-project {
-    margin-top: 8rem;
-    height: max-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8rem;
-
-    h2 {
-        margin-bottom: 1rem;
-    }
-
-    .project-wrap {
-        display: flex;
-        flex-direction: column;
-        width: 95%;
-        max-width: 1500px;
-    }
+    width: 95%;
+    max-width: 1400px;
     
     .project-video {
         display: flex;
         justify-content: center;
         align-content: center;
-        padding: 0 0 60px 60px;
+        padding: 0 0 0 70px;
     
         video {
-            width: 80%;
+            width: 100%;
             height: auto;
         }
     }
     
     .project-description {
-        padding: 0 60px 60px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 5rem;
+        // padding: 0 0 60px 60px;
     
         .text {
             display: flex;
             flex-direction: column;
-            gap: 3rem;
+            gap: 2rem;
         }
     
         h3 {
-            margin-top: 5rem;
+            margin-top: 4rem;
         }
     }
 }
 
 // = OTHER PROJECTS STYLING =//
 
-.home-projects-wrap {
-    width: 100%;
+.home-projects {
+    width: 95%;
+    max-width: 1400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8rem;
+    flex-direction: column;
+    gap: 20px;
 
-    .home-projects {
-        width: 95%;
-        max-width: 1500px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+        .desktop-link{
+            display: block;
+        }
+
+        .breakpoint-link {
+            display: none;
+            margin-top: 3rem;
+            text-align: center;
     }
     
     .cards {
@@ -98,10 +86,25 @@
 
         .project-video {
             padding: 0;
+
+            video {
+                width: 80%;
+            }
         }
         
         .project-description {
             padding: 60px;
+        }
+    }
+
+    .home-projects {
+
+        .desktop-link{
+            display: none;
+        }
+
+        .breakpoint-link {
+            display: block;
         }
     }
 }
