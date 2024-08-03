@@ -72,7 +72,7 @@
                 <div class="pill-pink">Figma</div>
             </div>
         </div>
-        <div class="card col-12 col-6-md data-category="2">
+        <div class="card col-12 col-6-md" data-category="2">
             <div class="cover">
                 <video src="./assets/video/ezt-mockup.mp4" autoplay muted loop></video>
             </div>
