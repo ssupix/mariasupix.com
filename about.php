@@ -172,9 +172,5 @@
     <script src="./js/drag.js"></script>
     <script src="./js/flickity.js"></script>
 
-
-    <!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrambleTextPlugin.min.js"></script>
-    <script src="./js/scramble.js"></script> -->
-
 </body>
 </html>
