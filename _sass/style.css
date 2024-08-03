@@ -664,6 +664,7 @@ body {
 main {
   width: 100%;
   overflow-x: hidden;
+  overflow-y: visible;
   height: -moz-max-content;
   height: max-content;
   display: flex;
