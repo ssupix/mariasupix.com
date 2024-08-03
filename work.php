@@ -110,7 +110,12 @@
     <section class="work-projects-list hidden grid">
         <div class="card-list col-12" onclick="window.location.href='./projects/theblue';" data-category="1">
             <div class="cover">
-                <video src="./assets/video/dddd.mp4" autoplay muted loop></video>
+                <video autoplay muted loop poster="./assets/img/ezt-poster.jpg" title="The Blue Website Mockup">
+                    <source src="./assets/video/dddd.mp4" type="video/mp4">
+                    <source src="./assets/video/dddd.webm" type="video/webm">
+                    <source src="./assets/video/dddd.ogv" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div class="description">
                 <h4>water website - the blue</h4>
@@ -125,7 +130,12 @@
         </div>
         <div class="card-list col-12" data-category="2">
             <div class="cover">
-                <video src="./assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                <video autoplay muted loop poster="./assets/img/ezt-poster.jpg" title="EZT Prototype Mockup">
+                    <source src="./assets/video/ezt-mockup.mp4" type="video/mp4">
+                    <source src="./assets/video/ezt-mockup.webm" type="video/webm">
+                    <source src="./assets/video/ezt-mockup.ogv" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div class="description">
                 <h4>ezt - online tea shop</h4>
@@ -140,7 +150,7 @@
         </div>
         <div class="card-list col-12" data-category="3">
             <div class="cover">
-                <img src="./assets/img/meowdy-mockup.jpg" alt="">
+                <img src="./assets/img/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
             </div>
             <div class="description">
                 <h4>ezt - online tea shop</h4>
@@ -155,7 +165,7 @@
         </div>
         <div class="card-list col-12" data-category="3">
             <div class="cover">
-                <img src="./assets/img/kabinet-mockup.jpg" alt="">
+                <img src="./assets/img/kabinet-mockup.jpg" alt="Kabinet Branding Mockup">
             </div>
             <div class="description">
                 <h4>ezt - online tea shop</h4>

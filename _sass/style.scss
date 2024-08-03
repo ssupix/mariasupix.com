@@ -1,7 +1,6 @@
 // Master SCSS File
 
 @import "vendor/normalize";
-
 @import "variables";
 @import "text";
 @import "grid";
@@ -34,6 +33,7 @@ main {
     margin-top: 140px;
 }
 
+// * COMPONENTS * //
 @import "cards";
 @import "buttons";
 @import "dropdowns";
@@ -42,11 +42,7 @@ main {
 
 // * PAGES * //
 @import "home/page";
-
-// * ABOUT PAGE * //
 @import "about/page";
-
-// * WORK PAGE * //
 @import "work/page";
 
 // * PROJECTS *//

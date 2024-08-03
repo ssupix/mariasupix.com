@@ -62,7 +62,7 @@
                     <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
                         <div class="carousel-cell"><img src="./assets/img/about.png" alt="Masha Supikhanova"></div>
                         <div class="carousel-cell"><img src="./assets/img/about2.png" alt="Masha Supikhanova"></div>
-                        <div class="carousel-cell"><img src="./assets/img/about3.png" alt="Masha Supikhanova"></div>
+                        <div class="carousel-cell"><img src="./assets/img/about3.png" alt="ssupix"></div>
                         <div class="carousel-cell"><img src="./assets/img/about4.png" alt="Masha Supikhanova"></div>
                         <div class="carousel-cell"><img src="./assets/img/about5.png" alt="Masha Supikhanova"></div>
                     </div>
@@ -72,7 +72,7 @@
         <section class="skills">
             <div class="grid">
                 <div class="cv col-12 col-7-md" data-custom-open="modal-1">
-                    <img src="./assets/img/cv-inplastic.png" alt="CV Resume">
+                    <img src="./assets/img/cv-inplastic.png" alt="Masha's CV Resume in plastic">
                 </div>
                 <div class="skills-description col-12 col-5-md">
                     <div class="skill-wrap ">
@@ -111,25 +111,25 @@
                 <p>I aspire to bring more meaningful experiences in web spaces, implementing interaction, exclusivity and cutting edge technology.</p>
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/ssupix.png" alt="">
-            </div>
-            <div class="drag-item" data-custom-close="modal-2"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/miau.png" alt="">
+                <img src="./assets/img/ssupix.png" alt="ssupix">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/mxmaster.png" alt="">
+                <img src="./assets/img/miau.png" alt="Masha's cat">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/flower.png" alt="">
+                <img src="./assets/img/mxmaster.png" alt="Masha's MX Master Logitech">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/teacup.png" alt="">
+                <img src="./assets/img/flower.png" alt="flower">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/donut.png" alt="">
+                <img src="./assets/img/teacup.png" alt="tea cup">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/headphones.png" alt="">
+                <img src="./assets/img/donut.png" alt="donut render">
+            </div>
+            <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
+                <img src="./assets/img/headphones.png" alt="headphones">
             </div>
         </section>
     </main>
@@ -143,7 +143,7 @@
                 <div class="close" data-custom-close="modal-1"><p>close</p></div>
             </header>
             <main class="modal__content" id="modal-1-content">
-                <img src="./assets/img/cv.jpg" alt="Masha's CV">
+                <img src="./assets/img/cv.jpg" alt="Masha's CV Resume">
             </main>
             </div>
         </div>

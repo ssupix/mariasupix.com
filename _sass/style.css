@@ -1563,7 +1563,7 @@ section {
   display: flex;
   justify-content: center;
   padding: 10%;
-  margin: 0 70px 0 70px;
+  margin: 0 30px 0 30px;
   height: 70%;
   position: relative;
   background-color: #f7f5f5;
@@ -1626,6 +1626,11 @@ section {
   .banner p,
   .banner .banner-right-text {
     text-align: center;
+  }
+  .banner .banner-row .banner-image {
+    padding: 10%;
+    margin: 0;
+    height: auto;
   }
 }
 .featured-project {
@@ -2238,6 +2243,7 @@ section {
 .title {
   width: 95%;
   max-width: 1400px;
+  margin-bottom: 0;
 }
 .title h2 {
   color: #97A0C4;

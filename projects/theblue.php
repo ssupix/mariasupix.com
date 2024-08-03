@@ -92,7 +92,12 @@
                     </div>
                     <div class="visual col-12 col-8-md ">
                         <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
-                        <video src="../assets/video/sss.mp4" autoplay muted loop></video>
+                        <video loop muted autoplay poster="../assets/img/waterwebsite-poster.jpg" title="The Blue Website Showcase">
+                            <source src="../assets/video/waterwebsite.mp4" type="video/mp4">
+                            <source src="../assets/video/waterwebsite.webm" type="video/webm">
+                            <source src="../assets/video/waterwebsite.ogv" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </section>
@@ -150,7 +155,12 @@
                         <p>One noteworthy find was the AOS (Animate On Scroll) library, which provides a minimalist approach to animating sections upon scroll. This library stood out due to its ease of use and minimal code requirements, making it an excellent choice for enhancing the user experience in my project.</p>
                     </div>
                     <div class="col-12 col-6-lg sp">
-                        <video src="../assets/video/scroll.mp4" autoplay muted loop></video>
+                        <video loop muted autoplay poster="../assets/img/scroll-poster.jpg" title="The Blue Website Showcase">
+                            <source src="../assets/video/scroll.mp4" type="video/mp4">
+                            <source src="../assets/video/scroll.webm" type="video/webm">
+                            <source src="../assets/video/scroll.ogv" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                     <div class="col-12">
                         <h4>code snipets:</h4>
