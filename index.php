@@ -24,6 +24,8 @@
     <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />
     <meta property="og:type" content="website" />
 
+    <?php include 'components/schemametadata.php'; ?>
+
     <!-- Canonical Tag -->
     <link rel="canonical" href="https://mashasupix.com/">
 
