@@ -160,7 +160,7 @@
     <script src="./js/gsap.js"></script>
     <script src="./js/nav.js"></script>
 
-    <script src="./js/vendor/micromodal/dist/micromodal.min.js"></script>
+    <script src="./js/vendor/micromodal/micromodal.min.js"></script>
     <script src="./js/modal.js"></script>
 
 
