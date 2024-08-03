@@ -41,7 +41,7 @@
                         <li class="git"><a href="https://github.com/ssupix">a</a></li>
                         <li class="linkdn"><a href="https://www.linkedin.com/in/whossupi/">a</a></li>
                     </ul>
-                    <li><a href="" class="email" >mashasupi@gmail.com</a></li>
+                    <li><a href="mailto:hello@mashasupix.com" class="email">hello@mashasupix.com</a></li>
                 </ul>
                 <p>It’s time to bring <br> more meaningful <br> experiences <br> to web spaces.</p>
             </div>
