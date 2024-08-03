@@ -663,6 +663,7 @@ body {
 
 main {
   width: 100%;
+  overflow-x: hidden;
   height: -moz-max-content;
   height: max-content;
   display: flex;
