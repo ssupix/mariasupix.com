@@ -1477,6 +1477,8 @@ footer {
 }
 section {
   margin-bottom: 12rem;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .hero {
@@ -1716,6 +1718,8 @@ section {
 }
 section {
   margin-bottom: 8rem;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .about-fold1 {
@@ -2138,6 +2142,8 @@ section {
 }
 section {
   margin-bottom: 12rem;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .work-header {
