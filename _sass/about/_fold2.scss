@@ -1,84 +1,86 @@
+// = ABOUT ME STYLING pt.2 = //
+
 .skills {
-    height: fit-content;
-    min-height: 1200px;
-    max-width: 1500px;
-    min-height: fit-content;
-    width: 95%;
-    margin-bottom: 10rem; 
-    opacity: 0;
-    animation: headerLoad 1s .5s forwards;
+  height: fit-content;
+  min-height: 1200px;
+  max-width: 1500px;
+  min-height: fit-content;
+  width: 95%;
+  margin-bottom: 10rem; 
+  opacity: 0;
+  animation: headerLoad 1s .5s forwards;
 
-    .cv {
-        height: min-content;
-        border: 1px $black solid;
-        padding: 7%;
-        transition: all .3s ease;
-        cursor: pointer;
-    
-        img {
-            height: 100%;
-            width: 100%;
-        } 
-    }
-    
-    .cv:hover {
-        border: 1px $berry solid;
-        padding: 10%;
-    
-        & img {
-            height: 100%;
-            width: 100%;
-            // mix-blend-mode: hard-light;
-        } 
-    }
+  .cv {
+    height: min-content;
+    border: 1px $black solid;
+    padding: 7%;
+    transition: all .3s ease;
+    cursor: pointer;
 
-    .skills-description {
+    img {
+      height: 100%;
+      width: 100%;
+    } 
+  }
+  
+  .cv:hover {
+    border: 1px $berry solid;
+    padding: 10%;
+  
+    & img {
+      height: 100%;
+      width: 100%;
+      mix-blend-mode: hard-light;
+    } 
+  }
+
+  .skills-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+    .skill-wrap {
+      width: 85%;
+      display: flex;
+      justify-content: space-between;
+      max-width: 400px;
+
+      .skill-col {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10rem;
+        gap: 1rem;
 
-        .skill-wrap {
-            width: 85%;
-            display: flex;
-            justify-content: space-between;
-            max-width: 400px;
-
-            .skill-col {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-
-                ul {
-                  list-style: none;
-                  line-height: 2;
-                }
-            }
-
-            .design {
-                color: $ribbon;
-            }
-
-            .dev {
-                color: $blue;
-            }
+        ul {
+          list-style: none;
+          line-height: 2;
         }
+      }
+
+      .design {
+        color: $ribbon;
+      }
+
+      .dev {
+        color: $blue;
+      }
     }
+  }
 }
+
+// = KEYFRAMES = //
 
 @keyframes headerLoad {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
 
-/**************************\
-CV Modal
-\**************************/
+// = CV MODAL STYLING = //
+
 .cv-modal {
 
-
-.modal__overlay {
+  .modal__overlay {
     z-index: 900;
     position: fixed;
     top: 0;
@@ -89,9 +91,9 @@ CV Modal
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.modal__container {
+  .modal__container {
     background-color: #fff;
     padding: 30px;
     max-width: 60%;
@@ -99,9 +101,9 @@ CV Modal
     border-radius: 4px;
     overflow-y: auto;
     box-sizing: border-box;
-}
+  }
 
-.modal__header {
+  .modal__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,9 +111,9 @@ CV Modal
     .close {
         cursor: pointer;
     }
-}
-  
-.modal__title {
+  }
+
+  .modal__title {
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Inter';
@@ -120,14 +122,14 @@ CV Modal
     line-height: 1.25;
     box-sizing: border-box;
   }
-  
+
   .modal__close {
     background: transparent;
     border: 0;
   }
-  
+
   .modal__header .modal__close:before { content: "\2715"; }
-  
+
   .modal__content {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -138,68 +140,64 @@ CV Modal
         width: 90%;
     }
   }
-  
+
   .live {
     color: $berry;
   }
-  
 
-  
-  
-  
-  /**************************\
-    Demo Animation Style
-  \**************************/
+  // = modal animation = //
+
   @keyframes mmfadeIn {
       from { opacity: 0; }
         to { opacity: 1; }
   }
-  
+
   @keyframes mmfadeOut {
       from { opacity: 1; }
         to { opacity: 0; }
   }
-  
+
   @keyframes mmslideIn {
     from { transform: translateY(15%); }
       to { transform: translateY(0); }
   }
-  
+
   @keyframes mmslideOut {
       from { transform: translateY(0); }
       to { transform: translateY(-10%); }
   }
-  
+
   .micromodal-slide {
     display: none;
   }
-  
+
   .micromodal-slide.is-open {
     display: block;
   }
-  
+
   .micromodal-slide[aria-hidden="false"] .modal__overlay {
     animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
   }
-  
+
   .micromodal-slide[aria-hidden="false"] .modal__container {
     animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
   }
-  
+
   .micromodal-slide[aria-hidden="true"] .modal__overlay {
     animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
   }
-  
+
   .micromodal-slide[aria-hidden="true"] .modal__container {
     animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
   }
-  
+
   .micromodal-slide .modal__container,
   .micromodal-slide .modal__overlay {
     will-change: transform;
   }
-
 }
+
+// = STYLING BREAKPOINTS = //
 
 @media only screen and (min-width: 2200px) {
 
@@ -237,19 +235,6 @@ CV Modal
       }
     }
   }
-
-  .cv-modal {
-
-    .modal__container {
-      background-color: #fff;
-      padding: none;
-      max-width: 90%;
-      max-height: 80vh;
-      border-radius: 4px;
-      overflow-y: auto;
-
-    }
-  }
 }
 
 @media only screen and (max-width: 568px) {
@@ -264,18 +249,6 @@ CV Modal
         width: 90%;
         gap: 3rem;
       }
-    }
-  }
-
-  .cv-modal {
-
-    .modal__container {
-      padding: none;
-      max-width: 90%;
-      max-height: 90vh;
-      border-radius: 4px;
-      overflow-y: auto;
-
     }
   }
 }

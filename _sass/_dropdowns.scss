@@ -1,8 +1,7 @@
-// FILTER
+// = FILTERING DROPDOWN STYLING = //
 
 .filter {
     position: relative;
-    // margin: 2em;
     font-size: 1.25rem;
     font-family: "Space Mono", monospace;
     font-weight: 200;
@@ -90,7 +89,6 @@
 }
 
 // JS classes
-
 .select-clicked {
     border: 1px $berry solid;
 }
@@ -110,17 +108,17 @@
     animation: menuOpen .5s forwards;
 }
 
+// = dropdown animation = //
+
 @keyframes menuOpen {
     0%      { opacity: 0; }
     100%    { opacity: 1; }
 }
 
-// CODE
+// = CODE SNIPPET DROPDOWN STYLING = //
 
 .code-show {
-    // position: relative;
     margin-bottom: 2rem;
-    // margin: 2em;
     font-size: 1.25rem;
     font-family: "Space Mono", monospace;
     font-weight: 200;
@@ -159,7 +157,6 @@
         background: #ffe0f2;
         border: 1px solid black;
         border-radius: .5rem;
-        // position: absolute;
         top: 5rem;
         opacity: 0;
         display: none;
@@ -198,7 +195,6 @@
     }
 
     // JS classes
-
     .select-clicked {
         border: 1px $berry solid;
     }
@@ -223,7 +219,6 @@
 }
 
 // JS classes
-
 .select-clicked {
     border: 1px $berry solid;
 }
@@ -242,6 +237,8 @@
     opacity: 1;
     animation: menuOpen .5s forwards;
 }
+
+// = dropdown animation = //
 
 @keyframes menuOpen {
     0%      { opacity: 0; }

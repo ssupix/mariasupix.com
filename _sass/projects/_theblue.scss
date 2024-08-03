@@ -1,0 +1,234 @@
+// = THE BLUE PROJECT STYLING = //
+
+.title {
+    width: 95%;
+    max-width: 1400px;
+    margin-top: 140px;
+
+    h2 {
+        color: $blue; 
+        width: 100%;
+    }
+}
+
+.project-container {
+    margin-top: 2rem;
+    width: 95%;
+    max-width: 1400px;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: $black solid 1px;
+    animation: projectLoad 1s forwards ease-out;
+
+    section {
+        width: 70%;
+        margin-bottom: 12rem;
+    }
+
+    .project-banner {
+        height: 60vh;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .project-banner video,
+    .project-banner img {
+        width: 100%;
+        height: auto;
+        size: cover;
+    }
+
+    .buttons {
+        margin-top: 0;
+
+        .button-wrap {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+    }
+
+    .detail {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 5rem 2rem 5rem 2rem;
+    
+        h3 {
+            margin-top: .5rem;
+        }
+    
+        &.border {
+            border: solid 1px $black;
+        }
+    
+        p {
+            font-family: 'Inter';
+            font-weight: 300;
+        }
+    }
+
+    .process {
+
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    
+        h4 {
+            margin-bottom: 1rem;
+        }
+    
+        .grid {
+            gap: 3rem;
+        }
+    
+        .sp {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+    
+            h2 {
+                margin-bottom: 1rem;
+            }
+        }
+    
+        .si img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .showcase {
+        img {
+            width: 100%;
+            height: auto;
+            border: 1px $black solid;
+        }
+    
+        .sp {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        .text-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+    
+    .thoughts {
+    
+        .quote {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-right: 2rem;
+    
+            q {
+                font-family: "Inter";
+                font-weight: 600;
+            }
+        }
+    
+        .visual {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            video {
+                width: 100%;
+                height: auto;
+                border: solid 1px $black;
+                margin-top: 2rem;
+            }
+    
+            img {
+                width: 100%;
+                height: auto;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+.more-projects {
+    border-right: 1px solid $black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    width: 100%;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+
+    h2 {
+        width: 95%;
+        max-width: 1500px;
+        margin-bottom: 12rem;
+    }
+
+    .project-scroll {
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                display: grid;
+                place-items: center;
+                flex-shrink: 0;
+                margin-left: 5px;
+
+                .card {
+                    width: 500px;
+                    height: auto;
+                    min-width: 800px;
+                }
+            }
+        }
+    }
+}
+
+// = KEYFRAMES = //
+
+@keyframes projectLoad {
+    0% {
+
+        opacity: .5;
+        transform: translateY(70vh);
+
+    } 100% {
+
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+// = STYLING BREAKPOINTS = //
+
+@media screen and (max-width: 834px) {
+    
+    .process {
+
+        .grid {
+            gap: 1rem;
+        }
+    }
+
+}

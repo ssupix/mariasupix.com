@@ -48,7 +48,7 @@
                     <h2>the blue - water website</h2>
                 </div>
                 <div class="col-12">
-                    <p>an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
+                    <h4>an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</h4>
                 </div>
             </div>
         </section>

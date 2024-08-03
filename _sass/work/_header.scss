@@ -1,3 +1,5 @@
+// = WORK HEADER STYLING = //
+
 .work-header {
     margin-top: 150px;
     width: 95%;
@@ -22,11 +24,6 @@
     }
 }
 
-@keyframes headerLoad {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
 .view-switch {
     text-align: end;
     font-size: 1.8rem;
@@ -49,6 +46,15 @@
     }
 }
 
+// = KEYFRAMES = //
+
+@keyframes headerLoad {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+// = STYLING BREAKPOINTS = //
+
 @media only screen and (min-width: 2200px) {
 
     .work-header{
@@ -65,5 +71,4 @@
     .work-header {
         height: 20vh;
     }
-
 }

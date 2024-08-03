@@ -1,4 +1,4 @@
-// FEATURED PROJECT
+// = FEATURED PROJECT STYLING =//
 
 .featured-project {
     margin-top: 8rem;
@@ -12,48 +12,46 @@
     h2 {
         margin-bottom: 1rem;
     }
-    
-}
 
-.project-wrap {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    max-width: 1500px;
-}
-
-.project-video {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 0 0 60px 60px;
-
-    video {
-        width: 80%;
-        height: auto;
-    }
-}
-
-
-.project-description {
-    padding: 0 60px 60px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5rem;
-
-    .text {
+    .project-wrap {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        width: 95%;
+        max-width: 1500px;
     }
-
-    h3 {
-        margin-top: 5rem;
+    
+    .project-video {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 0 0 60px 60px;
+    
+        video {
+            width: 80%;
+            height: auto;
+        }
+    }
+    
+    .project-description {
+        padding: 0 60px 60px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+    
+        h3 {
+            margin-top: 5rem;
+        }
     }
 }
 
-// PROJECTS
+// = OTHER PROJECTS STYLING =//
 
 .home-projects-wrap {
     width: 100%;
@@ -61,31 +59,32 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 8rem;
-}
 
-.home-projects {
-    width: 95%;
-    max-width: 1500px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.cards {
-    display: flex;
-    gap: 20px;
-
-    .card {
-        width: 50%;
+    .home-projects {
+        width: 95%;
+        max-width: 1500px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .cards {
+        display: flex;
+        gap: 20px;
+    
+        .card {
+            width: 50%;
+        }
+    }
+    
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
 
-.left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
+// = STYLING BREAKPOINTS =//
 
 @media only screen and (max-width: 1080px) {
 
@@ -97,13 +96,12 @@
             margin: 0 !important;
         }
 
+        .project-video {
+            padding: 0;
+        }
+        
+        .project-description {
+            padding: 60px;
+        }
     }
-
-    .project-video,
-    .project-description {
-        padding: 60px;
-    }
-
-    
-
 }

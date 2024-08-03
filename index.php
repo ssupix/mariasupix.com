@@ -56,7 +56,7 @@
                     </div>
                     <div class="banner-right-text col-12 col-3-lg">
                         <p>[2024]</p>
-                        <p class="important">open to work</p>
+                        <a href="./work" class="important">open to work</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                             <p>An interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
                             <p>Experimental website, created to see how I can extend functionality and interactivity of my work using different JavaScript plugins, Libraries or Frameworks. On this site you can see anything from basic effects like parallax and background videos, made with jQuery plugins to more complex animation and interactions using GSAP, Three.js and other. TheBlue showed me how far I’ve come in my web development journey and how much more is out there to know, experience and learn.</p>
                         </div>
-                        <a href="./projects/theblue.html">learn more</a>
+                        <a href="./projects/theblue">learn more</a>
                     </div>
                     <div class="project-video col-12 col-6-lg">
                         <video src="./assets/video/sss.mp4" loop muted autoplay></video>
@@ -89,7 +89,6 @@
                                     <img src="./assets/img/meowdy-mockup.jpg" alt="Cat surprise boxes mockup">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
-                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque pariatur, rem.</p> -->
                                 <div class="tags">
                                     <div class="pill-pink">branding</div>
                                     <div class="pill-pink">Photoshop</div>

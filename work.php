@@ -110,7 +110,7 @@
 
 
         <div class="work-projects-list hidden grid">
-            <div class="card-list col-12" data-category="1">
+            <div class="card-list col-12" onclick="window.location.href='./projects/theblue';" data-category="1">
                 <div class="cover">
                     <video src="./assets/video/dddd.mp4" autoplay muted loop></video>
                 </div>

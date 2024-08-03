@@ -1,4 +1,4 @@
-// HOME
+// = GRID CARD STYLES = //
 
 .card {
     position: relative;
@@ -82,19 +82,7 @@
     }
 }
 
-// .cover:hover::after{
-//     content: "Quality branding packaging design, using vector and raster graphics.";
-//     // height: 100%;
-//     text-align: center;
-//     width: 100%;
-//     font-size: 1rem;
-//     line-height: 1.5;
-//     font-family: "Space Mono", monospace;
-//     position: absolute;
-//     margin-top: 1em;
-// }
-
-// LIST STYLES
+// = LIST CARD STYLES = //
 
 .card-list {
     position: relative;
@@ -103,7 +91,6 @@
     height: min-content;
     display: flex;
     flex-direction: row;
-    // justify-content: space-between;
     padding: 20px;
     border: 1px solid $black;
     transition: background .3s;
@@ -143,9 +130,7 @@
 
     .tags {
         display: flex;
-        // flex-direction: column;
         gap: 10px;
-        // width: 60%;
         max-width: max-content;
         flex-wrap: wrap;
     }
@@ -175,19 +160,7 @@
     border: $berry solid 1px;
 }
 
-// .cover:hover::after{
-//     content: "Quality branding packaging design, using vector and raster graphics.";
-//     // height: 100%;
-//     text-align: center;
-//     width: 100%;
-//     font-size: 1rem;
-//     line-height: 1.5;
-//     font-family: "Space Mono", monospace;
-//     position: absolute;
-//     margin-top: 1em;
-// }
-
-
+// = CARD TAG STYLING = //
 
 .tags {
     display: flex;
@@ -215,6 +188,8 @@
     color: $blue;
     border: 1px solid $blue;
 }
+
+// = KEYFRAMES = //
 
 @keyframes cardDisplay {
     0% {

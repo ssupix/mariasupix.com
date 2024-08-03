@@ -31,7 +31,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    // max-width: 1730px;
 }
 
 @import "cards";
@@ -40,23 +39,22 @@ main {
 @import "nav";
 @import "footer";
 
-// HOME PAGE
-@import "home/home";
+// * HOME PAGE * //
 @import "home/hero";
 @import "home/banner";
 @import "home/projects";
 
-// ABOUT PAGE
+// * ABOUT PAGE * //
 @import "about/fold1";
 @import "about/fold2";
 @import "about/fold3";
 
-// WORK PAGE
+// * WORK PAGE * //
 @import "work/header";
 @import "work/projects";
 
-// PROJECTS
-@import "projects/project";
+// * PROJECTS *//
+@import "projects/theblue";
 
 
 

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /login/
-Sitemap: 'sitemap.xml'
+Sitemap: 'https://mashasupix.com/sitemap.xml'

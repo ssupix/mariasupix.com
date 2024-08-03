@@ -1,3 +1,5 @@
+// = HOME PAGE HERO STYLING = //
+
 .hero {
     margin-top: 150px;
     display: flex;
@@ -7,11 +9,11 @@
     height: 60vh;
 
     h1 {
-        max-width: 900px;
+        max-width: clamp(320px, 90vw, 900px);
         padding: 20px;
+        line-height: 1;
         text-align: justify;
         text-transform: uppercase;
-        // animation: textLoad 1s forwards  ease-out;
 
         .inter {
             font-family: "Inter", sans-serif;
@@ -29,109 +31,47 @@
         opacity: 0;
         animation: spinnerLoad 1s .5s forwards;
     }
-    
 }
 
+// = KEYFRAMES =//
+
 @keyframes spinnerLoad {
-    0% {
 
-        opacity: 0;
+    0% { opacity: 0; } 
+    100% { opacity: 1; }
 
-    } 100% {
-
-        opacity: 1;
-
-    }
 }
 
 @keyframes textLoad {
-    0% {
 
+    0% {
         transform: translateY(100px);
         opacity: 0;
-
     } 100% {
-
         transform: translateY(0);
         opacity: 1;
-
     }
 }
 
 @keyframes spanLoad {
+
     0% {
-
         transform: translateY(100px);
-
     } 100% {
-
         transform: translateX(0);
-
     }
 }
 
-@media only screen and (max-width: 1620px) {
+// = STYLING BREAKPOINTS =//
 
+@media screen and (max-width: 834px) {
+    
     .hero {
 
-        h1 {
-            max-width: 900px;
+        .logo-spinner {
+            scale: 2;
+            left: 65%;
+            top: 20%;
         }
     }
 }
-
-@media only screen and (max-width: 1420px) {
-
-    .hero {
-
-        h1 {
-            max-width: 900px;
-        }
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-
-    .hero {
-
-        h1 {
-            max-width: 850px;
-        }
-    }
-}
-
-@media only screen and (max-width: 720px) {
-
-    .hero {
-        height: 40vh;
-
-        h1 {
-            max-width: 600px;
-        }
-    }
-}
-
-@media only screen and (max-width: 520px) {
-
-    .hero {
-        height: 30vh;
-
-        h1 {
-            max-width: 400px;
-            text-align: left;
-        }
-    }
-}
-
-@media only screen and (max-width: 420px) {
-
-    .hero {
-        height: 30vh;
-
-        h1 {
-            max-width: 320px;
-            text-align: left;
-        }
-    }
-}
-

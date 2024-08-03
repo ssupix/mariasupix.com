@@ -98,7 +98,7 @@
                             </ul>
                         </div>
                     </div>
-                    <button class="live" onclick="window.location.href='work.html'">VIEW WORK</button>
+                    <button class="live" onclick="window.location.href='./work'">VIEW WORK</button>
                 </div>
             </div>
         </section>

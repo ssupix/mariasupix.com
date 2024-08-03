@@ -182,7 +182,10 @@ footer {
     a {
         color: black;
         scroll-behavior: smooth;
-        font-size: 20px;
+    }
+
+    a:hover {
+        color: $berry;
     }
 }
 
@@ -222,10 +225,6 @@ footer {
     .footer-bottom {
 
         h4 {
-            font-size: 16px;
-        }
-    
-        a {
             font-size: 16px;
         }
     }

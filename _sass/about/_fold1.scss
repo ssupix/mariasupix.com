@@ -1,3 +1,5 @@
+// = ABOUT ME STYLING pt.1 = //
+
 .about-fold1 {
     margin-top: 150px;
     width: 95%;
@@ -47,6 +49,8 @@
     }
 }
 
+// image slider //
+
 .carousel {
     width: 100%;
 }
@@ -67,10 +71,14 @@
     height: auto;
 }
 
+// * KEYFRAMES * //
+
 @keyframes headerLoad {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+// * STYLING BREAKPOINTS * //
 
 @media only screen and (min-width: 2200px) {
 

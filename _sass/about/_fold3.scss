@@ -1,3 +1,5 @@
+// = ABOUT ME STYLING pt.3 = //
+
 #insight {
     width: 100%;
     min-height: 1000px;
@@ -27,15 +29,6 @@
     }
 }
 
-@keyframes textColor {
-    0% { color: $babypink; } 
-    20% { color: $ribbon; } 
-    40% { color: $berry; } 
-    60% { color: $blue; } 
-    80% { color: $icy; } 
-    100% { color: $babypink; }
-}
-
 .drag-item {
     width: 200px;
     height: auto;
@@ -46,24 +39,10 @@
     z-index: 1;
 }
 
-// .drag-item:hover {
-//     mix-blend-mode:difference; 
-// }
-
 .drag-item img {
     width: 100%;
     height: auto;
 }
-
-// .drag-item:nth-child(1) {
-//     top: 10%;
-//     left: 15%;
-// }
-
-// .drag-item:nth-child(2) {
-//     top: 30%;
-//     left: 70%;
-// }
 
 .drag-item:nth-child(3) {
     top: 80%;
@@ -104,8 +83,18 @@
     }
 } //headphones
 
+// = KEYFRAMES = //
 
+@keyframes textColor {
+    0% { color: $babypink; } 
+    20% { color: $ribbon; } 
+    40% { color: $berry; } 
+    60% { color: $blue; } 
+    80% { color: $icy; } 
+    100% { color: $babypink; }
+}
 
+// = STYLING BREAKPOINTS = //
 
 @media only screen and (max-width: 1200px) {
 
