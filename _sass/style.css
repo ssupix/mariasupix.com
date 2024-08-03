@@ -1485,7 +1485,6 @@ section {
   position: relative;
   justify-content: center;
   align-items: center;
-  overflow-inline: hidden;
   height: 60vh;
   margin-bottom: 0;
 }
