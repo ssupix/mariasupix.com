@@ -181,9 +181,6 @@
     <script src="./js/gsap.js"></script>
     <script src="./js/nav.js"></script>
 
-    <!-- <script src="./js/vendor/isotope.min.js"></script>
-    <script src="./js/isotope.js"></script> -->
-
     <script src="./js/dropdown.js"></script>
     <script src="./js/viewtoggle.js"></script>
     <script src="./js/filter.js"></script>
