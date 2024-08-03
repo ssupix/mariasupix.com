@@ -21,8 +21,8 @@
     <meta property="og:url" content="https://mashasupix.com/" />
     <meta property="og:type" content="website" />
 
-        <!-- Canonical Tag -->
-        <link rel="canonical" href="https://mashasupix.com/">
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://mashasupix.com/">
 
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
@@ -34,6 +34,7 @@
 
     <title>Masha's Home Page</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
+    <link rel="apple-touch-icon" href="./assets/img/logo.svg" />
 </head>
 <body>
 
