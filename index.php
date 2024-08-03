@@ -16,8 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- Metadata -->
-    <meta name="description" content="Masha Supikhanova. Front-end developer & product designer. Creating meaningful experiences online.">
-    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver">
+    <meta name="description" content="Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
+    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, work, experience, branding">
     <meta property="og:url" content="https://mashasupix.com/" />
     <meta property="og:type" content="website" />
 
@@ -28,11 +28,11 @@
     <meta name="robots" content="index, follow">
 
     <!-- OG Metadata -->
-    <meta property="og:title" content="Masha Supikhanova | Web Developer Portfolio" />
+    <meta property="og:title" content="Masha Supikhanova | Digital Developer Portfolio" />
     <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
     <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />
 
-    <title>Masha's Home Page</title>
+    <title>Masha Supikhanova | Digital Developer Portfolio</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
     <link rel="apple-touch-icon" href="./assets/img/logo.svg" />
 </head>
