@@ -86,13 +86,13 @@
             </section>
             <section class="thoughts">
                 <div class="grid">
-                    <div class="quote col-12 col-4-md ">
+                    <div class="quote col-12 col-4-lg ">
                         <q>My very personal thoughts and concerns, interpreted for a good cause, though art online.</q>
                         <p>I want to inspire hope and motivate action to combat the issue, by showcasing the beauty of water through interactive elements.</p>
                     </div>
-                    <div class="visual col-12 col-8-md ">
+                    <div class="visual col-12 col-8-lg ">
                         <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
-                        <video loop muted autoplay poster="../assets/img/waterwebsite-poster.jpg" title="The Blue Website Showcase">
+                        <video loop muted autoplay poster="../assets/img/waterwebsite-poster.png" title="The Blue Website Showcase">
                             <source src="../assets/video/waterwebsite.mp4" type="video/mp4">
                             <source src="../assets/video/waterwebsite.webm" type="video/webm">
                             <source src="../assets/video/waterwebsite.ogv" type="video/ogg">
@@ -195,11 +195,11 @@
             </section>
             <section class="thoughts">
                 <div class="grid">
-                    <div class="quote col-12 col-4-md">
+                    <div class="quote col-12 col-4-lg">
                         <q>It turned out to be concrete evidence of my ability to think and learn on my feet</q>
                         <p>I dedicate a lot of time to understanding the project's purpose and secondary goals. I prefer working on something intriguing that I truly care about. I didn't want to create anything commercial; instead, I wanted to show my unique style.</p>
                     </div>
-                    <div class="visual col-12 col-8-md">
+                    <div class="visual col-12 col-8-lg">
                         <p>TheBlue showed me how far I’ve come in my web development journey and how
                             much more is out there to know, experience and learn. It also taught me about the importance of tidy and neat code structure, which is vital when you mix and extend functionality of your site in such ways, implementing different libraries, making it unique and memorable.</p>
                         <img src="../assets/img/water.png" alt="Water">

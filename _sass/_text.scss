@@ -46,7 +46,7 @@ q {
 }
 
 a:hover {
-    color: $babypink;
+    color: $stormy;
 }
 
 @media only screen and (min-width: 1620px) {
@@ -75,6 +75,10 @@ a:hover {
 
     h2 {
         font-size: 3rem;
+    }
+    
+    h4 {
+        font-size: 1.1rem;
     }
 
     q {
@@ -115,18 +119,30 @@ a:hover {
         font-size: 1.2rem;
     }
 
+    h4 {
+        font-size: 1rem;
+    }
+
     a {
         font-size: 1rem;
+    }
+
+    q {
+        font-size: 1.5rem;
     }
 }
 
 @media only screen and (max-width: 420px) {
 
     h1 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     h2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: .8rem;
     }
 }

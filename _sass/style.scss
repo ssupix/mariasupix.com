@@ -39,6 +39,10 @@ main {
     flex-direction: column;
 }
 
+section {
+    margin-bottom: 12rem;
+}
+
 // * COMPONENTS * //
 @import "cards";
 @import "buttons";
@@ -50,6 +54,7 @@ main {
 @import "home/page";
 @import "about/page";
 @import "work/page";
+@import "projects/page";
 
 // * PROJECTS *//
 @import "projects/theblue";

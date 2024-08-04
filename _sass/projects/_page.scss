@@ -1,0 +1,116 @@
+// = MASTER ARTIFACT PAGE STYLING = //
+
+.title {
+    width: 95%;
+    max-width: 1400px;
+    margin-bottom: 0;
+
+    h2 {
+        color: $blue; 
+        width: 100%;
+    }
+}
+
+.project-container {
+    margin-top: 2rem;
+    width: 95%;
+    max-width: 1400px;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: $black solid 1px;
+    animation: projectLoad 1s forwards ease-out;
+
+    section {
+        width: 70%;
+        margin-bottom: 10rem;
+    }
+
+    .project-banner {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 3rem;
+    }
+
+    .project-banner video,
+    .project-banner img {
+        width: 100%;
+        height: auto;
+        size: cover;
+    }
+}
+
+.more-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    width: 100%;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+
+    h2 {
+        width: 95%;
+        max-width: 1500px;
+        margin-bottom: 12rem;
+    }
+
+    .project-scroll {
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                display: grid;
+                place-items: center;
+                flex-shrink: 0;
+                margin-left: 5px;
+
+                .card {
+                    width: 500px;
+                    height: auto;
+                    min-width: 800px;
+                }
+            }
+        }
+    }
+}
+
+// = KEYFRAMES = //
+
+@keyframes projectLoad {
+    0% {
+
+        opacity: .5;
+        transform: translateY(70vh);
+
+    } 100% {
+
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+// = STYLING BREAKPOINTS = //
+
+@media only screen and (max-width: 568px) {
+
+    .project-container {
+    
+        section {
+            width: 85%;
+            margin-bottom: 6rem;
+        }
+    }
+}

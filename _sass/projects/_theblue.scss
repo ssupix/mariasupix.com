@@ -1,49 +1,6 @@
 // = THE BLUE PROJECT STYLING = //
 
-.title {
-    width: 95%;
-    max-width: 1400px;
-    margin-bottom: 0;
-
-    h2 {
-        color: $blue; 
-        width: 100%;
-    }
-}
-
 .project-container {
-    margin-top: 2rem;
-    width: 95%;
-    max-width: 1400px;
-    border-radius: .5rem;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: $black solid 1px;
-    animation: projectLoad 1s forwards ease-out;
-
-    section {
-        width: 70%;
-        margin-bottom: 12rem;
-    }
-
-    .project-banner {
-        height: 60vh;
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        margin-bottom: 3rem;
-    }
-
-    .project-banner video,
-    .project-banner img {
-        width: 100%;
-        height: auto;
-        size: cover;
-    }
 
     .buttons {
         margin-top: 0;
@@ -51,6 +8,8 @@
         .button-wrap {
             display: flex;
             justify-content: center;
+            align-items: center;
+            overflow: visible;
             gap: 1rem;
         }
     }
@@ -76,7 +35,6 @@
     }
 
     .process {
-
         display: flex;
         flex-direction: column;
         gap: 6rem;
@@ -160,75 +118,32 @@
     }
 }
 
-.more-projects {
-    border-right: 1px solid $black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    overflow: visible;
-    width: 100%;
-    margin-bottom: 8rem;
-    margin-top: 2rem;
+// = STYLING BREAKPOINTS = //
 
-    h2 {
-        width: 95%;
-        max-width: 1500px;
-        margin-bottom: 12rem;
-    }
+@media screen and (max-width: 834px) {
+    
+        .project-container {
 
-    .project-scroll {
-        gap: 2rem;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        overflow: hidden;
+        .process {
+            gap: 4rem;
 
-        ul {
-            list-style: none;
-            display: flex;
-
-            li {
-                display: grid;
-                place-items: center;
-                flex-shrink: 0;
-                margin-left: 5px;
-
-                .card {
-                    width: 500px;
-                    height: auto;
-                    min-width: 800px;
-                }
+            .grid {
+                gap: 1rem;
             }
         }
     }
 }
 
-// = KEYFRAMES = //
-
-@keyframes projectLoad {
-    0% {
-
-        opacity: .5;
-        transform: translateY(70vh);
-
-    } 100% {
-
-        opacity: 1;
-        transform: translateY(0);
-
-    }
-}
-
-// = STYLING BREAKPOINTS = //
-
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 568px) {
     
-    .process {
+    .project-container {
 
-        .grid {
-            gap: 1rem;
+        .buttons {
+            margin-top: 0;
+        
+            .button-wrap {
+                flex-direction: column;
+            }
         }
     }
-
 }
