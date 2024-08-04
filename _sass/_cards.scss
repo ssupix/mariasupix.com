@@ -91,35 +91,28 @@
     height: min-content;
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: clamp(10px, 2vw, 20px);
     border: 1px solid $black;
     transition: background .3s;
     animation: cardDisplay .5s forwards;
 
     .cover {
-        width: 35%;
+        width: clamp(200px, 35%, 400px);
     }
 
-    .cover img {
-        width: 100%;
-        max-width: 750px;
-        height: auto;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-
+    .cover img,
     .cover video {
         width: 100%;
-        max-width: 750px;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
         border-radius: 10px;
         cursor: pointer;
     }
 
     .description {
-        width: 40%;
+        width: 60%;
         display: flex;
-        gap: 1rem;
+        gap: clamp(0.5rem, 1vw, 1rem);;
         flex-direction: column;
         justify-content: center;
     }
