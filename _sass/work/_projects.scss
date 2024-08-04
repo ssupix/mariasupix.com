@@ -22,7 +22,7 @@
 }
 
 .hidden {
-    display: none !important;
+    display: none;
 }
 
 // = KEYFRAMES = //
@@ -42,6 +42,17 @@
     .work-projects-list,
     .work-projects{
         max-width: 1700px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    
+    .work-projects-list {
+        display: none;
+    }
+
+    .work-projects {
+        display: block;
     }
 }
 
