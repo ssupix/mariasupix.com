@@ -118,12 +118,126 @@
     }
 }
 
+// = THE BLUE PROJECT STYLING = //
+
+.project-container {
+    .buttons {
+        margin-top: 0;
+
+        .button-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            overflow: visible;
+        }
+    }
+
+    .detail {
+        padding: 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        h3 {
+            margin-top: .5rem;
+        }
+
+        &.border {
+            border: solid 1px $black;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-weight: 300;
+        }
+    }
+
+    .process {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+
+        h4 {
+            margin-bottom: 1rem;
+        }
+
+        .grid {
+            gap: 3rem;
+        }
+
+        .sp {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            h2 {
+                margin-bottom: 1rem;
+            }
+        }
+
+        .si img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .showcase {
+        img {
+            width: 100%;
+            height: auto;
+            border: 1px $black solid;
+        }
+
+        .sp {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .text-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+    
+    .thoughts {
+        .quote {
+            padding-right: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            q {
+                font-family: "Inter";
+                font-weight: 600;
+            }
+        }
+
+        .visual {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            video,
+            img {
+                width: 100%;
+                height: auto;
+                margin-top: 2rem;
+            }
+
+            video {
+                border: solid 1px $black;
+            }
+        }
+    }
+}
+
 // = STYLING BREAKPOINTS = //
 
 @media screen and (max-width: 834px) {
-    
-        .project-container {
-
+    .project-container {
         .process {
             gap: 4rem;
 
@@ -135,9 +249,7 @@
 }
 
 @media screen and (max-width: 568px) {
-    
     .project-container {
-
         .buttons {
             margin-top: 0;
         

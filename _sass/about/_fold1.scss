@@ -1,18 +1,17 @@
 // = ABOUT ME STYLING pt.1 = //
 
 .about-fold1 {
+    position: relative;
     width: 95%;
     max-width: 1500px;
     height: fit-content;
-    min-height: 550px;
-    min-height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     h2 {
-        animation: headerLoad .5s ease;
         margin-bottom: 3rem;
+        animation: headerLoad .5s ease;
     }
 
     .about-description {
@@ -33,14 +32,14 @@
     }
 
     .about-images {
-        border: 1px $black solid;
         padding: 10%;
+        border: 1px $black solid;
         opacity: 0;
         animation: headerLoad 1s ease forwards;
 
         img {
-            height: 100%;
             width: 100%;
+            height: 100%;
             opacity: 0;
             animation: headerLoad 1s .2s ease forwards;
         }
@@ -54,19 +53,19 @@
 }
 
 .flickity-button {
-    background: none !important;
-    color: $berry!important;
     padding: 0;
+    background: none !important;
+    color: $berry !important;
     border-radius: 0 !important;
 }
 
 .carousel-cell {
     width: 100%;
-}
 
-.carousel-cell img {
-    width: 100%;
-    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 // * KEYFRAMES * //
@@ -79,9 +78,7 @@
 // * STYLING BREAKPOINTS * //
 
 @media only screen and (min-width: 2200px) {
-
-    .about-fold1{
+    .about-fold1 {
         max-width: 1800px;
     }
 }
-

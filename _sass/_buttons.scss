@@ -1,45 +1,46 @@
 // = BUTTONS STYLING = //
 
 button {
-    cursor: pointer;
-    padding: 1.3rem 2.5rem;
     min-width: max-content;
-    text-transform: uppercase;
-    font-size: 1rem;
+    padding: 1.3rem 2.5rem;
+    border: 1px solid;
     font-family: "Inter";
+    font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
     transition: all .3s ease;
 }
 
 .live {
     color: $berry;
-    border: 1px solid $berry;
     background-color: rgba(255, 172, 204, .5);
+    border-color: $berry;
+
+    &:hover {
+        color: $white;
+        background-color: rgba(255, 172, 204, 1);
+        border-color: $babypink;
+    }
 }
 
 .code {
     color: $stormy;
-    border: 1px solid $stormy;
     background-color: rgba(196, 203, 231, .5);
+    border-color: $stormy;
+
+    &:hover {
+        color: $white;
+        background-color: rgba(196, 203, 231, 1);
+        border-color: $icy;
+    }
 }
 
-.live:hover {
-    background-color: rgba(255, 172, 204, 1);
-    color: $white;
-    border: 1px solid $babypink;
-}
-
-.code:hover {
-    background-color: rgba(196, 203, 231, 1);
-    color: $white;
-    border: 1px solid $icy;
-}
+// = STYLING BREAKPOINTS = //
 
 @media only screen and (max-width: 568px) {
-
     button {
-        font-size: .8rem;
         min-width: 160px;
+        font-size: .8rem;
     }
 }

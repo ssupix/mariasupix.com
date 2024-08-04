@@ -11,8 +11,8 @@
     animation: bannerLoad 1s forwards ease-out;
 
     .intro {
-        text-align: center;
         width: 95%;
+        text-align: center;
     }
 
     .banner-row {
@@ -20,12 +20,12 @@
         margin-top: 2rem;
 
         .banner-image {
+            position: relative;
+            height: 70%;
+            margin: 0 30px 0 30px;
+            padding: 10%;
             display: flex;
             justify-content: center;
-            padding: 10%;
-            margin: 0 30px 0 30px;
-            height: 70%;
-            position: relative;
             background-color: $white;
             border: 1px solid $black;
 
@@ -35,66 +35,60 @@
                 background-color: $white;
                 border: 1px solid $black;
             }
-        }
 
-        .banner-image::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(227, 106, 152, 0.3); 
-            backdrop-filter: blur(3px); 
-            transition: opacity 0.7s ease, backdrop-filter 0.7s ease;
-        }
-        
-        .banner-image:hover::before {
-            opacity: 0;
-            backdrop-filter: blur(0px); 
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(227, 106, 152, 0.3);
+                backdrop-filter: blur(3px);
+                transition: opacity 0.7s ease, backdrop-filter 0.7s ease;
+            }
+
+            &:hover::before {
+                opacity: 0;
+                backdrop-filter: blur(0px);
+            }
         }
     }
 
     .banner-right-text {
         display: flex;
         flex-direction: column;
-        text-align: end;
         gap: 3rem;
+        text-align: end;
 
         a {
             text-decoration: none;
         }
     }
-
 }
 
 // = KEYFRAMES = //
 
 @keyframes bannerLoad {
-
     0% {
         opacity: 0;
         transform: translateY(30vh);
-    } 100% {
+    }
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
-
 }
 
 @keyframes opacity {
-
     0% { opacity: 0; }
     100% { opacity: 100; }
-
 }
 
 // = STYLING BREAKPOINTS = //
 
 @media only screen and (max-width: 1080px) {
-
     .banner {
-
         p, 
         .banner-right-text {
             text-align: center;
