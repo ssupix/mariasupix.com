@@ -26,6 +26,7 @@
 
 .view-switch {
     text-align: end;
+    gap: .3rem;
     font-family: "Space Mono", monospace;
     font-size: 1.8rem;
     font-weight: 200;
@@ -38,6 +39,14 @@
     .grid-switch,
     .list-switch {
         transition: color .2s;
+        width: 60px;
+        height: 60px;
+
+        svg {
+            height: 100%;
+            width: auto;
+            stroke: 5;
+        }
 
         &:hover {
             color: $ribbon;

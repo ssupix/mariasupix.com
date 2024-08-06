@@ -751,7 +751,7 @@ section {
   text-transform: uppercase;
   font-family: "Space Mono", monospace;
   font-size: 14px;
-  padding: 7px 35px;
+  padding: 7px 25px;
   border-radius: 15px;
   border: 1px solid #E36A98;
   color: #E36A98;
@@ -760,7 +760,7 @@ section {
   text-transform: uppercase;
   font-family: "Space Mono", monospace;
   font-size: 14px;
-  padding: 7px 35px;
+  padding: 7px 25px;
   border-radius: 15px;
   color: #97A0C4;
   border: 1px solid #97A0C4;
@@ -1634,7 +1634,7 @@ footer {
 }
 .featured-project {
   width: 95%;
-  max-width: 1400px;
+  max-width: 1500px;
   margin-bottom: 6rem;
   display: flex;
   flex-direction: column;
@@ -1666,7 +1666,7 @@ footer {
 
 .home-projects {
   width: 95%;
-  max-width: 1400px;
+  max-width: 1500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -2149,6 +2149,7 @@ section {
 
 .view-switch {
   text-align: end;
+  gap: 0.3rem;
   font-family: "Space Mono", monospace;
   font-size: 1.8rem;
   font-weight: 200;
@@ -2160,6 +2161,14 @@ section {
 .view-switch .grid-switch,
 .view-switch .list-switch {
   transition: color 0.2s;
+  width: 60px;
+  height: 60px;
+}
+.view-switch .grid-switch svg,
+.view-switch .list-switch svg {
+  height: 100%;
+  width: auto;
+  stroke: 5;
 }
 .view-switch .grid-switch:hover,
 .view-switch .list-switch:hover {
@@ -2320,10 +2329,40 @@ section {
     transform: translateY(0);
   }
 }
+@media only screen and (max-width: 834px) {
+  .more-projects {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+  }
+  .more-projects h2 {
+    margin-bottom: 6rem;
+  }
+  .more-projects .project-scroll ul li .card {
+    min-width: 600px;
+  }
+}
 @media only screen and (max-width: 568px) {
   .project-container section {
     width: 85%;
     margin-bottom: 6rem;
+  }
+  .more-projects {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .more-projects h2 {
+    margin-bottom: 6rem;
+  }
+  .more-projects .project-scroll ul li .card {
+    min-width: 400px;
+  }
+  .more-projects .project-scroll ul li .card .pill-pink {
+    font-size: 12px;
+    padding: 7px 20px;
+  }
+  .more-projects .project-scroll ul li .card .pill-blue {
+    font-size: 12px;
+    padding: 7px 20px;
   }
 }
 .project-container .buttons {

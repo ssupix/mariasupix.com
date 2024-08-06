@@ -101,11 +101,61 @@
 
 // = STYLING BREAKPOINTS = //
 
+@media only screen and (max-width: 834px) {
+    .more-projects {
+        margin-top: 1rem;
+        margin-bottom: 6rem;
+    
+        h2 {
+            margin-bottom: 6rem;
+        }
+    
+        .project-scroll {
+            ul {
+                li {
+                    .card {
+                        min-width: 600px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 568px) {
     .project-container {
         section {
             width: 85%;
             margin-bottom: 6rem;
+        }
+    }
+
+    .more-projects {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    
+        h2 {
+            margin-bottom: 6rem;
+        }
+    
+        .project-scroll {
+            ul {
+                li {
+                    .card {
+                        min-width: 400px;
+
+                        .pill-pink {
+                            font-size: 12px;
+                            padding: 7px 20px;
+                        }
+                        
+                        .pill-blue {
+                            font-size: 12px;
+                            padding: 7px 20px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
