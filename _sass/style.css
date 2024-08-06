@@ -903,8 +903,9 @@ button {
 
 @media only screen and (max-width: 568px) {
   button {
-    min-width: 160px;
+    min-width: 130px;
     font-size: 0.8rem;
+    padding: 1.3rem 2rem;
   }
 }
 .filter {
@@ -2551,13 +2552,5 @@ section {
   }
   .project-container .process .grid {
     gap: 1rem;
-  }
-}
-@media screen and (max-width: 568px) {
-  .project-container .buttons {
-    margin-top: 0;
-  }
-  .project-container .buttons .button-wrap {
-    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

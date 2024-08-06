@@ -248,14 +248,3 @@
     }
 }
 
-@media screen and (max-width: 568px) {
-    .project-container {
-        .buttons {
-            margin-top: 0;
-        
-            .button-wrap {
-                flex-direction: column;
-            }
-        }
-    }
-}

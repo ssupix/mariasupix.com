@@ -58,7 +58,7 @@
             </section>
             <section class="buttons">
                 <div class="grid">
-                    <div class="s-3 button-wrap">
+                    <div class="col-12 button-wrap">
                         <button class="live">VIEW LIVE</button>
                         <button class="code">VIEW CODE</button>
                     </div>
@@ -208,7 +208,7 @@
             </section>
             <section class="buttons">
                 <div class="grid">
-                    <div class="s-3 button-wrap">
+                    <div class="col-12 button-wrap">
                         <button class="live">VIEW LIVE</button>
                         <button class="code">VIEW CODE</button>
                     </div>

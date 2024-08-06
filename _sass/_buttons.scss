@@ -40,7 +40,8 @@ button {
 
 @media only screen and (max-width: 568px) {
     button {
-        min-width: 160px;
+        min-width: 130px;
         font-size: .8rem;
+        padding: 1.3rem 2rem;
     }
 }
