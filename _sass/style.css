@@ -1349,11 +1349,13 @@ footer {
 }
 
 .contact-info {
-  width: 70%;
   display: flex;
   flex-direction: column;
   gap: 30px;
   justify-content: space-between;
+}
+.contact-info p {
+  width: 50%;
 }
 .contact-info ul {
   list-style: none;
@@ -1479,6 +1481,9 @@ footer {
   .contact-info {
     width: 100%;
     margin-bottom: 5rem;
+  }
+  .contact-info p {
+    width: 100%;
   }
   .contact-form {
     flex-direction: column-reverse;
