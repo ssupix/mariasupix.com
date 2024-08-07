@@ -1568,7 +1568,7 @@ footer {
 .banner .banner-row .banner-image {
   position: relative;
   height: 70%;
-  margin: 0 30px 0 30px;
+  margin: 0 100px 0 100px;
   padding: 10%;
   display: flex;
   justify-content: center;
@@ -1641,7 +1641,7 @@ footer {
 }
 .featured-project {
   width: 95%;
-  max-width: 1500px;
+  max-width: 1400px;
   margin-bottom: 6rem;
   display: flex;
   flex-direction: column;
@@ -1673,7 +1673,7 @@ footer {
 
 .home-projects {
   width: 95%;
-  max-width: 1500px;
+  max-width: 1700px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1721,10 +1721,6 @@ footer {
     display: block;
   }
 }
-section {
-  margin-bottom: 8rem;
-}
-
 .about-fold1 {
   position: relative;
   width: 95%;
@@ -1734,6 +1730,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 8rem;
 }
 .about-fold1 h2 {
   margin-bottom: 3rem;
@@ -2249,16 +2246,6 @@ section {
     display: block;
   }
 }
-.title {
-  width: 95%;
-  max-width: 1400px;
-  margin-bottom: 0;
-}
-.title h2 {
-  width: 100%;
-  color: #97A0C4;
-}
-
 .project-container {
   width: 95%;
   max-width: 1400px;
@@ -2278,8 +2265,13 @@ section {
 }
 .project-container .project-banner {
   width: 100%;
+  max-height: 700px;
+  overflow: hidden;
   margin-bottom: 3rem;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .project-container .project-banner video,
 .project-container .project-banner img {
@@ -2372,92 +2364,101 @@ section {
     padding: 7px 20px;
   }
 }
-.project-container .buttons {
+.theblue .title {
+  width: 95%;
+  max-width: 1400px;
+  margin-bottom: 0;
+}
+.theblue .title h2 {
+  width: 100%;
+  color: #97A0C4;
+}
+.theblue .project-container .buttons {
   margin-top: 0;
 }
-.project-container .buttons .button-wrap {
+.theblue .project-container .buttons .button-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: visible;
   gap: 1rem;
 }
-.project-container .detail {
+.theblue .project-container .detail {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   padding: 5rem 2rem 5rem 2rem;
 }
-.project-container .detail h3 {
+.theblue .project-container .detail h3 {
   margin-top: 0.5rem;
 }
-.project-container .detail.border {
+.theblue .project-container .detail.border {
   border: solid 1px #131313;
 }
-.project-container .detail p {
+.theblue .project-container .detail p {
   font-family: "Inter";
   font-weight: 300;
 }
-.project-container .process {
+.theblue .project-container .process {
   display: flex;
   flex-direction: column;
   gap: 6rem;
 }
-.project-container .process h4 {
+.theblue .project-container .process h4 {
   margin-bottom: 1rem;
 }
-.project-container .process .grid {
+.theblue .project-container .process .grid {
   gap: 3rem;
 }
-.project-container .process .sp {
+.theblue .project-container .process .sp {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.project-container .process .sp h2 {
+.theblue .project-container .process .sp h2 {
   margin-bottom: 1rem;
 }
-.project-container .process .si img {
+.theblue .project-container .process .si img {
   width: 100%;
   height: auto;
 }
-.project-container .showcase img {
+.theblue .project-container .showcase img {
   width: 100%;
   height: auto;
   border: 1px #131313 solid;
 }
-.project-container .showcase .sp {
+.theblue .project-container .showcase .sp {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.project-container .showcase .text-wrap {
+.theblue .project-container .showcase .text-wrap {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.project-container .thoughts .quote {
+.theblue .project-container .thoughts .quote {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-right: 2rem;
 }
-.project-container .thoughts .quote q {
+.theblue .project-container .thoughts .quote q {
   font-family: "Inter";
   font-weight: 600;
 }
-.project-container .thoughts .visual {
+.theblue .project-container .thoughts .visual {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.project-container .thoughts .visual video {
+.theblue .project-container .thoughts .visual video {
   width: 100%;
   height: auto;
   border: solid 1px #131313;
   margin-top: 2rem;
 }
-.project-container .thoughts .visual img {
+.theblue .project-container .thoughts .visual img {
   width: 100%;
   height: auto;
   margin-top: 2rem;
@@ -2559,4 +2560,103 @@ section {
   .project-container .process .grid {
     gap: 1rem;
   }
+}
+.ezt .title {
+  width: 95%;
+  max-width: 1400px;
+  margin-bottom: 0;
+}
+.ezt .title h2 {
+  width: 100%;
+  color: #E36A98;
+}
+.ezt .project-container .buttons {
+  margin-top: 0;
+}
+.ezt .project-container .buttons .button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  gap: 1rem;
+}
+.ezt .project-container .detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 5rem 2rem 5rem 2rem;
+}
+.ezt .project-container .detail h3 {
+  margin-top: 0.5rem;
+}
+.ezt .project-container .detail.border {
+  border: solid 1px #131313;
+}
+.ezt .project-container .detail p {
+  font-family: "Inter";
+  font-weight: 300;
+}
+.ezt .project-container .process {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.ezt .project-container .process h4 {
+  margin-bottom: 1rem;
+}
+.ezt .project-container .process .grid {
+  gap: 3rem;
+}
+.ezt .project-container .process .sp {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.ezt .project-container .process .sp h2 {
+  margin-bottom: 1rem;
+}
+.ezt .project-container .process .si img {
+  width: 100%;
+  height: auto;
+}
+.ezt .project-container .showcase img {
+  width: 100%;
+  height: auto;
+  border: 1px #131313 solid;
+}
+.ezt .project-container .showcase .sp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ezt .project-container .showcase .text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ezt .project-container .thoughts .quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 2rem;
+}
+.ezt .project-container .thoughts .quote q {
+  font-family: "Inter";
+  font-weight: 600;
+}
+.ezt .project-container .thoughts .visual {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ezt .project-container .thoughts .visual video {
+  width: 100%;
+  height: auto;
+  border: solid 1px #131313;
+  margin-top: 2rem;
+}
+.ezt .project-container .thoughts .visual img {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */

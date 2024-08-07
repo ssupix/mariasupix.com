@@ -1,16 +1,5 @@
 // = MASTER ARTIFACT PAGE STYLING = //
 
-.title {
-    width: 95%;
-    max-width: 1400px;
-    margin-bottom: 0;
-
-    h2 {
-        width: 100%;
-        color: $blue;
-    }
-}
-
 .project-container {
     width: 95%;
     max-width: 1400px;
@@ -31,8 +20,13 @@
 
     .project-banner {
         width: 100%;
+        max-height: 700px;
+        overflow: hidden;
         margin-bottom: 3rem;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         video,
         img {

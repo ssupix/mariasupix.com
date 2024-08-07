@@ -41,7 +41,7 @@
     
     <?php include '../components/nav-project.php'; ?>
 
-    <main>
+    <main class="ezt" >
         <section class="title">
             <div class="grid">
                 <div class="col-12">

@@ -72,7 +72,7 @@
                 <div class="pill-pink">Figma</div>
             </div>
         </div>
-        <div class="card col-12 col-6-md" data-category="2">
+        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/ezt';" data-category="2">
             <div class="cover">
                 <video src="./assets/video/ezt-mockup.mp4" autoplay muted loop></video>
             </div>
@@ -95,7 +95,7 @@
                 <div class="pill-pink">Packaging</div>
             </div>
         </div>
-        <div class="card col-12 col-6-md" data-category="3">
+        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/kabinet';" data-category="3">
             <div class="cover">
                 <img src="./assets/img/kabinet-mockup.jpg" alt="">
             </div>
