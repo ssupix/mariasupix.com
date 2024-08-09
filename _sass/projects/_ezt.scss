@@ -1,17 +1,6 @@
 // = EZT PROJECT STYLING = //
 
 .ezt {
-    
-    .title {
-        width: 95%;
-        max-width: 1400px;
-        margin-bottom: 0;
-
-        h2 {
-            width: 100%;
-            color: $ribbon;
-        }
-    }
 
     .project-container {
 
@@ -69,10 +58,21 @@
                     margin-bottom: 1rem;
                 }
             }
+
+            .si {
+                min-height: 350px;
+                display: flex;
+                align-items: center;
+            }
         
             .si img {
                 width: 100%;
                 height: auto;
+            }
+
+            img {
+                width: 100%;
+                border: 1px $black solid;
             }
         }
         
@@ -123,9 +123,10 @@
                 }
         
                 img {
-                    width: 100%;
+                    // width: 100%;
                     height: auto;
                     margin-top: 2rem;
+                    border: solid 1px $black;
                 }
             }
         }

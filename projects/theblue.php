@@ -47,14 +47,18 @@
                 <div class="col-12">
                     <h2>the blue - water website</h2>
                 </div>
-                <div class="col-12">
-                    <h4>an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</h4>
-                </div>
             </div>
         </section>
         <div class="project-container">
             <section class="project-banner">
                 <video src="../assets/video/dddd.mp4" autoplay muted looped></video>
+            </section>
+            <section class="description">
+                <div class="grid">
+                <div class="col-12">
+                    <h4>an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</h4>
+                </div>
+                </div>
             </section>
             <section class="buttons">
                 <div class="grid">

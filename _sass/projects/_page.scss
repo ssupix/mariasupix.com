@@ -1,9 +1,19 @@
 // = MASTER ARTIFACT PAGE STYLING = //
 
+.title {
+    width: 95%;
+    max-width: 1400px;
+    margin-bottom: 1rem;
+
+    h2 {
+        width: 100%;
+        color: $black;
+    }
+}
+
 .project-container {
     width: 95%;
     max-width: 1400px;
-    margin-top: 2rem;
     border-radius: .5rem;
     border: $black solid 1px;
     overflow: hidden;

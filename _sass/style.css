@@ -752,7 +752,7 @@ section {
   font-family: "Space Mono", monospace;
   font-size: 14px;
   padding: 7px 25px;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 1px solid #E36A98;
   color: #E36A98;
 }
@@ -761,7 +761,7 @@ section {
   font-family: "Space Mono", monospace;
   font-size: 14px;
   padding: 7px 25px;
-  border-radius: 15px;
+  border-radius: 20px;
   color: #97A0C4;
   border: 1px solid #97A0C4;
 }
@@ -841,7 +841,7 @@ section {
 .pill-pink {
   text-transform: uppercase;
   font-family: "Space Mono", monospace;
-  font-size: 8vw;
+  font-size: 14px;
   padding: 7px 35px;
   border-radius: 15px;
   border: 1px solid #E36A98;
@@ -851,7 +851,7 @@ section {
 .pill-blue {
   text-transform: uppercase;
   font-family: "Space Mono", monospace;
-  font-size: 8vw;
+  font-size: 14px;
   padding: 7px 35px;
   border-radius: 15px;
   color: #97A0C4;
@@ -2246,10 +2246,19 @@ footer {
     display: block;
   }
 }
+.title {
+  width: 95%;
+  max-width: 1400px;
+  margin-bottom: 1rem;
+}
+.title h2 {
+  width: 100%;
+  color: #131313;
+}
+
 .project-container {
   width: 95%;
   max-width: 1400px;
-  margin-top: 2rem;
   border-radius: 0.5rem;
   border: #131313 solid 1px;
   overflow: hidden;
@@ -2364,106 +2373,6 @@ footer {
     padding: 7px 20px;
   }
 }
-.theblue .title {
-  width: 95%;
-  max-width: 1400px;
-  margin-bottom: 0;
-}
-.theblue .title h2 {
-  width: 100%;
-  color: #97A0C4;
-}
-.theblue .project-container .buttons {
-  margin-top: 0;
-}
-.theblue .project-container .buttons .button-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: visible;
-  gap: 1rem;
-}
-.theblue .project-container .detail {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 5rem 2rem 5rem 2rem;
-}
-.theblue .project-container .detail h3 {
-  margin-top: 0.5rem;
-}
-.theblue .project-container .detail.border {
-  border: solid 1px #131313;
-}
-.theblue .project-container .detail p {
-  font-family: "Inter";
-  font-weight: 300;
-}
-.theblue .project-container .process {
-  display: flex;
-  flex-direction: column;
-  gap: 6rem;
-}
-.theblue .project-container .process h4 {
-  margin-bottom: 1rem;
-}
-.theblue .project-container .process .grid {
-  gap: 3rem;
-}
-.theblue .project-container .process .sp {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.theblue .project-container .process .sp h2 {
-  margin-bottom: 1rem;
-}
-.theblue .project-container .process .si img {
-  width: 100%;
-  height: auto;
-}
-.theblue .project-container .showcase img {
-  width: 100%;
-  height: auto;
-  border: 1px #131313 solid;
-}
-.theblue .project-container .showcase .sp {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.theblue .project-container .showcase .text-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.theblue .project-container .thoughts .quote {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-right: 2rem;
-}
-.theblue .project-container .thoughts .quote q {
-  font-family: "Inter";
-  font-weight: 600;
-}
-.theblue .project-container .thoughts .visual {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.theblue .project-container .thoughts .visual video {
-  width: 100%;
-  height: auto;
-  border: solid 1px #131313;
-  margin-top: 2rem;
-}
-.theblue .project-container .thoughts .visual img {
-  width: 100%;
-  height: auto;
-  margin-top: 2rem;
-}
-
 .project-container .buttons {
   margin-top: 0;
 }
@@ -2548,8 +2457,6 @@ footer {
   width: 100%;
   height: auto;
   margin-top: 2rem;
-}
-.project-container .thoughts .visual video {
   border: solid 1px #131313;
 }
 
@@ -2560,15 +2467,6 @@ footer {
   .project-container .process .grid {
     gap: 1rem;
   }
-}
-.ezt .title {
-  width: 95%;
-  max-width: 1400px;
-  margin-bottom: 0;
-}
-.ezt .title h2 {
-  width: 100%;
-  color: #E36A98;
 }
 .ezt .project-container .buttons {
   margin-top: 0;
@@ -2615,9 +2513,18 @@ footer {
 .ezt .project-container .process .sp h2 {
   margin-bottom: 1rem;
 }
+.ezt .project-container .process .si {
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+}
 .ezt .project-container .process .si img {
   width: 100%;
   height: auto;
+}
+.ezt .project-container .process img {
+  width: 100%;
+  border: 1px #131313 solid;
 }
 .ezt .project-container .showcase img {
   width: 100%;
@@ -2656,7 +2563,7 @@ footer {
   margin-top: 2rem;
 }
 .ezt .project-container .thoughts .visual img {
-  width: 100%;
   height: auto;
   margin-top: 2rem;
+  border: solid 1px #131313;
 }/*# sourceMappingURL=style.css.map */
