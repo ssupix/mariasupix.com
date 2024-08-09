@@ -47,6 +47,14 @@
                 <div class="col-12">
                     <h2>the blue - water website</h2>
                 </div>
+                <div class="col-12">
+                    <div class="tags">
+                        <div class="pill-blue">html</div>
+                        <div class="pill-blue">css</div>
+                        <div class="pill-blue">javascript</div>
+                        <div class="pill-pink">we design</div>
+                    </div>
+                </div>
             </div>
         </section>
         <div class="project-container">

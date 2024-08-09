@@ -66,10 +66,10 @@
                 </div>
             <a href="./projects/theblue.html"><h4>water website - the blue</h4></a>
             <div class="tags">
-                <div class="pill-blue">ux research</div>
-                <div class="pill-pink">ui design</div>
-                <div class="pill-pink">branding</div>
-                <div class="pill-pink">Figma</div>
+                <div class="pill-blue">html</div>
+                <div class="pill-blue">css</div>
+                <div class="pill-blue">javascript</div>
+                <div class="pill-pink">we design</div>
             </div>
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/ezt';" data-category="2">
@@ -121,10 +121,10 @@
                 <h4>water website - the blue</h4>
                 <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
                 <div class="tags">
-                    <div class="pill-blue">ux research</div>
-                    <div class="pill-pink">ui design</div>
-                    <div class="pill-pink">branding</div>
-                    <div class="pill-pink">Figma</div>
+                    <div class="pill-blue">html</div>
+                    <div class="pill-blue">css</div>
+                    <div class="pill-blue">javascript</div>
+                    <div class="pill-pink">we design</div>
                 </div>
             </div>
         </div>

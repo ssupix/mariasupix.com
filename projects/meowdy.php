@@ -41,7 +41,7 @@
     
     <?php include '../components/nav-project.php'; ?>
 
-    <main class="ezt">
+    <main class="meowdy">
     <section class="title">
             <div class="grid">
                 <div class="col-12">
@@ -64,15 +64,14 @@
             <section class="description">
                 <div class="grid">
                 <div class="col-12">
-                    <h4>an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</h4>
+                    <h4>branding elements and packaging design using vector and raster graphics created for fictional company, Meowdy surprise cat boxes. created, ensuring high-quality, print-ready results that would resonate with cat lovers. </h4>
                 </div>
                 </div>
             </section>
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <button class="live">PROTOTYPE</button>
-                        <button class="code">REPORT</button>
+                        <button class="live">PROJECT PACKAGE</button>
                     </div>
                 </div>
             </section>
@@ -80,7 +79,7 @@
                 <div class="grid">
                     <div class="col-12 col-6-md detail border">
                         <h3>Input</h3>
-                        <p>Masha Supikhanova – UX & UI Designer</p>
+                        <p>Masha Supikhanova – Graphic Designer</p>
                         <h3>Timeframe</h3>
                         <p>Start Date  –  March 27th, 2024 <br> End Date  –  May 17th, 2024</p>
                     </div>
@@ -88,119 +87,95 @@
                         <h3>Total Hours</h3>
                         <p>30</p>
                         <h3>Tools</h3>
-                        <p>Figma - Branding and Prototype Development</p>
-                        <p>Maze - Remote User TEsting</p>
+                        <p>Photoshop - graphic and product mockup design</p>
                     </div>
                 </div>
             </section>
             <section class="process">
                 <div class="grid">
                     <div class="col-12 col-8-lg sp"> 
-                        <h2>user research.</h2>
-                        <p>In this initial phase, I focused on thoroughly understanding the company's goals, target audience, and pain points. I utilized a range of tools, including User Personas, Journey Maps, and Empathy Maps, to delve deep into user behavior and experiences. These tools helped me to identify and prioritize key user needs, ensuring that the design decisions were closely aligned with both user expectations and the company's objectives. This foundation allowed for a more user-centric approach, driving the direction of the overall design strategy.</p>
+                        <h2>getting started.</h2>
+                        <p>When the project started the only things, I had been the name of the company, target demographic and primary color. As an exercise for BCIT’s MDIA2185 Photoshop course, my contribution included logo, extended color pallet, font selection, business card design, other graphic elements and a concept for collection, packaging to which I’m bound to make. Software usage is limited to Photoshop.</p>
                     </div>
                     <div class="col-12">
                         <div class="code-show">
-                            <h4>examples:</h4>
                             <div class="select">
-                                <span class="selected">user persona</span>
+                                <span class="selected">details</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/persona.png" alt="">
                             </ul>
                         </div>
-                        <div class="code-show">
-                            <div class="select">
-                                <span class="selected">user scenario</span>
-                                <div class="caret"></div>
-                            </div>
-                            <ul class="code">
-                                <img src="../assets/img/scenario.png" alt="">
-                            </ul>
-                        </div>
-                        <div class="code-show">
-                            <div class="select">
-                                <span class="selected">empathy map</span>
-                                <div class="caret"></div>
-                            </div>
-                            <ul class="code">
-                                <img src="../assets/img/empathy.png" alt="">
-                            </ul>
-                        </div>
-                        <div class="code-show">
-                            <div class="select">
-                                <span class="selected">journey map</span>
-                                <div class="caret"></div>
-                            </div>
-                            <ul class="code">
-                                <img src="../assets/img/journey.png" alt="">
-                            </ul>
-                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="process">
+                <div class="grid">
+                    <div class="col-12 col-6-lg sp"> 
+                        <h2>branding.</h2>
+                        <p>First, I established color pallet with 60% 30% 10% methodology. The dominant color established a warm, welcoming atmosphere, while the secondary and accent colors added playful touches that enhanced the overall design without overwhelming the user. </p>
+                        <p>A fourth color, pale pink crème serves as a neutral background, enhancing readability and adding warmth to the design.</p>
+                    </div>
+                    <div class="col-12 col-6-lg si">
+                        <img src="../assets/video/colors.gif" alt="Installing Plugins with NPM">
+                    </div>
+                    <div class="col-12 col-6-lg si">
+                        <img src="../assets/img/logoroughs.png" alt="Installing Plugins with NPM">
+                    </div>
+                    <div class="col-12 col-6-lg sp"> 
+                        <p>Before coming up with final logo design I developed 7 rough variations, as I like variety, having an opportunity to imagine multiple outcomes before committing to the idea.</p>
                     </div>
                 </div>
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D0-1%26t%3DCYagHoRbQWAnE740-1" allowfullscreen></iframe>
+                        <img src="../assets/img/meowdy.png" alt="">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
-                            <p>Building on the insights from the research phase, I created basic low-fidelity wireframes, a main user flow, and a sitemap. These elements served as the blueprint for the overall design, allowing me to visualize the structure and key interactions of the product. </p>
+                            <p>When it was time to trace it in Photoshop, I discovered that Photoshop’s pen tool is limited to its abilities.</p>
                         </div>
-                        <p>The wireframes provided a clear outline of the layout, while the user flow and sitemap ensured a seamless and intuitive navigation experience.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="thoughts">
-                <div class="grid">
-                    <div class="quote col-12 col-4-lg ">
-                        <q>As a tea enjoyer, I wanted to design a website I wish existed, putting extra care into every detail.</q>
-                    </div>
-                    <div class="visual col-12 col-8-lg ">
-                        <p>Given the importance of product imagery in store websites, I needed to get creative, especially since this was a fictional client. To maintain a high level of realism, I generated all the product images using Google’s Gemini AI.</p>
-                        <img src="../assets/img/ezt gemini.png" alt="">
+                        <p>Considering the goal of the project, I had to stick with the software and make it work. So, the final logo has this intentional slightly rough, hand-drawn look, which highlights how caring, authentic and genuine the brand is.</p>
                     </div>
                 </div>
             </section>
             <section class="process">
                 <div class="grid">
                     <div class="col-12 col-8-lg sp"> 
-                        <h2>prototyping.</h2>
-                        <p>In the high-fidelity prototyping phase, I focused on efficiency and flexibility.</p>
-                        <p>All item cards, buttons, and nearly every graphic were designed as components for convenient reuse. While building the final website, I leveraged these components with auto-layouts, responsive grids/columns, and variables to ensure a seamless and adaptive user experience across different devices.</p>
+                        <h2>packaging.</h2>
+                        <p>Before I started, I spent a good hour in Toys’r’Us looking at different packaging to do my own research. Essential elements included incorporating French translations to meet bilingual requirements, adhering to regulatory standards for obligatory labels and symbols such as safety and recycling icons, and ensuring all necessary information was clearly presented. Beyond these requirements, the design process offered the freedom to create a unique and engaging packaging that reflected the brand's playful and appealing character.</p>
                     </div>
                     <div class="col-12">
-                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D13-12%26t%3DdYb5fYuE5Yj8VJTI-1" allowfullscreen></iframe>
+                        <img src="../assets/img/boxmeowdy.png" alt="">
+                    </div>
+                </div>
+                <div class="grid showcase">
+                    <div class="col-12 col-8-lg">
+                        <img src="../assets/img/cats.png" alt="">
+                    </div>
+                    <div class="col-12 col-7-md col-4-lg co sp">
+                        <p>The designs of the cat figures, inspired by real-life cats, add a touch of authenticity and charm. Each box includes an NFT token of the cat figure, offering a unique digital collectible that complements the physical product. This combination of tangible and digital elements enhances the overall experience, making each box a special and collectible item.</p>
                     </div>
                 </div>
             </section>
             <section class="process">
                 <div class="grid">
-                    <div class="col-12 col-6-lg sp"> 
-                        <h2>user testing.</h2>
-                        <p>One of the most valuable lessons from this project was how to effectively revise and improve my designs. Using Maze.com for unmoderated user research, I identified key pain points users experienced while navigating the website.</p>
+                    <div class="col-12 col-8-lg sp"> 
+                        <h2>business cards.</h2>
+                        <p>The business cards are designed to accommodate names of any length or complexity, ensuring that no matter how unusual or long an employee's name may be, it fits seamlessly within the design.</p>
                     </div>
-                    <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/after.png" alt="Installing Plugins with NPM">
-                    </div>
-                    <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/before.png" alt="Installing Plugins with NPM">
-                    </div>
-                    <div class="col-12 col-6-lg sp"> 
-                        <p>Based on this feedback, I made targeted changes to UI elements, refining designs to better address user needs and enhance overall usability. This iterative process allowed for significant improvements in the user experience, ensuring the final product was both functional and user-friendly.</p>
+                    <div class="col-12">
+                        <img src="../assets/img/cards.png" alt="">
                     </div>
                 </div>
             </section>
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <button class="live">PROTOTYPE</button>
-                        <button class="code">REPORT</button>
+                        <button class="live">PROJECT PACKAGE</button>
                     </div>
                 </div>
             </section>
         </div>
-
         <section class="more-projects">
             <h2>more work.</h2>
                 <div class="project-scroll">
