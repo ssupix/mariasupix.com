@@ -1079,6 +1079,9 @@ button {
 .code-show .code .code-light {
   color: #DDDDDD;
 }
+.code-show .code img {
+  border-radius: 7px;
+}
 .code-show .select-clicked {
   border: 1px #DB1D6F solid;
 }
@@ -2502,8 +2505,11 @@ footer {
 .ezt .project-container .process h4 {
   margin-bottom: 1rem;
 }
-.ezt .project-container .process .grid {
-  gap: 3rem;
+.ezt .project-container .process .code-show .code {
+  padding: 1rem;
+}
+.ezt .project-container .process .code-show .code img {
+  border: none;
 }
 .ezt .project-container .process .sp {
   display: flex;

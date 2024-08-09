@@ -44,9 +44,16 @@
             h4 {
                 margin-bottom: 1rem;
             }
-        
-            .grid {
-                gap: 3rem;
+
+            .code-show {
+
+                .code{
+                    padding: 1rem;
+
+                    img {
+                        border: none;
+                    }
+                }
             }
         
             .sp {

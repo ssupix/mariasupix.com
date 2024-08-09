@@ -45,21 +45,21 @@
     <section class="title">
             <div class="grid">
                 <div class="col-12">
-                    <h2>ezt - online tea shop</h2>
+                    <h2>meowdy - surprise cat boxes</h2>
                 </div>
                 <div class="col-12">
                     <div class="tags">
-                        <div class="pill-blue">ux research</div>
-                        <div class="pill-pink">ui design</div>
                         <div class="pill-pink">branding</div>
-                        <div class="pill-pink">Figma</div>
+                        <div class="pill-pink">Photoshop</div>
+                        <div class="pill-pink">graphics</div>
+                        <div class="pill-pink">packaging</div>
                     </div>
                 </div>
             </div>
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <video src="../assets/video/ezt-mockup.mp4" autoplay muted looped></video>
+                <img src="../assets/img/meowdy-mockup.jpg" alt="Meowdy Mockup">
             </section>
             <section class="description">
                 <div class="grid">

@@ -84,7 +84,7 @@
                 <div class="pill-pink">Figma</div>
             </div>
         </div>
-        <div class="card col-12 col-6-md" data-category="3">
+        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/meowdy';" data-category="3">
             <div class="cover">
                 <img src="./assets/img/meowdy-mockup.jpg" alt="">
             </div>
