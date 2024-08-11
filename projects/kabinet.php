@@ -33,7 +33,10 @@
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
 
-    <title>Masha Supikhanova | Project: Meowdy! - surprise cat boxes</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <title>Masha Supikhanova | Project: Kabinet - nail salon</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
     <link rel="apple-touch-icon" href="../assets/img/logo.svg" />
 </head>
@@ -45,34 +48,27 @@
     <section class="title">
             <div class="grid">
                 <div class="col-12">
-                    <h2>meowdy - surprise cat boxes</h2>
+                    <h2>kabinet - nail salon rebrand</h2>
                 </div>
                 <div class="col-12">
                     <div class="tags">
                         <div class="pill-pink">branding</div>
-                        <div class="pill-pink">Photoshop</div>
-                        <div class="pill-pink">graphics</div>
-                        <div class="pill-pink">packaging</div>
+                        <div class="pill-pink">Illustrator</div>
+                        <div class="pill-pink">Blender</div>
+                        <div class="pill-pink">smm</div>
                     </div>
                 </div>
             </div>
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <img src="../assets/img/meowdy-mockup.jpg" alt="Meowdy Mockup">
+                <img src="../assets/img/kabinet-mockup.jpg" alt="Meowdy Mockup">
             </section>
             <section class="description">
                 <div class="grid">
                 <div class="col-12">
-                    <h4>branding elements and packaging design using vector and raster graphics created for fictional company, Meowdy surprise cat boxes. created, ensuring high-quality, print-ready results that would resonate with cat lovers. </h4>
+                    <h4>Brand Identity and social media graphics for Kabinet Nail Salon. The task was to refresh existing identity and establish unique and regornazible online presence.</h4>
                 </div>
-                </div>
-            </section>
-            <section class="buttons">
-                <div class="grid">
-                    <div class="col-12 button-wrap">
-                        <button class="live">PROJECT PACKAGE</button>
-                    </div>
                 </div>
             </section>
             <section class="details">
@@ -87,7 +83,7 @@
                         <h3>Total Hours</h3>
                         <p>30</p>
                         <h3>Tools</h3>
-                        <p>Photoshop - graphic and product mockup design</p>
+                        <p>Adobe Illustator - branding and graphics design <br> Blender - custom sticker design</p>
                     </div>
                 </div>
             </section>
@@ -95,12 +91,12 @@
                 <div class="grid">
                     <div class="col-12 col-8-lg sp"> 
                         <h2>getting started.</h2>
-                        <p>When the project started the only things, I had been the name of the company, target demographic and primary color. As an exercise for BCIT’s MDIA2185 Photoshop course, my contribution included logo, extended color pallet, font selection, business card design, other graphic elements and a concept for collection, packaging to which I’m bound to make. Software usage is limited to Photoshop.</p>
+                        <p>The process started with a custom Google Form designed specifically for brand discovery, offering a convenient way for the client to provide detailed information. This form was crucial in gathering insights into the brand's goals, vision, target audience, and overall mood. The collected data served as the foundation for the design process, ensuring that every creative decision aligned with the client's expectations and the brand's core identity.</p>
                     </div>
                     <div class="col-12">
                         <div class="code-show">
                             <div class="select">
-                                <span class="selected">details</span>
+                                <span class="selected">question examples</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
@@ -112,66 +108,28 @@
             <section class="process">
                 <div class="grid">
                     <div class="col-12 col-6-lg sp"> 
-                        <h2>branding.</h2>
-                        <p>First, I established color pallet with 60% 30% 10% methodology. The dominant color established a warm, welcoming atmosphere, while the secondary and accent colors added playful touches that enhanced the overall design without overwhelming the user. </p>
-                        <p>A fourth color, pale pink crème serves as a neutral background, enhancing readability and adding warmth to the design.</p>
+                        <h2>logo.</h2>
+                        <p>First, I worked on the logo, delivering couple of rounds of hand-drawn sketches and vector roughs. It helps me further understand clients vision and make sure we a committing to the right idea.</p>
                     </div>
                     <div class="col-12 col-6-lg si">
-                        <img src="../assets/video/colors.gif" alt="Installing Plugins with NPM">
+                    <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
+                        <div class="carousel-cell"><img src="../assets/img/klogo1.png" alt="Masha Supikhanova"></div>
+                        <div class="carousel-cell"><img src="../assets/img/klogo2.png" alt="Masha Supikhanova"></div>
+                        <div class="carousel-cell"><img src="../assets/img/klogo3.png" alt="ssupix"></div>
+                        <div class="carousel-cell"><img src="../assets/img/klogo4.png" alt="Masha Supikhanova"></div>
                     </div>
-                    <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/logoroughs.png" alt="Installing Plugins with NPM">
-                    </div>
-                    <div class="col-12 col-6-lg sp"> 
-                        <p>Before coming up with final logo design I developed 7 rough variations, as I like variety, having an opportunity to imagine multiple outcomes before committing to the idea.</p>
                     </div>
                 </div>
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/meowdy.png" alt="">
+                    <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
+                    </div>
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
-                        <div class="text-wrap">
-                            <p>When it was time to trace it in Photoshop, I discovered that Photoshop’s pen tool is limited to its abilities.</p>
+                        <div class="text-wrap"> 
+                            <p>Through a series of iterations and client feedback, the design was continually refined, ensuring that the final logo not only looked good but also effectively communicated the brand's personality.</p>
                         </div>
-                        <p>Considering the goal of the project, I had to stick with the software and make it work. So, the final logo has this intentional slightly rough, hand-drawn look, which highlights how caring, authentic and genuine the brand is.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="process">
-                <div class="grid">
-                    <div class="col-12 col-8-lg sp"> 
-                        <h2>packaging.</h2>
-                        <p>Before I started, I spent a good hour in Toys’r’Us looking at different packaging to do my own research. Essential elements included incorporating French translations to meet bilingual requirements, adhering to regulatory standards for obligatory labels and symbols such as safety and recycling icons, and ensuring all necessary information was clearly presented. Beyond these requirements, the design process offered the freedom to create a unique and engaging packaging that reflected the brand's playful and appealing character.</p>
-                    </div>
-                    <div class="col-12">
-                        <img src="../assets/img/boxmeowdy.png" alt="">
-                    </div>
-                </div>
-                <div class="grid showcase">
-                    <div class="col-12 col-8-lg">
-                        <img src="../assets/img/cats.png" alt="">
-                    </div>
-                    <div class="col-12 col-7-md col-4-lg co sp">
-                        <p>The designs of the cat figures, inspired by real-life cats, add a touch of authenticity and charm. Each box includes an NFT token of the cat figure, offering a unique digital collectible that complements the physical product. This combination of tangible and digital elements enhances the overall experience, making each box a special and collectible item.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="process">
-                <div class="grid">
-                    <div class="col-12 col-8-lg sp"> 
-                        <h2>business cards.</h2>
-                        <p>The business cards are designed to accommodate names of any length or complexity, ensuring that no matter how unusual or long an employee's name may be, it fits seamlessly within the design.</p>
-                    </div>
-                    <div class="col-12">
-                        <img src="../assets/img/cards.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="buttons">
-                <div class="grid">
-                    <div class="col-12 button-wrap">
-                        <button class="live">PROJECT PACKAGE</button>
+                        <p>All the graphics where created using pen tools in Adobe Illustator.</p>
                     </div>
                 </div>
             </section>
