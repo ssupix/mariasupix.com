@@ -93,23 +93,30 @@
                         <h2>getting started.</h2>
                         <p>The process started with a custom Google Form designed specifically for brand discovery, offering a convenient way for the client to provide detailed information. This form was crucial in gathering insights into the brand's goals, vision, target audience, and overall mood. The collected data served as the foundation for the design process, ensuring that every creative decision aligned with the client's expectations and the brand's core identity.</p>
                     </div>
-                    <div class="col-12">
-                        <div class="code-show">
-                            <div class="select">
-                                <span class="selected">question examples</span>
-                                <div class="caret"></div>
-                            </div>
-                            <ul class="code">
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </section>
             <section class="process">
+            <div class="grid showcase">
+                <div class="col-12">
+                    <h2>logo.</h2>
+                </div>
+                <div class="col-12 col-8-lg">
+                    <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
+                        <div class="carousel-cell"><img src="../assets/img/kscketch1.png" alt="Masha Supikhanova"></div>
+                        <div class="carousel-cell"><img src="../assets/img/ksketch2.png" alt="Masha Supikhanova"></div>
+                        <div class="carousel-cell"><img src="../assets/img/ksketch3.png" alt="ssupix"></div>
+                    </div>
+                    </div>
+                    <div class="col-12 col-7-md col-4-lg co sp">
+                        <div class="text-wrap"> 
+                            <p>First, I worked on the logo, delivering couple of rounds of hand-drawn sketches and vector roughs. It helps me further understand clients vision and make sure we a committing to the right idea.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="grid">
                     <div class="col-12 col-6-lg sp"> 
-                        <h2>logo.</h2>
-                        <p>First, I worked on the logo, delivering couple of rounds of hand-drawn sketches and vector roughs. It helps me further understand clients vision and make sure we a committing to the right idea.</p>
+                        <p>Through a series of iterations and client feedback, the design was continually refined, ensuring that the final logo not only looked good but also effectively communicated the brand's personality.</p>
+                        <p>All the graphics where created using pen tools in Adobe Illustator.</p>
                     </div>
                     <div class="col-12 col-6-lg si">
                     <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
@@ -120,16 +127,17 @@
                     </div>
                     </div>
                 </div>
-                <div class="grid showcase">
+            </section>
+            <section class="process">
+                <div class="grid">
+                    <div class="col-12">
+                        <h2>3d asset.</h2>
+                    </div>
+                    <div class="col-12">
+                        <img src="../assets/img/kabinet-red.png" alt="">
+                    </div>
                     <div class="col-12 col-8-lg">
-                    <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
-                    </div>
-                    </div>
-                    <div class="col-12 col-7-md col-4-lg co sp">
-                        <div class="text-wrap"> 
-                            <p>Through a series of iterations and client feedback, the design was continually refined, ensuring that the final logo not only looked good but also effectively communicated the brand's personality.</p>
-                        </div>
-                        <p>All the graphics where created using pen tools in Adobe Illustator.</p>
+                        <p>One of the requested assets from my client was a 3D graphic that can be used for stickers and is a good thing to elevate your branding in general. Spilled nail polish effect was made using hot sauce and some Blender magic.</p>
                     </div>
                 </div>
             </section>

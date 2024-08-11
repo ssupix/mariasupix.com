@@ -2522,6 +2522,7 @@ footer {
   min-height: 350px;
   display: flex;
   align-items: center;
+  border: 1px #131313 solid;
 }
 .ezt .project-container .process .si img {
   width: 100%;
@@ -2529,12 +2530,10 @@ footer {
 }
 .ezt .project-container .process img {
   width: 100%;
-  border: 1px #131313 solid;
 }
 .ezt .project-container .showcase img {
   width: 100%;
   height: auto;
-  border: 1px #131313 solid;
 }
 .ezt .project-container .showcase .sp {
   display: flex;
@@ -2625,6 +2624,7 @@ footer {
   min-height: 350px;
   display: flex;
   align-items: center;
+  border: 1px #131313 solid;
 }
 .meowdy .project-container .process .si img {
   width: 100%;
@@ -2632,7 +2632,6 @@ footer {
 }
 .meowdy .project-container .process img {
   width: 100%;
-  border: 1px #131313 solid !important;
 }
 .meowdy .project-container .showcase img {
   width: 100%;
