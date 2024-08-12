@@ -33,7 +33,7 @@
     <meta name="robots" content="index, follow">
 
     <title>Masha Supikhanova | Digital Developer Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
+    <link rel="icon" type="image/x-icon" href="./assets/img/about1.png">
     <link rel="apple-touch-icon" href="./assets/img/logo.svg" />
 </head>
 <body>
