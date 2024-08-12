@@ -143,7 +143,7 @@
                         <div class="text-wrap"> 
                             <p>We also established a refined font selection, featuring a rounded typeface that perfectly complements the logo's mood and a versatile sans-serif font. The latter offers a range of styles and boldness, making it adaptable for various uses and effectively conveying the brand's message in multiple contexts.</p>
                         </div>
-                        <button class="code" onclick="window.location.href='#'">STYLE GUIDE</button>
+                        <a onclick="window.location.href='#'">STYLE GUIDE</a>
                     </div>
                 </div>
             </section>

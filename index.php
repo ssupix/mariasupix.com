@@ -90,7 +90,7 @@
             <div class="grid">
                 <div class="col-12 col-6-lg left">
                     <div class="grid">
-                        <div class="card small col-12 col-6-sm">
+                        <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/meowdy';">
                             <div class="cover">
                                 <img src="./assets/img/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
                             </div>
@@ -101,7 +101,7 @@
                                 <div class="pill-pink">Packaging</div>
                             </div>
                         </div>
-                        <div class="card small col-12 col-6-sm">
+                        <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/kabinet';">
                             <div class="cover">
                                 <img src="./assets/img/kabinet-mockup.jpg" alt="Kabinet Nails Branding Mockup">
                             </div>
@@ -113,10 +113,10 @@
                             </div>
                         </div>
                     </div>
-                    <a href="" class="desktop-link">more projects</a>
+                    <a href="./work" class="desktop-link">more projects</a>
                 </div>
                 <div class="col-12 col-6-lg ">
-                    <div class="card">
+                    <div class="card" onclick="window.location.href='./projects/ezt';">
                         <div class="cover">
                             <video autoplay muted loop poster="./assets/img/ezt-poster.jpg" title="EZT Prototype Mockup">
                                 <source src="./assets/video/ezt-mockup.mp4" type="video/mp4">
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="" class="col-12 breakpoint-link">more projects</a>
+                <a href="./work" class="col-12 breakpoint-link">more projects</a>
             </div>
         </section>
     </main>

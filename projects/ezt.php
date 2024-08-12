@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     <!-- Metadata -->
-    <meta name="description" content=" Project: The Blue - Water Website. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
+    <meta name="description" content=" Project: EZT - Online Tea Store. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
     <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
     <meta property="og:title" content="Masha Supikhanova | Work Projects" />
@@ -64,15 +64,15 @@
             <section class="description">
                 <div class="grid">
                 <div class="col-12">
-                    <h4>an interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</h4>
+                    <h4>This project is an exploration of how to create meaningful, user-centered design experiences, incorporating UX research, UI design, branding, and prototyping to deliver an engaging and informative website.</h4>
                 </div>
                 </div>
             </section>
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <a class="button live">PROTOTYPE</a>
-                        <a class="button code">REPORT</a>
+                        <a class="button live" href="https://www.figma.com/proto/tbMH0wyY1Ua5YupH0Bb6Uu/UX%2FUI-edited?node-id=13-12&t=QSpMu0qDfjdjmw9r-1" target="blank_">PROTOTYPE</a>
+                        <a class="button code" href="https://docs.google.com/document/d/1DLu6KTALZtDZALyaWxcWj7laMtEt6F-4XokN04e2fx4/pub" target="blank_">REPORT</a>
                     </div>
                 </div>
             </section>
@@ -106,7 +106,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/persona.png" alt="">
+                                <img src="../assets/img/persona.png" alt="EZT User Persona">
                             </ul>
                         </div>
                         <div class="code-show">
@@ -115,7 +115,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/scenario.png" alt="">
+                                <img src="../assets/img/scenario.png" alt="EZT User Scenario">
                             </ul>
                         </div>
                         <div class="code-show">
@@ -124,7 +124,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/empathy.png" alt="">
+                                <img src="../assets/img/empathy.png" alt="EZT Empathy Map">
                             </ul>
                         </div>
                         <div class="code-show">
@@ -133,7 +133,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/journey.png" alt="">
+                                <img src="../assets/img/journey.png" alt="EZT Journey Map">
                             </ul>
                         </div>
                     </div>
@@ -150,6 +150,21 @@
                     </div>
                 </div>
             </section>
+            <section class="process">
+                <div class="grid">
+                    <div class="col-12 sp"> 
+                        <h2>branding.</h2>
+                        <p>After conducting user research, I had the opportunity to create branding for the client, focusing on maintaining a warm, welcoming vibe while still being bold and unique. The color palette included earthy tones to convey a sense of high-quality, natural products, with green symbolizing freshness and reliability.</p>
+                        <p>Hand-drawn elements were added using the pencil tool, giving the graphic assets a detailed, human touch and emphasizing a handcrafted, well-thought-out aesthetic.</p>
+                    </div>
+                    <div class="col-12">
+                        <img src="../assets/img/brandngezt.png" alt="EZT Branding">
+                    </div>
+                    <div class="col-12">
+                        <p>Additionally, a paper texture was incorporated to further enhance the handmade feel, reinforcing the idea of products "crafted with love."</p>
+                    </div>
+                </div>
+            </section>
             <section class="thoughts">
                 <div class="grid">
                     <div class="quote col-12 col-4-lg ">
@@ -157,7 +172,7 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>Given the importance of product imagery in store websites, I needed to get creative, especially since this was a fictional client. To maintain a high level of realism, I generated all the product images using Google’s Gemini AI.</p>
-                        <img src="../assets/img/ezt gemini.png" alt="">
+                        <img src="../assets/img/ezt gemini.png" alt="EZT Product Imagery">
                     </div>
                 </div>
             </section>
@@ -169,7 +184,7 @@
                         <p>All item cards, buttons, and nearly every graphic were designed as components for convenient reuse. While building the final website, I leveraged these components with auto-layouts, responsive grids/columns, and variables to ensure a seamless and adaptive user experience across different devices.</p>
                     </div>
                     <div class="col-12">
-                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D13-12%26t%3DdYb5fYuE5Yj8VJTI-1" allowfullscreen></iframe>
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D13-12%26t%3DdYb5fYuE5Yj8VJTI-1" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>
@@ -177,35 +192,37 @@
                 <div class="grid showcase">
                     <div class="col-12"><h2>user testing.</h2></div>
                     <div class="col-12 col-8-lg">
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D0-1%26t%3DCYagHoRbQWAnE740-1" allowfullscreen></iframe>
+                        <img src="../assets/img/heatmapezt.png" alt="Heat Map EZT">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
-                            <p>Building on the insights from the research phase, I created basic low-fidelity wireframes, a main user flow, and a sitemap. These elements served as the blueprint for the overall design, allowing me to visualize the structure and key interactions of the product. </p>
+                            <p>One of the most valuable lessons from this project was how to effectively revise and improve my designs.</p>
                         </div>
-                        <p>The wireframes provided a clear outline of the layout, while the user flow and sitemap ensured a seamless and intuitive navigation experience.</p>
+                        <p> Using Maze.com for unmoderated user research, I identified key pain points users experienced while navigating the website with various visual tools like heatmaps and other graphs and metrics.</p>
                     </div>
                 </div>
                 <div class="grid">
                     <div class="col-12 col-6-lg sp"> 
-                        <p>One of the most valuable lessons from this project was how to effectively revise and improve my designs. Using Maze.com for unmoderated user research, I identified key pain points users experienced while navigating the website.</p>
+                        <p>I was able to measure direct success rate, bounce rate, misclick rate and average duration needed for a task.</p>
+                        <p>Based on this feedback, I made targeted changes to UI elements, refining designs to better address user needs and enhance overall usability.</p>
                     </div>
                     <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/after.png" alt="Installing Plugins with NPM">
+                        <img src="../assets/img/after.png" alt="EZT Prototype Before">
                     </div>
                     <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/before.png" alt="Installing Plugins with NPM">
+                        <img src="../assets/img/before.png" alt="EZT Prototype After">
                     </div>
                     <div class="col-12 col-6-lg sp"> 
-                        <p>Based on this feedback, I made targeted changes to UI elements, refining designs to better address user needs and enhance overall usability. This iterative process allowed for significant improvements in the user experience, ensuring the final product was both functional and user-friendly.</p>
+                        <p> This iterative process allowed for significant improvements in the user experience, ensuring the final product was both functional and user-friendly.</p>
+                        <p>After I packaged everything in report as well as presentation, visually highlighting the changes.</p>
                     </div>
                 </div>
             </section>
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <a class="button live">PROTOTYPE</a>
-                        <a class="button code">REPORT</a>
+                        <a class="button live" href="https://www.figma.com/proto/tbMH0wyY1Ua5YupH0Bb6Uu/UX%2FUI-edited?node-id=13-12&t=QSpMu0qDfjdjmw9r-1" target="blank_">PROTOTYPE</a>
+                        <a class="button code" href="https://docs.google.com/document/d/1DLu6KTALZtDZALyaWxcWj7laMtEt6F-4XokN04e2fx4/pub" target="blank_">REPORT</a>
                     </div>
                 </div>
             </section>
@@ -216,23 +233,23 @@
                 <div class="project-scroll">
                     <ul>
                         <li>
-                            <div class="card" data-category="2">
+                            <div class="card" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/dddd.mp4" autoplay muted loop title="The Blue Mockup"></video>
                                 </div>
-                                <h4>ezt - online tea shop</h4>
+                                <h4>water website - the blue</h4>
                                 <div class="tags">
-                                    <div class="pill-blue">ux research</div>
-                                    <div class="pill-pink">ui design</div>
-                                    <div class="pill-pink">branding</div>
-                                    <div class="pill-pink">Figma</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">css</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-pink">we design</div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" onclick="window.location.href='./meowdy';">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <img src="../assets/img/meowdy-mockup.jpg" alt="Meowdy Mockup">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -243,9 +260,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" onclick="window.location.href='./kabinet';">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <img src="../assets/img/kabinet-mockup.jpg" alt="Kabnet Mockup">
                                 </div>
                                 <h4>kabinet nails</h4>
                                 <div class="tags">
@@ -258,7 +275,7 @@
                         <li>
                             <div class="card" data-category="2">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop title="The Blue Mockup"></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -272,7 +289,7 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <img src="../assets/img/meowdy-mockup.jpg" alt="Meowdy Mockup">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -285,7 +302,7 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <img src="../assets/img/kabinet-mockup.jpg" alt="Kabinet Mockup">
                                 </div>
                                 <h4>kabinet nails</h4>
                                 <div class="tags">
