@@ -11,13 +11,8 @@
     animation: headerLoad .5s ease;
 
     .filter-wrap {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
 
         .filter {
-            width: 49%;
             margin: 0;
             padding: 0;
         }

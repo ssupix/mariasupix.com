@@ -71,8 +71,8 @@
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <button class="live">PROTOTYPE</button>
-                        <button class="code">REPORT</button>
+                        <a class="button live">PROTOTYPE</a>
+                        <a class="button code">REPORT</a>
                     </div>
                 </div>
             </section>
@@ -88,8 +88,7 @@
                         <h3>Total Hours</h3>
                         <p>30</p>
                         <h3>Tools</h3>
-                        <p>Figma - Branding and Prototype Development</p>
-                        <p>Maze - Remote User TEsting</p>
+                        <p>Figma - Branding and Prototype Development <br> Maze - Remote User Testing</p>
                     </div>
                 </div>
             </section>
@@ -175,9 +174,20 @@
                 </div>
             </section>
             <section class="process">
+                <div class="grid showcase">
+                    <div class="col-12"><h2>user testing.</h2></div>
+                    <div class="col-12 col-8-lg">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D0-1%26t%3DCYagHoRbQWAnE740-1" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-12 col-7-md col-4-lg co sp">
+                        <div class="text-wrap">
+                            <p>Building on the insights from the research phase, I created basic low-fidelity wireframes, a main user flow, and a sitemap. These elements served as the blueprint for the overall design, allowing me to visualize the structure and key interactions of the product. </p>
+                        </div>
+                        <p>The wireframes provided a clear outline of the layout, while the user flow and sitemap ensured a seamless and intuitive navigation experience.</p>
+                    </div>
+                </div>
                 <div class="grid">
                     <div class="col-12 col-6-lg sp"> 
-                        <h2>user testing.</h2>
                         <p>One of the most valuable lessons from this project was how to effectively revise and improve my designs. Using Maze.com for unmoderated user research, I identified key pain points users experienced while navigating the website.</p>
                     </div>
                     <div class="col-12 col-6-lg si">
@@ -194,8 +204,8 @@
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <button class="live">PROTOTYPE</button>
-                        <button class="code">REPORT</button>
+                        <a class="button live">PROTOTYPE</a>
+                        <a class="button code">REPORT</a>
                     </div>
                 </div>
             </section>

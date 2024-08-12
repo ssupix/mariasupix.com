@@ -60,9 +60,24 @@
         flex-direction: column;
         gap: 3rem;
         text-align: end;
+        align-items: end;
 
         a {
             text-decoration: none;
+        }
+
+        button {
+            max-width: 13rem;
+        }
+    }
+
+    .banner-left-text {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        button {
+            max-width: 13rem;
         }
     }
 }

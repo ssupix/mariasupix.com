@@ -31,7 +31,6 @@
             }
         
             p {
-                font-family: 'Inter';
                 font-weight: 300;
             }
         }
@@ -70,7 +69,6 @@
                 min-height: 350px;
                 display: flex;
                 align-items: center;
-                border: 1px $black solid;
             }
         
             .si img {
@@ -87,7 +85,6 @@
             img {
                 width: 100%;
                 height: auto;
-                border: 1px $black solid;
             }
         
             .sp {

@@ -44,7 +44,7 @@
     
     <?php include '../components/nav-project.php'; ?>
 
-    <main class="meowdy">
+    <main class="kabinet">
     <section class="title">
             <div class="grid">
                 <div class="col-12">
@@ -96,35 +96,54 @@
                 </div>
             </section>
             <section class="process">
-            <div class="grid showcase">
-                <div class="col-12">
-                    <h2>logo.</h2>
-                </div>
-                <div class="col-12 col-8-lg">
-                    <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
-                        <div class="carousel-cell"><img src="../assets/img/kscketch1.png" alt="Masha Supikhanova"></div>
-                        <div class="carousel-cell"><img src="../assets/img/ksketch2.png" alt="Masha Supikhanova"></div>
-                        <div class="carousel-cell"><img src="../assets/img/ksketch3.png" alt="ssupix"></div>
+                <div class="grid showcase">
+                    <div class="col-12">
+                        <h2>logo.</h2>
                     </div>
+                    <div class="col-12 col-8-lg">
+                        <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
+                            <div class="carousel-cell"><img src="../assets/img/kscketch1.png" alt="Masha Supikhanova"></div>
+                            <div class="carousel-cell"><img src="../assets/img/ksketch2.png" alt="Masha Supikhanova"></div>
+                            <div class="carousel-cell"><img src="../assets/img/ksketch3.png" alt="ssupix"></div>
+                        </div>
+                        </div>
+                        <div class="col-12 col-7-md col-4-lg co sp">
+                            <div class="text-wrap"> 
+                                <p>First, I worked on the logo, delivering couple of rounds of hand-drawn sketches and vector roughs. It helps me further understand clients vision and make sure we a committing to the right idea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="col-12 col-6-lg sp"> 
+                            <p>Through a series of iterations and client feedback, the design was continually refined, ensuring that the final logo not only looked good but also effectively communicated the brand's personality.</p>
+                            <p>All the graphics where created using pen tools in Adobe Illustator.</p>
+                        </div>
+                        <div class="col-12 col-6-lg si">
+                        <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
+                            <div class="carousel-cell"><img src="../assets/img/klogo1.png" alt="Masha Supikhanova"></div>
+                            <div class="carousel-cell"><img src="../assets/img/klogo2.png" alt="Masha Supikhanova"></div>
+                            <div class="carousel-cell"><img src="../assets/img/klogo3.png" alt="ssupix"></div>
+                            <div class="carousel-cell"><img src="../assets/img/klogo4.png" alt="Masha Supikhanova"></div>
+                        </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="process">
+                <div class="grid showcase">
+                    <div class="col-12">
+                        <h2>style guide.</h2>
+                    </div>
+                    <div class="col-12 col-8-md">
+                        <p>The client wanted to keep their original cool-toned red, but I insisted on expanding the brand palette with additional colors to enhance the overall look, creating a more cohesive and visually appealing image.</p>
+                    </div>
+                    <div class="col-12 col-8-lg">
+                        <img src="../assets/img/kstyle.png" alt="">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap"> 
-                            <p>First, I worked on the logo, delivering couple of rounds of hand-drawn sketches and vector roughs. It helps me further understand clients vision and make sure we a committing to the right idea.</p>
+                            <p>We also established a refined font selection, featuring a rounded typeface that perfectly complements the logo's mood and a versatile sans-serif font. The latter offers a range of styles and boldness, making it adaptable for various uses and effectively conveying the brand's message in multiple contexts.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="col-12 col-6-lg sp"> 
-                        <p>Through a series of iterations and client feedback, the design was continually refined, ensuring that the final logo not only looked good but also effectively communicated the brand's personality.</p>
-                        <p>All the graphics where created using pen tools in Adobe Illustator.</p>
-                    </div>
-                    <div class="col-12 col-6-lg si">
-                    <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
-                        <div class="carousel-cell"><img src="../assets/img/klogo1.png" alt="Masha Supikhanova"></div>
-                        <div class="carousel-cell"><img src="../assets/img/klogo2.png" alt="Masha Supikhanova"></div>
-                        <div class="carousel-cell"><img src="../assets/img/klogo3.png" alt="ssupix"></div>
-                        <div class="carousel-cell"><img src="../assets/img/klogo4.png" alt="Masha Supikhanova"></div>
-                    </div>
+                        <button class="code" onclick="window.location.href='#'">STYLE GUIDE</button>
                     </div>
                 </div>
             </section>
@@ -138,6 +157,27 @@
                     </div>
                     <div class="col-12 col-8-lg">
                         <p>One of the requested assets from my client was a 3D graphic that can be used for stickers and is a good thing to elevate your branding in general. Spilled nail polish effect was made using hot sauce and some Blender magic.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="col-12 col-6-lg sp"> 
+                        <p>When I started thinking about how to replicate desired effect of spilled nail polish, first thing that came to mind was creating a custom font. This is something I wanted to try for a while and this project let me to give it s shot a create some letter designs myself.</p>
+                        <p>I took the main brand font as a foundation and traced it with some hot sauce on a cutting board.</p>
+                    </div>
+                    <div class="col-12 col-6-lg si">
+                        <!-- <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
+                            <div class="carousel-cell"><img src="../assets/img/hotsauce.png" alt="Masha Supikhanova"></div>
+                            <div class="carousel-cell"><img src="../assets/img/hotsauce1.png" alt="Masha Supikhanova"></div>
+                            <div class="carousel-cell"><img src="../assets/img/hotsauce2.png" alt="ssupix"></div>
+                            <div class="carousel-cell"><img src="../assets/img/hotsauce3.png" alt="Masha Supikhanova"></div>
+                        </div> -->
+                        <img src="../assets/img/hotsauce.png" alt="">
+                    </div>
+                    <div class="col-12 col-6-lg sp">
+                        <video src="../assets/video//kblender.mp4" autoplay muted loop></video>
+                    </div>
+                    <div class="col-12 col-6-lg sp"> 
+                        <p>Then I took a picture on my phone, opened it in Photoshop, lowered threshold and cleaned all the noise up, removing all the background. After, I exported my image as svg to put in Blender, where I can add volume, texture and render final result.</p>
                     </div>
                 </div>
             </section>

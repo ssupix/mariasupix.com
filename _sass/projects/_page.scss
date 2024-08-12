@@ -4,6 +4,7 @@
     width: 95%;
     max-width: 1400px;
     margin-bottom: 1rem;
+    animation: titleLoad 1s ease;
 
     h2 {
         width: 100%;
@@ -94,12 +95,21 @@
 
 @keyframes projectLoad {
     0% {
-        opacity: .5;
+        opacity: 0;
         transform: translateY(70vh);
     }
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes titleLoad {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
@@ -123,6 +133,14 @@
                 }
             }
         }
+    }
+}
+
+.outline {
+    border: 1px $black solid;
+
+    img {
+        height: 100%;
     }
 }
 

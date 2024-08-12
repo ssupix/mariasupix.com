@@ -116,7 +116,7 @@
                         <p>First, I established color pallet with 60% 30% 10% methodology. The dominant color established a warm, welcoming atmosphere, while the secondary and accent colors added playful touches that enhanced the overall design without overwhelming the user. </p>
                         <p>A fourth color, pale pink crème serves as a neutral background, enhancing readability and adding warmth to the design.</p>
                     </div>
-                    <div class="col-12 col-6-lg si">
+                    <div class="col-12 col-6-lg si outline">
                         <img src="../assets/video/colors.gif" alt="Installing Plugins with NPM">
                     </div>
                     <div class="col-12 col-6-lg si">

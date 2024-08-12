@@ -71,8 +71,8 @@
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <button class="live">VIEW LIVE</button>
-                        <button class="code">VIEW CODE</button>
+                        <a class="button live" href="https://water.mashasupix.com/index.html" target="_blank">VIEW LIVE</a>
+                        <a class="button code" href="https://github.com/ssupix/water-website" target="_blank">VIEW CODE</a>
                     </div>
                 </div>
             </section>
@@ -110,6 +110,18 @@
                             <source src="../assets/video/waterwebsite.ogv" type="video/ogg">
                             Your browser does not support the video tag.
                         </video>
+                    </div>
+                </div>
+            </section>
+            <section class="getting-started">
+                <div class="grid showcase">
+                    <div class="col-12 col-8-lg">
+                        <img src="../assets/img/waterstart.png" alt="Figma Prototype Water Website">
+                    </div>
+                    <div class="col-12 col-7-md col-4-lg co sp">
+                        <div class="text-wrap">
+                            <p> I started by creating rough designs in figma. Design wasn't the focus of this project, but it was important to me personally. It helps me find better solutions when i see something cool looking on screen. </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -193,7 +205,7 @@
                     </div>
                 </div>
                 <div class="grid showcase">
-                    <div class="col-12 col-8-lg">
+                    <div class="col-12 col-8-lg outline">
                         <img src="../assets/img/3js.png" alt="3js demo">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
@@ -221,8 +233,8 @@
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <button class="live">VIEW LIVE</button>
-                        <button class="code">VIEW CODE</button>
+                        <a class="button live" href="https://water.mashasupix.com/index.html" target="_blank">VIEW LIVE</a>
+                        <a class="button code" href="https://github.com/ssupix/water-website" target="_blank">VIEW CODE</a>
                     </div>
                 </div>
             </section>

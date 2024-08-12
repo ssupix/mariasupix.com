@@ -28,7 +28,6 @@
         }
 
         p {
-            font-family: 'Inter';
             font-weight: 300;
         }
     }
@@ -67,11 +66,6 @@
     }
     
     .showcase {
-        img {
-            width: 100%;
-            height: auto;
-            border: 1px $black solid;
-        }
 
         .sp {
             display: flex;
@@ -109,7 +103,6 @@
                 width: 100%;
                 height: auto;
                 margin-top: 2rem;
-                border: solid 1px $black;
             }
         }
     }

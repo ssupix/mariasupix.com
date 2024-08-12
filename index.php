@@ -51,7 +51,10 @@
             <p class="intro">Creating meaningful experiences online. </br> Masha supikhanova</p>
             <div class="banner-row">
                 <div class="grid">
-                    <p class="col-12 col-3-lg">Based in Vancouver, BC</p>
+                    <div class="col-12 col-3-lg banner-left-text">
+                        <p>Based in Vancouver, BC</p>
+                        <!-- <button class="code">Learn more</button> -->
+                    </div>
                     <div class="banner-image s-1 col-6-lg">
                         <img src="./assets/img/banner.png" alt="Masha Supikhanova">
                     </div>

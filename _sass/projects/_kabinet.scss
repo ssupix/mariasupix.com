@@ -31,13 +31,8 @@
             }
         
             p {
-                font-family: 'Inter';
                 font-weight: 300;
             }
-        }
-
-        img {
-            max-width: 100%;
         }
 
         .process {
@@ -141,6 +136,10 @@
                 }
             }
         }
+    }
+
+    button {
+        max-width: 12rem;
     }
 }
 
