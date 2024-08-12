@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     <!-- Metadata -->
-    <meta name="description" content=" Project: The Blue - Water Website. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
+    <meta name="description" content=" Project: Kabinet - nail salon rebrand. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
     <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
     <meta property="og:title" content="Masha Supikhanova | Work Projects" />
@@ -62,7 +62,7 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <img src="../assets/img/kabinet-mockup.jpg" alt="Meowdy Mockup">
+                <img src="../assets/img/kabinet-mockup.jpg" alt="Kabinet Mockup">
             </section>
             <section class="description">
                 <div class="grid">
@@ -102,9 +102,9 @@
                     </div>
                     <div class="col-12 col-8-lg">
                         <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
-                            <div class="carousel-cell"><img src="../assets/img/kscketch1.png" alt="Masha Supikhanova"></div>
-                            <div class="carousel-cell"><img src="../assets/img/ksketch2.png" alt="Masha Supikhanova"></div>
-                            <div class="carousel-cell"><img src="../assets/img/ksketch3.png" alt="ssupix"></div>
+                            <div class="carousel-cell"><img src="../assets/img/kscketch1.png" alt="Logo Sketch Kabinet"></div>
+                            <div class="carousel-cell"><img src="../assets/img/ksketch2.png" alt="Logo Sketch Kabinet"></div>
+                            <div class="carousel-cell"><img src="../assets/img/ksketch3.png" alt="Logo Sketch Kabinet"></div>
                         </div>
                         </div>
                         <div class="col-12 col-7-md col-4-lg co sp">
@@ -120,10 +120,10 @@
                         </div>
                         <div class="col-12 col-6-lg si">
                         <div class="carousel" data-flickity='{ "autoPlay": 5000, "wrapAround": true }'>
-                            <div class="carousel-cell"><img src="../assets/img/klogo1.png" alt="Masha Supikhanova"></div>
-                            <div class="carousel-cell"><img src="../assets/img/klogo2.png" alt="Masha Supikhanova"></div>
-                            <div class="carousel-cell"><img src="../assets/img/klogo3.png" alt="ssupix"></div>
-                            <div class="carousel-cell"><img src="../assets/img/klogo4.png" alt="Masha Supikhanova"></div>
+                            <div class="carousel-cell"><img src="../assets/img/klogo1.png" alt="Logo Kabinet"></div>
+                            <div class="carousel-cell"><img src="../assets/img/klogo2.png" alt="Logo Kabinet"></div>
+                            <div class="carousel-cell"><img src="../assets/img/klogo3.png" alt="Logo Kabinet"></div>
+                            <div class="carousel-cell"><img src="../assets/img/klogo4.png" alt="Logo Kabinet"></div>
                         </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                         <p>The client wanted to keep their original cool-toned red, but I insisted on expanding the brand palette with additional colors to enhance the overall look, creating a more cohesive and visually appealing image.</p>
                     </div>
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/kstyle.png" alt="">
+                        <img src="../assets/img/kstyle.png" alt="Style Guide Kabinet">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap"> 
@@ -153,7 +153,7 @@
                         <h2>3d asset.</h2>
                     </div>
                     <div class="col-12">
-                        <img src="../assets/img/kabinet-red.png" alt="">
+                        <img src="../assets/img/kabinet-red.png" alt="Kabinet 3D Graphic">
                     </div>
                     <div class="col-12 col-8-lg">
                         <p>One of the requested assets from my client was a 3D graphic that can be used for stickers and is a good thing to elevate your branding in general. Spilled nail polish effect was made using hot sauce and some Blender magic.</p>
@@ -171,7 +171,7 @@
                             <div class="carousel-cell"><img src="../assets/img/hotsauce2.png" alt="ssupix"></div>
                             <div class="carousel-cell"><img src="../assets/img/hotsauce3.png" alt="Masha Supikhanova"></div>
                         </div> -->
-                        <img src="../assets/img/hotsauce.png" alt="">
+                        <img src="../assets/img/hotsauce.png" alt="Hot Sauce Kabinet">
                     </div>
                     <div class="col-12 col-6-lg sp">
                         <video src="../assets/video//kblender.mp4" autoplay muted loop></video>
@@ -187,7 +187,7 @@
                 <div class="project-scroll">
                     <ul>
                         <li>
-                            <div class="card" data-category="2">
+                            <div class="card" data-category="2" onclick="window.location.href='./ezt';">
                                 <div class="cover">
                                     <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
                                 </div>
@@ -201,9 +201,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" data-category="3" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <video src="../assets/video/dddd.mp4" autoplay muted loop></video>
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -214,9 +214,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" data-category="3" onclick="window.location.href='./meowdy';">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
                                 </div>
                                 <h4>kabinet nails</h4>
                                 <div class="tags">
@@ -227,7 +227,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="2">
+                            <div class="card" data-category="2" onclick="window.location.href='./ezt';">
                                 <div class="cover">
                                     <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
                                 </div>
@@ -241,9 +241,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" data-category="3" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <video src="../assets/video/dddd.mp4" autoplay muted loop></video>
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -254,9 +254,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" data-category="3" onclick="window.location.href='./meowdy';">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
                                 </div>
                                 <h4>kabinet nails</h4>
                                 <div class="tags">

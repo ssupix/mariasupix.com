@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     <!-- Metadata -->
-    <meta name="description" content=" Project: The Blue - Water Website. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
+    <meta name="description" content=" Project: Meowdy Cat Surprise Boxes. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
     <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
     <meta property="og:title" content="Masha Supikhanova | Work Projects" />
@@ -68,13 +68,6 @@
                 </div>
                 </div>
             </section>
-            <section class="buttons">
-                <div class="grid">
-                    <div class="col-12 button-wrap">
-                        <button class="live">PROJECT PACKAGE</button>
-                    </div>
-                </div>
-            </section>
             <section class="details">
                 <div class="grid">
                     <div class="col-12 col-6-md detail border">
@@ -97,17 +90,6 @@
                         <h2>getting started.</h2>
                         <p>When the project started the only things, I had been the name of the company, target demographic and primary color. As an exercise for BCIT’s MDIA2185 Photoshop course, my contribution included logo, extended color pallet, font selection, business card design, other graphic elements and a concept for collection, packaging to which I’m bound to make. Software usage is limited to Photoshop.</p>
                     </div>
-                    <div class="col-12">
-                        <div class="code-show">
-                            <div class="select">
-                                <span class="selected">details</span>
-                                <div class="caret"></div>
-                            </div>
-                            <ul class="code">
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </section>
             <section class="process">
                 <div class="grid">
@@ -117,10 +99,10 @@
                         <p>A fourth color, pale pink crème serves as a neutral background, enhancing readability and adding warmth to the design.</p>
                     </div>
                     <div class="col-12 col-6-lg si outline">
-                        <img src="../assets/video/colors.gif" alt="Installing Plugins with NPM">
+                        <img src="../assets/video/colors.gif" alt="Color Palette">
                     </div>
                     <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/logoroughs.png" alt="Installing Plugins with NPM">
+                        <img src="../assets/img/logoroughs.png" alt="Logo Sketches">
                     </div>
                     <div class="col-12 col-6-lg sp"> 
                         <p>Before coming up with final logo design I developed 7 rough variations, as I like variety, having an opportunity to imagine multiple outcomes before committing to the idea.</p>
@@ -128,7 +110,7 @@
                 </div>
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/meowdy.png" alt="">
+                        <img src="../assets/img/meowdy.png" alt="Meowdy Logo">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
@@ -145,12 +127,12 @@
                         <p>Before I started, I spent a good hour in Toys’r’Us looking at different packaging to do my own research. Essential elements included incorporating French translations to meet bilingual requirements, adhering to regulatory standards for obligatory labels and symbols such as safety and recycling icons, and ensuring all necessary information was clearly presented. Beyond these requirements, the design process offered the freedom to create a unique and engaging packaging that reflected the brand's playful and appealing character.</p>
                     </div>
                     <div class="col-12">
-                        <img src="../assets/img/boxmeowdy.png" alt="">
+                        <img src="../assets/img/boxmeowdy.png" alt="Box Mockup">
                     </div>
                 </div>
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/cats.png" alt="">
+                        <img src="../assets/img/cats.png" alt="Cat Graphics">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <p>The designs of the cat figures, inspired by real-life cats, add a touch of authenticity and charm. Each box includes an NFT token of the cat figure, offering a unique digital collectible that complements the physical product. This combination of tangible and digital elements enhances the overall experience, making each box a special and collectible item.</p>
@@ -159,19 +141,17 @@
             </section>
             <section class="process">
                 <div class="grid">
-                    <div class="col-12 col-8-lg sp"> 
+                    <div class="col-12">
                         <h2>business cards.</h2>
+                    </div>
+                    <div class="col-12">
+                        <img src="../assets/img/cardmeow.png" alt="Meowdy Business Card">
+                    </div>
+                    <div class="col-12 col-8-lg sp"> 
                         <p>The business cards are designed to accommodate names of any length or complexity, ensuring that no matter how unusual or long an employee's name may be, it fits seamlessly within the design.</p>
                     </div>
                     <div class="col-12">
-                        <img src="../assets/img/cards.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="buttons">
-                <div class="grid">
-                    <div class="col-12 button-wrap">
-                        <button class="live">PROJECT PACKAGE</button>
+                        <img src="../assets/img/cards.png" alt="Meowdy Business Cards">
                     </div>
                 </div>
             </section>
@@ -181,7 +161,7 @@
                 <div class="project-scroll">
                     <ul>
                         <li>
-                            <div class="card" data-category="2">
+                            <div class="card" data-category="2" onclick="window.location.href='./ezt';">
                                 <div class="cover">
                                     <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
                                 </div>
@@ -195,9 +175,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" data-category="3" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <video src="../assets/video/dddd.mp4" autoplay muted loop></video>
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -208,7 +188,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" data-category="3" onclick="window.location.href='./kabinet';">
                                 <div class="cover">
                                     <img src="../assets/img/kabinet-mockup.jpg" alt="">
                                 </div>
@@ -221,7 +201,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="2">
+                            <div class="card" data-category="2" onclick="window.location.href='./ezt';">
                                 <div class="cover">
                                     <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
                                 </div>
@@ -235,9 +215,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" data-category="3" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <video src="../assets/video/dddd.mp4" autoplay muted loop></video>
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -248,7 +228,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card" data-category="3" onclick="window.location.href='./kabinet';">
                                 <div class="cover">
                                     <img src="../assets/img/kabinet-mockup.jpg" alt="">
                                 </div>
