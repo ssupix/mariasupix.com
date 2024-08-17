@@ -1652,9 +1652,9 @@ footer {
   }
 }
 .featured-project {
-  width: 95%;
-  max-width: 1400px;
-  margin-bottom: 6rem;
+  width: 85%;
+  max-width: 1700px;
+  margin-bottom: 10rem;
   display: flex;
   flex-direction: column;
 }
@@ -1685,7 +1685,7 @@ footer {
 
 .home-projects {
   width: 95%;
-  max-width: 1700px;
+  max-width: 2100px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1712,6 +1712,9 @@ footer {
 }
 
 @media only screen and (max-width: 1080px) {
+  .featured-project {
+    width: 95%;
+  }
   .featured-project h2, .featured-project h3 {
     text-align: center;
     width: 100%;

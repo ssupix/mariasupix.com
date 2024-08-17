@@ -1,9 +1,9 @@
 // = FEATURED PROJECT STYLING =//
 
 .featured-project {
-    width: 95%;
-    max-width: 1400px;
-    margin-bottom: 6rem;
+    width: 85%;
+    max-width: 1700px;
+    margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
 
@@ -41,7 +41,7 @@
 
 .home-projects {
     width: 95%;
-    max-width: 1700px;
+    max-width: 2100px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -76,6 +76,8 @@
 
 @media only screen and (max-width: 1080px) {
     .featured-project{
+        width: 95%;
+        
         h2, h3 {
             text-align: center;
             width: 100%;
