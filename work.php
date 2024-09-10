@@ -30,7 +30,7 @@
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
 
-    <title>Masha Supikhanova | Work Projects</title>
+    <title>maria supikhanova - work</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
     <link rel="apple-touch-icon" href="./assets/img/logo.svg" />
 </head>
@@ -40,7 +40,10 @@
     
     <main>
     <section class="work-header">
-        <h2>WORK.</h2>
+        <div class="grid">
+            <h2 class="col-12">work.</h2>
+            <p class="col-12 col-6-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores eligendi, praesentium saepe assumenda illum tempore harum? Quidem necessitatibus quia vel! Amet harum excepturi, pariatur quo at hic quia! Dolores!</p>
+        </div>
         <div class="grid">
             <div class="filter col-12 col-6-md">
                 <div class="select">

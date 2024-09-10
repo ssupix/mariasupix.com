@@ -906,13 +906,13 @@ a.button {
     padding: 1.3rem 1.3rem;
   }
 }
-.filter {
+.filter, .code-show {
   position: relative;
   font-size: 1.25rem;
   font-family: "Space Mono", monospace;
   font-weight: 200;
 }
-.filter .select {
+.filter .select, .code-show .select {
   background: #FFE0F2;
   color: black;
   text-transform: uppercase;
@@ -925,10 +925,10 @@ a.button {
   transition: background 0.3s;
   padding: 1.3rem;
 }
-.filter .select:hover {
+.filter .select:hover, .code-show .select:hover {
   background: #fccee8;
 }
-.filter .caret {
+.filter .caret, .code-show .caret {
   width: 0;
   height: 0;
   border-left: 9px solid transparent;
@@ -936,9 +936,9 @@ a.button {
   border-top: 8px solid #000000;
   transition: 0.3s;
 }
-.filter .menu {
+.filter .menu, .filter .code, .code-show .menu, .code-show .code {
   list-style: none;
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem;
   background: rgba(255, 224, 242, 0.9);
   border: 1px solid black;
   border-radius: 0.5rem;
@@ -947,12 +947,13 @@ a.button {
   left: 50%;
   width: 100%;
   transform: translateX(-50%);
-  opacity: 0;
-  display: none;
-  transition: 0.2s;
+  max-height: 0; /* Initially hidden */
+  display: block; /* We will control visibility with max-height */
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
   z-index: 999;
 }
-.filter .menu li {
+.filter .menu li, .filter .code li, .code-show .menu li, .code-show .code li {
   padding: 0.7em 0.5em;
   margin: 0.2em 0;
   border-radius: 0.5em;
@@ -960,170 +961,36 @@ a.button {
   color: #E36A98;
   text-transform: uppercase;
 }
-.filter .menu li:hover {
+.filter .menu li:hover, .filter .code li:hover, .code-show .menu li:hover, .code-show .code li:hover {
   background: rgba(255, 148, 209, 0.3);
 }
-.filter .select-clicked {
+.filter .menu-open, .code-show .menu-open {
+  max-height: 500px; /* Adjust based on your dropdown content height */
+}
+.filter .select-clicked, .code-show .select-clicked {
   border: 1px #DB1D6F solid;
 }
-.filter .caret-rotate {
+.filter .caret-rotate, .code-show .caret-rotate {
   transform: rotate(180deg);
 }
-.filter .active {
+.filter .active, .code-show .active {
   font-weight: 600;
   color: #DB1D6F !important;
-}
-.filter .menu-open {
-  display: block;
-  opacity: 1;
 }
 
 .filter * {
   box-sizing: border-box;
 }
 
-.select-clicked {
-  border: 1px #DB1D6F solid;
-}
-
-.caret-rotate {
-  transform: rotate(180deg);
-}
-
-.active {
-  font-weight: 600;
-  color: black;
-}
-
-.menu-open {
-  display: block;
-  opacity: 1;
-  animation: menuOpen 0.5s forwards;
-}
-
 @keyframes menuOpen {
   0% {
     opacity: 0;
+    max-height: 0;
   }
   100% {
     opacity: 1;
-  }
-}
-.code-show {
-  margin-bottom: 2rem;
-  font-size: 1.25rem;
-  font-family: "Space Mono", monospace;
-  font-weight: 200;
-}
-.code-show .select {
-  background: #FFE0F2;
-  color: black;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px black solid;
-  border-radius: 0.5em;
-  cursor: pointer;
-  transition: background 0.3s;
-  padding: 1.3rem;
-}
-.code-show .select:hover {
-  background: #fccee8;
-}
-.code-show .caret {
-  width: 0;
-  height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-top: 8px solid #000000;
-  transition: 0.3s;
-}
-.code-show .code {
-  margin-top: 1rem;
-  list-style: none;
-  padding: 2rem;
-  background: #ffe0f2;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  top: 5rem;
-  opacity: 0;
-  display: none;
-  transition: 0.2s;
-}
-.code-show .code pre {
-  background-color: #131313;
-  color: #d8dee9;
-  text-wrap: wrap;
-  padding: 20px;
-  font-size: 12px;
-  border-radius: 8px;
-  overflow: auto;
-  font-family: "Courier New", Courier, monospace;
-}
-.code-show .code .code-comment {
-  color: #636363;
-}
-.code-show .code .code-blue {
-  color: #0CE3E5;
-}
-.code-show .code .code-pink {
-  color: #b14395;
-}
-.code-show .code .light-pink-code {
-  color: #E09ECE;
-}
-.code-show .code .code-light {
-  color: #DDDDDD;
-}
-.code-show .code img {
-  border-radius: 7px;
-}
-.code-show .select-clicked {
-  border: 1px #DB1D6F solid;
-}
-.code-show .caret-rotate {
-  transform: rotate(180deg);
-}
-.code-show .active {
-  font-weight: 600;
-  color: #DB1D6F !important;
-}
-.code-show .menu-open {
-  display: block;
-  opacity: 1;
-}
-
-.filter * {
-  box-sizing: border-box;
-}
-
-.select-clicked {
-  border: 1px #DB1D6F solid;
-}
-
-.caret-rotate {
-  transform: rotate(180deg);
-}
-
-.active {
-  font-weight: 600;
-  color: #131313;
-}
-
-.menu-open {
-  display: block;
-  opacity: 1;
-  animation: menuOpen 0.5s forwards;
-}
-
-@keyframes menuOpen {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    max-height: 500px;
+  } /* Adjust max-height based on content */
 }
 nav {
   display: flex;

@@ -1,4 +1,4 @@
-function scrambleText(targetId, newText, duration = 1.3) {
+function scrambleText(targetId, newText, duration = 1.5) {
     const element = document.getElementById(targetId);
     const originalText = element.innerText;
     const length = originalText.length; // Use original length to maintain width
@@ -42,4 +42,4 @@ function scrambleText(targetId, newText, duration = 1.3) {
     });
     }
   // Use the function
-scrambleText("scrambleText", "front-end developer &product designer");
+scrambleText("scrambleText", "front-end developer & web designer");
