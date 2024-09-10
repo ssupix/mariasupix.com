@@ -133,8 +133,8 @@
                         <p>I found out that GSAP is great at handling wide variety or animation with minimum code. By adding CDN link and a couple of additional HTML classes you get all control you need for quick and easy animating.</p>
                     </div>
                     <div class="col-12">
+                        <h4>code snipets:</h4>
                         <div class="code-show">
-                            <h4>code snipets:</h4>
                             <div class="select">
                                 <span class="selected">drag and drop</span>
                                 <div class="caret"></div>

@@ -1,7 +1,120 @@
 // = FILTERING DROPDOWN STYLING = //
 
-.filter, .code-show {
+.filter {
     position: relative;
+    font-size: 1.25rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+    .select {
+        background: #FFE0F2;
+        color: black;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px black solid;
+        border-radius: .5em;
+        cursor: pointer;
+        transition: background .3s;
+        padding: 1.3rem;
+    }
+    .select:hover {
+        background: #fccee8;
+    }
+    .caret {
+        width: 0;
+        height: 0;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-top: 8px solid #000000;
+        transition: .3s;
+    }
+
+    .menu {
+        list-style: none;
+        padding: .2rem .5rem;
+        background: rgba(255, 224, 242, .9);
+        border: 1px solid black;
+        border-radius: .5rem;
+        position: absolute;
+        top: 5rem;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+        opacity: 0;
+        display: none;
+        transition: .2s;
+        z-index: 999;
+
+        li {
+            padding: .7em .5em;
+            margin: .2em 0;
+            border-radius: .5em;
+            cursor: pointer;
+            color: $ribbon;
+            text-transform: uppercase;
+        }
+        li:hover {
+            background: rgba(255, 148, 209, 0.3);
+        }
+    }
+
+    // JS classes
+
+    .select-clicked {
+        border: 1px $berry solid;
+    }
+
+    .caret-rotate {
+        transform: rotate(180deg);
+    }
+
+    .active {
+        font-weight: 600;
+        color: $berry !important;
+    }
+
+    .menu-open {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.filter * {
+    box-sizing: border-box;
+}
+
+// JS classes
+.select-clicked {
+    border: 1px $berry solid;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.active {
+    font-weight: 600;
+    color: black;
+}
+
+.menu-open {
+    display: block;
+    opacity: 1;
+    animation: menuOpen .5s forwards;
+}
+
+// = dropdown animation = //
+
+@keyframes menuOpen {
+    0%      { opacity: 0; }
+    100%    { opacity: 1; }
+}
+
+// = CODE SNIPPET DROPDOWN STYLING = //
+
+.code-show {
+    margin-bottom: 2rem;
     font-size: 1.25rem;
     font-family: "Space Mono", monospace;
     font-weight: 200;
@@ -33,53 +146,69 @@
         transition: .3s;
     }
 
-    .menu, .code {
+    .code {
+        margin-top: 1rem;
         list-style: none;
-        padding: .5rem;
-        background: rgba(255, 224, 242, .9);
+        padding: 2rem;
+        background: #ffe0f2;
         border: 1px solid black;
         border-radius: .5rem;
-        position: absolute;
         top: 5rem;
-        left: 50%;
-        width: 100%;
-        transform: translateX(-50%);
-        max-height: 0;  /* Initially hidden */
-        display: block; /* We will control visibility with max-height */
-        overflow: hidden;
-        transition: max-height .3s ease, opacity .3s ease;
-        z-index: 999;
+        opacity: 0;
+        display: none;
+        transition: .2s;
 
-        li {
-            padding: .7em .5em;
-            margin: .2em 0;
-            border-radius: .5em;
-            cursor: pointer;
-            color: $ribbon;
-            text-transform: uppercase;
+        pre {
+            background-color: #131313;
+            color: #d8dee9;
+            text-wrap: wrap;
+            padding: 20px;
+            font-size: 12px;
+            border-radius: 8px;
+            overflow: auto;
+            font-family: 'Courier New', Courier, monospace;
         }
 
-        li:hover {
-            background: rgba(255, 148, 209, 0.3);
+        .code-comment {
+            color: #636363;
+        }
+
+        .code-blue {
+            color: #0CE3E5;
+    }
+
+        .code-pink {
+            color: #b14395;
+        }
+
+        .light-pink-code {
+            color: #E09ECE;
+        }
+
+        .code-light {
+            color: #DDDDDD;
+        }
+
+        img {
+            border-radius: 7px;
         }
     }
 
-    // JS classes for animation control
-    .menu-open {
-        max-height: 500px; /* Adjust based on your dropdown content height */
-    }
-
+    // JS classes
     .select-clicked {
         border: 1px $berry solid;
     }
-
     .caret-rotate {
         transform: rotate(180deg);
     }
-
     .active {
         font-weight: 600;
         color: $berry !important;
+    }
+
+    .menu-open {
+        display: block;
+        opacity: 1;
     }
 }
 
@@ -87,9 +216,29 @@
     box-sizing: border-box;
 }
 
+// JS classes
+.select-clicked {
+    border: 1px $berry solid;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.active {
+    font-weight: 600;
+    color: $black;
+}
+
+.menu-open {
+    display: block;
+    opacity: 1;
+    animation: menuOpen .5s forwards;
+}
+
 // = dropdown animation = //
 
 @keyframes menuOpen {
-    0%      { opacity: 0; max-height: 0; }
-    100%    { opacity: 1; max-height: 500px; } /* Adjust max-height based on content */
+    0%      { opacity: 0; }
+    100%    { opacity: 1; }
 }
