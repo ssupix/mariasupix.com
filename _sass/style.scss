@@ -43,6 +43,10 @@ section {
     margin-bottom: 12rem;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 // * COMPONENTS * //
 @import "cards";
 @import "buttons";

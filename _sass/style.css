@@ -690,6 +690,10 @@ section {
   margin-bottom: 12rem;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 .card {
   position: relative;
   width: 100%;
@@ -1129,11 +1133,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
+  padding: 1% 2%;
   position: fixed;
   top: 0;
   z-index: 998;
-  width: 96%;
+  width: 98%;
 }
 
 .nav-links {
@@ -1197,7 +1201,7 @@ a:hover svg path {
   justify-content: end;
   position: fixed;
   bottom: 0;
-  z-index: 998;
+  z-index: 5;
 }
 .bottom-bar p {
   padding: 15px 40px;
@@ -1207,27 +1211,20 @@ a:hover svg path {
 
 .off-screen-menu {
   background-color: rgba(110, 121, 167, 0.8);
-  z-index: 999;
   height: 100vh;
   width: 100%;
   max-width: 834px;
   position: fixed;
   top: 0;
   right: -100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   font-size: 3rem;
   transition: 0.3s ease;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.off-screen-menu.active {
-  right: 0;
-  z-index: 10;
-}
-
 .off-screen-menu ul {
   width: 90%;
   flex-direction: column;
@@ -1235,11 +1232,94 @@ a:hover svg path {
   list-style: none;
   text-align: left;
 }
-
 .off-screen-menu ul li a {
-  color: white;
+  color: #f7f5f5;
   text-decoration: none;
-  font-size: 4vmin;
+  font-size: 1.7rem;
+}
+.off-screen-menu .intro-text {
+  margin-top: 150px;
+  width: 90%;
+}
+.off-screen-menu .intro-text p {
+  width: 100%;
+  text-align: left;
+  color: #f7f5f5;
+}
+.off-screen-menu .mobile-menu-socials {
+  width: 90%;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.off-screen-menu .mobile-menu-socials .email {
+  text-transform: lowercase;
+  color: #f7f5f5;
+}
+.off-screen-menu .mobile-menu-socials .email:hover {
+  color: #C4CBE7;
+}
+.off-screen-menu .mobile-menu-socials .social-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.off-screen-menu .mobile-menu-socials li.inst {
+  width: 45px;
+  height: 45px;
+  display: flex;
+}
+.off-screen-menu .mobile-menu-socials li.inst a {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/img/inst.svg);
+  background-size: cover;
+  color: transparent;
+}
+.off-screen-menu .mobile-menu-socials li.inst a:hover {
+  background-image: url(../assets/img/instreverse.svg);
+}
+.off-screen-menu .mobile-menu-socials li.git {
+  width: 45px;
+  height: 45px;
+  display: flex;
+}
+.off-screen-menu .mobile-menu-socials li.git a {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/img/git.svg);
+  background-size: cover;
+  color: transparent;
+}
+.off-screen-menu .mobile-menu-socials li.git a:hover {
+  background-image: url(../assets/img/gitreverse.svg);
+}
+.off-screen-menu .mobile-menu-socials li.linkdn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+}
+.off-screen-menu .mobile-menu-socials li.linkdn a {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/img/linkdn.svg);
+  background-size: cover;
+  color: transparent;
+}
+.off-screen-menu .mobile-menu-socials li.linkdn a:hover {
+  background-image: url(../assets/img/linkdnreverse.svg);
+}
+.off-screen-menu .mobile-menu-socials li {
+  transition: transform 0.3s;
+}
+.off-screen-menu .mobile-menu-socials li:hover {
+  animation: icon 0.3s ease-in forwards;
+}
+
+.off-screen-menu.active {
+  right: 0;
+  z-index: 100;
 }
 
 .ham-menu {
@@ -1248,14 +1328,13 @@ a:hover svg path {
   margin-left: auto;
   position: relative;
   display: none;
-  margin-right: 20px;
   z-index: 999;
 }
 
 .ham-menu span {
   height: 5px;
   width: 100%;
-  background-color: #000000;
+  background-color: #131313;
   border-radius: 25px;
   position: absolute;
   left: 50%;
@@ -1273,7 +1352,7 @@ a:hover svg path {
 }
 
 .ham-menu.active span {
-  background-color: white;
+  background-color: #131313;
 }
 
 .ham-menu.active span:nth-child(1) {
@@ -1290,12 +1369,56 @@ a:hover svg path {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+.mobile-running-line {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 0;
+  line-height: 1;
+  background-color: rgba(227, 106, 152, 0.45);
+}
+.mobile-running-line ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.mobile-running-line ul li {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  margin-left: 10px;
+  line-height: 0;
+  font-family: "Space Mono", monospace;
+  color: #f7f5f5;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  flex-direction: row;
+  text-transform: uppercase;
+}
+
 @media (max-width: 834px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    position: fixed;
+    top: 0;
+    z-index: 998;
+    width: 97%;
+  }
   .nav-links {
     display: none;
   }
   .ham-menu {
     display: block;
+  }
+  .logo {
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
   }
 }
 footer {
@@ -1592,9 +1715,9 @@ footer {
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
   opacity: 1;
-  transition: opacity 0.5s ease, -webkit-backdrop-filter 0.5s ease;
-  transition: opacity 0.5s ease, backdrop-filter 0.5s ease;
-  transition: opacity 0.5s ease, backdrop-filter 0.5s ease, -webkit-backdrop-filter 0.5s ease;
+  transition: opacity 1s ease, -webkit-backdrop-filter 0.5s ease;
+  transition: opacity 1s ease, backdrop-filter 0.5s ease;
+  transition: opacity 1s ease, backdrop-filter 0.5s ease, -webkit-backdrop-filter 0.5s ease;
 }
 .banner .banner-row .banner-image .in-view {
   opacity: 0;

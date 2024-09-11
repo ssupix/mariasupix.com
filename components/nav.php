@@ -15,11 +15,50 @@
 </nav>
 
 <div class="off-screen-menu">
+    <div class="intro-text">
+        <p>Front-end Developer & Web Designer - Maria Supikhanova.</p>
+        <p>Based in Vancouver, BC.</p>
+    </div>
     <ul>
         <li><a href="./">home</a></li>
         <li><a href="./work">work</a></li>
         <li><a href="./about">about</a></li>
     </ul>
+    <ul class="mobile-menu-socials">
+        <ul class="social-links">
+            <li class="inst"><a href="https://www.instagram.com/whossupix/">a</a></li>
+            <li class="git"><a href="https://github.com/ssupix">a</a></li>
+            <li class="linkdn"><a href="https://www.linkedin.com/in/whossupi/">a</a></li>
+        </ul>
+        <a href="mailto:hello@mashasupix.com" class="email">hello@mashasupix.com</a>
+    </ul>
+    <div class="mobile-running-line">
+        <ul>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+            <li>say hi!</li>
+        </ul>
+    </div>
 </div>
 
 <div class="bottom-bar">

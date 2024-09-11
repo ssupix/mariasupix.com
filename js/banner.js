@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const observerOptions = {
         root: null, // this means the viewport
-        threshold: 0.7 
+        threshold: 0.5 
     };
 
     const observerCallback = (entries) => {
