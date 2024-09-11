@@ -1377,6 +1377,7 @@ a:hover svg path {
   padding: 30px 0;
   line-height: 1;
   background-color: rgba(227, 106, 152, 0.45);
+  margin-bottom: 50px;
 }
 .mobile-running-line ul {
   list-style: none;
