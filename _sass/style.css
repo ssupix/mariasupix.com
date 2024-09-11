@@ -1765,10 +1765,22 @@ footer {
     opacity: 100;
   }
 }
+@media only screen and (min-width: 2100px) {
+  .banner .banner-row .banner-image {
+    padding: 10%;
+    margin: 0 200px 0 200px;
+    height: auto;
+  }
+}
 @media only screen and (max-width: 1080px) {
   .banner p,
   .banner .banner-right-text {
     text-align: center;
+  }
+  .banner p p, .banner p a,
+  .banner .banner-right-text p,
+  .banner .banner-right-text a {
+    width: 100%;
   }
   .banner .banner-row .banner-image {
     padding: 10%;

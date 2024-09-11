@@ -103,11 +103,27 @@
 
 // = STYLING BREAKPOINTS = //
 
+@media only screen and (min-width: 2100px) {
+    .banner {
+        .banner-row {
+            .banner-image {
+                padding: 10%;
+                margin: 0 200px 0 200px;
+                height: auto;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1080px) {
     .banner {
         p, 
         .banner-right-text {
             text-align: center;
+
+            p,a {
+                width: 100%;
+            }
         }
 
         .banner-row {
