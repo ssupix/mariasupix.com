@@ -56,6 +56,7 @@
                         <!-- <button class="code">Learn more</button> -->
                     </div>
                     <div class="banner-image s-1 col-6-lg">
+                        <div class="overlay"></div>
                         <img src="./assets/img/banner.png" alt="Masha Supikhanova">
                     </div>
                     <div class="banner-right-text col-12 col-3-lg">
@@ -150,6 +151,7 @@
     
     <script src="./js/scroll.js"></script>
     <script src="./js/scramble.js"></script>
+    <script src="./js/banner.js"></script>
     
 </body>
 </html>

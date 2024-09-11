@@ -1581,7 +1581,7 @@ footer {
   background-color: #f7f5f5;
   border: 1px solid #131313;
 }
-.banner .banner-row .banner-image::before {
+.banner .banner-row .banner-image .overlay {
   content: "";
   position: absolute;
   top: 0;
@@ -1591,11 +1591,12 @@ footer {
   background: rgba(227, 106, 152, 0.3);
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
-  transition: opacity 0.7s ease, -webkit-backdrop-filter 0.7s ease;
-  transition: opacity 0.7s ease, backdrop-filter 0.7s ease;
-  transition: opacity 0.7s ease, backdrop-filter 0.7s ease, -webkit-backdrop-filter 0.7s ease;
+  opacity: 1;
+  transition: opacity 0.5s ease, -webkit-backdrop-filter 0.5s ease;
+  transition: opacity 0.5s ease, backdrop-filter 0.5s ease;
+  transition: opacity 0.5s ease, backdrop-filter 0.5s ease, -webkit-backdrop-filter 0.5s ease;
 }
-.banner .banner-row .banner-image:hover::before {
+.banner .banner-row .banner-image .in-view {
   opacity: 0;
   -webkit-backdrop-filter: blur(0px);
           backdrop-filter: blur(0px);
