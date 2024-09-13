@@ -378,7 +378,7 @@ a:hover {
 }
 @media only screen and (max-width: 1080px) {
   h1 {
-    font-size: 3.9rem;
+    font-size: 3.8rem;
   }
   h2 {
     font-size: 3rem;
@@ -800,6 +800,7 @@ section {
      object-fit: cover;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 .card-list .description {
   width: 60%;
@@ -823,7 +824,7 @@ section {
   font-family: "Space Mono", monospace;
   font-size: 14px;
   padding: 7px 35px;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 1px solid #E36A98;
   color: #E36A98;
 }
@@ -832,7 +833,7 @@ section {
   font-family: "Space Mono", monospace;
   font-size: 14px;
   padding: 7px 35px;
-  border-radius: 15px;
+  border-radius: 20px;
   color: #97A0C4;
   border: 1px solid #97A0C4;
 }
@@ -840,32 +841,9 @@ section {
 .card-list:hover {
   border: #DB1D6F solid 1px;
 }
-
-.tags {
-  display: flex;
-  gap: 10px;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-.pill-pink {
-  text-transform: uppercase;
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
-  padding: 7px 35px;
-  border-radius: 15px;
-  border: 1px solid #E36A98;
-  color: #E36A98;
-}
-
-.pill-blue {
-  text-transform: uppercase;
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
-  padding: 7px 35px;
-  border-radius: 15px;
-  color: #97A0C4;
-  border: 1px solid #97A0C4;
+.card-list:hover .cover img,
+.card-list:hover .cover video {
+  border-radius: 0;
 }
 
 @keyframes cardDisplay {
@@ -1554,6 +1532,12 @@ footer {
   .contact-info p {
     width: 100%;
   }
+  .contact-info ul {
+    justify-content: center;
+  }
+  .contact-info ul li {
+    text-align: center;
+  }
   .contact-form {
     flex-direction: column-reverse;
     text-align: center;
@@ -1569,17 +1553,11 @@ footer {
   }
 }
 @media screen and (max-width: 380px) {
-  .contact-info {
-    margin-bottom: 3rem;
-  }
-  .contact-info ul {
-    justify-content: center;
-  }
-  .contact-info ul li {
-    text-align: center;
-  }
   .contact-form p {
     font-size: 16px;
+  }
+  .contact-info {
+    margin-bottom: 3rem;
   }
 }
 .hero {
@@ -1591,7 +1569,7 @@ footer {
   align-items: center;
 }
 .hero h1 {
-  max-width: clamp(320px, 90vw, 900px);
+  max-width: clamp(320px, 88vw, 1000px);
   padding: 20px;
   line-height: 1;
   text-align: justify;
@@ -1850,6 +1828,11 @@ footer {
   flex-direction: column;
   gap: 3rem;
   animation: headerLoad 1s ease;
+}
+.about-fold1 .about-description .text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .about-fold1 .about-description h4,
 .about-fold1 .about-description p,

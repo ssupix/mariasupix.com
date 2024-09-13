@@ -21,6 +21,12 @@
         gap: 3rem;
         animation: headerLoad 1s ease;
 
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
         h4,
         p,
         .contact-info {

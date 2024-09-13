@@ -48,8 +48,10 @@
             <div class="grid">
                 <div class="about-description col-12 col-7-lg">
                     <h4>Hi, my name is Maria - front-end developer and product designer!👩🏻‍💻</h4>
-                    <p>As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions.</p>
-                    <p>Proficient in front-end development UX/UI  and multimedia design and currently enrolled in BCIT's New Media Design & Web Development program to continue exploring new concepts.</p>
+                    <div class="text">
+                        <p>As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions.</p>
+                        <p>Proficient in front-end development UX/UI  and multimedia design and currently enrolled in BCIT's New Media Design & Web Development program to continue exploring new concepts.</p>
+                    </div>
                     <div class="contact-info">
                         <ul class="social-links">
                             <li>
