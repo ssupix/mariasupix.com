@@ -78,7 +78,7 @@
                     <a href="./projects/theblue">learn more</a>
                 </div>
                 <div class="project-video col-12 col-6-lg">
-                    <video loop muted autoplay poster="./assets/img/waterwebsite-poster.jpg" title="The Blue Website Showcase">
+                    <video loop muted autoplay poster="./assets/img/waterwebsite-poster.jpg" title="The Blue Website Showcase" onclick="window.location.href='./projects/theblue';">
                         <source src="./assets/video/waterwebsite.mp4" type="video/mp4">
                         <source src="./assets/video/waterwebsite.webm" type="video/webm">
                         <source src="./assets/video/waterwebsite.ogv" type="video/ogg">

@@ -1760,6 +1760,7 @@ footer {
 .featured-project .project-video video {
   width: 100%;
   height: auto;
+  cursor: pointer;
 }
 .featured-project .project-description {
   display: flex;
