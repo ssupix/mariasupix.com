@@ -751,30 +751,6 @@ section {
 .card .cover:hover video:hover {
   border-radius: 0;
 }
-.card .tags {
-  display: flex;
-  gap: 10px;
-  width: 100%;
-  flex-wrap: wrap;
-}
-.card .pill-pink {
-  text-transform: uppercase;
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
-  padding: 7px 25px;
-  border-radius: 20px;
-  border: 1px solid #E36A98;
-  color: #E36A98;
-}
-.card .pill-blue {
-  text-transform: uppercase;
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
-  padding: 7px 25px;
-  border-radius: 20px;
-  color: #97A0C4;
-  border: 1px solid #97A0C4;
-}
 
 .card-list {
   position: relative;
@@ -812,31 +788,6 @@ section {
 .card-list h3 {
   cursor: pointer;
 }
-.card-list .tags {
-  display: flex;
-  gap: 10px;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  flex-wrap: wrap;
-}
-.card-list .pill-pink {
-  text-transform: uppercase;
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
-  padding: 7px 35px;
-  border-radius: 20px;
-  border: 1px solid #E36A98;
-  color: #E36A98;
-}
-.card-list .pill-blue {
-  text-transform: uppercase;
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
-  padding: 7px 35px;
-  border-radius: 20px;
-  color: #97A0C4;
-  border: 1px solid #97A0C4;
-}
 
 .card-list:hover {
   border: #DB1D6F solid 1px;
@@ -844,6 +795,35 @@ section {
 .card-list:hover .cover img,
 .card-list:hover .cover video {
   border-radius: 0;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  flex-wrap: wrap;
+}
+
+.pill-pink {
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+  font-size: clamp(12px, 2vw, 14px);
+  padding: clamp(5px, 1vw, 7px) clamp(20px, 3vw, 30px);
+  border: 1px solid #E36A98;
+  color: #E36A98;
+  border-radius: 20px;
+}
+
+.pill-blue {
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-size: clamp(12px, 2vw, 14px);
+  padding: clamp(5px, 1vw, 7px) clamp(20px, 3vw, 30px);
+  color: #97A0C4;
+  border: 1px solid #97A0C4;
+  border-radius: 20px;
 }
 
 @keyframes cardDisplay {
