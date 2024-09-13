@@ -348,6 +348,13 @@ a {
   cursor: pointer;
 }
 
+h5 {
+  font-size: 1.375rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
 q {
   font-size: 2.5rem;
 }
@@ -387,6 +394,9 @@ a:hover {
   h1 {
     font-size: 2.8rem;
   }
+  h5 {
+    font-size: 1.2rem;
+  }
   p {
     font-size: 0.8rem;
   }
@@ -402,12 +412,15 @@ a:hover {
     font-size: 2.2rem;
   }
   h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   h3 {
     font-size: 1.2rem;
   }
   h4 {
+    font-size: 1rem;
+  }
+  h5 {
     font-size: 1rem;
   }
   a {
@@ -420,9 +433,6 @@ a:hover {
 @media only screen and (max-width: 420px) {
   h1 {
     font-size: 1.6rem;
-  }
-  h2 {
-    font-size: 1.4rem;
   }
   p {
     font-size: 0.8rem;
@@ -1237,6 +1247,9 @@ a:hover svg path {
   text-decoration: none;
   font-size: 1.7rem;
 }
+.off-screen-menu ul li a:hover {
+  color: #FFACCC;
+}
 .off-screen-menu .intro-text {
   margin-top: 150px;
   width: 90%;
@@ -1257,64 +1270,33 @@ a:hover svg path {
   color: #f7f5f5;
 }
 .off-screen-menu .mobile-menu-socials .email:hover {
-  color: #C4CBE7;
+  color: #FFACCC;
 }
 .off-screen-menu .mobile-menu-socials .social-links {
   width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 15px;
 }
-.off-screen-menu .mobile-menu-socials li.inst {
-  width: 45px;
-  height: 45px;
-  display: flex;
+.off-screen-menu .mobile-menu-socials .social-links li {
+  transition: transform 0.3s ease;
 }
-.off-screen-menu .mobile-menu-socials li.inst a {
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/img/inst.svg);
-  background-size: cover;
-  color: transparent;
+.off-screen-menu .mobile-menu-socials .social-links li svg .background {
+  transition: all 0.3s;
+  fill: rgba(255, 178, 224, 0.5);
 }
-.off-screen-menu .mobile-menu-socials li.inst a:hover {
-  background-image: url(../assets/img/instreverse.svg);
+.off-screen-menu .mobile-menu-socials .social-links li svg .logo {
+  transition: all 0.3s;
+  fill: #131313;
 }
-.off-screen-menu .mobile-menu-socials li.git {
-  width: 45px;
-  height: 45px;
-  display: flex;
+.off-screen-menu .mobile-menu-socials .social-links li:hover {
+  animation: icon 0.3s ease;
 }
-.off-screen-menu .mobile-menu-socials li.git a {
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/img/git.svg);
-  background-size: cover;
-  color: transparent;
+.off-screen-menu .mobile-menu-socials .social-links li:hover svg .background {
+  fill: #f7f5f5;
 }
-.off-screen-menu .mobile-menu-socials li.git a:hover {
-  background-image: url(../assets/img/gitreverse.svg);
-}
-.off-screen-menu .mobile-menu-socials li.linkdn {
-  width: 45px;
-  height: 45px;
-  display: flex;
-}
-.off-screen-menu .mobile-menu-socials li.linkdn a {
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/img/linkdn.svg);
-  background-size: cover;
-  color: transparent;
-}
-.off-screen-menu .mobile-menu-socials li.linkdn a:hover {
-  background-image: url(../assets/img/linkdnreverse.svg);
-}
-.off-screen-menu .mobile-menu-socials li {
-  transition: transform 0.3s;
-}
-.off-screen-menu .mobile-menu-socials li:hover {
-  animation: icon 0.3s ease-in forwards;
+.off-screen-menu .mobile-menu-socials .social-links li:hover svg .logo {
+  fill: rgb(255, 178, 224);
 }
 
 .off-screen-menu.active {
@@ -1441,7 +1423,7 @@ footer {
   padding: 30px 0;
   line-height: 1;
   background-color: rgba(227, 106, 152, 0.45);
-  margin-bottom: 3%;
+  margin-bottom: 2rem;
 }
 
 .running-line ul {
@@ -1469,7 +1451,7 @@ footer {
 
 .contact-wrap {
   width: 95%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .contact-info {
@@ -1487,67 +1469,30 @@ footer {
 .contact-info .email {
   text-transform: lowercase;
 }
-.contact-info ul li a {
-  color: #E36A98;
-}
-.contact-info ul li a:hover {
-  color: #DB1D6F;
-}
 .contact-info .social-links {
   display: flex;
   gap: 15px;
   margin-bottom: 15px;
 }
-.contact-info .social-links li.inst {
-  width: 55px;
-  height: 55px;
-  display: flex;
-}
-.contact-info .social-links li.inst a {
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/img/inst.svg);
-  background-size: cover;
-  color: transparent;
-}
-.contact-info .social-links li.inst a:hover {
-  background-image: url(../assets/img/instreverse.svg);
-}
-.contact-info .social-links li.git {
-  width: 55px;
-  height: 55px;
-  display: flex;
-}
-.contact-info .social-links li.git a {
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/img/git.svg);
-  background-size: cover;
-  color: transparent;
-}
-.contact-info .social-links li.git a:hover {
-  background-image: url(../assets/img/gitreverse.svg);
-}
-.contact-info .social-links li.linkdn {
-  width: 55px;
-  height: 55px;
-  display: flex;
-}
-.contact-info .social-links li.linkdn a {
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/img/linkdn.svg);
-  background-size: cover;
-  color: transparent;
-}
-.contact-info .social-links li.linkdn a:hover {
-  background-image: url(../assets/img/linkdnreverse.svg);
-}
 .contact-info .social-links li {
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
+}
+.contact-info .social-links li svg .background {
+  transition: all 0.3s;
+  fill: rgba(255, 178, 224, 0.5);
+}
+.contact-info .social-links li svg .logo {
+  transition: all 0.3s;
+  fill: #131313;
 }
 .contact-info .social-links li:hover {
-  animation: icon 0.3s ease-in forwards;
+  animation: icon 0.3s ease;
+}
+.contact-info .social-links li:hover svg .background {
+  fill: #131313;
+}
+.contact-info .social-links li:hover svg .logo {
+  fill: rgb(255, 178, 224);
 }
 
 .contact-form {
@@ -1581,7 +1526,7 @@ footer {
   justify-content: space-between;
   color: #131313;
   text-decoration: none;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   font-size: 20px;
 }
 .footer-bottom a {
@@ -1594,7 +1539,7 @@ footer {
 
 @keyframes icon {
   50% {
-    scale: 1.1;
+    transform: scale(1.1);
   }
 }
 @media screen and (max-width: 568px) {
@@ -1622,7 +1567,18 @@ footer {
     width: 100%;
     height: auto;
   }
-  .footer-bottom h4 {
+}
+@media screen and (max-width: 380px) {
+  .contact-info {
+    margin-bottom: 3rem;
+  }
+  .contact-info ul {
+    justify-content: center;
+  }
+  .contact-info ul li {
+    text-align: center;
+  }
+  .contact-form p {
     font-size: 16px;
   }
 }
@@ -1808,8 +1764,8 @@ footer {
 .featured-project .project-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 5rem;
+  justify-content: space-around;
+  gap: 3rem;
 }
 .featured-project .project-description .text {
   display: flex;
@@ -1885,7 +1841,7 @@ footer {
   margin-bottom: 8rem;
 }
 .about-fold1 h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   animation: headerLoad 0.5s ease;
 }
 .about-fold1 .about-description {
@@ -2342,7 +2298,7 @@ footer {
     display: none;
   }
   .work-header {
-    height: 20vh;
+    height: 30vh;
   }
 }
 .work-projects {
@@ -2726,6 +2682,11 @@ footer {
   border: solid 1px #131313;
 }
 
+@media only screen and (max-width: 568px) {
+  .ezt .project-container .buttons .button-wrap {
+    flex-direction: column;
+  }
+}
 .meowdy .project-container .buttons {
   margin-top: 0;
 }

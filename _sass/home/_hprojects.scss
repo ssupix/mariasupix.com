@@ -22,8 +22,8 @@
     .project-description {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 5rem;
+        justify-content: space-around;
+        gap: 3rem;
 
         .text {
             display: flex;

@@ -17,7 +17,7 @@ footer {
     padding: 30px 0;
     line-height: 1;
     background-color: rgba(227, 106, 152, .45);
-    margin-bottom: 3%;
+    margin-bottom: 2rem;
 }
 
 .running-line ul {
@@ -45,7 +45,7 @@ footer {
 
 .contact-wrap {
     width: 95%;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .contact-info {
@@ -66,79 +66,39 @@ footer {
         text-transform: lowercase;
     }
 
-    ul li a {
-        color: $ribbon;
-    }
-
-    ul li a:hover {
-        color: $berry;
-    }
-
     .social-links {
         display: flex;
         gap: 15px;
         margin-bottom: 15px;
 
-        li.inst {
-            width: 55px;
-            height: 55px;
-            display: flex;
-
-            a {
-                width: 100%;
-                height: 100%;
-                background-image: url(../assets/img/inst.svg);
-                background-size: cover;
-                color: transparent;
-            }
-
-            a:hover {
-                background-image: url(../assets/img/instreverse.svg);
-            }
-        }
-        
-        li.git {
-            width: 55px;
-            height: 55px;
-            display: flex;
-
-            a {
-                width: 100%;
-                height: 100%;
-                background-image: url(../assets/img/git.svg);
-                background-size: cover;
-                color: transparent;
-            }
-
-            a:hover {
-                background-image: url(../assets/img/gitreverse.svg);
-            }
-        }
-
-        li.linkdn {
-            width: 55px;
-            height: 55px;
-            display: flex;
-
-            a {
-                width: 100%;
-                height: 100%;
-                background-image: url(../assets/img/linkdn.svg);
-                background-size: cover;
-                color: transparent;
-            }
-
-            a:hover {
-                background-image: url(../assets/img/linkdnreverse.svg);
-            }
-        }
-
         li {
-            transition: transform .3s;
+            transition: transform .3s ease;
+
+            svg {
+                .background {
+                    transition: all .3s;
+                    fill: rgba(255, 178, 224, .5);
+                }
+    
+                .logo {
+                    transition: all .3s;
+                    fill: $black;
+                }
+            }
         }
 
         li:hover {
-            animation: icon .3s ease-in forwards;
+            animation: icon .3s ease;
+
+            svg {
+                .background {
+                    fill: $black;
+                }
+    
+                .logo {
+                    fill: rgba(255, 178, 224, 1);
+                }
+            }
         }
     }
 }
@@ -178,7 +138,7 @@ footer {
     justify-content: space-between;
     color: $black;
     text-decoration: none;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     font-size: 20px;
 
 
@@ -194,12 +154,11 @@ footer {
 
 @keyframes icon {
     50% {
-        scale: 1.1;
+        transform: scale(1.1);
     } 
 }
 
 @media screen and (max-width: 568px) {
-
     footer {
         height: min-content;
     }
@@ -228,13 +187,28 @@ footer {
             }
         }
     }
+}
 
-    .footer-bottom {
+@media screen and (max-width: 380px) {
+    .contact-info {
+        margin-bottom: 3rem;
 
-        h4 {
+        ul {
+            justify-content: center;
+            
+            li {
+                text-align: center;
+            }
+        }
+    }
+    
+    .contact-form {
+
+        p {
             font-size: 16px;
         }
     }
 }
+
 
 

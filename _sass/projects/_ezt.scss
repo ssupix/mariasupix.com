@@ -139,3 +139,15 @@
     }
 }
 
+@media only screen and (max-width: 568px) {
+    .ezt {
+        .project-container {
+            .buttons {
+                .button-wrap {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
