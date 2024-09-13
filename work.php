@@ -42,7 +42,7 @@
     <section class="work-header">
         <div class="grid">
             <h2 class="col-12">work.</h2>
-            <p class="col-12 col-6-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores eligendi, praesentium saepe assumenda illum tempore harum? Quidem necessitatibus quia vel! Amet harum excepturi, pariatur quo at hic quia! Dolores!</p>
+            <p class="col-12 col-6-md">As a front-end developer with a design background, I create responsive, interactive, and animated content that seamlessly blends functionality with aesthetics. With expertise in modern frameworks and design tools, I deliver solutions that are efficient, adaptable, and easy to maintain.</p>
         </div>
         <div class="grid">
             <div class="filter col-12 col-6-md">
