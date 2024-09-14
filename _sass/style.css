@@ -2472,12 +2472,14 @@ footer {
 }
 .project-container .detail h3 {
   margin-top: 0.5rem;
+  font-weight: 100;
 }
 .project-container .detail.border {
   border: solid 1px #131313;
 }
 .project-container .detail p {
-  font-weight: 300;
+  font-family: "Inter", monospace;
+  font-weight: 100;
 }
 .project-container .process {
   display: flex;
@@ -2563,12 +2565,14 @@ footer {
 }
 .ezt .project-container .detail h3 {
   margin-top: 0.5rem;
+  font-weight: 100;
 }
 .ezt .project-container .detail.border {
   border: solid 1px #131313;
 }
 .ezt .project-container .detail p {
-  font-weight: 300;
+  font-family: "Inter", monospace;
+  font-weight: 200;
 }
 .ezt .project-container .process {
   display: flex;
@@ -2669,12 +2673,14 @@ footer {
 }
 .meowdy .project-container .detail h3 {
   margin-top: 0.5rem;
+  font-weight: 100;
 }
 .meowdy .project-container .detail.border {
   border: solid 1px #131313;
 }
 .meowdy .project-container .detail p {
-  font-weight: 300;
+  font-family: "Inter", monospace;
+  font-weight: 100;
 }
 .meowdy .project-container .process {
   display: flex;
@@ -2769,12 +2775,14 @@ footer {
 }
 .kabinet .project-container .detail h3 {
   margin-top: 0.5rem;
+  font-weight: 100;
 }
 .kabinet .project-container .detail.border {
   border: solid 1px #131313;
 }
 .kabinet .project-container .detail p {
-  font-weight: 300;
+  font-family: "Inter", monospace;
+  font-weight: 100;
 }
 .kabinet .project-container .process {
   display: flex;

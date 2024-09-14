@@ -24,6 +24,7 @@
         
             h3 {
                 margin-top: .5rem;
+                font-weight: 100;
             }
         
             &.border {
@@ -31,7 +32,8 @@
             }
         
             p {
-                font-weight: 300;
+                font-family: "Inter", monospace;
+                font-weight: 200;
             }
         }
 
