@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="lenis">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./_sass/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
 
     <!-- Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -177,6 +178,10 @@
     <?php include 'components/footer.php'; ?>
 
     <script src="./js/scroll.js"></script>
+
+    <!-- scrolling -->
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script src="./js/smooth.js"></script>
     
     <!-- GSAP ANIMATIONS -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

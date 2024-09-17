@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="lenis">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../_sass/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
@@ -246,6 +247,10 @@
     </main>
 
     <?php include '../components/footer-project.php'; ?>
+
+    <!-- scrolling -->
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script src="./js/smooth.js"></script>
 
     <!-- GSAP ANIMATIONS -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
