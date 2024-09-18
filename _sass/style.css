@@ -901,6 +901,7 @@ a.button {
 }
 /* FILTERING MENU */
 .filter {
+  box-sizing: border-box;
   position: relative;
   font-size: 1.25rem;
   font-family: "Space Mono", monospace;
@@ -918,7 +919,7 @@ a.button {
   align-items: center;
   cursor: pointer;
   transition: background 0.3s;
-  padding: 1.5rem 1.3rem 1.3rem 1.3rem;
+  padding: 1.8rem 1.3rem 1.3rem 1.3rem;
 }
 
 .caret {
@@ -945,6 +946,7 @@ a.button {
   overflow: hidden;
   transition: max-height 0.3s ease, opacity 0.3s ease;
   z-index: 999;
+  display: block;
 }
 
 .menu li {

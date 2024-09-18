@@ -55,7 +55,7 @@
                     <li id="1">front-end development</li>
                     <li id="2">UX & UI Design</li>
                     <li id="3">Branding</li>
-                    <li class="active" id="all">All Projects</li>
+                    <li class="selected" id="all">All Projects</li>
                 </ul>
             </div>
             <div class="view-switch col-6">
