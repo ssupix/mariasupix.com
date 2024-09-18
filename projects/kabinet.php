@@ -276,7 +276,7 @@
 
     <!-- scrolling -->
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
-    <script src="./js/smooth.js"></script>
+    <script src="../js/smooth.js"></script>
 
     <!-- GSAP ANIMATIONS -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

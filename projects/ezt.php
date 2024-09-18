@@ -100,10 +100,10 @@
                         <p>In this initial phase, I focused on thoroughly understanding the company's goals, target audience, and pain points. I utilized a range of tools, including User Personas, Journey Maps, and Empathy Maps, to delve deep into user behavior and experiences. These tools helped me to identify and prioritize key user needs, ensuring that the design decisions were closely aligned with both user expectations and the company's objectives. This foundation allowed for a more user-centric approach, driving the direction of the overall design strategy.</p>
                     </div>
                     <div class="col-12">
+                    <h4>examples:</h4>
                         <div class="code-show">
-                            <h4>examples:</h4>
                             <div class="select">
-                                <span class="selected">user persona</span>
+                                <span>user persona</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
@@ -112,7 +112,7 @@
                         </div>
                         <div class="code-show">
                             <div class="select">
-                                <span class="selected">user scenario</span>
+                                <span>user scenario</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
@@ -121,7 +121,7 @@
                         </div>
                         <div class="code-show">
                             <div class="select">
-                                <span class="selected">empathy map</span>
+                                <span>empathy map</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
@@ -130,7 +130,7 @@
                         </div>
                         <div class="code-show">
                             <div class="select">
-                                <span class="selected">journey map</span>
+                                <span>journey map</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
@@ -322,8 +322,7 @@
 
     <!-- scrolling -->
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
-    
-
+    <script src="../js/smooth.js"></script>
 
     <!-- GSAP ANIMATIONS -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

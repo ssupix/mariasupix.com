@@ -54,3 +54,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // CODE
+document.querySelectorAll('.code-show').forEach(dropdown => {
+    const select = dropdown.querySelector('.select');
+    const caret = dropdown.querySelector('.caret');
+    const code = dropdown.querySelector('.code');
+
+    select.addEventListener('click', () => {
+        // Toggle active class for dropdown animation
+        dropdown.classList.toggle('active');
+
+        // Rotate the caret
+        caret.classList.toggle('caret-rotate');
+    });
+});

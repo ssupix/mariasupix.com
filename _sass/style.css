@@ -668,7 +668,6 @@ html {
 * {
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -905,6 +904,7 @@ a.button {
   position: relative;
   font-size: 1.25rem;
   font-family: "Space Mono", monospace;
+  transition: scale 0.3s;
 }
 
 .select {
@@ -944,9 +944,10 @@ a.button {
   width: 100%;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
   z-index: 999;
   display: block;
+  box-sizing: border-box;
 }
 
 .menu li {
@@ -980,6 +981,7 @@ a.button {
   font-size: 1.25rem;
   font-family: "Space Mono", monospace;
   font-weight: 200;
+  transition: scale 0.3s;
 }
 .code-show .select {
   background: #FFE0F2;
@@ -988,107 +990,93 @@ a.button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px black solid;
-  border-radius: 0.5em;
+  border: 1px solid black;
+  border-bottom: none;
+  border-radius: 0.5rem 0.5rem 0 0;
   cursor: pointer;
-  transition: background 0.3s;
-  padding: 1.3rem;
+  transition: background 0.3s, transform 0.3s;
+  padding: 1.8rem 1.3rem 0 1.3rem;
 }
-.code-show .select:hover {
-  background: #fccee8;
+
+.code-show .code {
+  max-height: 0;
+  overflow: hidden;
+  list-style: none;
+  padding: 0 2rem;
+  background: #ffe0f2;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 0 0 0.5rem 0.5rem;
+  font-size: 14px;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
+.code-show .code img {
+  margin-top: 20px;
+  border-radius: 0.3rem;
+}
+.code-show .code .hljs {
+  background: #131313;
+  margin-top: 20px;
+  padding-top: 0;
+  color: rgb(221, 173, 1);
+  border-radius: 0.3rem;
+  text-wrap: wrap;
+  word-wrap: break-word;
+  transition: all 0.5s 0.1s ease;
+}
+.code-show .code .hljs .hljs-tag {
+  color: #636363;
+}
+.code-show .code .hljs .hljs-name {
+  color: #E09ECE;
+}
+.code-show .code .hljs .hljs-attr, .code-show .code .hljs .hljs-property {
+  color: #0CE3E5;
+}
+.code-show .code .hljs .hljs-string {
+  color: #DF6CBE;
+}
+.code-show .code .hljs .function_ {
+  color: #DF6CBE;
+}
+.code-show .code .hljs .class_ {
+  color: #DF6CBE;
+}
+.code-show .code .hljs .hljs-number {
+  color: #DF6CBE;
+}
+.code-show .code .hljs .hljs-literal {
+  color: #DF6CBE;
+}
+.code-show .code .hljs .language_ {
+  color: #0CE3E5;
+}
+.code-show .code .hljs .hljs-keyword {
+  color: #E09ECE;
+}
+.code-show .code .hljs #text {
+  color: yellow;
+}
+
+.code-show.active .code {
+  max-height: 1500px; /* Adjust based on content */
+  opacity: 1;
+  padding: 2rem;
+}
+
+.code-show .caret-rotate {
+  transform: rotate(180deg);
+}
+
 .code-show .caret {
   width: 0;
   height: 0;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   border-top: 8px solid #000000;
-  transition: 0.3s;
-}
-.code-show .code {
-  margin-top: 1rem;
-  list-style: none;
-  padding: 2rem;
-  background: #ffe0f2;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  top: 5rem;
-  opacity: 0;
-  display: none;
-  transition: 0.2s;
-}
-.code-show .code pre {
-  background-color: #131313;
-  color: #d8dee9;
-  text-wrap: wrap;
-  padding: 20px;
-  font-size: 12px;
-  border-radius: 8px;
-  overflow: auto;
-  font-family: "Courier New", Courier, monospace;
-}
-.code-show .code .code-comment {
-  color: #636363;
-}
-.code-show .code .code-blue {
-  color: #0CE3E5;
-}
-.code-show .code .code-pink {
-  color: #b14395;
-}
-.code-show .code .light-pink-code {
-  color: #E09ECE;
-}
-.code-show .code .code-light {
-  color: #DDDDDD;
-}
-.code-show .code img {
-  border-radius: 7px;
-}
-.code-show .select-clicked {
-  border: 1px #DB1D6F solid;
-}
-.code-show .caret-rotate {
-  transform: rotate(180deg);
-}
-.code-show .active {
-  color: #DB1D6F !important;
-}
-.code-show .menu-open {
-  display: block;
-  opacity: 1;
+  transition: transform 0.3s;
 }
 
-.filter * {
-  box-sizing: border-box;
-}
-
-.select-clicked {
-  border: 1px #DB1D6F solid;
-}
-
-.caret-rotate {
-  transform: rotate(180deg);
-}
-
-.active {
-  color: #131313;
-}
-
-.menu-open {
-  display: block;
-  opacity: 1;
-  animation: menuOpen 0.5s forwards;
-}
-
-@keyframes menuOpen {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 nav {
   display: flex;
   justify-content: space-between;

@@ -1,26 +1,19 @@
-<pre><code><span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish-tank"</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">div</span> <span class="code-blue">class</span><span class="code-light">=</span><span class="code-pink">"fish"</span> <span class="code-blue">data-aos</span><span class="code-light">=</span><span class="code-pink">"fade-down"</span> <span class="code-blue">data-aos-easing</span><span class="code-light">=</span><span class="code-pink">"linear"</span> <span class="code-blue">data-aos-duration</span><span class="code-light">=</span><span class="code-pink">"1500"</span><span class="code-light">></span> <span class="code-comment">&lt;!-- scroll animation options --></span>
-    <span class="code-light">...</span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    <span class="code-light"><</span><span class="light-pink-code">/div</span><span class="code-light">></span>
-    
-    <span class="code-comment">&lt;!-- Scroll Reveal --></span>
-    <span class="code-light"><</span><span class="light-pink-code">script</span> <span class="code-blue">src</span><span class="code-light">=</span><span class="code-pink">"https://unpkg.com/aos@2.3.1/dist/aos.js"</span><span class="code-light">></span><span class="code-light"><</span><span class="light-pink-code">/script</span><span class="code-light">></span>
-    
-    <span class="code-comment">&lt;!-- Initialize Scroll Reveal --></span>
-    <span class="code-light"><</span><span class="light-pink-code">script</span><span class="code-light">></span>
-    <span class="code-blue">AOS</span><span class="code-light">.</span><span class="code-blue">init</span><span class="code-light">();</span>
-    <span class="code-light"><</span><span class="light-pink-code">/script</span><span class="code-light">></span>
+<pre><code class="language-html">
+&lt;div class="fish-tank"&gt;
+    &lt;div class="fish" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"&gt;
+        &lt;!-- scroll animation options --&gt;
+    &lt;/div&gt;
+    &lt;div class="fish" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"&gt;
+        &lt;!-- scroll animation options --&gt;
+    &lt;/div&gt;
+    &lt;!-- Repeat the rest of the fish elements --&gt;
+&lt;/div&gt;
+
+&lt;!-- Scroll Reveal --&gt;
+&lt;script src="https://unpkg.com/aos@2.3.1/dist/aos.js"&gt;&lt;/script&gt;
+
+&lt;!-- Initialize Scroll Reveal --&gt;
+&lt;script&gt;
+    AOS.init();
+&lt;/script&gt;
 </code></pre>

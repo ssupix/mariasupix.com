@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 
+
+    <!-- Include Highlight.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
     <!-- Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -137,7 +142,7 @@
                         <h4>code snipets:</h4>
                         <div class="code-show">
                             <div class="select">
-                                <span class="selected">drag and drop</span>
+                                <span>drag and drop</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
@@ -146,7 +151,7 @@
                         </div>
                         <div class="code-show">
                             <div class="select">
-                                <span class="selected">scroll trigger</span>
+                                <span>scroll trigger</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
@@ -155,11 +160,11 @@
                         </div>
                         <div class="code-show">
                             <div class="select">
-                                <span class="selected">running line</span>
+                                <span>running line</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/scrolltrigger.php'; ?>
+                                <?php include '../components/runningline.php'; ?>
                             </ul>
                         </div>
                     </div>
@@ -191,7 +196,7 @@
                         <h4>code snipets:</h4>
                         <div class="code-show">
                             <div class="select">
-                                <span class="selected">scroll reveal</span>
+                                <span>scroll reveal</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
@@ -334,7 +339,7 @@
 
     <!-- scrolling -->
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
-    <script src="./js/smooth.js"></script>
+    <script src="../js/smooth.js"></script>
 
     <!-- GSAP ANIMATIONS -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
@@ -348,6 +353,10 @@
     <script src="../js/scroll.js"></script>
     <script src="../js/scramble.js"></script>
     <script src="../js/dropdown.js"></script>
+
+    <!-- Include Highlight.js JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+    <script>hljs.highlightAll();</script>
 
 </body>
 </html>
