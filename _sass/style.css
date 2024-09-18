@@ -945,7 +945,7 @@ a.button {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
-  z-index: 999;
+  z-index: 100;
   display: block;
   box-sizing: border-box;
 }
@@ -995,14 +995,14 @@ a.button {
   border-radius: 0.5rem 0.5rem 0 0;
   cursor: pointer;
   transition: background 0.3s, transform 0.3s;
-  padding: 1.8rem 1.3rem 0 1.3rem;
+  padding: 1.3rem 1.3rem 0 1.3rem;
 }
 
 .code-show .code {
   max-height: 0;
   overflow: hidden;
   list-style: none;
-  padding: 0 2rem;
+  padding: 0.5rem 2rem;
   background: #ffe0f2;
   border: 1px solid black;
   border-top: none;
@@ -1016,7 +1016,8 @@ a.button {
 }
 .code-show .code .hljs {
   background: #131313;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
   padding-top: 0;
   color: rgb(221, 173, 1);
   border-radius: 0.3rem;
@@ -1061,7 +1062,6 @@ a.button {
 .code-show.active .code {
   max-height: 1500px; /* Adjust based on content */
   opacity: 1;
-  padding: 2rem;
 }
 
 .code-show .caret-rotate {
@@ -1239,7 +1239,7 @@ a:hover svg path {
 
 .off-screen-menu.active {
   right: 0;
-  z-index: 100;
+  z-index: 900;
 }
 
 .ham-menu {
@@ -2562,10 +2562,7 @@ footer {
 .ezt .project-container .process h4 {
   margin-bottom: 1rem;
 }
-.ezt .project-container .process .code-show .code {
-  padding: 1rem;
-}
-.ezt .project-container .process .code-show .code img {
+.ezt .project-container .process .code-show img {
   border: none;
 }
 .ezt .project-container .process .sp {
