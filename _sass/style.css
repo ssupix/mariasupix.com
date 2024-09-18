@@ -899,29 +899,29 @@ a.button {
     padding: 1.3rem 1.3rem;
   }
 }
+/* FILTERING MENU */
 .filter {
   position: relative;
   font-size: 1.25rem;
   font-family: "Space Mono", monospace;
-  font-weight: 200;
 }
-.filter .select {
+
+.select {
+  border: 1px solid black;
   background: #FFE0F2;
-  color: black;
+  color: #131313;
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-bottom: 0;
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px black solid;
-  border-radius: 0.5em;
   cursor: pointer;
   transition: background 0.3s;
-  padding: 1.3rem;
+  padding: 1.5rem 1.3rem 1.3rem 1.3rem;
 }
-.filter .select:hover {
-  background: #fccee8;
-}
-.filter .caret {
+
+.caret {
   width: 0;
   height: 0;
   border-left: 9px solid transparent;
@@ -929,23 +929,25 @@ a.button {
   border-top: 8px solid #000000;
   transition: 0.3s;
 }
-.filter .menu {
+
+.menu {
   list-style: none;
   padding: 0.2rem 0.5rem;
   background: rgba(255, 224, 242, 0.9);
   border: 1px solid black;
-  border-radius: 0.5rem;
+  border-top: none;
+  border-radius: 0 0 0.5rem 0.5rem;
   position: absolute;
-  top: 5rem;
-  left: 50%;
+  top: 100%;
+  left: 0;
   width: 100%;
-  transform: translateX(-50%);
-  opacity: 0;
-  display: none;
-  transition: 0.2s;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
   z-index: 999;
 }
-.filter .menu li {
+
+.menu li {
   padding: 0.7em 0.5em;
   margin: 0.2em 0;
   border-radius: 0.5em;
@@ -953,55 +955,24 @@ a.button {
   color: #E36A98;
   text-transform: uppercase;
 }
-.filter .menu li:hover {
+
+/* Apply hover effect and selected state styling */
+.menu li:hover {
   background: rgba(255, 148, 209, 0.3);
 }
-.filter .select-clicked {
-  border: 1px #DB1D6F solid;
-}
-.filter .caret-rotate {
-  transform: rotate(180deg);
-}
-.filter .active {
-  font-weight: 600;
-  color: #DB1D6F !important;
-}
-.filter .menu-open {
-  display: block;
-  opacity: 1;
+
+.selected {
+  background: rgba(255, 148, 209, 0.3);
 }
 
-.filter * {
-  box-sizing: border-box;
+.filter.active .caret {
+  transform: rotate(90deg);
 }
 
-.select-clicked {
-  border: 1px #DB1D6F solid;
+.filter.active .menu {
+  max-height: 300px; /* Adjust based on your content */
 }
 
-.caret-rotate {
-  transform: rotate(180deg);
-}
-
-.active {
-  font-weight: 600;
-  color: black;
-}
-
-.menu-open {
-  display: block;
-  opacity: 1;
-  animation: menuOpen 0.5s forwards;
-}
-
-@keyframes menuOpen {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .code-show {
   margin-bottom: 2rem;
   font-size: 1.25rem;
@@ -1079,7 +1050,6 @@ a.button {
   transform: rotate(180deg);
 }
 .code-show .active {
-  font-weight: 600;
   color: #DB1D6F !important;
 }
 .code-show .menu-open {
@@ -1100,7 +1070,6 @@ a.button {
 }
 
 .active {
-  font-weight: 600;
   color: #131313;
 }
 

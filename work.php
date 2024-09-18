@@ -46,9 +46,9 @@
             <p class="col-12 col-6-md">As a front-end developer with a design background, I create responsive, interactive, and animated content that seamlessly blends functionality with aesthetics. With expertise in modern frameworks and design tools, I deliver solutions that are efficient, adaptable, and easy to maintain.</p>
         </div>
         <div class="grid">
-            <div class="filter col-12 col-6-md">
+            <div class="filter col-6-md col-12">
                 <div class="select">
-                    <span class="selected">All Projects</span>
+                    <span class="current">All Projects</span>
                     <div class="caret"></div>
                 </div>
                 <ul class="menu">
