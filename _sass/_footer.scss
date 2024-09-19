@@ -140,16 +140,6 @@ footer {
     text-decoration: none;
     margin-bottom: 4rem;
     font-size: 20px;
-
-
-    a {
-        color: black;
-        scroll-behavior: smooth;
-    }
-
-    a:hover {
-        color: $berry;
-    }
 }
 
 @keyframes icon {
@@ -213,21 +203,20 @@ footer {
 
 /* Disable hover effects for mobile or touch devices */
 @media (hover: none) and (pointer: coarse) {
-    .social-links li:hover {
-        animation: none;
+    .contact-info .social-links {
 
-        svg {
-            .background {
-                fill: rgba(255, 178, 224, .5);
-            }
-    
-            .logo {
-                fill: $black;
+        li:hover {
+        animation: icon .3s ease;
+
+            svg {
+                .background {
+                    fill: rgba(255, 178, 224, .5);
+                }
+
+                .logo {
+                    fill: $black;
+                }
             }
         }
-    }
-
-    .footer-bottom a:hover {
-        color: black;
     }
 }

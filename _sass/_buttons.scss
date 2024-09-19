@@ -39,7 +39,13 @@ a.button {
 
 // = DISABLE HOVERS ON MOBILE = //
 @media (hover: none) {
-    a.button:hover {
+    .live:hover {
+        color: inherit;
+        background-color: inherit;
+        border-color: inherit;
+    }
+
+    .code:hover {
         color: inherit;
         background-color: inherit;
         border-color: inherit;

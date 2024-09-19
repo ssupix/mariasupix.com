@@ -668,6 +668,7 @@ html {
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -855,13 +856,13 @@ html.lenis body {
   }
 }
 @media (hover: none) and (pointer: coarse) {
-  .cover:hover,
+  .card.cover:hover,
   .card-list:hover {
     padding: 0;
     border: 1px solid #f7f5f5;
   }
-  .cover:hover img,
-  .cover:hover video,
+  .card.cover:hover img,
+  .card.cover:hover video,
   .card-list:hover img,
   .card-list:hover video {
     border-radius: 10px;
@@ -904,7 +905,12 @@ a.button {
 }
 
 @media (hover: none) {
-  a.button:hover {
+  .live:hover {
+    color: inherit;
+    background-color: inherit;
+    border-color: inherit;
+  }
+  .code:hover {
     color: inherit;
     background-color: inherit;
     border-color: inherit;
@@ -1515,13 +1521,6 @@ footer {
   margin-bottom: 4rem;
   font-size: 20px;
 }
-.footer-bottom a {
-  color: black;
-  scroll-behavior: smooth;
-}
-.footer-bottom a:hover {
-  color: #DB1D6F;
-}
 
 @keyframes icon {
   50% {
@@ -1570,17 +1569,14 @@ footer {
 }
 /* Disable hover effects for mobile or touch devices */
 @media (hover: none) and (pointer: coarse) {
-  .social-links li:hover {
-    animation: none;
+  .contact-info .social-links li:hover {
+    animation: icon 0.3s ease;
   }
-  .social-links li:hover svg .background {
+  .contact-info .social-links li:hover svg .background {
     fill: rgba(255, 178, 224, 0.5);
   }
-  .social-links li:hover svg .logo {
+  .contact-info .social-links li:hover svg .logo {
     fill: #131313;
-  }
-  .footer-bottom a:hover {
-    color: black;
   }
 }
 .hero {

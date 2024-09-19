@@ -145,7 +145,7 @@
 
 // = DISABLE HOVERS ON MOBILE = //
 @media (hover: none) and (pointer: coarse) {
-    .cover:hover,
+    .card.cover:hover,
     .card-list:hover {
         padding: 0;
         border: 1px solid $white;
