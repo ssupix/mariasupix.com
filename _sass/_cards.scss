@@ -147,7 +147,6 @@
 @media (hover: none) and (pointer: coarse) {
     .cover:hover,
     .card-list:hover {
-        /* Remove hover styles for touch devices */
         padding: 0;
         border: 1px solid $white;
 
