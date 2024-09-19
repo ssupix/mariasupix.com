@@ -211,4 +211,23 @@ footer {
 }
 
 
+/* Disable hover effects for mobile or touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .social-links li:hover {
+        animation: none;
 
+        svg {
+            .background {
+                fill: rgba(255, 178, 224, .5);
+            }
+    
+            .logo {
+                fill: $black;
+            }
+        }
+    }
+
+    .footer-bottom a:hover {
+        color: black;
+    }
+}

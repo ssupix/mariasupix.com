@@ -854,6 +854,20 @@ html.lenis body {
     opacity: 1;
   }
 }
+@media (hover: none) and (pointer: coarse) {
+  .cover:hover,
+  .card-list:hover {
+    /* Remove hover styles for touch devices */
+    padding: 0;
+    border: 1px solid #f7f5f5;
+  }
+  .cover:hover img,
+  .cover:hover video,
+  .card-list:hover img,
+  .card-list:hover video {
+    border-radius: 10px;
+  }
+}
 a.button {
   text-decoration: none;
   min-width: -moz-max-content;
@@ -890,6 +904,13 @@ a.button {
   border-color: #C4CBE7;
 }
 
+@media (hover: none) {
+  a.button:hover {
+    color: inherit;
+    background-color: inherit;
+    border-color: inherit;
+  }
+}
 @media only screen and (max-width: 568px) {
   button {
     min-width: -moz-max-content;
@@ -1077,6 +1098,12 @@ a.button {
   transition: transform 0.3s;
 }
 
+/* Disable hover effects for mobile or touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .menu li:hover {
+    background: none;
+  }
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -1342,6 +1369,28 @@ a:hover svg path {
     cursor: pointer;
   }
 }
+/* Disable hover effects for mobile or touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .nav-links li a:hover {
+    background-color: rgba(255, 178, 224, 0.3);
+    border-radius: 35px;
+  }
+  .off-screen-menu ul li a:hover {
+    color: #f7f5f5;
+  }
+  .social-links li:hover {
+    animation: none;
+  }
+  .social-links li:hover svg .background {
+    fill: rgba(255, 178, 224, 0.5);
+  }
+  .social-links li:hover svg .logo {
+    fill: #131313;
+  }
+  .footer-bottom a:hover {
+    color: #131313;
+  }
+}
 footer {
   width: 100%;
   height: -moz-min-content;
@@ -1520,6 +1569,21 @@ footer {
     margin-bottom: 3rem;
   }
 }
+/* Disable hover effects for mobile or touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .social-links li:hover {
+    animation: none;
+  }
+  .social-links li:hover svg .background {
+    fill: rgba(255, 178, 224, 0.5);
+  }
+  .social-links li:hover svg .logo {
+    fill: #131313;
+  }
+  .footer-bottom a:hover {
+    color: black;
+  }
+}
 .hero {
   position: relative;
   height: 60vh;
@@ -1680,6 +1744,13 @@ footer {
     padding: 10%;
     margin: 0;
     height: auto;
+  }
+}
+@media (hover: none) {
+  a:hover, .nav-links li a:hover, .banner-row .banner-image .overlay:hover {
+    background-color: inherit;
+    color: inherit;
+    transform: none;
   }
 }
 .featured-project {
@@ -2184,7 +2255,7 @@ footer {
 .work-header {
   width: 95%;
   max-width: 1500px;
-  height: 40vh;
+  height: 500px;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -2242,7 +2313,7 @@ footer {
     display: none;
   }
   .work-header {
-    height: 30vh;
+    height: 350px;
   }
 }
 .work-projects {

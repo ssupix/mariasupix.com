@@ -294,3 +294,33 @@ a:hover svg path{
         cursor: pointer;
     }
 }
+
+/* Disable hover effects for mobile or touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .nav-links li a:hover {
+        background-color: rgba(255, 178, 224, 0.3); 
+        border-radius: 35px; 
+    }
+
+    .off-screen-menu ul li a:hover {
+        color: $white; 
+    }
+
+    .social-links li:hover {
+        animation: none;
+
+        svg {
+            .background {
+                fill: rgba(255, 178, 224, .5); 
+            }
+    
+            .logo {
+                fill: $black;
+            }
+        }
+    }
+
+    .footer-bottom a:hover {
+        color: $black; 
+    }
+}

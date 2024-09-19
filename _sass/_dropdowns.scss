@@ -193,3 +193,11 @@
     border-top: 8px solid #000000;
     transition: transform 0.3s;
 }
+
+
+/* Disable hover effects for mobile or touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .menu li:hover {
+        background: none;
+    }
+}

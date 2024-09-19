@@ -37,6 +37,15 @@ a.button {
     }
 }
 
+// = DISABLE HOVERS ON MOBILE = //
+@media (hover: none) {
+    a.button:hover {
+        color: inherit;
+        background-color: inherit;
+        border-color: inherit;
+    }
+}
+
 // = STYLING BREAKPOINTS = //
 
 @media only screen and (max-width: 568px) {

@@ -136,3 +136,11 @@
         }
     }
 }
+
+@media (hover: none) {
+    a:hover, .nav-links li a:hover, .banner-row .banner-image .overlay:hover {
+    background-color: inherit;
+    color: inherit;
+    transform: none;
+    }
+}
