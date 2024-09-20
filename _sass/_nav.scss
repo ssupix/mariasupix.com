@@ -33,7 +33,7 @@ nav {
 
     &.current {
         border-radius: 0;
-        transition: all 0s;
+        transition: border-radius 0s, background .3s;
     }
 }
 
