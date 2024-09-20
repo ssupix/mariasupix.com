@@ -1140,6 +1140,15 @@ nav {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.nav-links li a.current {
+  border-radius: 0;
+  transition: all 0s;
+}
+
+.current {
+  border-radius: 0;
+  transition: all 0s;
+}
 
 .nav-links li a:hover {
   border-radius: 0px;

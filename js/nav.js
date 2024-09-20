@@ -40,3 +40,23 @@ hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
 });
+
+// NAV LINKS CURRENT STYLE
+
+function setCurrentClass() {
+  const currentPage = window.location.pathname.split("/").pop(); // Get the current page name
+  const navLinks = document.querySelectorAll('.nav-link'); // Select all links with class 'nav-link'
+
+  navLinks.forEach(link => {
+    const pageName = link.getAttribute('href').split("/").pop(); // Get the page name from href
+    if (currentPage === "" && pageName === "./") {
+      // Set current for the home page when on the root index.php
+      link.classList.add('current');
+    } else if (currentPage === pageName) {
+      // Set current for matching pages (e.g., work.php, about.php)
+      link.classList.add('current');
+    }
+  });
+}
+
+setCurrentClass(); 
