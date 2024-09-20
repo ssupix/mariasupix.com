@@ -1103,12 +1103,6 @@ a.button {
   transition: transform 0.3s;
 }
 
-/* Disable hover effects for mobile or touch devices */
-@media (hover: none) and (pointer: coarse) {
-  .menu li:hover {
-    background: none;
-  }
-}
 nav {
   display: flex;
   justify-content: space-between;
