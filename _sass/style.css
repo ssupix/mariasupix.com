@@ -856,13 +856,13 @@ html.lenis body {
   }
 }
 @media (hover: none) and (pointer: coarse) {
-  .card.cover:hover,
+  .card .cover:hover,
   .card-list:hover {
     padding: 0;
     border: 1px solid #f7f5f5;
   }
-  .card.cover:hover img,
-  .card.cover:hover video,
+  .card .cover:hover img,
+  .card .cover:hover video,
   .card-list:hover img,
   .card-list:hover video {
     border-radius: 10px;
