@@ -79,12 +79,13 @@
                     <a href="./projects/theblue">learn more</a>
                 </div>
                 <div class="project-video col-12 col-6-lg">
-                    <video loop muted autoplay poster="./assets/img/waterwebsite-poster.jpg" title="The Blue Website Showcase" onclick="window.location.href='./projects/theblue';">
+                    <video loop muted autoplay poster="./assets/video/waterwebsite-poster.png" title="The Blue Website Showcase" onclick="window.location.href='./projects/theblue';">
                         <source src="./assets/video/waterwebsite.mp4" type="video/mp4">
                         <source src="./assets/video/waterwebsite.webm" type="video/webm">
                         <source src="./assets/video/waterwebsite.ogv" type="video/ogg">
                         Your browser does not support the video tag.
                     </video>
+                    <img src="./assets/video/waterwebsite-poster.png" alt="The Blue Website Showcase">
                 </div>
             </div>
         </section>
@@ -120,12 +121,13 @@
                 <div class="col-12 col-6-lg ">
                     <div class="card" onclick="window.location.href='./projects/ezt';">
                         <div class="cover">
-                            <video autoplay muted loop poster="./assets/img/ezt-poster.jpg" title="EZT Prototype Mockup">
+                            <video autoplay muted loop poster="./assets/video/ezt-poster.png" title="EZT Prototype Mockup">
                                 <source src="./assets/video/ezt-mockup.mp4" type="video/mp4">
                                 <source src="./assets/video/ezt-mockup.webm" type="video/webm">
                                 <source src="./assets/video/ezt-mockup.ogv" type="video/ogg">
                                 Your browser does not support the video tag.
                             </video>
+                            <!-- <img src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup"> -->
                         </div>
                         <h4>ezt - online tea shop</h4>
                         <div class="tags">
@@ -157,6 +159,7 @@
     <script src="./js/scroll.js"></script>
     <script src="./js/scramble.js"></script>
     <script src="./js/banner.js"></script>
+    <script src="./js/video.js"></script>
     
 </body>
 </html>

@@ -1769,6 +1769,12 @@ footer {
   height: auto;
   cursor: pointer;
 }
+.featured-project .project-video img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  display: none;
+}
 .featured-project .project-description {
   display: flex;
   flex-direction: column;
