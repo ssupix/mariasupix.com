@@ -24,6 +24,10 @@
         cursor: pointer;
     }
 
+    .video-poster {
+        display: none;
+    }
+
     h3 {
         cursor: pointer;
     }
@@ -81,14 +85,6 @@
         border-radius: 10px;
         cursor: pointer;
         transition: all .3s ease;
-
-        &.video-poster {
-            display: none;
-        }
-    }
-
-    .video-poster {
-        display: none;
     }
 
     .description {
@@ -161,14 +157,10 @@
         img,
         video {
             border-radius: 10px;
-
-            &.poster {
-                border-radius: 10px;
-            }
         }
+    }
 
-        .video-poster {
-            border-radius: 10px;
-        }
+    .card .video-poster:hover {
+        border-radius: 10px;
     }
 }
