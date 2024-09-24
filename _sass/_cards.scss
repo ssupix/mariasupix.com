@@ -17,7 +17,7 @@
         cursor: pointer;
     }
 
-    .video-poster {
+    .cover .video-poster {
         display: none;
     }
 
@@ -55,6 +55,10 @@
     
         video:hover {
             border-radius: 0;
+        }
+
+        .cover .video-poster:hover {
+            border-radius: 10px;
         }
     }
 }
@@ -153,16 +157,19 @@
     
         .cover:hover {
             padding: 0;
-            border: 1px solid $white;
-
-            img,
-            video {
+            border: $white 1px solid;
+        
+            img {
                 border-radius: 10px;
             }
-        }
+        
+            video:hover {
+                border-radius: 10px;
+            }
 
-        .video-poster:hover {
-            border-radius: 10px;
+            .cover .video-poster:hover {
+                border-radius: 10px;
+            }
         }
     }
 }

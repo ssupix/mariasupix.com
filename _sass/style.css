@@ -742,7 +742,7 @@ html.lenis body {
   border-radius: 10px;
   cursor: pointer;
 }
-.card .video-poster {
+.card .cover .video-poster {
   display: none;
 }
 .card .cover video {
@@ -774,6 +774,9 @@ html.lenis body {
 }
 .card .cover:hover video:hover {
   border-radius: 0;
+}
+.card .cover:hover .cover .video-poster:hover {
+  border-radius: 10px;
 }
 
 .card-list {
@@ -861,13 +864,15 @@ html.lenis body {
 @media (hover: none) and (pointer: coarse) {
   .card .cover:hover {
     padding: 0;
-    border: 1px solid #f7f5f5;
+    border: #f7f5f5 1px solid;
   }
-  .card .cover:hover img,
-  .card .cover:hover video {
+  .card .cover:hover img {
     border-radius: 10px;
   }
-  .card .video-poster:hover {
+  .card .cover:hover video:hover {
+    border-radius: 10px;
+  }
+  .card .cover:hover .cover .video-poster:hover {
     border-radius: 10px;
   }
 }
