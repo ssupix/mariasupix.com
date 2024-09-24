@@ -1878,9 +1878,11 @@ footer {
   gap: 2rem;
 }
 .about-fold1 .about-description h4,
-.about-fold1 .about-description p,
-.about-fold1 .about-description .contact-info {
+.about-fold1 .about-description p {
   width: 90%;
+}
+.about-fold1 .about-description .contact-info {
+  width: 100%;
 }
 .about-fold1 .about-description h4 {
   font-size: 25px;
