@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-12 col-6-lg ">
                     <div class="card" onclick="window.location.href='./projects/ezt';">
-                        <div class="cover">
+                        <div class="cover video">
                             <video autoplay muted loop poster="./assets/video/ezt-poster.png" title="EZT Prototype Mockup">
                                 <source src="./assets/video/ezt-mockup.mp4" type="video/mp4">
                                 <source src="./assets/video/ezt-mockup.webm" type="video/webm">
