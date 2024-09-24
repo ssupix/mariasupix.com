@@ -161,6 +161,14 @@
         img,
         video {
             border-radius: 10px;
+
+            &.poster {
+                border-radius: 10px;
+            }
+        }
+
+        .video-poster {
+            border-radius: 10px;
         }
     }
 }
