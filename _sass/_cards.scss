@@ -17,15 +17,15 @@
         cursor: pointer;
     }
 
+    .video-poster {
+        display: none;
+    }
+
     .cover video {
         width: 100%;
         height: auto;
         border-radius: 10px;
         cursor: pointer;
-    }
-
-    .video-poster {
-        display: none;
     }
 
     h3 {
@@ -149,18 +149,20 @@
 
 // = DISABLE HOVERS ON MOBILE = //
 @media (hover: none) and (pointer: coarse) {
-    .card .cover:hover,
-    .card-list:hover {
-        padding: 0;
-        border: 1px solid $white;
+    .card  {
+    
+        .cover:hover {
+            padding: 0;
+            border: 1px solid $white;
 
-        img,
-        video {
+            img,
+            video {
+                border-radius: 10px;
+            }
+        }
+
+        .video-poster:hover {
             border-radius: 10px;
         }
-    }
-
-    .card .video-poster:hover {
-        border-radius: 10px;
     }
 }

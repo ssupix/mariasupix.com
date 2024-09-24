@@ -742,6 +742,9 @@ html.lenis body {
   border-radius: 10px;
   cursor: pointer;
 }
+.card .video-poster {
+  display: none;
+}
 .card .cover video {
   width: 100%;
   height: auto;
@@ -798,13 +801,6 @@ html.lenis body {
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
-}
-.card-list .cover img.video-poster,
-.card-list .cover video.video-poster {
-  display: none;
-}
-.card-list .video-poster {
-  display: none;
 }
 .card-list .description {
   width: 60%;
@@ -863,15 +859,15 @@ html.lenis body {
   }
 }
 @media (hover: none) and (pointer: coarse) {
-  .card .cover:hover,
-  .card-list:hover {
+  .card .cover:hover {
     padding: 0;
     border: 1px solid #f7f5f5;
   }
   .card .cover:hover img,
-  .card .cover:hover video,
-  .card-list:hover img,
-  .card-list:hover video {
+  .card .cover:hover video {
+    border-radius: 10px;
+  }
+  .card .video-poster:hover {
     border-radius: 10px;
   }
 }
@@ -2415,6 +2411,9 @@ footer {
   width: 100%;
   height: auto;
   size: cover;
+}
+.project-container .project-banner .video-poster {
+  display: none;
 }
 
 .more-projects {
