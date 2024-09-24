@@ -81,6 +81,14 @@
         border-radius: 10px;
         cursor: pointer;
         transition: all .3s ease;
+
+        &.video-poster {
+            display: none;
+        }
+    }
+
+    .video-poster {
+        display: none;
     }
 
     .description {

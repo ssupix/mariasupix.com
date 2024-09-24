@@ -127,7 +127,7 @@
                                 <source src="./assets/video/ezt-mockup.ogv" type="video/ogg">
                                 Your browser does not support the video tag.
                             </video>
-                            <!-- <img src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup"> -->
+                            <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup" style="display:none;">
                         </div>
                         <h4>ezt - online tea shop</h4>
                         <div class="tags">

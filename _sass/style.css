@@ -799,6 +799,13 @@ html.lenis body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.card-list .cover img.video-poster,
+.card-list .cover video.video-poster {
+  display: none;
+}
+.card-list .video-poster {
+  display: none;
+}
 .card-list .description {
   width: 60%;
   display: flex;
