@@ -191,6 +191,7 @@
                             <source src="../assets/video/scroll.ogv" type="video/ogg">
                             Your browser does not support the video tag.
                         </video>
+                        
                     </div>
                     <div class="col-12">
                         <h4>code snipets:</h4>
@@ -353,6 +354,7 @@
     <script src="../js/scroll.js"></script>
     <script src="../js/scramble.js"></script>
     <script src="../js/dropdown.js"></script>
+    <script src="../js/video.js"></script>
 
     <!-- Include Highlight.js JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>

@@ -61,6 +61,7 @@
         <div class="project-container">
             <section class="project-banner">
                 <video src="../assets/video/ezt-mockup.mp4" autoplay muted looped></video>
+                <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup" style="display:none;">
             </section>
             <section class="description">
                 <div class="grid">
@@ -336,6 +337,7 @@
     <script src="../js/scroll.js"></script>
     <script src="../js/scramble.js"></script>
     <script src="../js/dropdown.js"></script>
+    <script src="../js/video.js"></script>
 
 </body>
 </html>
