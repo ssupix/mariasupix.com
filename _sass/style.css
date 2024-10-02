@@ -755,8 +755,11 @@ html.lenis body {
   cursor: pointer;
 }
 .card a {
-  color: black;
   text-decoration: none;
+}
+.card p {
+  line-height: 150%;
+  width: 80%;
 }
 .card .cover {
   display: flex;
@@ -764,10 +767,19 @@ html.lenis body {
   justify-content: center;
   transition: all 0.4s ease;
   border: #f7f5f5 solid 1px;
+  position: relative;
+}
+.card .cover a.button {
+  position: absolute;
+  display: none;
 }
 .card .cover:hover {
   padding: 5%;
   border: #131313 1px solid;
+}
+.card .cover:hover a.button {
+  display: block;
+  transition: all 0.3 ease;
 }
 .card .cover:hover img {
   border-radius: 0;
@@ -910,6 +922,15 @@ a.button {
   color: #f7f5f5;
   background-color: rgb(196, 203, 231);
   border-color: #C4CBE7;
+}
+
+.project {
+  color: #131313;
+  background-color: rgba(255, 255, 255, 0.548);
+}
+.project:hover {
+  color: #E36A98;
+  background-color: #f7f5f5;
 }
 
 @media (hover: none) {
@@ -1786,7 +1807,7 @@ footer {
 .featured-project .project-description {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   gap: 3rem;
 }
 .featured-project .project-description .text {
@@ -1795,7 +1816,7 @@ footer {
   gap: 2rem;
 }
 .featured-project .project-description h3 {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .home-projects {
@@ -2400,7 +2421,7 @@ footer {
   animation: projectLoad 1s forwards ease-out;
 }
 .project-container section {
-  width: 70%;
+  width: 85%;
   margin-bottom: 10rem;
 }
 .project-container .project-banner {

@@ -49,12 +49,12 @@
             </div>
         </section>
         <section class="banner">
-            <p class="intro">Creating meaningful experiences online. </br> Maria supikhanova</p>
+            <p class="intro">Creating meaningful experiences online. </br>Always learning new skills and technologies.</p>
             <div class="banner-row">
                 <div class="grid">
                     <div class="col-12 col-3-lg banner-left-text">
                         <p>Based in Vancouver, BC</p>
-                        <!-- <button class="code">Learn more</button> -->
+                        <p class='line'>Maria believes technology is the future, and her mission is to ensure it honours traditional forms of art while pushing the limits of web design, and implementing cutting-edge technology.</p>
                     </div>
                     <div class="banner-image s-1 col-6-lg">
                         <div class="overlay"></div>
@@ -68,9 +68,9 @@
             </div>
         </section>
         <section class="featured-project">
-            <h2>featured project.</h2>
             <div class="grid">
                 <div class="project-description col-12 col-6-lg">
+                    <h2>featured project.</h2>
                     <h3>The blue - water website</h3>
                     <div class="text">
                         <p>An interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
@@ -95,6 +95,7 @@
                     <div class="grid">
                         <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/meowdy';">
                             <div class="cover">
+                                <a class="button project" onclick="window.location.href='./work'">VIEW PROJECT</a>
                                 <img src="./assets/img/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
                             </div>
                             <h4>meowdy! Cat surprise boxes</h4>
@@ -106,6 +107,7 @@
                         </div>
                         <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/kabinet';">
                             <div class="cover">
+                                <a class="button project" onclick="window.location.href='./work'">VIEW PROJECT</a>
                                 <img src="./assets/img/kabinet-mockup.jpg" alt="Kabinet Nails Branding Mockup">
                             </div>
                             <h4>kabinet nails</h4>
@@ -121,6 +123,7 @@
                 <div class="col-12 col-6-lg ">
                     <div class="card" onclick="window.location.href='./projects/ezt';">
                         <div class="cover video">
+                            <a class="button project" onclick="window.location.href='./work'">VIEW PROJECT</a>
                             <video autoplay muted loop poster="./assets/video/ezt-poster.png" title="EZT Prototype Mockup">
                                 <source src="./assets/video/ezt-mockup.mp4" type="video/mp4">
                                 <source src="./assets/video/ezt-mockup.webm" type="video/webm">
@@ -130,6 +133,7 @@
                             <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup">
                         </div>
                         <h4>ezt - online tea shop</h4>
+                        <p>UX Research, Brand Identity, UI Design High-fidelity Figma mockup and User Testing Report for fictional company, EZT - Online Tea Store.</p>
                         <div class="tags">
                             <div class="pill-blue">ux research</div>
                             <div class="pill-pink">ui design</div>
@@ -160,6 +164,7 @@
     <script src="./js/scramble.js"></script>
     <script src="./js/banner.js"></script>
     <script src="./js/video.js"></script>
+    <script src="./js/type.js"></script>
     
 </body>
 </html>

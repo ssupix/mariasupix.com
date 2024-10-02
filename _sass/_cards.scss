@@ -33,8 +33,12 @@
     }
 
     a {
-        color: black;
         text-decoration: none;
+    }
+
+    p {
+        line-height: 150%;
+        width: 80%;
     }
 
     .cover  {
@@ -43,11 +47,22 @@
         justify-content: center;
         transition: all .4s ease;
         border: $white solid 1px;
+        position: relative;
+
+        a.button  {
+            position: absolute;
+            display: none;
+        }
     }
     
     .cover:hover {
         padding: 5%;
         border: $black 1px solid;
+
+        a.button {
+            display: block;
+            transition: all .3 ease;
+        }
     
         img {
             border-radius: 0;

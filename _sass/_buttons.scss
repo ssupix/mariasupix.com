@@ -37,6 +37,16 @@ a.button {
     }
 }
 
+.project {
+    color: $black;
+    background-color: rgba(255, 255, 255, 0.548);
+
+    &:hover {
+        color: $ribbon;
+        background-color: $white;
+    }
+}
+
 // = DISABLE HOVERS ON MOBILE = //
 @media (hover: none) {
     .live:hover {
