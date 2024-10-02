@@ -68,7 +68,7 @@
                 <div class="cover">
                     <video src="./assets/video/dddd.mp4" autoplay muted loop></video>
                 </div>
-            <a href="./projects/theblue"><h4>water website - the blue</h4></a>
+            <h4>water website - the blue</h4>
             <div class="tags">
                 <div class="pill-blue">html</div>
                 <div class="pill-blue">css</div>
