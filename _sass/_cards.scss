@@ -1,7 +1,6 @@
 // = GRID CARD STYLES = //
 
 .card {
-    position: relative;
     width: 100%;
     gap: 15px;
     height: min-content;
@@ -48,21 +47,11 @@
         transition: all .4s ease;
         border: $white solid 1px;
         position: relative;
-
-        a.button  {
-            position: absolute;
-            display: none;
-        }
     }
     
     .cover:hover {
         padding: 5%;
         border: $black 1px solid;
-
-        a.button {
-            display: block;
-            transition: all .3 ease;
-        }
     
         img {
             border-radius: 0;

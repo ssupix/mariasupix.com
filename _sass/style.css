@@ -726,7 +726,6 @@ html.lenis body {
 }
 
 .card {
-  position: relative;
   width: 100%;
   gap: 15px;
   height: -moz-min-content;
@@ -769,17 +768,9 @@ html.lenis body {
   border: #f7f5f5 solid 1px;
   position: relative;
 }
-.card .cover a.button {
-  position: absolute;
-  display: none;
-}
 .card .cover:hover {
   padding: 5%;
   border: #131313 1px solid;
-}
-.card .cover:hover a.button {
-  display: block;
-  transition: all 0.3 ease;
 }
 .card .cover:hover img {
   border-radius: 0;

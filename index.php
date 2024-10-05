@@ -54,7 +54,7 @@
                 <div class="grid">
                     <div class="col-12 col-3-lg banner-left-text">
                         <p>Based in Vancouver, BC</p>
-                        <p class='line'>Maria believes technology is the future, and her mission is to ensure it honours traditional forms of art while pushing the limits of web design, and implementing cutting-edge technology.</p>
+                        <!-- <p class='line'>Maria believes technology is the future, and her mission is to ensure it honours traditional forms of art while pushing the limits of web design, and implementing cutting-edge technology.</p> -->
                     </div>
                     <div class="banner-image s-1 col-6-lg">
                         <div class="overlay"></div>
@@ -95,7 +95,6 @@
                     <div class="grid">
                         <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/meowdy';">
                             <div class="cover">
-                                <a class="button project" onclick="window.location.href='./work'">VIEW PROJECT</a>
                                 <img src="./assets/img/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
                             </div>
                             <h4>meowdy! Cat surprise boxes</h4>
@@ -107,7 +106,6 @@
                         </div>
                         <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/kabinet';">
                             <div class="cover">
-                                <a class="button project" onclick="window.location.href='./work'">VIEW PROJECT</a>
                                 <img src="./assets/img/kabinet-mockup.jpg" alt="Kabinet Nails Branding Mockup">
                             </div>
                             <h4>kabinet nails</h4>
@@ -123,7 +121,6 @@
                 <div class="col-12 col-6-lg ">
                     <div class="card" onclick="window.location.href='./projects/ezt';">
                         <div class="cover video">
-                            <a class="button project" onclick="window.location.href='./work'">VIEW PROJECT</a>
                             <video autoplay muted loop poster="./assets/video/ezt-poster.png" title="EZT Prototype Mockup">
                                 <source src="./assets/video/ezt-mockup.mp4" type="video/mp4">
                                 <source src="./assets/video/ezt-mockup.webm" type="video/webm">
@@ -133,7 +130,6 @@
                             <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup">
                         </div>
                         <h4>ezt - online tea shop</h4>
-                        <p>UX Research, Brand Identity, UI Design High-fidelity Figma mockup and User Testing Report for fictional company, EZT - Online Tea Store.</p>
                         <div class="tags">
                             <div class="pill-blue">ux research</div>
                             <div class="pill-pink">ui design</div>
