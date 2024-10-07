@@ -61,7 +61,7 @@ html.lenis body {
 }
 
 .lenis.lenis-stopped {
-    overflow: hidden;
+    overflow: auto !important;
 }
 
 .lenis.lenis-smooth iframe {

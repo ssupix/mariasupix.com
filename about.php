@@ -96,7 +96,7 @@
         </section>
         <section class="skills">
             <div class="grid">
-                <div class="cv col-12 col-7-md" data-custom-open="modal-1">
+                <div class="cv col-12 col-7-md cv-modal-trigger" data-custom-open="modal-1">
                     <img src="./assets/img/cv-inplastic.png" alt="Masha's CV Resume in plastic">
                 </div>
                 <div class="skills-description col-12 col-5-md">
@@ -159,21 +159,22 @@
         </section>
     </main>
 
-    <div class="cv-modal">
-    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
-        <div class="modal__overlay" tabindex="-1" data-micromodal-close data-custom-close="modal-1">
-            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-            <header class="modal__header">
-                <div class="download"><p href="./assets/mashasupix-cv.pdf">download</p></div>
-                <div class="close" data-custom-close="modal-1"><p>close</p></div>
-            </header>
-            <main class="modal__content" id="modal-1-content">
-                <img src="./assets/img/cv.jpg" alt="Masha's CV Resume">
-            </main>
+    <div class="cv-modal" data-lenis-prevent>
+        <div class="modal micromodal-slide" id="modal-1" aria-hidden="true" data-lenis-stop>
+            <div class="modal__overlay" tabindex="-1" data-micromodal-close data-custom-close="modal-1">
+                <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                    <header class="modal__header">
+                        <div class="download"><a href="./assets/mariasupix-cv-resume.pdf">download</a></div>
+                        <div class="close" data-custom-close="modal-1" data-lenis-start><p>close</p></div>
+                    </header>
+                    <main class="modal__content" id="modal-1-content">
+                        <img src="./assets/img/cv.jpg" alt="Masha's CV Resume">
+                    </main>
+                </div>
             </div>
         </div>
     </div>
-    </div>
+
 
     <?php include 'components/footer.php'; ?>
 
