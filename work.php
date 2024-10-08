@@ -75,6 +75,7 @@
                 <div class="pill-blue">javascript</div>
                 <div class="pill-pink">we design</div>
             </div>
+            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/ezt';" data-category="2">
             <div class="cover">
@@ -87,6 +88,7 @@
                 <div class="pill-pink">branding</div>
                 <div class="pill-pink">Figma</div>
             </div>
+            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/meowdy';" data-category="3">
             <div class="cover">
@@ -98,17 +100,20 @@
                 <div class="pill-pink">Photoshop</div>
                 <div class="pill-pink">Packaging</div>
             </div>
+            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
-        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/kabinet';" data-category="3">
+        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/workflow';" data-category="3">
             <div class="cover">
-                <img src="./assets/img/kabinet-mockup.jpg" alt="">
+                <video src="./assets/video/workflow-mockup.mp4" autoplay muted loop></video>
             </div>
-            <h4>kabinet nails</h4>
+            <h4>workflow - promotional landing</h4>
             <div class="tags">
-                <div class="pill-pink">Branding</div>
-                <div class="pill-pink">Illustrator</div>
-                <div class="pill-pink">Blender</div>
+                <div class="pill-pink">HTML</div>
+                <div class="pill-pink">SCSS</div>
+                <div class="pill-pink">JavaScript</div>
+                <div class="pill-pink">UI Design</div>
             </div>
+            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
     </section>
     <section class="work-projects-list hidden grid">
@@ -132,6 +137,7 @@
                     <div class="pill-pink">we design</div>
                 </div>
             </div>
+            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
         <div class="card-list col-12" data-category="2">
             <div class="cover">
@@ -153,6 +159,7 @@
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
+            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
         <div class="card-list col-12" data-category="3">
             <div class="cover">
@@ -168,6 +175,7 @@
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
+            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
         <div class="card-list col-12" data-category="3">
             <div class="cover">
@@ -183,6 +191,7 @@
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
+            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
     </section>
     </main>

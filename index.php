@@ -103,17 +103,24 @@
                                 <div class="pill-pink">Photoshop</div>
                                 <div class="pill-pink">Packaging</div>
                             </div>
+                            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
                         </div>
-                        <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/kabinet';">
-                            <div class="cover">
-                                <img src="./assets/img/kabinet-mockup.jpg" alt="Kabinet Nails Branding Mockup">
+                        <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/workflow';">
+                            <div class="cover video">
+                                <video autoplay muted loop title="Workflow Landing Mockup">
+                                    <source src="./assets/video/workflow-mockup.mp4" type="video/mp4">
+                                    <!-- <source src="./assets/video/ezt-mockup.webm" type="video/webm"> -->
+                                    <!-- <source src="./assets/video/ezt-mockup.ogv" type="video/ogg"> -->
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
-                            <h4>kabinet nails</h4>
+                            <h4>workflow - promotional landing</h4>
                             <div class="tags">
                                 <div class="pill-pink">Branding</div>
                                 <div class="pill-pink">Illustrator</div>
                                 <div class="pill-pink">Blender</div>
                             </div>
+                            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
                         </div>
                     </div>
                     <a href="./work" class="desktop-link">more projects</a>
@@ -136,6 +143,7 @@
                             <div class="pill-pink">branding</div>
                             <div class="pill-pink">Figma</div>
                         </div>
+                        <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
                     </div>
                 </div>
                 <a href="./work" class="col-12 breakpoint-link">more projects</a>
