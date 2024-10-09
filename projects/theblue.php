@@ -86,15 +86,11 @@
                 <div class="grid">
                     <div class="col-12 col-6-md detail border">
                         <h3>Input</h3>
-                        <p>Masha Supikhanova – Creative developer</p>
-                        <h3>Contributors</h3>
-                        <p>Airrick Dunfield  –  Mentor, front-end developer <br> Jayden Inniss  –  Photographer</p>
-                        <h3>Timeframe</h3>
-                        <p>Start Date  –  March 27th, 2024 <br> End Date  –  May 17th, 2024</p>
-                    </div>
-                    <div class="col-12 col-6-md detail">
+                        <p>Masha Supikhanova – Creative developer <br> Airrick Dunfield  –  Mentor, front-end developer <br> Jayden Inniss  –  Photographer</p>
                         <h3>Total Hours</h3>
                         <p>36</p>
+                    </div>
+                    <div class="col-12 col-6-md detail">
                         <h3>Design Tools</h3>
                         <p>Photoshop, <br> Figma</p>
                         <h3>Developer Stack</h3>

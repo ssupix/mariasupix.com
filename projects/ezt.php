@@ -83,14 +83,14 @@
                     <div class="col-12 col-6-md detail border">
                         <h3>Input</h3>
                         <p>Masha Supikhanova – UX & UI Designer</p>
-                        <h3>Timeframe</h3>
-                        <p>Start Date  –  March 27th, 2024 <br> End Date  –  May 17th, 2024</p>
-                    </div>
-                    <div class="col-12 col-6-md detail">
                         <h3>Total Hours</h3>
                         <p>30</p>
+                    </div>
+                    <div class="col-12 col-6-md detail">
                         <h3>Tools</h3>
                         <p>Figma - Branding and Prototype Development <br> Maze - Remote User Testing</p>
+                        <h3>Imagery</h3>
+                        <p>Gemini AI</p>
                     </div>
                 </div>
             </section>
