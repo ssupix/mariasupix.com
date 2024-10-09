@@ -116,9 +116,10 @@
                             </div>
                             <h4>workflow - promotional landing</h4>
                             <div class="tags">
-                                <div class="pill-pink">Branding</div>
-                                <div class="pill-pink">Illustrator</div>
-                                <div class="pill-pink">Blender</div>
+                                <div class="pill-blue">HTML</div>
+                                <div class="pill-blue">SCSS</div>
+                                <div class="pill-blue">JavaScript</div>
+                                <div class="pill-pink">UI Design</div>
                             </div>
                             <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
                         </div>

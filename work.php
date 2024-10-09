@@ -73,7 +73,7 @@
                 <div class="pill-blue">html</div>
                 <div class="pill-blue">css</div>
                 <div class="pill-blue">javascript</div>
-                <div class="pill-pink">we design</div>
+                <div class="pill-pink">ui design</div>
             </div>
             <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
@@ -108,9 +108,9 @@
             </div>
             <h4>workflow - promotional landing</h4>
             <div class="tags">
-                <div class="pill-pink">HTML</div>
-                <div class="pill-pink">SCSS</div>
-                <div class="pill-pink">JavaScript</div>
+                <div class="pill-blue">HTML</div>
+                <div class="pill-blue">SCSS</div>
+                <div class="pill-blue">JavaScript</div>
                 <div class="pill-pink">UI Design</div>
             </div>
             <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
@@ -134,7 +134,7 @@
                     <div class="pill-blue">html</div>
                     <div class="pill-blue">css</div>
                     <div class="pill-blue">javascript</div>
-                    <div class="pill-pink">we design</div>
+                    <div class="pill-pink">ui design</div>
                 </div>
             </div>
             <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
