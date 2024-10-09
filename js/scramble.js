@@ -42,4 +42,4 @@ function scrambleText(targetId, newText, duration = 1.5) {
     });
     }
   // Use the function
-scrambleText("scrambleText", "front-end developer & web designer");
+scrambleText("scrambleText", "front-end developer & product designer");
