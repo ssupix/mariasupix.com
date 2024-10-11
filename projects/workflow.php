@@ -38,7 +38,7 @@
                 <div class="col-12">
                     <div class="tags">
                         <div class="pill-blue">html</div>
-                        <div class="pill-blue">css</div>
+                        <div class="pill-blue">scss</div>
                         <div class="pill-blue">javascript</div>
                         <div class="pill-pink">ui design</div>
                     </div>
@@ -98,11 +98,11 @@
             <section class="getting-started">
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/workflow-wireframe.png" alt="Figma Prototype Workflow">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/design/O5Lg5KBskufVIfNrs4E1TI/workflow?node-id=0-1&embed-host=share" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
-                            <p>Before development, I created high-fidelity mockups for both light and dark modes using Figma, following a 12-column grid layout. Though not interactive, these designs provided a clear visual guide for quick and efficient development.</p>
+                            <p>Before development, I created simple mockups for both light and dark modes using Figma, following a 12-column grid layout. Though not interactive, these designs provided a clear visual guide for quick and efficient development.</p>
                             <p> Visualization is crucial for me, as it helps ensure I know exactly what I'm working towards. </p>
                         </div>
                     </div>
@@ -116,14 +116,13 @@
                         <p>Fun fact: before I discovered SCSS, I used to manually attempt nesting and breaking down regular CSS files because I looked for a structured approach. Now, with SCSS, it feels even better as the nesting and variables fit my work process, making the styles more modular and scalable. </p>
                     </div>
                     <div class="col-12">
-                        <h4>code snipets:</h4>
                         <div class="code-show">
                             <div class="select">
                                 <span>variables</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/dragdrop.php'; ?>
+                                <?php include '../components/variables.php'; ?>
                             </ul>
                         </div>
                         <div class="code-show">
@@ -132,7 +131,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/scrolltrigger.php'; ?>
+                                <?php include '../components/nesting.php'; ?>
                             </ul>
                         </div>
                         <div class="code-show">
@@ -141,7 +140,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/runningline.php'; ?>
+                                <?php include '../components/function.php'; ?>
                             </ul>
                         </div>
                     </div>
@@ -158,14 +157,13 @@
                         </video> 
                     </div>
                     <div class="col-12">
-                        <h4>code snipets:</h4>
                         <div class="code-show">
                             <div class="select">
                                 <span>dropdowns</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/scrollreveal.php'; ?>
+                                <?php include '../components/dropdowns.php'; ?>
                             </ul>
                         </div>
                     </div>
@@ -177,14 +175,13 @@
                         <p>Chosen in the current session theme is saved in Local Storage, allowing the website to remember the user's preference even after closing the browser. This provides a consistent styling experience that enhances usability and personalization.</p>
                     </div>
                     <div class="col-12">
-                        <h4>code snipets:</h4>
                         <div class="code-show">
                             <div class="select">
-                                <span>local storage</span>
+                                <span>local storage theme switch</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/scrollreveal.php'; ?>
+                                <?php include '../components/localstorage.php'; ?>
                             </ul>
                         </div>
                     </div>

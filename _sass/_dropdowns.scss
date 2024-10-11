@@ -124,7 +124,7 @@
         margin-top: 10px;
         margin-bottom: 1.5rem;
         padding-top: 0;
-        color: rgb(221, 173, 1);
+        color: #e7cd63;
         border-radius: .3rem;
         text-wrap: wrap;
         word-wrap: break-word;
@@ -172,6 +172,14 @@
 
         #text {
             color: yellow;
+        }
+
+        .hljs-variable{
+            color: #0CE3E5;
+        }
+
+        .hljs-selector-class {
+            color: #DF6CBE;
         }
     }
 }

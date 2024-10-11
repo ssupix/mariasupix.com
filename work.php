@@ -45,7 +45,7 @@
             <h2 class="col-12">work.</h2>
             <p class="col-12 col-6-md">As a front-end developer with a design background, I create responsive, interactive, and animated content that seamlessly blends functionality with aesthetics. With expertise in modern frameworks and design tools, I deliver solutions that are efficient, adaptable, and easy to maintain.</p>
         </div>
-        <div class="grid">
+        <div class="grid filter-grid">
             <div class="filter col-6-md col-12">
                 <div class="select">
                     <span class="current">All Projects</span>
@@ -75,7 +75,6 @@
                 <div class="pill-blue">javascript</div>
                 <div class="pill-pink">ui design</div>
             </div>
-            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/ezt';" data-category="2">
             <div class="cover">
@@ -88,7 +87,6 @@
                 <div class="pill-pink">branding</div>
                 <div class="pill-pink">Figma</div>
             </div>
-            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/meowdy';" data-category="3">
             <div class="cover">
@@ -100,7 +98,6 @@
                 <div class="pill-pink">Photoshop</div>
                 <div class="pill-pink">Packaging</div>
             </div>
-            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/workflow';" data-category="3">
             <div class="cover">
@@ -113,7 +110,6 @@
                 <div class="pill-blue">JavaScript</div>
                 <div class="pill-pink">UI Design</div>
             </div>
-            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
         </div>
     </section>
     <section class="work-projects-list hidden grid">

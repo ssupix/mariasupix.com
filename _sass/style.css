@@ -1091,7 +1091,7 @@ a.button {
   margin-top: 10px;
   margin-bottom: 1.5rem;
   padding-top: 0;
-  color: rgb(221, 173, 1);
+  color: #e7cd63;
   border-radius: 0.3rem;
   text-wrap: wrap;
   word-wrap: break-word;
@@ -1129,6 +1129,12 @@ a.button {
 }
 .code-show .code .hljs #text {
   color: yellow;
+}
+.code-show .code .hljs .hljs-variable {
+  color: #0CE3E5;
+}
+.code-show .code .hljs .hljs-selector-class {
+  color: #DF6CBE;
 }
 
 .code-show.active .code {
@@ -2314,7 +2320,10 @@ footer {
   justify-content: space-between;
   animation: headerLoad 0.5s ease;
 }
-.work-header .filter-wrap .filter {
+.work-header .filter-grid {
+  align-items: end;
+}
+.work-header .filter-grid .filter {
   margin: 0;
   padding: 0;
 }

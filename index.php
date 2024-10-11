@@ -103,7 +103,6 @@
                                 <div class="pill-pink">Photoshop</div>
                                 <div class="pill-pink">Packaging</div>
                             </div>
-                            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
                         </div>
                         <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/workflow';">
                             <div class="cover video">
@@ -121,7 +120,6 @@
                                 <div class="pill-blue">JavaScript</div>
                                 <div class="pill-pink">UI Design</div>
                             </div>
-                            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
                         </div>
                     </div>
                     <a href="./work" class="desktop-link">more projects</a>
@@ -144,7 +142,6 @@
                             <div class="pill-pink">branding</div>
                             <div class="pill-pink">Figma</div>
                         </div>
-                        <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
                     </div>
                 </div>
                 <a href="./work" class="col-12 breakpoint-link">more projects</a>
