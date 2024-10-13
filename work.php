@@ -66,7 +66,7 @@
     <section class="work-projects grid">
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/theblue';" data-category="1">
                 <div class="cover">
-                    <video src="./assets/video/dddd.mp4" autoplay muted loop></video>
+                    <video src="./assets/video/theblue.mp4" autoplay muted loop></video>
                 </div>
             <h4>water website - the blue</h4>
             <div class="tags">
@@ -78,7 +78,7 @@
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/ezt';" data-category="2">
             <div class="cover">
-                <video src="./assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                <video src="./assets/video/ezt.mp4" autoplay muted loop></video>
             </div>
             <h4>ezt - online tea shop</h4>
             <div class="tags">
@@ -90,7 +90,7 @@
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/meowdy';" data-category="3">
             <div class="cover">
-                <img src="./assets/img/meowdy-mockup.jpg" alt="">
+                <img src="./assets/img/meowdy/meowdy-mockup.jpg" alt="">
             </div>
             <h4>meowdy! Cat surprise boxes</h4>
             <div class="tags">
@@ -101,7 +101,7 @@
         </div>
         <div class="card col-12 col-6-md" onclick="window.location.href='./projects/workflow';" data-category="3">
             <div class="cover">
-                <video src="./assets/video/workflow-mockup.mp4" autoplay muted loop></video>
+                <video src="./assets/video/workflow.mp4" autoplay muted loop></video>
             </div>
             <h4>workflow - promotional landing</h4>
             <div class="tags">
@@ -115,11 +115,7 @@
     <section class="work-projects-list hidden grid">
         <div class="card-list col-12" onclick="window.location.href='./projects/theblue';" data-category="1">
             <div class="cover">
-                <video autoplay muted loop poster="./assets/video/dddd.png" title="The Blue Website Mockup">
-                    <source src="./assets/video/dddd.mp4" type="video/mp4">
-                    <source src="./assets/video/dddd.webm" type="video/webm">
-                    <source src="./assets/video/dddd.ogv" type="video/ogg">
-                    Your browser does not support the video tag.
+                <video autoplay muted loop src="./assets/video/theblue.mp4" title="The Blue Website Mockup">
                 </video>
                 <img class="video-poster" src="./assets/video/dddd.png" alt="Water Website Mockup" style="display:none;">
             </div>
@@ -137,11 +133,7 @@
         </div>
         <div class="card-list col-12" data-category="2">
             <div class="cover">
-                <video autoplay muted loop poster="./assets/video/ezt-poster.png" title="EZT Prototype Mockup">
-                    <source src="./assets/video/ezt-mockup.mp4" type="video/mp4">
-                    <source src="./assets/video/ezt-mockup.webm" type="video/webm">
-                    <source src="./assets/video/ezt-mockup.ogv" type="video/ogg">
-                    Your browser does not support the video tag.
+                <video autoplay muted loop src="./assets/video/ezt.mp4" title="EZT Prototype Mockup">
                 </video>
                 <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup" style="display:none;">
             </div>
