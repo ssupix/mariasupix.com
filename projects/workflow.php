@@ -47,7 +47,7 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <video src="../assets/video/workflow-mockup.mp4" autoplay muted looped></video>
+                <video src="../assets/video/workflow.mp4" autoplay muted looped></video>
             </section>
             <section class="description">
                 <div class="grid">
@@ -194,7 +194,7 @@
                         <p>This project showcases my growing skills in HTML and vanilla JavaScript, along with improved SCSS techniques.  It represents a significant improvement in structure compared to my first website, the Water website, and has sparked my curiosity about component-based coding with better structure, that is easier to maintain. </p>
                     </div>
                     <div class="visual col-12 col-8-lg">
-                        <img src="../assets/img/water.png" alt="Water">
+                        <img src="" alt="To be displayed">
                     </div>
                 </div>
             </section>
@@ -215,21 +215,21 @@
                         <li>
                             <div class="card" data-category="2">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>ezt - online tea shop</h4>
+                                <h4>the blue - water website</h4>
                                 <div class="tags">
-                                    <div class="pill-blue">ux research</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
                                     <div class="pill-pink">ui design</div>
-                                    <div class="pill-pink">branding</div>
-                                    <div class="pill-pink">Figma</div>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -242,34 +242,35 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>kabinet nails</h4>
+                                <h4>ezt - online tea shop</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
+                                    <div class="pill-blue">ux research</div>
+                                    <div class="pill-pink">ui design</div>
+                                    <div class="pill-pink">branding</div>
+                                    <div class="pill-pink">Figma</div>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="card" data-category="2">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>ezt - online tea shop</h4>
+                                <h4>the blue - water website</h4>
                                 <div class="tags">
-                                    <div class="pill-blue">ux research</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
                                     <div class="pill-pink">ui design</div>
-                                    <div class="pill-pink">branding</div>
-                                    <div class="pill-pink">Figma</div>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -282,19 +283,20 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>kabinet nails</h4>
+                                <h4>ezt - online tea shop</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
+                                    <div class="pill-blue">ux research</div>
+                                    <div class="pill-pink">ui design</div>
+                                    <div class="pill-pink">branding</div>
+                                    <div class="pill-pink">Figma</div>
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
-        </section>
+        </section>    
     </main>
 
     <?php include '../components/footer-project.php'; ?>

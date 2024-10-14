@@ -108,6 +108,7 @@
                 <div class="pill-blue">HTML</div>
                 <div class="pill-blue">SCSS</div>
                 <div class="pill-blue">JavaScript</div>
+                <div class="pill-blue">Local Storage</div>
                 <div class="pill-pink">UI Design</div>
             </div>
         </div>
@@ -129,9 +130,9 @@
                     <div class="pill-pink">ui design</div>
                 </div>
             </div>
-            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
+            <img src="./assets/img/card-icon.svg" alt="plus" class="cta">
         </div>
-        <div class="card-list col-12" data-category="2">
+        <div class="card-list col-12" onclick="window.location.href='./projects/ezt';" data-category="2">
             <div class="cover">
                 <video autoplay muted loop src="./assets/video/ezt.mp4" title="EZT Prototype Mockup">
                 </video>
@@ -139,7 +140,7 @@
             </div>
             <div class="description">
                 <h4>ezt - online tea shop</h4>
-                <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                <p>TUX Research, Brand Identity, UI Design and User Testing Report for fictional company, EZT - Online Tea Store. Main focus is creating high-fidelity Figma mockup for custom tea blend building and purchasing processes and exploration and implementation of various tools and basic functionality in Figma.</p>
                 <div class="tags">
                     <div class="pill-blue">ux research</div>
                     <div class="pill-pink">ui design</div>
@@ -147,11 +148,11 @@
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
-            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
+            <img src="./assets/img/card-icon.svg" alt="plus" class="cta">
         </div>
         <div class="card-list col-12" data-category="3">
             <div class="cover">
-                <img src="./assets/img/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
+                <img src="./assets/img/meowdy/meowdy-mockup.jpg" onclick="window.location.href='./projects/meowdy';" alt="Meowdy Box Mockup">
             </div>
             <div class="description">
                 <h4>ezt - online tea shop</h4>
@@ -163,23 +164,25 @@
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
-            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
+            <img src="./assets/img/card-icon.svg" alt="plus" class="cta">
         </div>
-        <div class="card-list col-12" data-category="3">
+        <div class="card-list col-12" onclick="window.location.href='./projects/workflow';" data-category="1">
             <div class="cover">
-                <img src="./assets/img/kabinet-mockup.jpg" alt="Kabinet Branding Mockup">
+                <video autoplay muted loop src="./assets/video/workflow.mp4" title="Workflow Website Mockup" poster="./assets/video/workflow-poster.png"></video>
+                <img class="video-poster" src="./assets/video/workflow-poster.png" alt="EZT Prototype Mockup" style="display:none;">
             </div>
             <div class="description">
-                <h4>ezt - online tea shop</h4>
+                <h4>workflow - promotional landing</h4>
                 <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
                 <div class="tags">
-                    <div class="pill-blue">ux research</div>
-                    <div class="pill-pink">ui design</div>
-                    <div class="pill-pink">branding</div>
+                    <div class="pill-blue">HTML</div>
+                    <div class="pill-blue">SCSS</div>
+                    <div class="pill-blue">JAVASCRPT</div>
+                    <div class="pill-blue">Local Storage</div>
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
-            <img src="./assets/img/arrow.svg" alt="arrow" class="cta">
+            <img src="./assets/img/card-icon.svg" alt="plus" class="cta">
         </div>
     </section>
     </main>

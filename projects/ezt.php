@@ -60,8 +60,8 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <video src="../assets/video/ezt-mockup.mp4" autoplay muted looped></video>
-                <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup" style="display:none;">
+                <video src="../assets/video/ezt.mp4" autoplay muted looped></video>
+                <img class="video-poster" src="./assets/img/posters/ezt-poster.png" alt="EZT Prototype Mockup" style="display:none;">
             </section>
             <section class="description">
                 <div class="grid">
@@ -108,7 +108,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/persona.png" alt="EZT User Persona">
+                                <img src="../assets/img/ezt/persona.png" alt="EZT User Persona">
                             </ul>
                         </div>
                         <div class="code-show">
@@ -117,7 +117,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/scenario.png" alt="EZT User Scenario">
+                                <img src="../assets/img/ezt/scenario.png" alt="EZT User Scenario">
                             </ul>
                         </div>
                         <div class="code-show">
@@ -126,7 +126,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/empathy.png" alt="EZT Empathy Map">
+                                <img src="../assets/img/ezt/empathy.png" alt="EZT Empathy Map">
                             </ul>
                         </div>
                         <div class="code-show">
@@ -135,7 +135,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <img src="../assets/img/journey.png" alt="EZT Journey Map">
+                                <img src="../assets/img/ezt/journey.png" alt="EZT Journey Map">
                             </ul>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                         <p>Hand-drawn elements were added using the pencil tool, giving the graphic assets a detailed, human touch and emphasizing a handcrafted, well-thought-out aesthetic.</p>
                     </div>
                     <div class="col-12">
-                        <img src="../assets/img/brandngezt.png" alt="EZT Branding">
+                        <img src="../assets/img/ezt/brandngezt.png" alt="EZT Branding">
                     </div>
                     <div class="col-12">
                         <p>Additionally, a paper texture was incorporated to further enhance the handmade feel, reinforcing the idea of products "crafted with love."</p>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>Given the importance of product imagery in store websites, I needed to get creative, especially since this was a fictional client. To maintain a high level of realism, I generated all the product images using Google’s Gemini AI.</p>
-                        <img src="../assets/img/ezt gemini.png" alt="EZT Product Imagery">
+                        <img src="../assets/img/ezt/ezt gemini.png" alt="EZT Product Imagery">
                     </div>
                 </div>
             </section>
@@ -194,7 +194,7 @@
                 <div class="grid showcase">
                     <div class="col-12"><h2>user testing.</h2></div>
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/heatmapezt.png" alt="Heat Map EZT">
+                        <img src="../assets/img/ezt/heatmapezt.png" alt="Heat Map EZT">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
@@ -209,10 +209,10 @@
                         <p>Based on this feedback, I made targeted changes to UI elements, refining designs to better address user needs and enhance overall usability.</p>
                     </div>
                     <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/after.png" alt="EZT Prototype Before">
+                        <img src="../assets/img/ezt/after.png" alt="EZT Prototype Before">
                     </div>
                     <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/before.png" alt="EZT Prototype After">
+                        <img src="../assets/img/ezt/before.png" alt="EZT Prototype After">
                     </div>
                     <div class="col-12 col-6-lg sp"> 
                         <p> This iterative process allowed for significant improvements in the user experience, ensuring the final product was both functional and user-friendly.</p>
@@ -235,23 +235,23 @@
                 <div class="project-scroll">
                     <ul>
                         <li>
-                            <div class="card" onclick="window.location.href='./theblue';">
+                            <div class="card" data-category="2">
                                 <div class="cover">
-                                    <video src="../assets/video/dddd.mp4" autoplay muted loop title="The Blue Mockup"></video>
+                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>water website - the blue</h4>
+                                <h4>the blue - water website</h4>
                                 <div class="tags">
                                     <div class="pill-blue">html</div>
-                                    <div class="pill-blue">css</div>
+                                    <div class="pill-blue">scss</div>
                                     <div class="pill-blue">javascript</div>
-                                    <div class="pill-pink">we design</div>
+                                    <div class="pill-pink">ui design</div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="card" onclick="window.location.href='./meowdy';">
+                            <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="Meowdy Mockup">
+                                    <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -262,36 +262,38 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" onclick="window.location.href='./kabinet';">
+                            <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="Kabnet Mockup">
+                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>kabinet nails</h4>
+                                <h4>workflow - promotional landing</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-blue">local storage</div>
+                                    <div class="pill-pink">ui design</div>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="card" data-category="2">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop title="The Blue Mockup"></video>
+                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>ezt - online tea shop</h4>
+                                <h4>the blue - water website</h4>
                                 <div class="tags">
-                                    <div class="pill-blue">ux research</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
                                     <div class="pill-pink">ui design</div>
-                                    <div class="pill-pink">branding</div>
-                                    <div class="pill-pink">Figma</div>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="Meowdy Mockup">
+                                    <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -304,13 +306,15 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="Kabinet Mockup">
+                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>kabinet nails</h4>
+                                <h4>workflow - promotional landing</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-blue">local storage</div>
+                                    <div class="pill-pink">ui design</div>
                                 </div>
                             </div>
                         </li>

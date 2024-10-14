@@ -60,7 +60,7 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <img src="../assets/img/meowdy-mockup.jpg" alt="Meowdy Mockup">
+                <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="Meowdy Mockup">
             </section>
             <section class="description">
                 <div class="grid">
@@ -103,7 +103,7 @@
                         <img src="../assets/video/colors.gif" alt="Color Palette">
                     </div>
                     <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/logoroughs.png" alt="Logo Sketches">
+                        <img src="../assets/img/meowdy/logoroughs.png" alt="Logo Sketches">
                     </div>
                     <div class="col-12 col-6-lg sp"> 
                         <p>Before coming up with final logo design I developed 7 rough variations, as I like variety, having an opportunity to imagine multiple outcomes before committing to the idea.</p>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/meowdy.png" alt="Meowdy Logo">
+                        <img src="../assets/img/meowdy/meowdy.png" alt="Meowdy Logo">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
@@ -128,12 +128,12 @@
                         <p>Before I started, I spent a good hour in Toys’r’Us looking at different packaging to do my own research. Essential elements included incorporating French translations to meet bilingual requirements, adhering to regulatory standards for obligatory labels and symbols such as safety and recycling icons, and ensuring all necessary information was clearly presented. Beyond these requirements, the design process offered the freedom to create a unique and engaging packaging that reflected the brand's playful and appealing character.</p>
                     </div>
                     <div class="col-12">
-                        <img src="../assets/img/boxmeowdy.png" alt="Box Mockup">
+                        <img src="../assets/img/meowdy/boxmeowdy.png" alt="Box Mockup">
                     </div>
                 </div>
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/cats.png" alt="Cat Graphics">
+                        <img src="../assets/img/meowdy/cats.png" alt="Cat Graphics">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <p>The designs of the cat figures, inspired by real-life cats, add a touch of authenticity and charm. Each box includes an NFT token of the cat figure, offering a unique digital collectible that complements the physical product. This combination of tangible and digital elements enhances the overall experience, making each box a special and collectible item.</p>
@@ -146,13 +146,13 @@
                         <h2>business cards.</h2>
                     </div>
                     <div class="col-12">
-                        <img src="../assets/img/cardmeow.png" alt="Meowdy Business Card">
+                        <img src="../assets/img/meowdy/cardmeow.png" alt="Meowdy Business Card">
                     </div>
                     <div class="col-12 col-8-lg sp"> 
                         <p>The business cards are designed to accommodate names of any length or complexity, ensuring that no matter how unusual or long an employee's name may be, it fits seamlessly within the design.</p>
                     </div>
                     <div class="col-12">
-                        <img src="../assets/img/cards.png" alt="Meowdy Business Cards">
+                        <img src="../assets/img/meowdy/cards.png" alt="Meowdy Business Cards">
                     </div>
                 </div>
             </section>
@@ -162,9 +162,23 @@
                 <div class="project-scroll">
                     <ul>
                         <li>
-                            <div class="card" data-category="2" onclick="window.location.href='./ezt';">
+                            <div class="card" data-category="2">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
+                                </div>
+                                <h4>the blue - water website</h4>
+                                <div class="tags">
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-pink">ui design</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card" data-category="3">
+                                <div class="cover">
+                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -176,35 +190,38 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3" onclick="window.location.href='./theblue';">
+                            <div class="card" data-category="3">
                                 <div class="cover">
-                                    <video src="../assets/video/dddd.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>meowdy! Cat surprise boxes</h4>
+                                <h4>workflow - promotional landing</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">branding</div>
-                                    <div class="pill-pink">Photoshop</div>
-                                    <div class="pill-pink">Packaging</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-blue">local storage</div>
+                                    <div class="pill-pink">ui design</div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3" onclick="window.location.href='./kabinet';">
+                            <div class="card" data-category="2">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>kabinet nails</h4>
+                                <h4>the blue - water website</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-pink">ui design</div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="2" onclick="window.location.href='./ezt';">
+                            <div class="card" data-category="3">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -216,28 +233,17 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3" onclick="window.location.href='./theblue';">
+                            <div class="card" data-category="3">
                                 <div class="cover">
-                                    <video src="../assets/video/dddd.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>meowdy! Cat surprise boxes</h4>
+                                <h4>workflow - promotional landing</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">branding</div>
-                                    <div class="pill-pink">Photoshop</div>
-                                    <div class="pill-pink">Packaging</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="card" data-category="3" onclick="window.location.href='./kabinet';">
-                                <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
-                                </div>
-                                <h4>kabinet nails</h4>
-                                <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-blue">local storage</div>
+                                    <div class="pill-pink">ui design</div>
                                 </div>
                             </div>
                         </li>

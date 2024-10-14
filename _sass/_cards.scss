@@ -10,15 +10,6 @@
     animation: cardDisplay .5s forwards;
     position: relative;
 
-    .cta {
-        position: absolute;
-        width: 40px;
-        bottom: 0;
-        right: 0;
-        transition: all .3s ease;
-        padding: 0 1rem;
-    }
-
     .cover img {
         width: 100%;
         height: auto;
@@ -79,12 +70,6 @@
             border-radius: 10px;
         }
     }
-
-    &:hover {
-        .cta {
-            transform: rotate(-45deg);
-        }
-    }
 }
 
 // = LIST CARD STYLES = //
@@ -103,11 +88,11 @@
 
     .cta {
         position: absolute;
-        width: 40px;
+        width: 35px;
         bottom: 0;
         right: 0;
         transition: all .3s ease;
-        padding: 1rem 2rem;
+        padding: 1rem;
     }
 
     .cover {
@@ -140,7 +125,7 @@
         border: $berry solid 1px;
 
         .cta {
-            transform: rotate(-45deg);
+            transform: rotate(-90deg);
         }
 
         .cover img,

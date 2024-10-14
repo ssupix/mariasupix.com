@@ -58,6 +58,7 @@
                     </div>
                     <div class="banner-image s-1 col-6-lg">
                         <div class="overlay"></div>
+                        <div class="tv-static"></div>
                         <img src="./assets/img/banner.png" alt="Masha Supikhanova">
                     </div>
                     <div class="banner-right-text col-12 col-3-lg">
@@ -79,13 +80,11 @@
                     <a href="./projects/theblue">learn more</a>
                 </div>
                 <div class="project-video col-12 col-6-lg">
-                    <video loop muted autoplay poster="./assets/video/waterwebsite-poster.png" title="The Blue Website Showcase" onclick="window.location.href='./projects/theblue';">
-                        <source src="./assets/video/waterwebsite.mp4" type="video/mp4">
-                        <source src="./assets/video/waterwebsite.webm" type="video/webm">
-                        <source src="./assets/video/waterwebsite.ogv" type="video/ogg">
+                    <video loop muted autoplay poster="./assets/video/imac-theblue-poster.png" title="The Blue Website Showcase" onclick="window.location.href='./projects/theblue';">
+                        <source src="./assets/video/imac-theblue.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <img src="./assets/video/waterwebsite-poster.png" alt="The Blue Website Showcase">
+                    <img src="./assets/video/imac-theblue-poster.png" alt="The Blue Website Showcase">
                 </div>
             </div>
         </section>
@@ -95,7 +94,7 @@
                     <div class="grid">
                         <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/meowdy';">
                             <div class="cover">
-                                <img src="./assets/img/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
+                                <img src="./assets/img/meowdy/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
                             </div>
                             <h4>meowdy! Cat surprise boxes</h4>
                             <div class="tags">
@@ -107,9 +106,7 @@
                         <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/workflow';">
                             <div class="cover video">
                                 <video autoplay muted loop title="Workflow Landing Mockup">
-                                    <source src="./assets/video/workflow-mockup.mp4" type="video/mp4">
-                                    <!-- <source src="./assets/video/ezt-mockup.webm" type="video/webm"> -->
-                                    <!-- <source src="./assets/video/ezt-mockup.ogv" type="video/ogg"> -->
+                                    <source src="./assets/video/workflow.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -128,9 +125,7 @@
                     <div class="card" onclick="window.location.href='./projects/ezt';">
                         <div class="cover video">
                             <video autoplay muted loop poster="./assets/video/ezt-poster.png" title="EZT Prototype Mockup">
-                                <source src="./assets/video/ezt-mockup.mp4" type="video/mp4">
-                                <source src="./assets/video/ezt-mockup.webm" type="video/webm">
-                                <source src="./assets/video/ezt-mockup.ogv" type="video/ogg">
+                                <source src="./assets/video/ezt.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup">

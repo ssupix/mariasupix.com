@@ -139,22 +139,22 @@
                 <img src="./assets/img/ssupix.png" alt="ssupix">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/miau.png" alt="Masha's cat">
+                <img src="./assets/img/drag/miau.png" alt="Masha's cat">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/mxmaster.png" alt="Masha's MX Master Logitech">
+                <img src="./assets/img/drag/mxmaster.png" alt="Masha's MX Master Logitech">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/flower.png" alt="flower">
+                <img src="./assets/img/drag/flower.png" alt="flower">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/teacup.png" alt="tea cup">
+                <img src="./assets/img/drag/teacup.png" alt="tea cup">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/donut.png" alt="donut render">
+                <img src="./assets/img/drag/donut.png" alt="donut render">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
-                <img src="./assets/img/headphones.png" alt="headphones">
+                <img src="./assets/img/drag/headphones.png" alt="headphones">
             </div>
         </section>
     </main>

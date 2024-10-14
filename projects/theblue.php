@@ -65,7 +65,7 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <video src="../assets/video/dddd.mp4" autoplay muted looped></video>
+                <video src="../assets/video/theblue.mp4" poster="../assets/img/posters/theblue-poster.png" autoplay muted looped></video>
             </section>
             <section class="description">
                 <div class="grid">
@@ -88,7 +88,7 @@
                         <h3>Input</h3>
                         <p>Masha Supikhanova – Creative developer <br> Airrick Dunfield  –  Mentor, front-end developer <br> Jayden Inniss  –  Photographer</p>
                         <h3>Total Hours</h3>
-                        <p>36</p>
+                        <p>30</p>
                     </div>
                     <div class="col-12 col-6-md detail">
                         <h3>Design Tools</h3>
@@ -106,10 +106,8 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
-                        <video loop muted autoplay poster="../assets/img/waterwebsite-poster.png" title="The Blue Website Showcase">
-                            <source src="../assets/video/waterwebsite.mp4" type="video/mp4">
-                            <source src="../assets/video/waterwebsite.webm" type="video/webm">
-                            <source src="../assets/video/waterwebsite.ogv" type="video/ogg">
+                        <video loop muted autoplay poster="../assets/img/imac-theblue-poster.png" title="The Blue Website Showcase">
+                            <source src="../assets/video/imac-theblue.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -118,7 +116,7 @@
             <section class="getting-started">
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/waterstart.png" alt="Figma Prototype Water Website">
+                        <img src="../assets/img/theblue/waterstart.png" alt="Figma Prototype Water Website">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
@@ -167,7 +165,7 @@
                 </div>
                 <div class="grid">
                     <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/npminstall.png" alt="Installing Plugins with NPM">
+                        <img src="../assets/img/theblue/npminstall.png" alt="Installing Plugins with NPM">
                     </div>
                     <div class="col-12 col-6-lg sp"> 
                         <h2>npm install.</h2>
@@ -181,10 +179,8 @@
                         <p>One noteworthy find was the AOS (Animate On Scroll) library, which provides a minimalist approach to animating sections upon scroll. This library stood out due to its ease of use and minimal code requirements, making it an excellent choice for enhancing the user experience in my project.</p>
                     </div>
                     <div class="col-12 col-6-lg sp">
-                        <video loop muted autoplay poster="../assets/img/scroll-poster.jpg" title="The Blue Website Showcase">
-                            <source src="../assets/video/scroll.mp4" type="video/mp4">
-                            <source src="../assets/video/scroll.webm" type="video/webm">
-                            <source src="../assets/video/scroll.ogv" type="video/ogg">
+                        <video loop muted autoplay poster="../assets/img/scroll-theblue-poster.jpg" title="The Blue Website Showcase">
+                            <source src="../assets/video/scroll-theblue.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         
@@ -209,7 +205,7 @@
                 </div>
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg outline">
-                        <img src="../assets/img/3js.png" alt="3js demo">
+                        <img src="../assets/img/theblue/3js.png" alt="3js demo">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
@@ -229,7 +225,7 @@
                     <div class="visual col-12 col-8-lg">
                         <p>TheBlue showed me how far I’ve come in my web development journey and how
                             much more is out there to know, experience and learn. It also taught me about the importance of tidy and neat code structure, which is vital when you mix and extend functionality of your site in such ways, implementing different libraries, making it unique and memorable.</p>
-                        <img src="../assets/img/water.png" alt="Water">
+                        <img src="../assets/img/theblue/water.png" alt="Water">
                     </div>
                 </div>
             </section>
@@ -250,7 +246,7 @@
                         <li>
                             <div class="card" data-category="2">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -264,7 +260,7 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -277,20 +273,22 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>kabinet nails</h4>
+                                <h4>workflow - promotional landing</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-blue">local storage</div>
+                                    <div class="pill-pink">ui design</div>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="card" data-category="2">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt-mockup.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -304,7 +302,7 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/meowdy-mockup.jpg" alt="">
+                                    <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="">
                                 </div>
                                 <h4>meowdy! Cat surprise boxes</h4>
                                 <div class="tags">
@@ -317,13 +315,15 @@
                         <li>
                             <div class="card" data-category="3">
                                 <div class="cover">
-                                    <img src="../assets/img/kabinet-mockup.jpg" alt="">
+                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
                                 </div>
-                                <h4>kabinet nails</h4>
+                                <h4>workflow - promotional landing</h4>
                                 <div class="tags">
-                                    <div class="pill-pink">Branding</div>
-                                    <div class="pill-pink">Illustrator</div>
-                                    <div class="pill-pink">Blender</div>
+                                    <div class="pill-blue">html</div>
+                                    <div class="pill-blue">scss</div>
+                                    <div class="pill-blue">javascript</div>
+                                    <div class="pill-blue">local storage</div>
+                                    <div class="pill-pink">ui design</div>
                                 </div>
                             </div>
                         </li>
