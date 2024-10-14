@@ -42,6 +42,10 @@
 <body>
     
     <?php include 'components/nav.php'; ?>
+
+    <div id="cursor-follower">
+        <span class="cursor-text"></span>
+    </div>
     
     <main>
         <section class="about-fold1">
@@ -96,7 +100,7 @@
         </section>
         <section class="skills">
             <div class="grid">
-                <div class="cv col-12 col-7-md cv-modal-trigger" data-custom-open="modal-1">
+                <div class="cv col-12 col-7-md cv-modal-trigger hover-content" data-custom-open="modal-1" data-hover-text="Download CV">
                     <img src="./assets/img/cv-inplastic.png" alt="Masha's CV Resume in plastic">
                 </div>
                 <div class="skills-description col-12 col-5-md">
@@ -201,6 +205,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
     <script src="./js/drag.js"></script>
     <script src="./js/flickity.js"></script>
+    <script src="./js/cursor.js"></script>
 
 </body>
 </html>

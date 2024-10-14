@@ -68,6 +68,60 @@ html.lenis body {
     pointer-events: none;
 }
 
+#cursor-follower {
+    width: 8px;
+    max-width: min-content;
+    height: 8px;
+    border: $berry 1px solid;
+    aspect-ratio: 1;
+    background-color: $blue;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.3s ease-out, height 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out;
+}
+#cursor-follower.hover {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: $berry 1px solid;
+    backdrop-filter: blur(5px);
+
+    animation: opacity 0.3s forwards;
+}
+.cursor-text {
+    color: $stormy;
+    font-size: 12px;
+    opacity: 0;
+    font-family: "Space Mono", monospace;
+    text-transform: uppercase;
+    font-weight: 400;
+    animation: opacity 0.3s forwards;
+    text-align: center;
+}
+#cursor-follower.hover .cursor-text {
+    animation: opacity 0.3s forwards;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 // * COMPONENTS * //
 @import "cards";
 @import "buttons";

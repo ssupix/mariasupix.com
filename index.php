@@ -41,6 +41,10 @@
 
     <?php include 'components/nav.php'; ?>
     
+    <div id="cursor-follower">
+        <span class="cursor-text"></span>
+    </div>
+    
     <main>
         <section class="hero">
             <h1>Maria Supikhanova <span class="inter" id="scrambleText">front-end developer & product designer</span></h1>
@@ -56,7 +60,7 @@
                         <p>Based in Vancouver, BC</p>
                         <!-- <p class='line'>Maria believes technology is the future, and her mission is to ensure it honours traditional forms of art while pushing the limits of web design, and implementing cutting-edge technology.</p> -->
                     </div>
-                    <div class="banner-image s-1 col-6-lg">
+                    <div class="banner-image s-1 col-6-lg hover-content" data-hover-text="Learn more" onclick="window.location.href='./about';">
                         <div class="overlay"></div>
                         <div class="tv-static"></div>
                         <img src="./assets/img/banner.png" alt="Masha Supikhanova">
@@ -92,7 +96,7 @@
             <div class="grid">
                 <div class="col-12 col-6-lg left">
                     <div class="grid">
-                        <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/meowdy';">
+                        <div class="card small col-12 col-6-sm hover-content" onclick="window.location.href='./projects/meowdy';" data-hover-text="View project">
                             <div class="cover">
                                 <img src="./assets/img/meowdy/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
                             </div>
@@ -103,7 +107,7 @@
                                 <div class="pill-pink">Packaging</div>
                             </div>
                         </div>
-                        <div class="card small col-12 col-6-sm" onclick="window.location.href='./projects/workflow';">
+                        <div class="card small col-12 col-6-sm hover-content" onclick="window.location.href='./projects/workflow';" data-hover-text="View project">
                             <div class="cover video">
                                 <video autoplay muted loop title="Workflow Landing Mockup">
                                     <source src="./assets/video/workflow.mp4" type="video/mp4">
@@ -122,7 +126,7 @@
                     <a href="./work" class="desktop-link">more projects</a>
                 </div>
                 <div class="col-12 col-6-lg ">
-                    <div class="card" onclick="window.location.href='./projects/ezt';">
+                    <div class="card hover-content" onclick="window.location.href='./projects/ezt';" data-hover-text="View project">
                         <div class="cover video">
                             <video autoplay muted loop poster="./assets/video/ezt-poster.png" title="EZT Prototype Mockup">
                                 <source src="./assets/video/ezt.mp4" type="video/mp4">
@@ -161,7 +165,7 @@
     <script src="./js/scramble.js"></script>
     <script src="./js/banner.js"></script>
     <script src="./js/video.js"></script>
-    <script src="./js/type.js"></script>
+    <script src="./js/cursor.js"></script>
     
 </body>
 </html>

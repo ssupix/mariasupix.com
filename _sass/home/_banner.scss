@@ -28,6 +28,7 @@
             justify-content: center;
             background-color: $white;
             border: 1px solid $black;
+            cursor: pointer;
 
             img {
                 max-width: 100%;
@@ -41,7 +42,7 @@
                     background-position: 0 0;
                 }
                 50% {
-                    background-position: 20% 50%;
+                    background-position: 10% 50%;
                 }
             }
             
@@ -52,10 +53,11 @@
                 width: 100%;
                 height: 100%;
                 background: url('../assets/img/noise.png') repeat; 
+                background-size: 1000px;
                 animation: noise .2s infinite steps(12);
                 z-index: 5;
                 mix-blend-mode: screen;
-                opacity: .9;
+                opacity: .7;
             }
 
             .overlay {
@@ -143,9 +145,11 @@
         p, 
         .banner-right-text {
             text-align: center;
+            width: 100%;
 
-            p,a {
+            a {
                 width: 100%;
+                justify-content: center;
             }
         }
 

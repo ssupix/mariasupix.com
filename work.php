@@ -38,6 +38,10 @@
 <body>
     
     <?php include 'components/nav.php'; ?>
+
+    <div id="cursor-follower">
+        <span class="cursor-text"></span>
+    </div>
     
     <main>
     <section class="work-header">
@@ -64,7 +68,7 @@
         </div>
     </section>
     <section class="work-projects grid">
-        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/theblue';" data-category="1">
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/theblue';" data-category="1" data-hover-text="View project">
                 <div class="cover">
                     <video src="./assets/video/theblue.mp4" autoplay muted loop></video>
                 </div>
@@ -76,7 +80,7 @@
                 <div class="pill-pink">ui design</div>
             </div>
         </div>
-        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/ezt';" data-category="2">
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/ezt';" data-category="2" data-hover-text="View project">
             <div class="cover">
                 <video src="./assets/video/ezt.mp4" autoplay muted loop></video>
             </div>
@@ -88,7 +92,7 @@
                 <div class="pill-pink">Figma</div>
             </div>
         </div>
-        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/meowdy';" data-category="3">
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/meowdy';" data-category="3" data-hover-text="View project">
             <div class="cover">
                 <img src="./assets/img/meowdy/meowdy-mockup.jpg" alt="">
             </div>
@@ -99,7 +103,7 @@
                 <div class="pill-pink">Packaging</div>
             </div>
         </div>
-        <div class="card col-12 col-6-md" onclick="window.location.href='./projects/workflow';" data-category="3">
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/workflow';" data-category="3" data-hover-text="View project">
             <div class="cover">
                 <video src="./assets/video/workflow.mp4" autoplay muted loop></video>
             </div>
@@ -204,6 +208,7 @@
     <script src="./js/filter.js"></script>
     <script src="./js/scroll.js"></script>
     <script src="./js/video.js"></script>
+    <script src="./js/cursor.js"></script>
     
 </body>
 </html>

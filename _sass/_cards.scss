@@ -9,6 +9,13 @@
     justify-content: space-between;
     animation: cardDisplay .5s forwards;
     position: relative;
+    cursor: pointer;
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 
     .cover img {
         width: 100%;
@@ -53,22 +60,22 @@
         border: $white solid 1px;
         position: relative;
     }
-    
-    .cover:hover {
-        padding: 5%;
-        border: $black 1px solid;
-    
-        img {
-            border-radius: 0;
-        }
-    
-        video:hover {
-            border-radius: 0;
-        }
+}
 
-        .cover .video-poster:hover {
-            border-radius: 10px;
-        }
+.card:hover .cover {
+    padding: 5%;
+    border: $black 1px solid;
+
+    img {
+        border-radius: 0;
+    }
+
+    video{
+        border-radius: 0;
+    }
+
+    .cover .video-poster {
+        border-radius: 10px;
     }
 }
 

@@ -725,6 +725,63 @@ html.lenis body {
   pointer-events: none;
 }
 
+#cursor-follower {
+  width: 8px;
+  max-width: -moz-min-content;
+  max-width: min-content;
+  height: 8px;
+  border: #DB1D6F 1px solid;
+  aspect-ratio: 1;
+  background-color: #97A0C4;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.3s ease-out, height 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out;
+}
+
+#cursor-follower.hover {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: #DB1D6F 1px solid;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  animation: opacity 0.3s forwards;
+}
+
+.cursor-text {
+  color: #646A82;
+  font-size: 12px;
+  opacity: 0;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 400;
+  animation: opacity 0.3s forwards;
+  text-align: center;
+}
+
+#cursor-follower.hover .cursor-text {
+  animation: opacity 0.3s forwards;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .card {
   width: 100%;
   gap: 15px;
@@ -735,6 +792,12 @@ html.lenis body {
   justify-content: space-between;
   animation: cardDisplay 0.5s forwards;
   position: relative;
+  cursor: pointer;
+}
+.card .description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 .card .cover img {
   width: 100%;
@@ -773,17 +836,18 @@ html.lenis body {
   border: #f7f5f5 solid 1px;
   position: relative;
 }
-.card .cover:hover {
+
+.card:hover .cover {
   padding: 5%;
   border: #131313 1px solid;
 }
-.card .cover:hover img {
+.card:hover .cover img {
   border-radius: 0;
 }
-.card .cover:hover video:hover {
+.card:hover .cover video {
   border-radius: 0;
 }
-.card .cover:hover .cover .video-poster:hover {
+.card:hover .cover .cover .video-poster {
   border-radius: 10px;
 }
 
@@ -1714,6 +1778,7 @@ footer {
   justify-content: center;
   background-color: #f7f5f5;
   border: 1px solid #131313;
+  cursor: pointer;
 }
 .banner .banner-row .banner-image img {
   max-width: 100%;
@@ -1726,7 +1791,7 @@ footer {
     background-position: 0 0;
   }
   50% {
-    background-position: 20% 50%;
+    background-position: 10% 50%;
   }
 }
 .banner .banner-row .banner-image .tv-static {
@@ -1736,10 +1801,11 @@ footer {
   width: 100%;
   height: 100%;
   background: url("../assets/img/noise.png") repeat;
+  background-size: 1000px;
   animation: noise 0.2s infinite steps(12);
   z-index: 5;
   mix-blend-mode: screen;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 .banner .banner-row .banner-image .overlay {
   content: "";
@@ -1813,11 +1879,12 @@ footer {
   .banner p,
   .banner .banner-right-text {
     text-align: center;
+    width: 100%;
   }
-  .banner p p, .banner p a,
-  .banner .banner-right-text p,
+  .banner p a,
   .banner .banner-right-text a {
     width: 100%;
+    justify-content: center;
   }
   .banner .banner-row .banner-image {
     padding: 10%;

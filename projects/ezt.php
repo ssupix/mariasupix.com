@@ -42,6 +42,10 @@
     
     <?php include '../components/nav-project.php'; ?>
 
+    <div id="cursor-follower">
+        <span class="cursor-text"></span>
+    </div>
+
     <main class="ezt">
     <section class="title">
             <div class="grid">
@@ -235,7 +239,7 @@
                 <div class="project-scroll">
                     <ul>
                         <li>
-                            <div class="card" data-category="2">
+                            <div class="card hover-content" data-category="2" data-hover-text="View project" onclick="window.location.href='./theblue';">
                                 <div class="cover">
                                     <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
                                 </div>
@@ -249,7 +253,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./meowdy';">
                                 <div class="cover">
                                     <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="">
                                 </div>
@@ -262,7 +266,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./workflow';">
                                 <div class="cover">
                                     <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
                                 </div>
@@ -277,7 +281,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="2">
+                            <div class="card hover-content" data-category="2" data-hover-text="View project" onclick="window.location.href='./theblue';">
                                 <div class="cover">
                                     <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
                                 </div>
@@ -291,7 +295,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./meowdy';">
                                 <div class="cover">
                                     <img src="../assets/img/meowdy/meowdy-mockup.jpg" alt="">
                                 </div>
@@ -304,7 +308,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="card" data-category="3">
+                            <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./workflow';">
                                 <div class="cover">
                                     <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
                                 </div>
@@ -342,6 +346,7 @@
     <script src="../js/scramble.js"></script>
     <script src="../js/dropdown.js"></script>
     <script src="../js/video.js"></script>
+    <script src="../js/cursor.js"></script>
 
 </body>
 </html>
