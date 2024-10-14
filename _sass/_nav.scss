@@ -26,10 +26,28 @@ nav {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    padding: 7px 35px;
+    padding: 7px 25px;
     border-radius: 35px;
     cursor: pointer;
     transition: all .3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .8rem;
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 17px;
+        width: auto;
+        transition: all .3s ease;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
 
     &.current {
         border-radius: 0;
@@ -45,14 +63,10 @@ nav {
 .nav-links li a:hover {
     border-radius: 0px;
     background-color: rgba(255, 178, 224, 0.5);
-}
 
-.sharp {
-    border-radius: 0px !important;
-}
-
-.sharp:hover {
-    border-radius: 35px !important;
+    .icon {
+        transform: rotateZ(90deg);
+    }
 }
 
 .logo {
@@ -68,6 +82,15 @@ nav {
         path {
             transition: fill 0.3s ease, stroke 0.3s ease, stroke-width 0.3s ease;
         }
+    }
+}
+
+a {
+    display: flex;
+
+    img {
+        height: 100%;
+        width: auto;
     }
 }
 

@@ -130,7 +130,7 @@
                     <div class="pill-pink">ui design</div>
                 </div>
             </div>
-            <img src="./assets/img/card-icon.svg" alt="plus" class="cta">
+            <img src="./assets/img/icons/card-icon.svg" alt="plus" class="cta">
         </div>
         <div class="card-list col-12" onclick="window.location.href='./projects/ezt';" data-category="2">
             <div class="cover">
@@ -148,7 +148,7 @@
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
-            <img src="./assets/img/card-icon.svg" alt="plus" class="cta">
+            <img src="./assets/img/icons/card-icon.svg" alt="plus" class="cta">
         </div>
         <div class="card-list col-12" data-category="3">
             <div class="cover">
@@ -164,7 +164,7 @@
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
-            <img src="./assets/img/card-icon.svg" alt="plus" class="cta">
+            <img src="./assets/img/icons/card-icon.svg" alt="plus" class="cta">
         </div>
         <div class="card-list col-12" onclick="window.location.href='./projects/workflow';" data-category="1">
             <div class="cover">
@@ -182,7 +182,7 @@
                     <div class="pill-pink">Figma</div>
                 </div>
             </div>
-            <img src="./assets/img/card-icon.svg" alt="plus" class="cta">
+            <img src="./assets/img/icons/card-icon.svg" alt="plus" class="cta">
         </div>
     </section>
     </main>
