@@ -138,10 +138,12 @@ a:hover svg path{
 
     ul {
         width: 90%;
+        display: flex;
         flex-direction: column;
         background: none;
         list-style: none;
         text-align: left;
+        gap: 2rem;
     }
     
     ul li a {
@@ -234,9 +236,10 @@ a:hover svg path{
 }
 
 .ham-menu span {
-    height: 5px;
-    width: 100%;
+    height: 4px;
+    width: 80%;
     background-color: $black;
+    // border: 1px solid $black;
     border-radius: 25px;
     position: absolute;
     left: 50%;
@@ -247,9 +250,11 @@ a:hover svg path{
 
 .ham-menu span:nth-child(1) {
     top: 25%;
+    width: 95%;
 }
 .ham-menu span:nth-child(3) {
     top: 75%;
+    width: 95%;
 }
 .ham-menu.active span {
     background-color: $black

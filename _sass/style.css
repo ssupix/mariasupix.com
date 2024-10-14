@@ -1329,10 +1329,12 @@ a:hover svg path {
 }
 .off-screen-menu ul {
   width: 90%;
+  display: flex;
   flex-direction: column;
   background: none;
   list-style: none;
   text-align: left;
+  gap: 2rem;
 }
 .off-screen-menu ul li a {
   color: #f7f5f5;
@@ -1406,8 +1408,8 @@ a:hover svg path {
 }
 
 .ham-menu span {
-  height: 5px;
-  width: 100%;
+  height: 4px;
+  width: 80%;
   background-color: #131313;
   border-radius: 25px;
   position: absolute;
@@ -1419,10 +1421,12 @@ a:hover svg path {
 
 .ham-menu span:nth-child(1) {
   top: 25%;
+  width: 95%;
 }
 
 .ham-menu span:nth-child(3) {
   top: 75%;
+  width: 95%;
 }
 
 .ham-menu.active span {

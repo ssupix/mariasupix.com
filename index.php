@@ -39,6 +39,8 @@
 </head>
 <body>
 
+    <div class="background"></div>
+
     <?php include 'components/nav.php'; ?>
     
     <div id="cursor-follower">
