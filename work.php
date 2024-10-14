@@ -47,7 +47,7 @@
     <section class="work-header">
         <div class="grid">
             <h2 class="col-12">work.</h2>
-            <p class="col-12 col-6-md">As a front-end developer with a design background, I create responsive, interactive, and animated content that seamlessly blends functionality with aesthetics. With expertise in modern frameworks and design tools, I deliver solutions that are efficient, adaptable, and easy to maintain.</p>
+            <p class="col-12 col-6-md">As a front-end developer with a design background, I create responsive, interactive, and animated content that seamlessly blends functionality with aesthetics. I like to deliver solutions that are efficient, adaptable, and easy to maintain.</p>
         </div>
         <div class="grid filter-grid">
             <div class="filter col-6-md col-12">
@@ -144,7 +144,7 @@
             </div>
             <div class="description">
                 <h4>ezt - online tea shop</h4>
-                <p>TUX Research, Brand Identity, UI Design and User Testing Report for fictional company, EZT - Online Tea Store. Main focus is creating high-fidelity Figma mockup for custom tea blend building and purchasing processes and exploration and implementation of various tools and basic functionality in Figma.</p>
+                <p>UX Research, Brand Identity, UI Design and User Testing Report for fictional company, EZT - Online Tea Store. Main focus is creating high-fidelity Figma mockup for custom tea blend building and purchasing processes and exploration and implementation of various tools and basic functionality in Figma.</p>
                 <div class="tags">
                     <div class="pill-blue">ux research</div>
                     <div class="pill-pink">ui design</div>
@@ -160,7 +160,7 @@
             </div>
             <div class="description">
                 <h4>ezt - online tea shop</h4>
-                <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et nisl malesuada, vulputate eros in, ultrices lectus. Nulla facilisi. Aenean non erat nibh. Nullam sed lectus et nunc eleifend malesuada. </p>
                 <div class="tags">
                     <div class="pill-blue">ux research</div>
                     <div class="pill-pink">ui design</div>
@@ -177,7 +177,7 @@
             </div>
             <div class="description">
                 <h4>workflow - promotional landing</h4>
-                <p>This site was made as a term project for BCIT’s Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et nisl malesuada, vulputate eros in, ultrices lectus. Nulla facilisi. Aenean non erat nibh. Nullam sed lectus et nunc eleifend malesuada. </p>
                 <div class="tags">
                     <div class="pill-blue">HTML</div>
                     <div class="pill-blue">SCSS</div>

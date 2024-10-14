@@ -23,3 +23,9 @@ document.querySelectorAll('.hover-content').forEach(el => {
         cursorText.textContent = '';
     });
 });
+
+// opacity on start
+
+window.addEventListener("mousemove", () => {
+    cursor.style.opacity = 1;
+});
