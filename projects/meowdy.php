@@ -22,7 +22,7 @@
     <!-- Metadata -->
     <meta name="description" content=" Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
-    <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
+    <meta property="og:url" content="https://mashasupix.com/projects/meowdy" />
     <meta property="og:title" content="mariasupix - meowdy" />
     <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
     <meta property="og:image" content="https://mashasupix.com/assets/img/meowdy/meowdy-mockup.png" />

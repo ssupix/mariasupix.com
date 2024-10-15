@@ -20,7 +20,7 @@
     <meta name="description" content=" Work Projects. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
     <meta property="og:url" content="https://mashasupix.com/about" />
-    <meta property="og:title" content="Masha Supikhanova - project portfolio" />
+    <meta property="og:title" content="mariasupix - project portfolio" />
     <meta property="og:description" content="Responsive, interactive, and animated solutions that seamlessly blend functionality with aesthetics." />
     <meta property="og:image" content="https://mashasupix.com/assets/img/metadata/work-img.png" />
     <meta property="og:type" content="website" />

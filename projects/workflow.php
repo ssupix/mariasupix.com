@@ -26,16 +26,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- Metadata -->
-    <meta name="description" content=" Project: The Blue - Water Website.Visual experiences that showcases usage of Vanilla JavaScript, JS Plugins and Libraries for a good cause. Built with HTML, CSS, JavaScript." ">
-    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
-    <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
-    <meta property="og:title" content="mariasupix - workflow" />
-    <meta property="og:description" content="Visual experiences that showcases usage of Vanilla JavaScript, JS Plugins and Libraries for a good cause" />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/posters/theblue-poster.png" />
+    <meta name="description" content="Workflow: A promotional landing page for a fictional SaaS app. This project showcases a clean, modern design utilizing HTML, SCSS, and JavaScript. Features include personalized styling with light and dark modes, Local Storage, and dynamic UI interactions like dropdowns and animations.">
+    <meta name="keywords" content="Workflow, SaaS app, Masha Supikhanova, Web Developer, Front-end Developer, UI Design, JavaScript, SCSS, HTML, Vancouver">
+    <meta property="og:url" content="https://mashasupix.com/projects/workflow" />
+    <meta property="og:title" content="mariasupix - workflow promotional landing" />
+    <meta property="og:description" content="A modern SaaS app promotional website with dynamic styling and user interaction features, designed by Masha Supikhanova." />
+    <meta property="og:image" content="https://mashasupix.com/assets/img/posters/workflow-poster.png" />
     <meta property="og:type" content="website" />
 
 
-    <title>mariasupix - the blue</title>
+    <title>mariasupix - workflow</title>
 </head>
 <body>
     <?php include '../components/nav-project.php'; ?>

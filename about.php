@@ -24,7 +24,7 @@
     <meta name="description" content="About Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, UX, UI, Figma, HTML, CSS, JavaScript, php, sass>
     <meta property="og:url" content="https://mashasupix.com/about" />
-    <meta property="og:title" content="Masha Supikhanova | About Me" />
+    <meta property="og:title" content="mariasupix - about me" />
     <meta property="og:description" content="Front-end developer with design skills. Implementing interaction, exclusivity and cutting edge technology." />
     <meta property="og:image" content="https://mashasupix.com/assets/img/metadata/about-img.png" />
     <meta property="og:type" content="website" />
