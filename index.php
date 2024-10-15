@@ -86,11 +86,10 @@
                     <a href="./projects/theblue">learn more</a>
                 </div>
                 <div class="project-video col-12 col-6-lg">
-                    <video loop muted autoplay poster="./assets/video/imac-theblue-poster.png" title="The Blue Website Showcase" onclick="window.location.href='./projects/theblue';">
+                    <video loop muted autoplay poster="./assets/img/posters/imac-theblue-poster.png" title="The Blue Website Showcase" onclick="window.location.href='./projects/theblue';">
                         <source src="./assets/video/imac-theblue.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
                     </video>
-                    <img src="./assets/video/imac-theblue-poster.png" alt="The Blue Website Showcase">
+                    <img src="./assets/img/posters/imac-theblue-poster.png" alt="The Blue Website Showcase">
                 </div>
             </div>
         </section>
@@ -111,10 +110,10 @@
                         </div>
                         <div class="card small col-12 col-6-sm hover-content" onclick="window.location.href='./projects/workflow';" data-hover-text="View project">
                             <div class="cover video">
-                                <video autoplay muted loop title="Workflow Landing Mockup">
+                                <video autoplay muted loop poster="./assets/img/posters/workflow-poster.png" title="Workflow Landing Mockup">
                                     <source src="./assets/video/workflow.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
                                 </video>
+                                <img class="video-poster" src="./assets/img/posters/workflow-poster.png" alt="Workflow Landing Mockup">
                             </div>
                             <h4>workflow - promotional landing</h4>
                             <div class="tags">
@@ -130,11 +129,10 @@
                 <div class="col-12 col-6-lg ">
                     <div class="card hover-content" onclick="window.location.href='./projects/ezt';" data-hover-text="View project">
                         <div class="cover video">
-                            <video autoplay muted loop poster="./assets/video/ezt-poster.png" title="EZT Prototype Mockup">
+                            <video autoplay muted loop poster="./assets/img/posters/ezt-poster.png" title="EZT Prototype Mockup">
                                 <source src="./assets/video/ezt.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
                             </video>
-                            <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup">
+                            <img class="video-poster" src="./assets/img/posters/ezt-poster.png" alt="EZT Prototype Mockup">
                         </div>
                         <h4>ezt - online tea shop</h4>
                         <div class="tags">

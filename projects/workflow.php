@@ -36,6 +36,8 @@
 
 
     <title>mariasupix - workflow</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/logo.svg">
+    <link rel="apple-touch-icon" href="../assets/img/logo.svg" />
 </head>
 <body>
     <?php include '../components/nav-project.php'; ?>

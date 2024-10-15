@@ -31,7 +31,7 @@
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
 
-    <title>maria supikhanova - work</title>
+    <title>mariasupix - work</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
     <link rel="apple-touch-icon" href="./assets/img/logo.svg" />
 </head>
@@ -84,7 +84,8 @@
         </div>
         <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/ezt';" data-category="2" data-hover-text="View project">
             <div class="cover">
-                <video src="./assets/video/ezt.mp4" autoplay muted loop></video>
+                <video poster="./assets/img/posters/ezt-poster.png"  src="./assets/video/ezt.mp4" autoplay muted loop><
+                <source src="./assets/video/ezt.mp4" autoplay muted loop type="video/mp4"/>
             </div>
             <h4>ezt - online tea shop</h4>
             <div class="tags">
@@ -96,7 +97,7 @@
         </div>
         <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/meowdy';" data-category="3" data-hover-text="View project">
             <div class="cover">
-                <img src="./assets/img/meowdy/meowdy-mockup.jpg" alt="">
+                <img src="./assets/img/meowdy/meowdy-mockup.jpg" alt="Meowdy Project Mockup">
             </div>
             <h4>meowdy! Cat surprise boxes</h4>
             <div class="tags">
@@ -107,7 +108,9 @@
         </div>
         <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/workflow';" data-category="3" data-hover-text="View project">
             <div class="cover">
-                <video src="./assets/video/workflow.mp4" autoplay muted loop></video>
+                <video poster="./assets/img/posters/workflow-poster.png" alt="Workflow Landing Mockup" autoplay muted loop>
+                    <source src="./assets/video/workflow.mp4" type="video/mp4">
+                </video>
             </div>
             <h4>workflow - promotional landing</h4>
             <div class="tags">

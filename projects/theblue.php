@@ -40,7 +40,7 @@
     <meta name="robots" content="index, follow">
 
     <title>mariasupix - the blue</title>
-    <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
+    <link rel="icon" type="image/x-icon" href="../assets/img/logo.svg">
     <link rel="apple-touch-icon" href="../assets/img/logo.svg" />
 </head>
 <body>
