@@ -20,12 +20,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     <!-- Metadata -->
-    <meta name="description" content=" Project: Meowdy Cat Surprise Boxes. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
+    <meta name="description" content=" Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
     <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
-    <meta property="og:title" content="Masha Supikhanova | Work Projects" />
+    <meta property="og:title" content="mariasupix - meowdy" />
     <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />
+    <meta property="og:image" content="https://mashasupix.com/assets/img/meowdy/meowdy-mockup.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
@@ -34,7 +34,7 @@
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
 
-    <title>Masha Supikhanova | Project: Meowdy! - surprise cat boxes</title>
+    <title>mariasupix - meowdy</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
     <link rel="apple-touch-icon" href="../assets/img/logo.svg" />
 </head>

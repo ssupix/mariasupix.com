@@ -20,12 +20,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     <!-- Metadata -->
-    <meta name="description" content=" Project: EZT - Online Tea Store. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
-    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
-    <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
-    <meta property="og:title" content="Masha Supikhanova | Work Projects" />
-    <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />
+    <meta name="description" content=" Project: EZT - Online Tea Store. A user-centered design experience, incorporating UX research, UI design, branding, and prototyping. Built with Figma. " >
+    <meta name="keywords" content="Maria Supikhanova, Web Developer, UX/UI Designer, Vancouver, Online Tea Store, EZT, User-Centered Design, UX Research, UI Design, Figma Prototyping, Branding, Front-End Development, Product Designer, Remote User Testing, Gemini AI, Interactive Web Design, Ecommerce, Wireframes, Journey Maps, Empathy Maps, Personas, User Scenarios, Prototyping, Responsive Design, Component-Based Design, Maze Testing, Web Development Portfolio">
+    <meta property="og:url" content="https://mashasupix.com/projects/ezt" />
+    <meta property="og:title" content="mariasupix - ezt online tea store" />
+    <meta property="og:description" content="How to create user-centered design experiences, incorporating UX research, UI design, branding, and prototyping" />
+    <meta property="og:image" content="https://mashasupix.com/assets/img/posters/ezt-poster.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
@@ -34,7 +34,7 @@
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
 
-    <title>Masha Supikhanova | Project: EZT online tea store</title>
+    <title>mariasupix - ezt</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
     <link rel="apple-touch-icon" href="../assets/img/logo.svg" />
 </head>

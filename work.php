@@ -20,9 +20,9 @@
     <meta name="description" content=" Work Projects. Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
     <meta property="og:url" content="https://mashasupix.com/about" />
-    <meta property="og:title" content="Masha Supikhanova | Work Projects" />
-    <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />
+    <meta property="og:title" content="Masha Supikhanova - project portfolio" />
+    <meta property="og:description" content="Responsive, interactive, and animated solutions that seamlessly blend functionality with aesthetics." />
+    <meta property="og:image" content="https://mashasupix.com/assets/img/metadata/work-img.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
@@ -70,7 +70,9 @@
     <section class="work-projects grid">
         <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/theblue';" data-category="1" data-hover-text="View project">
                 <div class="cover">
-                    <video src="./assets/video/theblue.mp4" autoplay muted loop></video>
+                    <video poster="./assets/img/posters/theblue-poster.png" autoplay muted loop>
+                        <source src="./assets/video/theblue.mp4" autoplay muted loop type="video/mp4">
+                    </video>
                 </div>
             <h4>water website - the blue</h4>
             <div class="tags">

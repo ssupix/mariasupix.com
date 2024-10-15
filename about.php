@@ -25,8 +25,8 @@
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, UX, UI, Figma, HTML, CSS, JavaScript, php, sass>
     <meta property="og:url" content="https://mashasupix.com/about" />
     <meta property="og:title" content="Masha Supikhanova | About Me" />
-    <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />
+    <meta property="og:description" content="Front-end developer with design skills. Implementing interaction, exclusivity and cutting edge technology." />
+    <meta property="og:image" content="https://mashasupix.com/assets/img/metadata/about-img.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->

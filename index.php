@@ -20,9 +20,9 @@
     <meta name="description" content="Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, work, experience, branding">
     <meta property="og:url" content="https://mashasupix.com/" />
-    <meta property="og:title" content="Masha Supikhanova | Digital Developer Portfolio" />
-    <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/card.png" />
+    <meta property="og:title" content="Maria Supikhanova - front-end developer & product designer" />
+    <meta property="og:description" content="Creating meaningful experiences online. Always learning new skills and technologies." />
+    <meta property="og:image" content="https://mashasupix.com/assets/img/metadata/home-img.png" />
     <meta property="og:type" content="website" />
 
     <?php include 'components/schemametadata.php'; ?>

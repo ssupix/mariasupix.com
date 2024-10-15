@@ -25,7 +25,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-    <title>Maria Supikhanova | Project: Workflow Website - Saas App Promotion</title>
+    <!-- Metadata -->
+    <meta name="description" content=" Project: The Blue - Water Website.Visual experiences that showcases usage of Vanilla JavaScript, JS Plugins and Libraries for a good cause. Built with HTML, CSS, JavaScript." ">
+    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
+    <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
+    <meta property="og:title" content="mariasupix - workflow" />
+    <meta property="og:description" content="Visual experiences that showcases usage of Vanilla JavaScript, JS Plugins and Libraries for a good cause" />
+    <meta property="og:image" content="https://mashasupix.com/assets/img/posters/theblue-poster.png" />
+    <meta property="og:type" content="website" />
+
+
+    <title>mariasupix - the blue</title>
 </head>
 <body>
     <?php include '../components/nav-project.php'; ?>
