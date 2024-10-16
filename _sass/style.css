@@ -320,7 +320,7 @@ h2 {
 h3 {
   font-size: 1.65rem;
   font-family: "Space Mono", monospace;
-  font-weight: 600;
+  font-weight: 200;
   text-transform: uppercase;
 }
 
@@ -1917,15 +1917,15 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 .featured-project .project-description .text {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
-.featured-project .project-description h3 {
-  margin-top: 2rem;
+.featured-project .project-description h3 .bold {
+  font-weight: 600;
 }
 
 .home-projects {

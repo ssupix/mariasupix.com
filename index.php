@@ -77,8 +77,8 @@
         <section class="featured-project">
             <div class="grid">
                 <div class="project-description col-12 col-6-lg">
-                    <h2>featured project.</h2>
-                    <h3>The blue - water website</h3>
+                <h2>projects.</h2>
+                    <h3><span class="bold">featured: </span>the blue - water website</h3>
                     <div class="text">
                         <p>An interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
                         <p>Experimental website, created to see how I can extend functionality and interactivity of my work using different JavaScript plugins, Libraries or Frameworks. On this site you can see anything from basic effects like parallax and background videos, made with jQuery plugins to more complex animation and interactions using GSAP, Three.js and other. TheBlue showed me how far I’ve come in my web development journey and how much more is out there to know, experience and learn.</p>
