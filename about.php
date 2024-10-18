@@ -151,7 +151,7 @@
                 <p>I believe I do my best when someone is there to challenge me and question my ideas and expects it back. I think creating banter sparks best ideas. I’m always looking to <span class="context" data-tippy-content="Connect with me!"><a href="https://www.linkedin.com/in/whossupi/" target="_blank">collaborate</a></span> and explore new concepts.</p>
                 <p>I aspire to bring more <span class="context" data-tippy-content="With lasting impressions">meaningful</span> experiences into web spaces, implementing interaction, exclusivity and cutting edge technology.</p>
             </div>
-            <div class="drag-item context"> <!-- add class .drag-item to make element draggable -->
+            <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
                 <img src="./assets/img/ssupix.png" alt="ssupix">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
