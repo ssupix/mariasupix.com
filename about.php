@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
+    <!-- Tippy -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+
     <!-- Metadata -->
     <meta name="description" content="About Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
     <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, UX, UI, Figma, HTML, CSS, JavaScript, php, sass>
@@ -52,10 +56,16 @@
             <h2>about me.</h2>
             <div class="grid">
                 <div class="about-description col-12 col-7-lg">
-                    <h4>Hi, my name is Maria - front-end developer and product designer!👩🏻‍💻</h4>
+                    <h4>Hey, I'm Maria - interactive web developer and product designer!👩🏻‍💻</h4>
                     <div class="text">
-                        <p>As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions.</p>
-                        <p>Proficient in front-end development UX/UI  and multimedia design and currently enrolled in BCIT's New Media Design & Web Development program to continue exploring new concepts.</p>
+                        <p>Known for delivering visually striking, dynamic content, I combine both design and technical skills to craft engaging user interactions.</p>
+                        <p>With a diploma in <span class="context link" data-tippy-content="More about my diploma"><a href="https://www.bcit.ca/programs/new-media-design-and-web-development-diploma-full-time-6525dipma/" target="_blank">New Media Design & Web Development</a></span> from <span class="context link" data-tippy-content="More about my school"><a href="https://www.bcit.ca" target="_blank">BCIT</a></span>, I specialize in front-end development, UX/UI, and multimedia design. Unique visual feedback motivates me to continuously expand my skill set, blending creativity with technology to deliver impactful digital experiences.</p>
+                    </div>
+                    <div class="tags">
+                        <div class="pill-pink">Problem Solving</div>
+                        <div class="pill-blue">Adaptability</div>
+                        <div class="pill-blue">Attention to detail</div>
+                        <div class="pill-pink">Team Work</div>
                     </div>
                     <div class="contact-info">
                         <ul class="social-links">
@@ -124,6 +134,8 @@
                                 <li><p>SASS</p></li>
                                 <li><p>Tailwind</p></li>
                                 <li><p>JavaScript</p></li>
+                                <li><p>React.js/Native</p></li>
+                                <li><p>PHP/Wordpress</p></li>
                             </ul>
                         </div>
                     </div>
@@ -135,11 +147,11 @@
             <h2>insight.</h2>
             <div class="text">
                 <h4>Drag and drop</h4>
-                <p>One of the main reasons I am in this industry is that it never fails to satisfy my curiosity. I like environments that reward constant flow of ideas and encourage to learn.</p>
-                <p>I believe I do my best when I have someone to challenge and question my ideas and expects it back. So, I’m always looking to collaborate and explore new concepts.</p>
-                <p>I aspire to bring more meaningful experiences in web spaces, implementing interaction, exclusivity and cutting edge technology.</p>
+                <p>One of the main reasons I like <span class="context" data-tippy-content="Including digital design">Web Development</span> industry is that it never fails to satisfy my curiosity. I like environments that reward constant flow of ideas, encourage to learn and push the boundary of what's possible.</p>
+                <p>I believe I do my best when someone is there to challenge me and question my ideas and expects it back. I think creating banter sparks best ideas. I’m always looking to <span class="context" data-tippy-content="Connect with me!"><a href="https://www.linkedin.com/in/whossupi/" target="_blank">collaborate</a></span> and explore new concepts.</p>
+                <p>I aspire to bring more <span class="context" data-tippy-content="With lasting impressions">meaningful</span> experiences into web spaces, implementing interaction, exclusivity and cutting edge technology.</p>
             </div>
-            <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
+            <div class="drag-item context"> <!-- add class .drag-item to make element draggable -->
                 <img src="./assets/img/ssupix.png" alt="ssupix">
             </div>
             <div class="drag-item"> <!-- add class .drag-item to make element draggable -->
@@ -199,13 +211,13 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/vendor/Tilt jQuery.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
     <script src="./js/drag.js"></script>
     <script src="./js/flickity.js"></script>
     <script src="./js/cursor.js"></script>
+    <script src="./js/tippy.js"></script>
 
 </body>
 </html>

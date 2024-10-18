@@ -39,6 +39,7 @@ a {
     color: $berry;
     transition: all .3s;
     cursor: pointer;
+    max-width: fit-content;
 }
 
 h5 {
@@ -152,9 +153,5 @@ a:hover {
 
     h1 {
         font-size: 1.6rem;
-    }
-
-    p {
-        font-size: .8rem;
     }
 }

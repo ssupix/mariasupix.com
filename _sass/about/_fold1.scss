@@ -18,13 +18,13 @@
     .about-description {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
         animation: headerLoad 1s ease;
 
         .text {
             display: flex;
             flex-direction: column;
-            gap: 2rem;
+            gap: 1.5rem;
         }
 
         h4,

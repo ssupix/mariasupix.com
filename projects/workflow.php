@@ -25,6 +25,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- Tippy -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+
     <!-- Metadata -->
     <meta name="description" content="Workflow: A promotional landing page for a fictional SaaS app. This project showcases a clean, modern design utilizing HTML, SCSS, and JavaScript. Features include personalized styling with light and dark modes, Local Storage, and dynamic UI interactions like dropdowns and animations.">
     <meta name="keywords" content="Workflow, SaaS app, Masha Supikhanova, Web Developer, Front-end Developer, UI Design, JavaScript, SCSS, HTML, Vancouver">
@@ -99,10 +103,10 @@
                 <div class="grid">
                     <div class="quote col-12 col-4-lg ">
                         <q>The goal was to create a clean, modern website that effectively promotes the app's features and benefits.</q>
-                        <p>The hero section and some other elements use a bento-box style layout, which organizes information in a way that feels intuitive, similar to what you'd expect from a dashboard in an app like Workflow.</p>
+                        <p>The hero section and some other elements use a <span class="context" data-tippy-content="More about this style"><a href="https://bentogrids.com/" target="_blank">bento-box</a></span> style layout, which organizes information in a way that feels intuitive, similar to what you'd expect from a dashboard in an app like Workflow.</p>
                     </div>
                     <div class="visual col-12 col-8-lg ">
-                        <p>This project is based on one of my term projects from Web Interactions course at BCIT. The primary objective was to design and develop a comprehensive marketing page for a fictional SaaS app called Workflow, a project management tool tailored for remote teams.</p>
+                        <p>This project is based on one of my term projects from <span class="context" data-tippy-content="Part of my Diploma">Web Interactions</span> course at <span class="context" data-tippy-content="More about my Diploma"><a href="https://www.bcit.ca/programs/new-media-design-and-web-development-diploma-full-time-6525dipma/" target="_blank">BCIT</a></span>. The primary objective was to design and develop a comprehensive marketing page for a fictional SaaS app called Workflow, a project management tool tailored for remote teams.</p>
                         <video loop muted autoplay title="The Blue Website Showcase">
                             <source src="../assets/video/imac-workflow.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -117,7 +121,7 @@
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
-                            <p>Before development, I created simple mockups for both light and dark modes using Figma, following a 12-column grid layout. Though not interactive, these designs provided a clear visual guide for quick and efficient development.</p>
+                            <p>Before development, I created simple mockups for both light and dark modes using <span class="context" data-tippy-content="My design software of choice">Figma</span>, following a <span class="context" data-tippy-content="Responsive and premade">12-column grid</span> layout. Though not interactive, these designs provided a clear visual guide for quick and efficient development.</p>
                             <p> Visualization is crucial for me, as it helps ensure I know exactly what I'm working towards. </p>
                         </div>
                     </div>
@@ -127,8 +131,8 @@
                 <div class="grid">
                     <div class="col-12 col-7-lg sp"> 
                         <h2>using scss.</h2>
-                        <p>To style the entire website, I utilized SCSS, taking advantage of features like file nesting, variables, and functions to create an easy to maintain codebase. SCSS allows for more organized styling, which significantly improved the efficiency of my workflow(haha).</p>
-                        <p>Fun fact: before I discovered SCSS, I used to manually attempt nesting and breaking down regular CSS files because I looked for a structured approach. Now, with SCSS, it feels even better as the nesting and variables fit my work process, making the styles more modular and scalable. </p>
+                        <p>To style the entire website, I utilized <span class="context" data-tippy-content="Like CSS but better"><a href="https://sass-lang.com/" target="_blank">SCSS</a></span>, taking advantage of features like file <span class="context" data-tippy-content="See in a snippet">nesting</span>, <span class="context" data-tippy-content="See in a snippet">variables</span>, and <span class="context" data-tippy-content="See in a snippet">functions</span> to create an easy to maintain codebase. SCSS allows for more organized styling, which significantly improved the efficiency of my workflow(haha).</p>
+                        <p><span class="context" data-tippy-content="Fun to me">Fun fact:</span> before I discovered SCSS, I used to manually attempt nesting and breaking down regular CSS files because I looked for a structured approach. Now, with SCSS, it feels even better as the nesting and variables fit my work process, making the styles more modular and scalable. </p>
                     </div>
                     <div class="col-12">
                         <div class="code-show">
@@ -163,7 +167,7 @@
                 <div class="grid">
                     <div class="col-12 col-6-lg sp"> 
                         <h2>dropdowns.</h2>
-                        <p>I created a classic dropdown accordion with smooth max-height transition animations. This specific design allows users to expand only the options they are interested in, automatically closing any previously opened sections. This keeps the interface clean and organized, minimizing clutter.</p>
+                        <p>I created a classic dropdown accordion with smooth max-height transition <span class="context" data-tippy-content="See in a snippet">animation</span>. This specific design allows users to expand only the options they are interested in, automatically closing any previously opened sections. This keeps the interface <span class="context" data-tippy-content="Not overwhelming">clean</span> and <span class="context" data-tippy-content="Easy to get around">organized</span>, minimizing clutter.</p>
                     </div>
                     <div class="col-12 col-6-lg sp">
                         <video loop muted autoplay title="The Blue Website Showcase">
@@ -172,8 +176,8 @@
                         </video> 
                     </div>
                     <div class="col-12">
-                        <div class="code-show">
-                            <div class="select">
+                        <div class="code-show">                           
+                            <div  class="select">
                                 <span>dropdowns</span>
                                 <div class="caret"></div>
                             </div>
@@ -186,8 +190,8 @@
                 <div class="grid">
                     <div class="col-12 col-7-lg sp"> 
                         <h2>local storage.</h2>
-                        <p>One of the key features I implemented was the ability to switch between light and dark modes. I created two unique IDs that toggle on and off the body element, each containing corresponding styling colors in the separate SCSS file.</p>
-                        <p>Chosen in the current session theme is saved in Local Storage, allowing the website to remember the user's preference even after closing the browser. This provides a consistent styling experience that enhances usability and personalization.</p>
+                        <p>One of the key features I implemented was the ability to switch between light and dark modes. I created two unique <span class="context" data-tippy-content="#light and #dark">IDs</span> that <span class="context" data-tippy-content="See in a snippet">toggle</span> on and off the body element, each containing corresponding styling colors in the separate <span class="context" data-tippy-content="_colors.scss">SCSS file</span>.</p>
+                        <p>Chosen in the current session theme is saved in <span class="context" data-tippy-content="See in a snippet">Local Storage</span>, allowing the website to remember the user's preference even after closing the browser. This provides a consistent styling experience that enhances <span class="context" data-tippy-content="Customized preferences">usability</span> and <span class="context" data-tippy-content="Good for loyalty">personalization</span>.</p>
                     </div>
                     <div class="col-12">
                         <div class="code-show">
@@ -206,7 +210,7 @@
                 <div class="grid">
                     <div class="quote col-12 col-4-lg">
                         <q>For next steps, I’m eager to learn and continue enhancing my development skills even further. </q>
-                        <p>This project showcases my growing skills in HTML and vanilla JavaScript, along with improved SCSS techniques.  It represents a significant improvement in structure compared to my first website, the Water website, and has sparked my curiosity about component-based coding with better structure, that is easier to maintain. </p>
+                        <p>This project showcases my growing skills in <span class="context" data-tippy-content="Website structure">HTML</span> and <span class="context" data-tippy-content="Foundation of JS">Vanilla JavaScript</span>, along with improved <span class="context" data-tippy-content="like CSS but better">SCSS</span> techniques.  It represents a significant improvement in structure compared to my first website, <span class="context" data-tippy-content="View the project"><a href="./theblue">TheBlue</a></span> website, and has sparked my curiosity about component-based coding with better structure, that is easier to maintain. </p>
                     </div>
                     <div class="visual col-12 col-8-lg">
                         <img src="" alt="To be displayed">
@@ -339,5 +343,6 @@
     <script>hljs.highlightAll();</script>
 
     <script src="../js/cursor.js"></script>
+    <script src="../js/tippy.js"></script>
 </body>
 </html>
