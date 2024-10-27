@@ -66,7 +66,7 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <video src="../assets/video/workflow.mp4" autoplay muted looped></video>
+                <img src="../assets/img/workflow/workflow-banner.png" alt="Project Banner">
             </section>
             <section class="description">
                 <div class="grid">

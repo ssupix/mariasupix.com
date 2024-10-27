@@ -2596,7 +2596,7 @@ footer {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 .project-container .project-banner video,
 .project-container .project-banner img {

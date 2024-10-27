@@ -73,7 +73,7 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <video src="../assets/video/theblue.mp4" poster="../assets/img/posters/theblue-poster.png" autoplay muted looped></video>
+                <img src="../assets/img/theblue/theblue-banner.png" alt="Project Banner">
             </section>
             <section class="description">
                 <div class="grid">

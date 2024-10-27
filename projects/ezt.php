@@ -68,8 +68,7 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <video src="../assets/video/ezt.mp4" autoplay muted looped></video>
-                <img class="video-poster" src="./assets/img/posters/ezt-poster.png" alt="EZT Prototype Mockup" style="display:none;">
+                <img src="../assets/img/ezt/ezt-banner.png" alt="Project Banner">
             </section>
             <section class="description">
                 <div class="grid">
