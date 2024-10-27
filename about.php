@@ -65,7 +65,7 @@
                         <div class="pill-pink">Problem Solving</div>
                         <div class="pill-blue">Adaptability</div>
                         <div class="pill-blue">Attention to detail</div>
-                        <div class="pill-pink">Team Work</div>
+                        <div class="pill-pink">Team Player</div>
                     </div>
                     <div class="contact-info">
                         <ul class="social-links">

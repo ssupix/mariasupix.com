@@ -135,6 +135,7 @@
                         <p><span class="context" data-tippy-content="Fun to me">Fun fact:</span> before I discovered SCSS, I used to manually attempt nesting and breaking down regular CSS files because I looked for a structured approach. Now, with SCSS, it feels even better as the nesting and variables fit my work process, making the styles more modular and scalable. </p>
                     </div>
                     <div class="col-12">
+                        <h4>code snippets:</h4>
                         <div class="code-show">
                             <div class="select">
                                 <span>variables</span>
@@ -176,6 +177,7 @@
                         </video> 
                     </div>
                     <div class="col-12">
+                        <h4>code snippets:</h4>
                         <div class="code-show">                           
                             <div  class="select">
                                 <span>dropdowns</span>
@@ -194,6 +196,7 @@
                         <p>Chosen in the current session theme is saved in <span class="context" data-tippy-content="See in a snippet">Local Storage</span>, allowing the website to remember the user's preference even after closing the browser. This provides a consistent styling experience that enhances <span class="context" data-tippy-content="Customized preferences">usability</span> and <span class="context" data-tippy-content="Good for loyalty">personalization</span>.</p>
                     </div>
                     <div class="col-12">
+                        <h4>code snippets:</h4>
                         <div class="code-show">
                             <div class="select">
                                 <span>local storage theme switch</span>

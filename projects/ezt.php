@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Tippy -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     
     <!-- Metadata -->
     <meta name="description" content=" Project: EZT - Online Tea Store. A user-centered design experience, incorporating UX research, UI design, branding, and prototyping. Built with Figma. " >
@@ -102,7 +106,7 @@
                 <div class="grid">
                     <div class="col-12 col-8-lg sp"> 
                         <h2>user research.</h2>
-                        <p>In this initial phase, I focused on thoroughly understanding the company's goals, target audience, and pain points. I utilized a range of tools, including User Personas, Journey Maps, and Empathy Maps, to delve deep into user behavior and experiences. These tools helped me to identify and prioritize key user needs, ensuring that the design decisions were closely aligned with both user expectations and the company's objectives. This foundation allowed for a more user-centric approach, driving the direction of the overall design strategy.</p>
+                        <p>In this initial phase, I focused on thoroughly understanding the company's goals, <span class="context" data-tippy-content="User Persona in examples">target audience</span>, and pain points. I utilized a range of tools, including <span class="context" data-tippy-content="See in examples">User Scenario</span>, <span class="context" data-tippy-content="See in examples">Journey Map</span>, and <span class="context" data-tippy-content="See in examples">Empathy Map</span>, to delve deep into user behavior and experiences. These tools helped me to identify and prioritize key user needs, ensuring that the design decisions were closely aligned with both user expectations and the company's <span class="context" data-tippy-content="Sell tea">objectives</span>. This foundation allowed for a more user-centric approach, driving the direction of the overall design strategy.</p>
                     </div>
                     <div class="col-12">
                     <h4>examples:</h4>
@@ -150,9 +154,9 @@
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
-                            <p>Building on the insights from the research phase, I created basic low-fidelity wireframes, a main user flow, and a sitemap. These elements served as the blueprint for the overall design, allowing me to visualize the structure and key interactions of the product. </p>
+                            <p>Next, created basic low-fidelity wireframes, a main <span class="context" data-tippy-content="Custom tea builder">user flow</span>, and a <span class="context" data-tippy-content="defines pages">sitemap</span>.</p>
                         </div>
-                        <p>The wireframes provided a clear outline of the layout, while the user flow and sitemap ensured a seamless and intuitive navigation experience.</p>
+                        <p>These elements served as the blueprint for the overall design, allowing me to visualize the structure and key interactions of the product.</p>
                     </div>
                 </div>
             </section>
@@ -160,7 +164,7 @@
                 <div class="grid">
                     <div class="col-12 sp"> 
                         <h2>branding.</h2>
-                        <p>After conducting user research, I had the opportunity to create branding for the client, focusing on maintaining a warm, welcoming vibe while still being bold and unique. The color palette included earthy tones to convey a sense of high-quality, natural products, with green symbolizing freshness and reliability.</p>
+                        <p>After conducting user research, I had the opportunity to create branding for the project, focusing on maintaining a warm, welcoming vibe while still being bold and unique. The color palette included earthy tones to convey a sense of high-quality, natural products, with green symbolizing freshness and reliability.</p>
                         <p>Hand-drawn elements were added using the pencil tool, giving the graphic assets a detailed, human touch and emphasizing a handcrafted, well-thought-out aesthetic.</p>
                     </div>
                     <div class="col-12">
@@ -347,6 +351,7 @@
     <script src="../js/dropdown.js"></script>
     <script src="../js/video.js"></script>
     <script src="../js/cursor.js"></script>
+    <script src="../js/tippy.js"></script>
 
 </body>
 </html>
