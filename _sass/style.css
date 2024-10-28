@@ -993,17 +993,17 @@ html.lenis body {
   }
 }
 @media (hover: none) and (pointer: coarse) {
-  .card .cover:hover {
+  .card .card:hover .cover {
     padding: 0;
     border: #f7f5f5 1px solid;
   }
-  .card .cover:hover img {
+  .card .card:hover .cover img {
     border-radius: 10px;
   }
-  .card .cover:hover video:hover {
+  .card .card:hover .cover video {
     border-radius: 10px;
   }
-  .card .cover:hover .cover .video-poster:hover {
+  .card .card:hover .cover .cover .video-poster {
     border-radius: 10px;
   }
 }

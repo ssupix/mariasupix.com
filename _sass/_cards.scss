@@ -184,7 +184,7 @@
 @media (hover: none) and (pointer: coarse) {
     .card  {
     
-        .cover:hover {
+        .card:hover .cover {
             padding: 0;
             border: $white 1px solid;
         
@@ -192,11 +192,11 @@
                 border-radius: 10px;
             }
         
-            video:hover {
+            video{
                 border-radius: 10px;
             }
-
-            .cover .video-poster:hover {
+        
+            .cover .video-poster {
                 border-radius: 10px;
             }
         }
