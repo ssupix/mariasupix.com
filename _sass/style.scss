@@ -116,28 +116,6 @@ html.lenis body {
     }
 }
 
-.context a {
-    color: $ribbon;
-    cursor: pointer;
-    font-size: 1rem;
-    line-height: 1.5;
-    font-family: "Space Mono", monospace;
-    font-weight: 200;
-    text-decoration: none;
-    text-transform: initial;
-    display: inline-block;
-    transition: all 0.3s ease-out;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-.context {
-    color: $ribbon;
-    cursor: pointer;
-}
-
 /* Transparent background for the tooltip box */
 .tippy-box[data-theme~='custom'] {
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */

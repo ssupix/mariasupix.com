@@ -365,8 +365,30 @@ a:hover {
   color: #646A82;
 }
 
+.context a {
+  color: #E36A98;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Space Mono", monospace;
+  font-weight: 200;
+  text-decoration: none;
+  text-transform: initial;
+  display: inline-block;
+  transition: all 0.3s ease-out;
+}
+.context a:hover {
+  text-decoration: underline;
+}
+
+.context {
+  color: #E36A98;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 1620px) {
-  p {
+  p,
+  .context a {
     font-size: 1rem;
   }
   q {
@@ -399,7 +421,8 @@ a:hover {
   h5 {
     font-size: 1.2rem;
   }
-  p {
+  p,
+  .context a {
     font-size: 0.8rem;
   }
   q {
@@ -776,27 +799,6 @@ html.lenis body {
     display: none;
   }
 }
-.context a {
-  color: #E36A98;
-  cursor: pointer;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-family: "Space Mono", monospace;
-  font-weight: 200;
-  text-decoration: none;
-  text-transform: initial;
-  display: inline-block;
-  transition: all 0.3s ease-out;
-}
-.context a:hover {
-  text-decoration: underline;
-}
-
-.context {
-  color: #E36A98;
-  cursor: pointer;
-}
-
 /* Transparent background for the tooltip box */
 .tippy-box[data-theme~=custom] {
   background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */

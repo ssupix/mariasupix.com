@@ -114,9 +114,8 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>This site was made as a term project for BCIT’s <span class="context" data-tippy-content="Who taught that?"><a href="https://airrickdunfield.com/">Web Scripting 1</a></span> course, as a part of the <span class="context link" data-tippy-content="More about my diploma"><a href="https://www.bcit.ca/programs/new-media-design-and-web-development-diploma-full-time-6525dipma/" target="_blank">New Media Design & Web Development</a></span> program to showcase usage of Vanilla JavaScript, <span class="context" data-tippy-content="Main focus">JS Plugins</span> and Libraries and my skills with CDN and NPM implementation.</p>
-                        <video loop muted autoplay poster="../assets/img/imac-theblue-poster.png" title="The Blue Website Showcase">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/imac-theblue-poster.png" title="The Blue Website Showcase">
                             <source src="../assets/video/imac-theblue.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
                         </video>
                     </div>
                 </div>
@@ -187,9 +186,8 @@
                         <p>One noteworthy find was the <span class="context" data-tippy-content="Animation On Scroll"><a href="https://michalsnik.github.io/aos/">AOS</a></span> library, which provides a minimalist approach to animating sections upon scroll. I chose to use this library because it is <span class="context" data-tippy-content="See in a snippet">minimal</span> code requirements, making it an excellent choice for enhancing the user experience in my project.</p>
                     </div>
                     <div class="col-12 col-6-lg sp">
-                        <video loop muted autoplay poster="../assets/img/scroll-theblue-poster.jpg" title="The Blue Website Showcase">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/scroll-theblue-poster.jpg" title="The Blue Website Showcase">
                             <source src="../assets/video/scroll-theblue.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
                         </video>
                         
                     </div>
@@ -254,7 +252,7 @@
                         <li>
                             <div class="card hover-content" data-category="2" data-hover-text="View project" onclick="window.location.href='./ezt';">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/ezt.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -281,7 +279,7 @@
                         <li>
                             <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./workflow';">
                                 <div class="cover">
-                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/workflow.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>workflow - promotional landing</h4>
                                 <div class="tags">
@@ -296,7 +294,7 @@
                         <li>
                             <div class="card hover-content" data-category="2" data-hover-text="View project" onclick="window.location.href='./ezt';">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/ezt.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -323,7 +321,7 @@
                         <li>
                             <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./workflow';">
                                 <div class="cover">
-                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/workflow.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>workflow - promotional landing</h4>
                                 <div class="tags">
@@ -358,7 +356,6 @@
     <script src="../js/scroll.js"></script>
     <script src="../js/scramble.js"></script>
     <script src="../js/dropdown.js"></script>
-    <script src="../js/video.js"></script>
     <script src="../js/tippy.js"></script>
 
     <!-- Include Highlight.js JavaScript -->

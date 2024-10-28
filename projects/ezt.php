@@ -244,7 +244,7 @@
                         <li>
                             <div class="card hover-content" data-category="2" data-hover-text="View project" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/theblue.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>the blue - water website</h4>
                                 <div class="tags">
@@ -271,7 +271,7 @@
                         <li>
                             <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./workflow';">
                                 <div class="cover">
-                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/workflow.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>workflow - promotional landing</h4>
                                 <div class="tags">
@@ -286,7 +286,7 @@
                         <li>
                             <div class="card hover-content" data-category="2" data-hover-text="View project" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/theblue.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>the blue - water website</h4>
                                 <div class="tags">
@@ -313,7 +313,7 @@
                         <li>
                             <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./workflow';">
                                 <div class="cover">
-                                    <video src="../assets/video/workflow.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/workflow.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>workflow - promotional landing</h4>
                                 <div class="tags">
@@ -348,7 +348,6 @@
     <script src="../js/scroll.js"></script>
     <script src="../js/scramble.js"></script>
     <script src="../js/dropdown.js"></script>
-    <script src="../js/video.js"></script>
     <script src="../js/cursor.js"></script>
     <script src="../js/tippy.js"></script>
 

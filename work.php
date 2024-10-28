@@ -84,8 +84,9 @@
         </div>
         <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/ezt';" data-category="2" data-hover-text="View project">
             <div class="cover">
-                <video poster="./assets/img/posters/ezt-poster.png"  src="./assets/video/ezt.mp4" autoplay muted loop><
-                <source src="./assets/video/ezt.mp4" autoplay muted loop type="video/mp4"/>
+                <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/ezt-poster.png"  src="./assets/video/ezt.mp4" >
+                    <source src="./assets/video/ezt.mp4" type="video/mp4"/>
+                </video>
             </div>
             <h4>ezt - online tea shop</h4>
             <div class="tags">
@@ -108,7 +109,7 @@
         </div>
         <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/workflow';" data-category="3" data-hover-text="View project">
             <div class="cover">
-                <video poster="./assets/img/posters/workflow-poster.png" alt="Workflow Landing Mockup" autoplay muted loop>
+                <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/workflow-poster.png" alt="Workflow Landing Mockup">
                     <source src="./assets/video/workflow.mp4" type="video/mp4">
                 </video>
             </div>
@@ -125,9 +126,9 @@
     <section class="work-projects-list hidden grid">
         <div class="card-list col-12" onclick="window.location.href='./projects/theblue';" data-category="1">
             <div class="cover">
-                <video autoplay muted loop src="./assets/video/theblue.mp4" title="The Blue Website Mockup">
+                <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/theblue-poster.png" title="The Blue Website Mockup">
+                    <source src="./assets/video/theblue.mp4" type="video/mp4">
                 </video>
-                <img class="video-poster" src="./assets/video/dddd.png" alt="Water Website Mockup" style="display:none;">
             </div>
             <div class="description">
                 <h4>water website - the blue</h4>
@@ -143,9 +144,9 @@
         </div>
         <div class="card-list col-12" onclick="window.location.href='./projects/ezt';" data-category="2">
             <div class="cover">
-                <video autoplay muted loop src="./assets/video/ezt.mp4" title="EZT Prototype Mockup">
+                <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/ezt-poster.png" title="EZT Prototype Mockup">
+                    <source src="./assets/video/ezt.mp4" type="video/mp4">
                 </video>
-                <img class="video-poster" src="./assets/video/ezt-poster.png" alt="EZT Prototype Mockup" style="display:none;">
             </div>
             <div class="description">
                 <h4>ezt - online tea shop</h4>
@@ -177,8 +178,9 @@
         </div>
         <div class="card-list col-12" onclick="window.location.href='./projects/workflow';" data-category="1">
             <div class="cover">
-                <video autoplay muted loop src="./assets/video/workflow.mp4" title="Workflow Website Mockup" poster="./assets/video/workflow-poster.png"></video>
-                <img class="video-poster" src="./assets/video/workflow-poster.png" alt="EZT Prototype Mockup" style="display:none;">
+                <video loop muted autoplay playsinline loading="lazy" title="Workflow Website Mockup" poster="./assets/video/workflow-poster.png">
+                    <source src="./assets/video/workflow.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="description">
                 <h4>workflow - promotional landing</h4>
@@ -212,7 +214,6 @@
     <script src="./js/viewtoggle.js"></script>
     <script src="./js/filter.js"></script>
     <script src="./js/scroll.js"></script>
-    <script src="./js/video.js"></script>
     <script src="./js/cursor.js"></script>
     
 </body>

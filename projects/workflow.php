@@ -107,7 +107,7 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>This project is based on one of my term projects from <span class="context" data-tippy-content="Part of my Diploma">Web Interactions</span> course at <span class="context" data-tippy-content="More about my Diploma"><a href="https://www.bcit.ca/programs/new-media-design-and-web-development-diploma-full-time-6525dipma/" target="_blank">BCIT</a></span>. The primary objective was to design and develop a comprehensive marketing page for a fictional SaaS app called Workflow, a project management tool tailored for remote teams.</p>
-                        <video loop muted autoplay title="The Blue Website Showcase">
+                        <video loop muted autoplay playsinline loading="lazy" title="The Blue Website Showcase">
                             <source src="../assets/video/imac-workflow.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
@@ -171,9 +171,8 @@
                         <p>I created a classic dropdown accordion with smooth max-height transition <span class="context" data-tippy-content="See in a snippet">animation</span>. This specific design allows users to expand only the options they are interested in, automatically closing any previously opened sections. This keeps the interface <span class="context" data-tippy-content="Not overwhelming">clean</span> and <span class="context" data-tippy-content="Easy to get around">organized</span>, minimizing clutter.</p>
                     </div>
                     <div class="col-12 col-6-lg sp">
-                        <video loop muted autoplay title="The Blue Website Showcase">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/dropdowns-workflow-poster.jpg" title="The Blue Website Showcase">
                             <source src="../assets/video/dropdowns-workflow.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
                         </video> 
                     </div>
                     <div class="col-12">
@@ -237,7 +236,7 @@
                         <li>
                             <div class="card hover-content" data-category="2" data-hover-text="View project" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/theblue.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>the blue - water website</h4>
                                 <div class="tags">
@@ -264,7 +263,7 @@
                         <li>
                             <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./ezt';">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/ezt.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -278,7 +277,7 @@
                         <li>
                             <div class="card hover-content" data-category="2" data-hover-text="View project" onclick="window.location.href='./theblue';">
                                 <div class="cover">
-                                    <video src="../assets/video/theblue.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/theblue.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>the blue - water website</h4>
                                 <div class="tags">
@@ -305,7 +304,7 @@
                         <li>
                             <div class="card hover-content" data-category="3" data-hover-text="View project" onclick="window.location.href='./ezt';">
                                 <div class="cover">
-                                    <video src="../assets/video/ezt.mp4" autoplay muted loop></video>
+                                    <video src="../assets/video/ezt.mp4" loop muted autoplay playsinline loading="lazy"></video>
                                 </div>
                                 <h4>ezt - online tea shop</h4>
                                 <div class="tags">
@@ -339,7 +338,6 @@
     <script src="../js/scroll.js"></script>
     <script src="../js/scramble.js"></script>
     <script src="../js/dropdown.js"></script>
-    <script src="../js/video.js"></script>
 
     <!-- Include Highlight.js JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
