@@ -70,8 +70,8 @@
     <section class="work-projects grid">
         <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/theblue';" data-category="1" data-hover-text="View project">
                 <div class="cover">
-                    <video poster="./assets/img/posters/theblue-poster.png" autoplay muted loop>
-                        <source src="./assets/video/theblue.mp4" autoplay muted loop type="video/mp4">
+                    <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/theblue-poster.png">
+                        <source src="./assets/video/theblue.mp4" type="video/mp4">
                     </video>
                 </div>
             <h4>water website - the blue</h4>
