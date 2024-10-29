@@ -184,7 +184,7 @@
             </div>
             <div class="description">
                 <h4>workflow - promotional landing</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et nisl malesuada, vulputate eros in, ultrices lectus. Nulla facilisi. Aenean non erat nibh. Nullam sed lectus et nunc eleifend malesuada. </p>
+                    <p>This project is based on one of my term projects from Web Interactions course at BCIT. A real world example of Saas app bussiness promotional website, utilizing Local Storage memory personalized styling light and dark modes and scss to improve code structure.</p>
                 <div class="tags">
                     <div class="pill-blue">HTML</div>
                     <div class="pill-blue">SCSS</div>
