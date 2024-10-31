@@ -153,7 +153,7 @@
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
-                            <p>Next, created basic low-fidelity wireframes, a main <span class="context" data-tippy-content="Custom tea builder">user flow</span>, and a <span class="context" data-tippy-content="defines pages">sitemap</span>.</p>
+                            <p>Next, created basic low-fidelity wireframes, a main <span class="context" data-tippy-content="For custom tea builder">user flow</span>, and a <span class="context" data-tippy-content="Defines website pages pages">sitemap</span>.</p>
                         </div>
                         <p>These elements served as the blueprint for the overall design, allowing me to visualize the structure and key interactions of the product.</p>
                     </div>
@@ -163,14 +163,14 @@
                 <div class="grid">
                     <div class="col-12 sp"> 
                         <h2>branding.</h2>
-                        <p>After conducting user research, I had the opportunity to create branding for the project, focusing on maintaining a warm, welcoming vibe while still being bold and unique. The color palette included earthy tones to convey a sense of high-quality, natural products, with green symbolizing freshness and reliability.</p>
-                        <p>Hand-drawn elements were added using the pencil tool, giving the graphic assets a detailed, human touch and emphasizing a handcrafted, well-thought-out aesthetic.</p>
+                        <p>After conducting <span class="context" data-tippy-content="See details in the report">user research</span>, I had the opportunity to create <span class="context" data-tippy-content="Visual communication">branding</span> for the project, focusing on maintaining a warm, welcoming vibe while still being bold and unique. The <span class="context" data-tippy-content="Shown in image">color palette</span> included earthy tones to convey a sense of high-quality, natural products, with green symbolizing freshness and reliability.</p>
+                        <p><span class="context" data-tippy-content="Actually vectors in Figma">Hand-drawn</span> elements were added using the pencil tool, giving the graphic assets a detailed, <span class="context" data-tippy-content="Creates personal connection">human touch</span> and emphasizing a handcrafted, well-thought-out aesthetic.</p>
                     </div>
                     <div class="col-12">
                         <img src="../assets/img/ezt/brandngezt.png" alt="EZT Branding">
                     </div>
                     <div class="col-12">
-                        <p>Additionally, a paper texture was incorporated to further enhance the handmade feel, reinforcing the idea of products "crafted with love."</p>
+                    <p> Main font <span class="context" data-tippy-content="View font"><a href="https://pixelsurplus.com/products/boris-free-playful-display-font?srsltid=AfmBOop-iaLDWZQ8YdkfqyyKCEcvoT5I4QknmoqdvnYvVxyThEUZTh2Q" target="_blank">Boris</a></span> is a perfect fit, as it recreated the hand-drawn theme used throughout the project, and secondary font <span class="context" data-tippy-content="View font"><a href="https://font.download/font/eurostile-2" target="_blank">Eurostile</a></span> adds structure, is better for readability and still looks soft and natural. Additionally, a <span class="context" data-tippy-content="Used throughout">paper</span> texture was incorporated to further enhance the handmade feel, reinforcing the idea of products "crafted with love".</p>
                     </div>
                 </div>
             </section>
@@ -180,7 +180,7 @@
                         <q>As a tea enjoyer, I wanted to design a website I wish existed, putting extra care into every detail.</q>
                     </div>
                     <div class="visual col-12 col-8-lg ">
-                        <p>Given the importance of product imagery in store websites, I needed to get creative, especially since this was a fictional client. To maintain a high level of realism, I generated all the product images using Google’s Gemini AI.</p>
+                        <p>Given the importance of product imagery in store websites, I needed to get creative, especially since this was a fictional client. To maintain a high level of realism, I generated all the product images using Google’s <span class="context" data-tippy-content="Try it out!"><a href="https://gemini.google.com/" template="_blank">Gemini</a></span> AI.</p>
                         <img src="../assets/img/ezt/ezt gemini.png" alt="EZT Product Imagery">
                     </div>
                 </div>
@@ -189,8 +189,8 @@
                 <div class="grid">
                     <div class="col-12 col-8-lg sp"> 
                         <h2>prototyping.</h2>
-                        <p>In the high-fidelity prototyping phase, I focused on efficiency and flexibility.</p>
-                        <p>All item cards, buttons, and nearly every graphic were designed as components for convenient reuse. While building the final website, I leveraged these components with auto-layouts, responsive grids/columns, and variables to ensure a seamless and adaptive user experience across different devices.</p>
+                        <p>In the high-fidelity <span class="context" data-tippy-content="View prototype"><a href="https://www.figma.com/proto/tbMH0wyY1Ua5YupH0Bb6Uu/UX%2FUI-edited?node-id=13-12&t=QSpMu0qDfjdjmw9r-1" target="blank_">prototyping</a></span> phase, I focused on efficiency and flexibility.</p>
+                        <p>All item cards, buttons, and nearly every graphic were designed as <span class="context" data-tippy-content="Reusable">components</span> for convenient reuse. While building the final website, I leveraged these components with <span class="context" data-tippy-content="Mimics flexbox">auto-layouts</span> and responsive <span class="context" data-tippy-content="12-column layout is used">grids/columns</span> to ensure a consistent user experience and optimized workflow.</p>
                     </div>
                     <div class="col-12">
                         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D13-12%26t%3DdYb5fYuE5Yj8VJTI-1" allowfullscreen></iframe>
@@ -207,12 +207,12 @@
                         <div class="text-wrap">
                             <p>One of the most valuable lessons from this project was how to effectively revise and improve my designs.</p>
                         </div>
-                        <p> Using Maze.com for unmoderated user research, I identified key pain points users experienced while navigating the website with various visual tools like heatmaps and other graphs and metrics.</p>
+                        <p> Using Maze.com for <span class="context" data-tippy-content="Managed by third party tool">unmoderated</span> user research, I identified key pain points users experienced while navigating the website with various visual tools like heatmaps and other graphs and metrics.</p>
                     </div>
                 </div>
                 <div class="grid">
                     <div class="col-12 col-6-lg sp"> 
-                        <p>I was able to measure direct success rate, bounce rate, misclick rate and average duration needed for a task.</p>
+                        <p>I was able to measure direct <span class="context" data-tippy-content="Task completed as intended">success rate</span>, <span class="context" data-tippy-content="Users left the task">bounce rate</span>, <span class="context" data-tippy-content="User is lost">misclick</span> rate and average duration needed for a task.</p>
                         <p>Based on this feedback, I made targeted changes to UI elements, refining designs to better address user needs and enhance overall usability.</p>
                     </div>
                     <div class="col-12 col-6-lg si">
@@ -222,8 +222,8 @@
                         <img src="../assets/img/ezt/before.png" alt="EZT Prototype After">
                     </div>
                     <div class="col-12 col-6-lg sp"> 
-                        <p> This iterative process allowed for significant improvements in the user experience, ensuring the final product was both functional and user-friendly.</p>
-                        <p>After I packaged everything in report as well as presentation, visually highlighting the changes.</p>
+                        <p> This iterative process allowed for significant improvements in the user experience, ensuring the final product was both functional and <span class="context" data-tippy-content="And friendly">user-centered</span>.</p>
+                        <p>After I packaged everything in report as well as <span class="context" data-tippy-content="Shared by request">presentation</span>, visually highlighting the changes.</p>
                     </div>
                 </div>
             </section>
