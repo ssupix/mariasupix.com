@@ -30,15 +30,15 @@
     
     <!-- Metadata -->
     <meta name="description" content=" Project: The Blue - Water Website.Visual experiences that showcases usage of Vanilla JavaScript, JS Plugins and Libraries for a good cause. Built with HTML, CSS, JavaScript." ">
-    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
-    <meta property="og:url" content="https://mashasupix.com/projects/theblue" />
+    <meta name="keywords" content="Maria Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver>
+    <meta property="og:url" content="https://mariasupix.com/projects/theblue" />
     <meta property="og:title" content="mariasupix - the blue" />
     <meta property="og:description" content="Visual experiences that showcases usage of Vanilla JavaScript, JS Plugins and Libraries for a good cause" />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/posters/theblue-poster.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/posters/theblue-poster.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
-    <link rel="canonical" href="https://mashasupix.com/projects/theblue">
+    <link rel="canonical" href="https://mariasupix.com/projects/theblue">
 
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">

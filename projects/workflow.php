@@ -31,12 +31,15 @@
 
     <!-- Metadata -->
     <meta name="description" content="Workflow: A promotional landing page for a fictional SaaS app. This project showcases a clean, modern design utilizing HTML, SCSS, and JavaScript. Features include personalized styling with light and dark modes, Local Storage, and dynamic UI interactions like dropdowns and animations.">
-    <meta name="keywords" content="Workflow, SaaS app, Masha Supikhanova, Web Developer, Front-end Developer, UI Design, JavaScript, SCSS, HTML, Vancouver">
-    <meta property="og:url" content="https://mashasupix.com/projects/workflow" />
+    <meta name="keywords" content="Workflow, SaaS app, Maria Supikhanova, Web Developer, Front-end Developer, UI Design, JavaScript, SCSS, HTML, Vancouver">
+    <meta property="og:url" content="https://mariasupix.com/projects/workflow" />
     <meta property="og:title" content="mariasupix - workflow promotional landing" />
     <meta property="og:description" content="A modern SaaS app promotional website with dynamic styling and user interaction features, designed by Masha Supikhanova." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/posters/workflow-poster.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/posters/workflow-poster.png" />
     <meta property="og:type" content="website" />
+
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://mariasupix.com/projects/workflow">
 
 
     <title>mariasupix - workflow</title>
