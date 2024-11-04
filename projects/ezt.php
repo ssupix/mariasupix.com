@@ -26,14 +26,14 @@
     <!-- Metadata -->
     <meta name="description" content=" Project: EZT - Online Tea Store. A user-centered design experience, incorporating UX research, UI design, branding, and prototyping. Built with Figma. " >
     <meta name="keywords" content="Maria Supikhanova, Web Developer, UX/UI Designer, Vancouver, Online Tea Store, EZT, User-Centered Design, UX Research, UI Design, Figma Prototyping, Branding, Front-End Development, Product Designer, Remote User Testing, Gemini AI, Interactive Web Design, Ecommerce, Wireframes, Journey Maps, Empathy Maps, Personas, User Scenarios, Prototyping, Responsive Design, Component-Based Design, Maze Testing, Web Development Portfolio">
-    <meta property="og:url" content="https://mashasupix.com/projects/ezt" />
+    <meta property="og:url" content="https://mariasupix.com/projects/ezt" />
     <meta property="og:title" content="mariasupix - ezt online tea store" />
     <meta property="og:description" content="How to create user-centered design experiences, incorporating UX research, UI design, branding, and prototyping" />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/posters/ezt-poster.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/posters/ezt-poster.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
-    <link rel="canonical" href="https://mashasupix.com/projects/ezt">
+    <link rel="canonical" href="https://mariasupix.com/projects/ezt">
 
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">

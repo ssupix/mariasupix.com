@@ -17,18 +17,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- Metadata -->
-    <meta name="description" content="Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content." ">
-    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, work, experience, branding">
-    <meta property="og:url" content="https://mashasupix.com/" />
+    <meta name="description" content="Maria Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content." ">
+    <meta name="keywords" content="Maria Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, work, experience, branding">
+    <meta property="og:url" content="https://mariasupix.com/" />
     <meta property="og:title" content="maria supikhanova - front-end developer & product designer" />
     <meta property="og:description" content="Creating meaningful experiences online. Always learning new skills and technologies." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/metadata/home-img.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/metadata/home-img.png" />
     <meta property="og:type" content="website" />
 
     <?php include 'components/schemametadata.php'; ?>
 
     <!-- Canonical Tag -->
-    <link rel="canonical" href="https://mashasupix.com/">
+    <link rel="canonical" href="https://mariasupix.com/">
 
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">

@@ -25,16 +25,16 @@
     <script src="https://unpkg.com/tippy.js@6"></script>
 
     <!-- Metadata -->
-    <meta name="description" content="About Masha Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
-    <meta name="keywords" content="Masha Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, UX, UI, Figma, HTML, CSS, JavaScript, php, sass>
-    <meta property="og:url" content="https://mashasupix.com/about" />
+    <meta name="description" content="About Maria Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content. By understanding nuances of both sides, I’m able to create most effective and best suitable solutions." ">
+    <meta name="keywords" content="Maria Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, UX, UI, Figma, HTML, CSS, JavaScript, php, sass>
+    <meta property="og:url" content="https://mariasupix.com/about" />
     <meta property="og:title" content="mariasupix - about me" />
     <meta property="og:description" content="Front-end developer with design skills. Implementing interaction, exclusivity and cutting edge technology." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/metadata/about-img.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/metadata/about-img.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
-    <link rel="canonical" href="https://mashasupix.com/about">
+    <link rel="canonical" href="https://mariasupix.com/about">
 
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
