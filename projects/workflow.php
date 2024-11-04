@@ -215,7 +215,7 @@
                         <p>This project showcases my growing skills in <span class="context" data-tippy-content="Website structure">HTML</span> and <span class="context" data-tippy-content="Foundation of JS">Vanilla JavaScript</span>, along with improved <span class="context" data-tippy-content="like CSS but better">SCSS</span> techniques.  It represents a significant improvement in structure compared to my first website, <span class="context" data-tippy-content="View the project"><a href="./theblue">TheBlue</a></span> website, and has sparked my curiosity about component-based coding with better structure, that is easier to maintain. </p>
                     </div>
                     <div class="visual col-12 col-8-lg">
-                        <img src="" alt="To be displayed">
+                        <img src="../assets/img/workflow/process.jpg" alt="WorkFlow BTS">
                     </div>
                 </div>
             </section>
