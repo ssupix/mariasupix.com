@@ -107,7 +107,7 @@
                 <div class="pill-pink">Packaging</div>
             </div>
         </div>
-        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/workflow';" data-category="3" data-hover-text="View project">
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/workflow';" data-category="1" data-hover-text="View project">
             <div class="cover">
                 <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/workflow-poster.png" alt="Workflow Landing Mockup">
                     <source src="./assets/video/workflow.mp4" type="video/mp4">
