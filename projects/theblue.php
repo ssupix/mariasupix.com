@@ -85,7 +85,7 @@
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <a class="button live" href="https://water.mashasupix.com/index.html" target="_blank">VIEW LIVE</a>
+                        <a class="button live" href="https://theblue.mariasupix.com/" target="_blank">VIEW LIVE</a>
                         <a class="button code" href="https://github.com/ssupix/water-website" target="_blank">VIEW CODE</a>
                     </div>
                 </div>
@@ -238,7 +238,7 @@
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <a class="button live" href="https://water.mashasupix.com/index.html" target="_blank">VIEW LIVE</a>
+                        <a class="button live" href="https://theblue.mariasupix.com/" target="_blank">VIEW LIVE</a>
                         <a class="button code" href="https://github.com/ssupix/water-website" target="_blank">VIEW CODE</a>
                     </div>
                 </div>
