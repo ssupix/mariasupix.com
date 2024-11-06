@@ -340,13 +340,13 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="../js/gsap.js"></script>
+    <script src="../js/sayhi.js"></script>
+    <script src="../js/moreprojects.js"></script>
     <script src="../js/nav.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
     
     <script src="../js/scroll.js"></script>
-    <script src="../js/scramble.js"></script>
     <script src="../js/dropdown.js"></script>
     <script src="../js/cursor.js"></script>
     <script src="../js/tippy.js"></script>

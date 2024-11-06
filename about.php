@@ -200,24 +200,23 @@
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
     <script src="./js/smooth.js"></script>
     
-    <!-- GSAP ANIMATIONS -->
+    <!-- GSAP -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="./js/gsap.js"></script>
-    <script src="./js/nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
 
     <script src="./js/vendor/micromodal/micromodal.min.js"></script>
     <script src="./js/modal.js"></script>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+    
     <script src="./js/drag.js"></script>
     <script src="./js/flickity.js"></script>
     <script src="./js/cursor.js"></script>
     <script src="./js/tippy.js"></script>
+    <script src="./js/sayhi.js"></script>
+    <script src="./js/nav.js"></script>
 
 </body>
 </html>

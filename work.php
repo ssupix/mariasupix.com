@@ -178,7 +178,7 @@
         </div>
         <div class="card-list col-12" onclick="window.location.href='./projects/workflow';" data-category="1">
             <div class="cover">
-                <video loop muted autoplay playsinline loading="lazy" title="Workflow Website Mockup" poster="./assets/video/workflow-poster.png">
+                <video loop muted autoplay playsinline loading="lazy" title="Workflow Website Mockup" poster="./assets/img/posters/workflow-poster.png">
                     <source src="./assets/video/workflow.mp4" type="video/mp4">
                 </video>
             </div>
@@ -204,12 +204,12 @@
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
     <script src="./js/smooth.js"></script>
 
-    <!-- GSAP ANIMATIONS -->
+    <!-- GSAP-->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="./js/gsap.js"></script>
-    <script src="./js/nav.js"></script>
 
+    <script src="./js/sayhi.js"></script>
+    <script src="./js/nav.js"></script>
     <script src="./js/dropdown.js"></script>
     <script src="./js/viewtoggle.js"></script>
     <script src="./js/filter.js"></script>

@@ -151,13 +151,14 @@
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
     <script src="./js/smooth.js"></script>
 
-    <!-- GSAP ANIMATIONS -->
+    <!-- GSAP-->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="./js/gsap.js"></script>
+
+    <script src="./js/spinner.js"></script>
+    <script src="./js/sayhi.js"></script>
     <script src="./js/nav.js"></script>
-    
     <script src="./js/scroll.js"></script>
     <script src="./js/scramble.js"></script>
     <script src="./js/banner.js"></script>
