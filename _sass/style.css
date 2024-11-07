@@ -1351,8 +1351,16 @@ a img {
   width: auto;
 }
 
-a:hover svg path {
+.logo:hover svg path {
   fill: #FFACCC;
+}
+
+.logo:hover svg path[style] {
+  fill: #FFACCC !important;
+}
+
+.logo:hover svg path[style*="fill: rgba(0, 0, 0, 0)"] {
+  stroke: #FFACCC !important;
 }
 
 /* BOTTOM PERCENTAGE BAR STYLING */

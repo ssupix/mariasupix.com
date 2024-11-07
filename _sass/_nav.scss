@@ -95,8 +95,18 @@ a {
     }
 }
 
-a:hover svg path{
-    fill: $babypink;
+.logo:hover svg path {  
+    fill: $babypink; 
+}
+
+// Move hover states to path directly and make them more specific
+.logo:hover svg path[style] {  // Adding [style] makes it more specific
+    fill: $babypink !important; // Use !important to override inline styles
+}
+
+// Add specific hover state for outlined version
+.logo:hover svg path[style*="fill: rgba(0, 0, 0, 0)"] {
+    stroke: $babypink !important;
 }
 
 
