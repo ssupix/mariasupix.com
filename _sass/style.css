@@ -376,9 +376,11 @@ a:hover {
   text-transform: initial;
   display: inline-block;
   transition: all 0.3s ease-out;
+  text-decoration: underline;
 }
 .context a:hover {
   text-decoration: underline;
+  color: #646A82;
 }
 
 .context {
@@ -915,11 +917,15 @@ html.lenis body {
 }
 .card-list .cta {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
   width: 35px;
   bottom: 0;
   right: 0;
   transition: all 0.3s ease;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 .card-list .cover {
   width: clamp(200px, 35%, 400px);
@@ -948,7 +954,7 @@ html.lenis body {
   border: #DB1D6F solid 1px;
 }
 .card-list:hover .cta {
-  transform: rotate(-90deg);
+  transform: rotate(-145deg);
 }
 .card-list:hover .cover img,
 .card-list:hover .cover video {

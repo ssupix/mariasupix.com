@@ -95,11 +95,15 @@
 
     .cta {
         position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
         width: 35px;
         bottom: 0;
         right: 0;
         transition: all .3s ease;
-        padding: 1rem;
+        padding: .5rem 1rem;
     }
 
     .cover {
@@ -132,7 +136,7 @@
         border: $berry solid 1px;
 
         .cta {
-            transform: rotate(-90deg);
+            transform: rotate(-145deg);
         }
 
         .cover img,
