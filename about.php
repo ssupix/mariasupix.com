@@ -110,8 +110,8 @@
         </section>
         <section class="skills">
             <div class="grid">
-                <div class="cv col-12 col-7-md cv-modal-trigger hover-content" data-custom-open="modal-1" data-hover-text="Download CV">
-                    <img src="./assets/img/cv-inplastic.png" alt="Masha's CV Resume in plastic">
+                <div class="cv col-12 col-7-md hover-content" onclick="window.location.href='./assets/mariasupix-cv-resume.pdf'" target="_blank" data-hover-text="Download CV">
+                    <img src="./assets/img/cv-inplastic.png" alt="Maria's CV Resume in plastic">
                 </div>
                 <div class="skills-description col-12 col-5-md">
                     <div class="skill-wrap ">
@@ -175,22 +175,6 @@
         </section>
     </main>
 
-    <div class="cv-modal" data-lenis-prevent>
-        <div class="modal micromodal-slide" id="modal-1" aria-hidden="true" data-lenis-stop>
-            <div class="modal__overlay" tabindex="-1" data-micromodal-close data-custom-close="modal-1">
-                <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-                    <header class="modal__header">
-                        <div class="download"><a href="./assets/mariasupix-cv-resume.pdf">download</a></div>
-                        <div class="close" data-custom-close="modal-1" data-lenis-start><p>close</p></div>
-                    </header>
-                    <main class="modal__content" id="modal-1-content">
-                        <img src="./assets/img/cv.jpg" alt="Masha's CV Resume">
-                    </main>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <?php include 'components/footer.php'; ?>
 
@@ -204,10 +188,6 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
-
-    <script src="./js/vendor/micromodal/micromodal.min.js"></script>
-    <script src="./js/modal.js"></script>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     

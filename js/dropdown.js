@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // Do NOT close the dropdown after selection
+            document.querySelector('.filter').classList.remove('active');
         });
     });
 
@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     filters.forEach(filter => {
         const select = filter.querySelector('.select');
         const menu = filter.querySelector('.menu');
+
 
         select.addEventListener('click', (e) => {
             e.stopPropagation();

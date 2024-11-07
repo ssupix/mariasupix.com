@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const selectedCategory = menuItem.id;
 
+            // close menu after selection
+            document.querySelector('.filter .menu').classList.remove('show');
+
             // Show or hide project cards based on the selected category
             projectCards.forEach(card => {
                 const cardCategory = card.getAttribute('data-category');

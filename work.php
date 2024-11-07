@@ -212,7 +212,7 @@
     <script src="./js/nav.js"></script>
     <script src="./js/dropdown.js"></script>
     <script src="./js/viewtoggle.js"></script>
-    <script src="./js/filter.js"></script>
+    <!-- <script src="./js/filter.js"></script> -->
     <script src="./js/scroll.js"></script>
     <script src="./js/cursor.js"></script>
     
