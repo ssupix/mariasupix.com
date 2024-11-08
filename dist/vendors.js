@@ -851,16 +851,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./node_modules/highlight.js/styles/github.css":
-/*!*****************************************************!*\
-  !*** ./node_modules/highlight.js/styles/github.css ***!
-  \*****************************************************/
-/***/ (() => {
-
-eval("throw new Error(\"Module parse failed: Unexpected token (1:4)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> pre code.hljs {\\n|   display: block;\\n|   overflow-x: auto;\");\n\n//# sourceURL=webpack://mashasupix.com/./node_modules/highlight.js/styles/github.css?");
-
-/***/ }),
-
 /***/ "./node_modules/imagesloaded/imagesloaded.js":
 /*!***************************************************!*\
   !*** ./node_modules/imagesloaded/imagesloaded.js ***!

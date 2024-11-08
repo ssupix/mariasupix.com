@@ -19,7 +19,7 @@ module.exports = {
         // cleans the dist folder before each build
         clean: true,
     },
-    mode: 'development',
+    mode: 'production',
 
     module: {
         rules: [
