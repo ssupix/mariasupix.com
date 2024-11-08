@@ -1,3 +1,5 @@
+import { gsap } from "gsap";
+
 // RUNNING CARDS LINE
 // animates elements with the class .running ul li
 gsap.to(".project-scroll ul li", {

@@ -1,3 +1,5 @@
+import { gsap } from "gsap";
+
 // RUNNING TEXT LINE
 // animates elements with the class .running ul li
 gsap.to(".running-line ul li", {

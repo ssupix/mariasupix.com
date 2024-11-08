@@ -1,4 +1,6 @@
 // LOGO SPINNER
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 // GSAP timeline for spinning to the right

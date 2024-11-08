@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- Tippy -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+
     <!-- Metadata -->
     <meta name="description" content="Maria Supikhanova. Front-end developer & product designer, based in Vancouver, BC. Creating meaningful experiences online. As a developer with design skills I specialize in animated, responsive, and interactive content." ">
     <meta name="keywords" content="Maria Supikhanova, Web Developer, Portfolio, Front-end Developer, Product Designer, Vancouver, work, experience, branding">
@@ -147,22 +150,9 @@
 
     <?php include 'components/footer.php'; ?>
 
-    <!-- scrolling -->
-    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
-    <script src="./js/smooth.js"></script>
-
-    <!-- GSAP-->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-
-    <script src="./js/spinner.js"></script>
-    <script src="./js/sayhi.js"></script>
-    <script src="./js/nav.js"></script>
-    <script src="./js/scroll.js"></script>
-    <script src="./js/scramble.js"></script>
-    <script src="./js/banner.js"></script>
-    <script src="./js/cursor.js"></script>
+    <script src="./dist/vendors.js"></script>
+    <script src="./dist/global.js"></script>
+    <script src="./dist/home.js"></script>
     
 </body>
 </html>

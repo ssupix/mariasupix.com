@@ -22,7 +22,7 @@ jobs:
           *.md
           *.scss
           **/_sass/**
-          **/src/**
+          **/js/**
           webpack.config.js
           package.json
 

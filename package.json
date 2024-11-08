@@ -10,7 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "flickity": "^3.0.0",
+    "gsap": "^3.12.5",
+    "highlight.js": "^11.10.0",
+    "lenis": "^1.1.16",
     "micromodal": "^0.4.10",
+    "popper.js": "^1.16.1",
     "tippy.js": "^6.3.7"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }

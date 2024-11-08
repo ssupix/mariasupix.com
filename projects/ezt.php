@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 
     <!-- Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">  
+
+    <!-- Include Highlight.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <!-- Tippy -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     
     <!-- Space Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-    <!-- Tippy -->
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <script src="https://unpkg.com/tippy.js@6"></script>
-    
     <!-- Metadata -->
     <meta name="description" content=" Project: EZT - Online Tea Store. A user-centered design experience, incorporating UX research, UI design, branding, and prototyping. Built with Figma. " >
     <meta name="keywords" content="Maria Supikhanova, Web Developer, UX/UI Designer, Vancouver, Online Tea Store, EZT, User-Centered Design, UX Research, UI Design, Figma Prototyping, Branding, Front-End Development, Product Designer, Remote User Testing, Gemini AI, Interactive Web Design, Ecommerce, Wireframes, Journey Maps, Empathy Maps, Personas, User Scenarios, Prototyping, Responsive Design, Component-Based Design, Maze Testing, Web Development Portfolio">
@@ -332,24 +332,9 @@
 
     <?php include '../components/footer-project.php'; ?>
 
-    <!-- scrolling -->
-    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
-    <script src="../js/smooth.js"></script>
-
-    <!-- GSAP ANIMATIONS -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="../js/sayhi.js"></script>
-    <script src="../js/moreprojects.js"></script>
-    <script src="../js/nav.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
-    
-    <script src="../js/scroll.js"></script>
-    <script src="../js/dropdown.js"></script>
-    <script src="../js/cursor.js"></script>
-    <script src="../js/tippy.js"></script>
+    <script src="../dist/vendors.js"></script>
+    <script src="../dist/global.js"></script>
+    <script src="../dist/project.js"></script>
 
 </body>
 </html>

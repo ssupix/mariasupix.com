@@ -1,3 +1,5 @@
+import { gsap } from "gsap";
+
 function scrambleText(targetId, newText, duration = 1.5) {
     const element = document.getElementById(targetId);
     const originalText = element.innerText;

@@ -30,7 +30,6 @@ jspm_packages/
 *.sublime-workspace
 
 # Build output
-dist/
 build/
 
 # Coverage directory used by tools like istanbul

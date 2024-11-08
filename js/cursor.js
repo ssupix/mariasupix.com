@@ -1,3 +1,5 @@
+import { gsap } from "gsap";
+
 // GSAP cursor follower logic
 const cursor = document.getElementById('cursor-follower');
 const cursorText = cursor.querySelector('.cursor-text');

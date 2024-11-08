@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">  
+
+    <!-- Tippy -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     
     <!-- Space Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -200,21 +204,9 @@
 
     <?php include 'components/footer.php'; ?>
 
-    <!-- scrolling -->
-    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
-    <script src="./js/smooth.js"></script>
-
-    <!-- GSAP-->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-
-    <script src="./js/sayhi.js"></script>
-    <script src="./js/nav.js"></script>
-    <script src="./js/dropdown.js"></script>
-    <script src="./js/viewtoggle.js"></script>
-    <!-- <script src="./js/filter.js"></script> -->
-    <script src="./js/scroll.js"></script>
-    <script src="./js/cursor.js"></script>
+    <script src="./dist/vendors.js"></script>
+    <script src="./dist/global.js"></script>
+    <script src="./dist/work.js"></script>
     
 </body>
 </html>
