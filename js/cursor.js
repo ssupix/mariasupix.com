@@ -7,6 +7,7 @@ gsap.set(cursor, {xPercent: -5, yPercent: -5});
 let xTo = gsap.quickTo(cursor, "x", {duration: 0.6, ease: "power3"}),
     yTo = gsap.quickTo(cursor, "y", {duration: 0.6, ease: "power3"});
 
+// Base cursor movement
 window.addEventListener("mousemove", e => {
     xTo(e.clientX);
     yTo(e.clientY);
@@ -24,7 +25,7 @@ document.querySelectorAll('.hover-content').forEach(el => {
     });
 });
 
-// opacity on start
+// Initial opacity
 window.addEventListener("mousemove", () => {
     cursor.style.opacity = 1;
 });

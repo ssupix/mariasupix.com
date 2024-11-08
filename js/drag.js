@@ -1,9 +1,11 @@
-// DRAG AND DROP
-// register the plugin
-gsap.registerPlugin(Draggable) 
-
-// use this plugin on elements with class .drag-item"
+// Initialize draggable items
 Draggable.create(".drag-item", {
-    // you can drag elements outside of #ocean div
-    bounds: "#insight"
-  });
+  bounds: "#insight",
+  onDrag: function() {
+      gsap.set(cursor, {
+          x: this.pointerX,
+          y: this.pointerY
+      });
+  }
+});
+

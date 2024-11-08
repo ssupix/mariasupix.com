@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../_sass/style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
@@ -110,7 +109,7 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>This project is based on one of my term projects from <span class="context" data-tippy-content="Part of my Diploma">Web Interactions</span> course at <span class="context" data-tippy-content="More about my Diploma"><a href="https://www.bcit.ca/programs/new-media-design-and-web-development-diploma-full-time-6525dipma/" target="_blank">BCIT</a></span>. The primary objective was to design and develop a comprehensive marketing page for a fictional SaaS app called Workflow, a project management tool tailored for remote teams.</p>
-                        <video loop muted autoplay playsinline loading="lazy" title="The Blue Website Showcase">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/imac-workflow-poster.png" title="Workflow Website Showcase">
                             <source src="../assets/video/imac-workflow.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
@@ -174,7 +173,7 @@
                         <p>I created a classic dropdown accordion with smooth max-height transition <span class="context" data-tippy-content="See in a snippet">animation</span>. This specific design allows users to expand only the options they are interested in, automatically closing any previously opened sections. This keeps the interface <span class="context" data-tippy-content="Not overwhelming">clean</span> and <span class="context" data-tippy-content="Easy to get around">organized</span>, minimizing clutter.</p>
                     </div>
                     <div class="col-12 col-6-lg sp">
-                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/dropdowns-workflow-poster.jpg" title="The Blue Website Showcase">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/dropdowns-workflow-poster.png" title="The Blue Website Showcase">
                             <source src="../assets/video/dropdowns-workflow.mp4" type="video/mp4">
                         </video> 
                     </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../_sass/style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
@@ -114,7 +114,7 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>This site was made as a term project for BCIT’s <span class="context" data-tippy-content="Who taught that?"><a href="https://airrickdunfield.com/">Web Scripting 1</a></span> course, as a part of the <span class="context link" data-tippy-content="More about my diploma"><a href="https://www.bcit.ca/programs/new-media-design-and-web-development-diploma-full-time-6525dipma/" target="_blank">New Media Design & Web Development</a></span> program to showcase usage of Vanilla JavaScript, <span class="context" data-tippy-content="Main focus">JS Plugins</span> and Libraries and my skills with CDN and NPM implementation.</p>
-                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/imac-theblue-poster.png" title="The Blue Website Showcase">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/imac-theblue-poster.png" title="The Blue Website Showcase">
                             <source src="../assets/video/imac-theblue.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -171,7 +171,7 @@
                     </div>
                 </div>
                 <div class="grid">
-                    <div class="col-12 col-6-lg si">
+                    <div class="col-12 col-6-lg npm">
                         <img src="../assets/img/theblue/npminstall.png" alt="Installing Plugins with NPM">
                     </div>
                     <div class="col-12 col-6-lg sp"> 
@@ -186,7 +186,7 @@
                         <p>One noteworthy find was the <span class="context" data-tippy-content="Animation On Scroll"><a href="https://michalsnik.github.io/aos/">AOS</a></span> library, which provides a minimalist approach to animating sections upon scroll. I chose to use this library because it is <span class="context" data-tippy-content="See in a snippet">minimal</span> code requirements, making it an excellent choice for enhancing the user experience in my project.</p>
                     </div>
                     <div class="col-12 col-6-lg sp">
-                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/scroll-theblue-poster.jpg" title="The Blue Website Showcase">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/scroll-theblue-poster.png" title="The Blue Website Showcase">
                             <source src="../assets/video/scroll-theblue.mp4" type="video/mp4">
                         </video>
                         

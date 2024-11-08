@@ -15,3 +15,14 @@ jobs:
         username: u704810582.mariassupix22
         password: ${{ secrets.ftp_password }}
         protocol: ftps
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          *.md
+          *.scss
+          **/_sass/**
+          **/src/**
+          webpack.config.js
+          package.json
+
