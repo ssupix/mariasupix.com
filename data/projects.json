@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Water Website - The Blue",
+        "url": "./projects/theblue",
+        "video": "./assets/video/theblue.mp4",
+        "poster": "./assets/img/posters/theblue-poster.png",
+        "description": "This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.",
+        "tags": [
+            { "name": "html", "color": "blue" },
+            { "name": "css", "color": "blue" },
+            { "name": "javascript", "color": "blue" },
+            { "name": "ui design", "color": "pink" }
+        ],
+        "category": 1
+    },
+    {
+        "title": "EZT - Online Tea Shop",
+        "url": "./projects/ezt",
+        "video": "./assets/video/ezt.mp4",
+        "poster": "./assets/img/posters/ezt-poster.png",
+        "description": "This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.",
+        "tags": [
+            { "name": "ux research", "color": "blue" },
+            { "name": "ui design", "color": "pink" },
+            { "name": "branding", "color": "pink" },
+            { "name": "figma", "color": "pink" }
+        ],
+        "category": 2
+    },
+    {
+        "title": "Meowdy! Cat Surprise Boxes",
+        "url": "./projects/meowdy",
+        "video": "",
+        "poster": "./assets/img/meowdy/meowdy-mockup.jpg",
+        "description": "A branding and packaging project for Meowdy, a concept for surprise boxes for cats, focusing on engaging visuals and product design.",
+        "tags": [
+            { "name": "branding", "color": "pink" },
+            { "name": "photoshop", "color": "pink" },
+            { "name": "packaging", "color": "pink" }
+        ],
+        "category": 3
+    },
+    {
+        "title": "Workflow - Promotional Landing",
+        "url": "./projects/workflow",
+        "video": "./assets/video/workflow.mp4",
+        "poster": "./assets/img/posters/workflow-poster.png",
+        "description": "This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.",
+        "tags": [
+            { "name": "html", "color": "blue" },
+            { "name": "scss", "color": "blue" },
+            { "name": "javascript", "color": "blue" },
+            { "name": "local storage", "color": "blue" },
+            { "name": "ui design", "color": "pink" }
+        ],
+        "category": 1
+    }
+]

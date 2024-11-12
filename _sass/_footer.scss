@@ -7,6 +7,7 @@ footer {
     flex-direction: column;
     align-items: center;
     height: fit-content;
+    animation: load 1s ease;
 }
 
 .running-line {
@@ -148,6 +149,15 @@ footer {
     } 
 }
 
+@keyframes load {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 568px) {
     footer {
         height: min-content;
@@ -220,3 +230,4 @@ footer {
         }
     }
 }
+

@@ -47,11 +47,6 @@
         text-decoration: none;
     }
 
-    p {
-        line-height: 150%;
-        width: 90%;
-    }
-
     .cover  {
         display: flex;
         align-items: center;
@@ -76,73 +71,6 @@
 
     .cover .video-poster {
         border-radius: 10px;
-    }
-}
-
-// = LIST CARD STYLES = //
-
-.card-list {
-    position: relative;
-    cursor: pointer;
-    gap: 3rem;
-    height: min-content;
-    display: flex;
-    flex-direction: row;
-    padding: clamp(10px, 2vw, 20px);
-    border: 1px solid $black;
-    transition: background .3s;
-    animation: cardDisplay .5s forwards;
-
-    .cta {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 30px;
-        width: 35px;
-        bottom: 0;
-        right: 0;
-        transition: all .3s ease;
-        padding: .5rem 1rem;
-    }
-
-    .cover {
-        width: clamp(200px, 35%, 400px);
-    }
-
-    .cover img,
-    .cover video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: all .3s ease;
-    }
-
-    .description {
-        width: 60%;
-        display: flex;
-        gap: clamp(0.5rem, 1vw, 1rem);;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    h3 {
-        cursor: pointer;
-    }
-
-    &:hover {
-        border: $berry solid 1px;
-
-        .cta {
-            transform: rotate(-145deg);
-        }
-
-        .cover img,
-        .cover video {
-            border-radius: 0;
-        }
     }
 }
 
