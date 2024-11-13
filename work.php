@@ -79,6 +79,8 @@
     <script src="./dist/vendors.js"></script>
     <script src="./dist/global.js"></script>
     <script src="./dist/work.js"></script>
+    <script src="./js/viewtoggle.js"></script>
+    <script src="./js/projects.js"></script>
     
 </body>
 </html>

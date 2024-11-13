@@ -24,15 +24,6 @@ const switchToList = () => {
     cards.forEach(card => {
         card.classList.add('card-list');
         card.classList.remove('col-6-md');
-        
-        // Restructure the card content for list view
-        const description = card.querySelector('.description');
-        if (!card.querySelector('.cta')) {
-            const cta = document.createElement('p');
-            cta.className = 'cta';
-            cta.textContent = '→';
-            card.appendChild(cta);
-        }
     });
     
     // Trigger the animation
@@ -52,12 +43,6 @@ const switchToGrid = () => {
     cards.forEach(card => {
         card.classList.remove('card-list');
         card.classList.add('col-6-md');
-        
-        // Remove list-specific elements
-        const cta = card.querySelector('.cta');
-        if (cta) {
-            cta.remove();
-        }
     });
     
     // Trigger the animation

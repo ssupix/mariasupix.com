@@ -69,6 +69,11 @@ async function loadProjects() {
         description.appendChild(title);
         description.appendChild(desc);
 
+        const arrow = document.createElement('div');
+        arrow.classList.add('cta');
+        arrow.innerHTML = '→'; 
+        desc.appendChild(arrow);
+
         const tagsContainer = document.createElement('div');
         tagsContainer.classList.add('tags');
         project.tags.forEach(tag => {
