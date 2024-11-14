@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const filterMenuItems = document.querySelectorAll('.filter .menu li');
-    const projectCards = document.querySelectorAll('.work-projects .card, .work-projects-list .card-list');
+    const projectCards = document.querySelectorAll('.work-projects .card');
 
     filterMenuItems.forEach(menuItem => {
         menuItem.addEventListener('click', () => {

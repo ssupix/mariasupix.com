@@ -71,7 +71,81 @@
             </div>
         </div>
     </section>
-    <section class="work-projects grid" id="project-container"></section>
+    <section class="work-projects grid" id="project-container">
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/theblue'" data-category="1" data-hover-text="View project">
+            <p class="cta">→</p>
+            <div class="cover">
+                <video loop playsinline autoplay muted loading="lazy" poster="./assets/img/posters/theblue-poster.png">
+                    <source src="./assets/video/theblue.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="description">
+                <h4>Water Website - The Blue</h4>
+                <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design &amp; Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                <div class="tags">
+                    <div class="pill-blue">html</div>
+                    <div class="pill-blue">css</div>
+                    <div class="pill-blue">javascript</div>
+                    <div class="pill-pink">ui design</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/ezt'" data-category="2" data-hover-text="View project">
+            <p class="cta">→</p>
+            <div class="cover">
+                <video loop playsinline autoplay muted loading="lazy" poster="./assets/img/posters/ezt-poster.png">
+                    <source src="./assets/video/ezt.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="description">
+                <h4>EZT - Online Tea Shop</h4>
+                <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design &amp; Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                <div class="tags">
+                    <div class="pill-blue">ux research</div>
+                    <div class="pill-pink">ui design</div>
+                    <div class="pill-pink">branding</div>
+                    <div class="pill-pink">figma</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/meowdy'" data-category="3" data-hover-text="View project">
+            <p class="cta">→</p>
+            <div class="cover">
+                <img src="./assets/img/meowdy/meowdy-mockup.jpg" alt="Meowdy project preview">
+            </div>
+            <div class="description">
+                <h4>Meowdy! Cat Surprise Boxes</h4>
+                <p>A branding and packaging project for Meowdy, a concept for surprise boxes for cats, focusing on engaging visuals and product design.</p>
+                <div class="tags">
+                    <div class="pill-pink">branding</div>
+                    <div class="pill-pink">photoshop</div>
+                    <div class="pill-pink">packaging</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card col-12 col-6-md hover-content" onclick="window.location.href='./projects/workflow'" data-category="1" data-hover-text="View project">
+            <p class="cta">→</p>
+            <div class="cover">
+                <video loop playsinline autoplay muted loading="lazy" poster="./assets/img/posters/workflow-poster.png">
+                    <source src="./assets/video/workflow.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="description">
+                <h4>Workflow - Promotional Landing</h4>
+                <p>This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design &amp; Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.</p>
+                <div class="tags">
+                    <div class="pill-blue">html</div>
+                    <div class="pill-blue">scss</div>
+                    <div class="pill-blue">javascript</div>
+                    <div class="pill-blue">local storage</div>
+                    <div class="pill-pink">ui design</div>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
 
     <?php include 'components/footer.php'; ?>
