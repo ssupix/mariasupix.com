@@ -47,7 +47,7 @@
                         <p>It’s not you, it’s me. I might have moved around some pages or maybe this page never even existed. Who knows?</p>
                         <p>Let’s get you back home and pretend this never happened. Peace!</p>
                     </div>
-                    <a class="button" href="./">BACK HOME</a>
+                    <a class="button live" href="./">BACK HOME</a>
                 </div>
             </div>
         </section>
