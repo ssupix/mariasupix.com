@@ -33,7 +33,7 @@
     
     <main>
         <section class="error">
-            <div class="grid">
+            <div class="grid error-box">
                 <div class="col-12">
                     <h1>404</h1>
                 </div>
@@ -44,7 +44,7 @@
                 <div class="col-6 message">
                     <div class="text">
                         <h2>ohhhh, now that's awkward...</h2>
-                        <p>It’s not you, it’s me. I might have moved around some pages or maybe this page never even existed. Who knows?</p>
+                        <p>It’s not you, it’s me. I might have moved around some pages around or maybe this one never even existed. Who knows?</p>
                         <p>Let’s get you back home and pretend this never happened. Peace!</p>
                     </div>
                     <a class="button live" href="./">BACK HOME</a>

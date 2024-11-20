@@ -82,3 +82,28 @@
         border-color: $black;
     }
 }
+
+
+@media (max-width: 965px) {
+    .error-box {
+        display: flex;
+        flex-direction: column; // Single column on mobile
+
+        .col-12 {
+            order: -1;// Force h1 container to first row
+        }
+
+        .col-6.image {
+            order: 2;
+        }
+
+        .message {
+            text-align: center;
+        }
+
+        .button {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
