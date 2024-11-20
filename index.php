@@ -146,6 +146,122 @@
                 <a href="./work" class="col-12 breakpoint-link">more projects</a>
             </div>
         </section>
+        <section class="testimonials">
+            <div class="grid">
+                <div class="col-12 heading">
+                    <h2>people say.</h2>
+                </div>
+                <div class="col-12 col-5-lg t-col">
+                    <div class="feedback-card">
+                        <div class="grid">
+                            <div class="col-11">
+                                <p>“Whenever I have a web development group project, Maria is my go-to teammate. She’s reliable, communicative, and exceptionally creative. Not only does she come up with great ideas, but she also executes them with precision and efficiency. Discussing ideas together feels both productive and inspiring, and collaborating with her is always a pleasure. For these reasons, I will always recommend Maria to anyone looking for an impactful website.”</p>
+                                <div class="bio grid">
+                                    <div class="pfp col-2">
+                                        <img src="./assets/img/testimonials/paul.png" alt="Paul Aries Profile Picture">
+                                        <img class="overlay" src="./assets/img/testimonials/pinkpaul.png" alt="Paul Overlay Banner">
+                                    </div>
+                                    <div class="col-10 info">
+                                        <h5>Paul Aries</h5>
+                                        <p>Front-end Developer | BCIT student</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="socials">
+                                    <a href="https://www.linkedin.com/in/paularies/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="none">
+                                        <rect width="55" height="55" class="background" rx="27.5"/>
+                                        <path class="logo" d="M41.03 13.97v27.06H13.97V13.97H41.03ZM24.608 24.388v12.04h4.01v-2.935c0-1.324-.008-2.649.005-3.974.011-1.262.926-2.222 2.127-2.26.952-.031 1.589.409 1.897 1.308.172.502.204 1.023.204 1.549v6.314h4.009c.003-.064.007-.12.007-.174 0-2.215.006-4.43-.002-6.645-.003-.784-.074-1.564-.302-2.32-.292-.969-.781-1.81-1.627-2.398-1.148-.799-2.427-.944-3.762-.681-1.068.21-1.858.847-2.459 1.736-.023.034-.051.063-.102.123v-1.683h-4.005Zm-6.228 12.04h3.994V24.393H18.38v12.035Zm2.099-13.705c.133-.02.378-.033.61-.098.837-.234 1.39-.767 1.521-1.64.127-.836-.137-1.556-.855-2.045-.617-.42-1.317-.47-2.026-.298-1.597.387-1.953 2.063-1.264 3.126.446.686 1.12.937 2.014.955Z"/>
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-card">
+                        <div class="grid">
+                            <div class="col-11">
+                                <p>“I'm just a cat. No words here... Meow?”</p>
+                                <div class="bio grid">
+                                    <div class="pfp col-2">
+                                        <img src="./assets/img/testimonials/miau2.png" alt="Miau Profile Picture">
+                                    </div>
+                                    <div class="col-10 info">
+                                        <h5>Miau</h5>
+                                        <p>Maria's cat</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="socials">
+                                    <a href="https://www.linkedin.com/in/mariasupix">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="none">
+                                        <rect width="55" height="55" class="background" rx="27.5"/>
+                                        <path class="logo" d="M41.03 13.97v27.06H13.97V13.97H41.03ZM24.608 24.388v12.04h4.01v-2.935c0-1.324-.008-2.649.005-3.974.011-1.262.926-2.222 2.127-2.26.952-.031 1.589.409 1.897 1.308.172.502.204 1.023.204 1.549v6.314h4.009c.003-.064.007-.12.007-.174 0-2.215.006-4.43-.002-6.645-.003-.784-.074-1.564-.302-2.32-.292-.969-.781-1.81-1.627-2.398-1.148-.799-2.427-.944-3.762-.681-1.068.21-1.858.847-2.459 1.736-.023.034-.051.063-.102.123v-1.683h-4.005Zm-6.228 12.04h3.994V24.393H18.38v12.035Zm2.099-13.705c.133-.02.378-.033.61-.098.837-.234 1.39-.767 1.521-1.64.127-.836-.137-1.556-.855-2.045-.617-.42-1.317-.47-2.026-.298-1.597.387-1.953 2.063-1.264 3.126.446.686 1.12.937 2.014.955Z"/>
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-7-lg t-col">
+                <div class="feedback-card">
+                        <div class="grid">
+                            <div class="col-11">
+                                <p>"Maria has an exceptional work ethic and an inspiring drive to create innovative designs. She’s not only committed to her work but also excels in collaborating with the team and communicating effective ideas and solutions. Having worked with her on several projects, Maria consistently delivers high-quality results. I fully trust her to handle both coding and design for me!"  </p>
+                                <div class="bio grid">
+                                    <div class="pfp col-2">
+                                    <img src="./assets/img/testimonials/emma.png" alt="Emma Englund Profile Picture">
+                                    </div>
+                                    <div class="col-10 info">
+                                        <h5>Emma Englund</h5>
+                                        <p>Owner and Founder of Englund Social</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="socials">
+                                    <a href="https://www.linkedin.com/in/emma-englund/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="none">
+                                        <rect width="55" height="55" class="background" rx="27.5"/>
+                                        <path class="logo" d="M41.03 13.97v27.06H13.97V13.97H41.03ZM24.608 24.388v12.04h4.01v-2.935c0-1.324-.008-2.649.005-3.974.011-1.262.926-2.222 2.127-2.26.952-.031 1.589.409 1.897 1.308.172.502.204 1.023.204 1.549v6.314h4.009c.003-.064.007-.12.007-.174 0-2.215.006-4.43-.002-6.645-.003-.784-.074-1.564-.302-2.32-.292-.969-.781-1.81-1.627-2.398-1.148-.799-2.427-.944-3.762-.681-1.068.21-1.858.847-2.459 1.736-.023.034-.051.063-.102.123v-1.683h-4.005Zm-6.228 12.04h3.994V24.393H18.38v12.035Zm2.099-13.705c.133-.02.378-.033.61-.098.837-.234 1.39-.767 1.521-1.64.127-.836-.137-1.556-.855-2.045-.617-.42-1.317-.47-2.026-.298-1.597.387-1.953 2.063-1.264 3.126.446.686 1.12.937 2.014.955Z"/>
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="feedback-card">
+                        <div class="grid">
+                            <div class="col-11">
+                                <p>“Whenever I have a web development group project, Maria is my go-to teammate. She’s reliable, communicative, and exceptionally creative. Not only does she come up with great ideas, but she also executes them with precision and efficiency. Discussing ideas together feels both productive and inspiring, and collaborating with her is always a pleasure. For these reasons, I will always recommend Maria to anyone looking for an impactful website.”</p>
+                                <div class="bio grid">
+                                    <div class="pfp col-2">
+                                        <img src="./assets/img/testimonials/paul.png" alt="Paul Aries Profile Picture">
+                                    </div>
+                                    <div class="col-10 info">
+                                        <h5>Paul Aries</h5>
+                                        <p>Front-end Developer | BCIT student</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="socials">
+                                    <a href="https://www.linkedin.com/in/mariasupix">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="none">
+                                        <rect width="55" height="55" class="background" rx="27.5"/>
+                                        <path class="logo" d="M41.03 13.97v27.06H13.97V13.97H41.03ZM24.608 24.388v12.04h4.01v-2.935c0-1.324-.008-2.649.005-3.974.011-1.262.926-2.222 2.127-2.26.952-.031 1.589.409 1.897 1.308.172.502.204 1.023.204 1.549v6.314h4.009c.003-.064.007-.12.007-.174 0-2.215.006-4.43-.002-6.645-.003-.784-.074-1.564-.302-2.32-.292-.969-.781-1.81-1.627-2.398-1.148-.799-2.427-.944-3.762-.681-1.068.21-1.858.847-2.459 1.736-.023.034-.051.063-.102.123v-1.683h-4.005Zm-6.228 12.04h3.994V24.393H18.38v12.035Zm2.099-13.705c.133-.02.378-.033.61-.098.837-.234 1.39-.767 1.521-1.64.127-.836-.137-1.556-.855-2.045-.617-.42-1.317-.47-2.026-.298-1.597.387-1.953 2.063-1.264 3.126.446.686 1.12.937 2.014.955Z"/>
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
     </main>
 
     <?php include 'components/footer.php'; ?>
