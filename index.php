@@ -58,7 +58,7 @@
             </div>
         </section>
         <section class="banner">
-            <p class="intro">Creating meaningful experiences online. </br>Always learning new skills and technologies.</p>
+            <p class="intro">Front-end Developer with UX/UI Product Designer background. </br>"It’s time to bring more meaningful experiences."</p>
             <div class="banner-row">
                 <div class="grid">
                     <div class="col-12 col-3-lg banner-left-text">
