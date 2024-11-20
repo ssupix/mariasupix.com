@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
+export function filterMenu() {
+
     const filterMenuItems = document.querySelectorAll('.filter .menu li');
     const projectCards = document.querySelectorAll('.work-projects .card');
 
@@ -26,4 +27,4 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
-});
+}

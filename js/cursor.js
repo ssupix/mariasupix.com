@@ -1,4 +1,5 @@
 import { gsap } from "gsap";
+// import { gsap } from "../node_modules/gsap";
 
 // GSAP cursor follower logic
 const cursor = document.getElementById('cursor-follower');
@@ -31,3 +32,17 @@ document.querySelectorAll('.hover-content').forEach(el => {
 window.addEventListener("mousemove", () => {
     cursor.style.opacity = 1;
 });
+
+export function attachHoverEffects() {
+    document.querySelectorAll('.hover-content').forEach(el => {
+
+        el.addEventListener('mouseenter', () => {
+            cursor.classList.add('hover');
+            cursorText.textContent = el.dataset.hoverText || 'learn more';
+        });
+        el.addEventListener('mouseleave', () => {
+            cursor.classList.remove('hover');
+            cursorText.textContent = '';
+        });
+    });
+}

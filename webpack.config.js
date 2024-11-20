@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         global: ['./js/smooth.js', './js/cursor.js', './js/nav.js', './js/tippy.js', './js/sayhi.js', './js/scroll.js'],
         home: ['./js/banner.js', './js/scramble.js', './js/spinner.js'],
-        work: ['./js/filter.js', './js/viewtoggle.js', './js/dropdown.js'],
+        work: [ './js/viewtoggle.js', './js/dropdown.js', './js/projects.js'],
         about: ['./js/drag.js', './js/flickity.js'],
         project: ['./js/moreprojects.js', './js/dropdown.js', './js/highlight.js'],
     },

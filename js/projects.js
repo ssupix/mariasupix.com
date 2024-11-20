@@ -1,145 +1,99 @@
-import { gsap } from "gsap";
-
-// GSAP cursor follower logic
-const cursor = document.getElementById('cursor-follower');
-const cursorText = cursor.querySelector('.cursor-text');
-
-gsap.set(cursor, {xPercent: -5, yPercent: -5});
-
-let xTo = gsap.quickTo(cursor, "x", {duration: 0.6, ease: "power3"}),
-    yTo = gsap.quickTo(cursor, "y", {duration: 0.6, ease: "power3"});
-
-// Base cursor movement
-window.addEventListener("mousemove", e => {
-    xTo(e.clientX);
-    yTo(e.clientY);
-});
-
-// Initial opacity
-window.addEventListener("mousemove", () => {
-    cursor.style.opacity = 1;
-});
-
-function initializeHoverEffects() {
-    // Hover effect with custom text
-    document.querySelectorAll('.hover-content').forEach(el => {
-        el.addEventListener('mouseenter', () => {
-            cursor.classList.add('hover');
-            cursorText.textContent = el.dataset.hoverText || 'learn more';
-        });
-        el.addEventListener('mouseleave', () => {
-            cursor.classList.remove('hover');
-            cursorText.textContent = '';
-        });
-    });
-}
-
-function initializeFilters() {
-    const filterMenuItems = document.querySelectorAll('.filter .menu li');
-    const projectCards = document.querySelectorAll('.work-projects .card');
-
-    filterMenuItems.forEach(menuItem => {
-        menuItem.addEventListener('click', () => {
-            // Remove 'selected' class from all items
-            filterMenuItems.forEach(item => item.classList.remove('selected'));
-            
-            // Add 'selected' class to the clicked item
-            menuItem.classList.add('selected');
-
-            const selectedCategory = menuItem.id;
-
-            // close menu after selection
-            document.querySelector('.filter .menu').classList.remove('show');
-
-            // Show or hide project cards based on the selected category
-            projectCards.forEach(card => {
-                const cardCategory = card.getAttribute('data-category');
-                if (selectedCategory === 'all' || cardCategory === selectedCategory) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        });
-    });
-}
+import { filterMenu } from './filter.js';
+import { attachHoverEffects } from './cursor.js';
 
 async function loadProjects() {
-    try {
-        const response = await fetch('./data/projects.json');
-        const projects = await response.json();
-        const projectContainer = document.getElementById('project-container');
-        
-        // Get the template from your existing HTML
-        const templateCard = projectContainer.querySelector('.card');
-        if (!templateCard) {
-            console.error('Template card not found');
-            return;
-        }
 
-        // Clear container but save template
-        const template = templateCard.cloneNode(true);
-        projectContainer.innerHTML = '';
+    const response = await fetch('./data/projects.json');
+    const projects = await response.json();
+    const projectContainer = document.getElementById('project-container');
 
-        // Create cards based on template
-        projects.forEach(project => {
-            const card = template.cloneNode(true);
+    projects.forEach(project => {
+
+        const card = document.createElement('div');
+
+        card.classList.add('card', 'col-12', 'col-6-md', 'hover-content');
+        card.setAttribute('onclick', `window.location.href='${project.url}'`);
+        card.setAttribute('data-category', project.category);
+        card.setAttribute('data-hover-text', 'View project');
+
+        const cover = document.createElement('div');
+        cover.classList.add('cover');
+
+        if (project.video) {
+
+            const video = document.createElement('video');
+            video.muted = true;
+            video.loop = true;
+            video.playsInline = true;
+            video.autoplay = true;
+            video.setAttribute('poster', project.poster);
             
-            // Update card attributes
-            card.setAttribute('onclick', `window.location.href='${project.url}'`);
-            card.setAttribute('data-category', project.category);
-            card.setAttribute('data-hover-text', 'View project');
+            const source = document.createElement('source');
+            source.src = project.video;
+            source.type = 'video/mp4';
+            
+            //error handling
+            source.onerror = () => {
+                console.error(`Error loading video: ${project.video}`);
+                // Fallback to poster image
+                const fallbackImg = document.createElement('img');
+                fallbackImg.src = project.poster;
+                fallbackImg.alt = `${project.title} Poster`;
+                video.replaceWith(fallbackImg);
+            };
 
-            // Update video/image
-            const cover = card.querySelector('.cover');
-            if (project.video) {
-                cover.innerHTML = `
-                    <video loop playsinline autoplay poster="${project.poster}">
-                        <source src="${project.video}" type="video/mp4">
-                    </video>
-                `;
-            } else {
-                cover.innerHTML = `
-                    <img src="${project.poster}" alt="${project.title} Poster">
-                `;
-            }
+            video.appendChild(source);
+            cover.appendChild(video);
 
-            // Update text content
-            card.querySelector('h4').textContent = project.title;
-            const description = card.querySelector('p');
-            description.textContent = project.description;
-            description.appendChild(document.createElement('div'));
-            description.lastElementChild.classList.add('cta');
-            description.lastElementChild.innerHTML = '→';
-
-            // Update tags
-            const tagsContainer = card.querySelector('.tags');
-            tagsContainer.innerHTML = '';
-            project.tags.forEach(tag => {
-                const tagElement = document.createElement('div');
-                tagElement.classList.add('pill-' + tag.color);
-                tagElement.textContent = tag.name;
-                tagsContainer.appendChild(tagElement);
+            video.addEventListener('loadeddata', () => {
+                const playPromise = video.play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                        console.error("Video autoplay failed:", error);
+                    });
+                }
             });
 
-            projectContainer.appendChild(card);
+        } else {
+
+            const img = document.createElement('img');
+            img.src = project.poster;
+            img.alt = `${project.title} Poster`;
+            cover.appendChild(img);
+
+        }
+
+        card.appendChild(cover);
+        const description = document.createElement('div');
+        description.classList.add('description');
+        
+        const title = document.createElement('h4');
+        title.textContent = project.title;
+        
+        const desc = document.createElement('p');
+        desc.textContent = project.description;
+        
+        description.appendChild(title);
+        description.appendChild(desc);
+        const tagsContainer = document.createElement('div');
+        tagsContainer.classList.add('tags');
+
+        project.tags.forEach(tag => {
+            const tagElement = document.createElement('div');
+            tagElement.classList.add('pill-' + tag.color);
+            tagElement.textContent = tag.name;
+            tagsContainer.appendChild(tagElement);
         });
-
-        // Initialize all functionality
-        initializeHoverEffects();
-        initializeFilters();
-
-    } catch (error) {
-        console.error('Error loading projects:', error);
-    }
+        
+        description.appendChild(tagsContainer);
+        card.appendChild(description);
+        projectContainer.appendChild(card);
+    });
 }
 
-// Initialize everything when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    // Initialize scripts for static elements first
-    initializeHoverEffects();
-    initializeFilters();
-    
-    // Then load dynamic content
-    loadProjects();
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadProjects(); // Wait for projects to load
+    filterMenu();         // Initialize the filter menu after
+    attachHoverEffects(); // Initialize hover effects
 });
