@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
         <div class="running-line">
             <ul>
                 <li><p>say hi!</p></li>

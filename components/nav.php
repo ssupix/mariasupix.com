@@ -6,6 +6,7 @@
             <li><a href="./" class="nav-link" target="_parent"><span class="icon"><img src="./assets/img/icons/cutout.svg" alt=""></span>home</a></li>
             <li><a href="./work" class="nav-link" target="_parent"><span class="icon"><img src="./assets/img/icons/checker.svg" alt=""></span>work</a></li>
             <li><a href="./about" class="nav-link" target="_parent"><span class="icon"><img src="./assets/img/icons/star.svg" alt=""></span>about</a></li>
+            <li><a href="#footer" class="nav-link"><span class="icon"><img src="./assets/img/icons/phone.png" alt=""></span></a></li>
         </ul>
         <div class="ham-menu">
             <span></span>
