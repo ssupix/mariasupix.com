@@ -236,14 +236,14 @@
                     <div class="feedback-card">
                         <div class="grid">
                             <div class="col-11">
-                                <p>“While Maria's colleagues are being very busy being talented developers, designers and marketers, be sure they are not busy being a cat. They are real people, who will do their best to get the real testimonial here as soon as possible. Meow!”</p>
+                                <p>“Maria has always been the brain of our cohort. She absorbs information effortlessly and has an incredibly creative mind when it comes to solving problems with code and design. Her design approaches are unique and always eye-catching, and her attention to detail is impeccable. I always look forward to her latest work because she continues to evolve and refine her skills with each new project. I would consider it an honor to have Maria on your team — she is truly a powerhouse!”</p>
                                 <div class="bio grid">
                                     <div class="pfp col-2">
-                                        <img src="./assets/img/testimonials/miau.png" alt="Miau Profile Picture">
+                                        <img src="./assets/img/testimonials/nicole.png" alt="Nicole's Profile Picture">
                                     </div>
                                     <div class="col-10 info">
-                                        <h5>Miau</h5>
-                                        <p>Maria's cat</p>
+                                        <h5>Nicole Espiritu</h5>
+                                        <p>Front-end Developer | BCIT student</p>
                                     </div>
                                 </div>
                             </div>
