@@ -90,6 +90,7 @@
 
         a {
             text-decoration: none;
+            width: 100%;
         }
 
         button {
@@ -142,14 +143,14 @@
 
 @media only screen and (max-width: 1080px) {
     .banner {
-        p, 
+        p,
         .banner-right-text {
             text-align: center;
+            align-items: center;
             width: 100%;
 
             a {
-                width: 100%;
-                justify-content: center;
+                text-align: center;
             }
         }
 
