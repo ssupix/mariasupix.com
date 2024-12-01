@@ -58,7 +58,7 @@
             </div>
         </section>
         <section class="banner">
-            <p class="intro">Front-end Developer with Product Designer background. </br>"It’s time to bring more meaningful experiences."</p>
+            <p class="intro">Interactive Web Developer with background in Design. </br>"I like to build cool things online"</p>
             <div class="banner-row">
                 <div class="grid">
                     <div class="col-12 col-3-lg banner-left-text">
