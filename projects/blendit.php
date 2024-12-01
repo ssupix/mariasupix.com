@@ -69,7 +69,7 @@
         </section>
         <div class="project-container">
             <section class="project-banner">
-                <img src="../assets/img/ezt/ezt-banner.png" alt="Project Banner">
+                <img src="../assets/img/blendit/blendit-banner.png" alt="Project Banner">
             </section>
             <section class="description">
                 <div class="grid">
@@ -108,8 +108,8 @@
                         <h2>intro.</h2>
                         <p>This is the first big project in React.js that me and my team have ever built. Paul, Christian, and I found ourselves constantly inspired by each other's work and decided to unite our efforts and create Blend It. We were willing to dedicate our personal time to create something truly unique, you should see for yourself.</p>
                     </div>
-                    <div class="col-12 col-8-lg">
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D0-1%26t%3DCYagHoRbQWAnE740-1" allowfullscreen></iframe>
+                    <div class="col-12 col-8-lg outline">
+                        <img src="../assets/img/blendit/sprints.png" alt="Team Notion">
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
@@ -128,7 +128,7 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>With the colors, my goal was to convey boldness, freshness, and quality. They're not far from the original primary colors, which in my opinion works great when you're selling or promoting such natural and unprocessed products as fruit smoothies.</p>
-                        <img src="../assets/img/ezt/ezt gemini.png" alt="EZT Product Imagery">
+                        <img src="../assets/img/blendit/style.png" alt="Style Tile">
                     </div>
                 </div>
             </section>
@@ -139,10 +139,12 @@
                         <p>Website design began with wireframe creation. This approach allowed us to quickly transfer ideas from our heads onto Figma frames and iterate as needed. Once we agreed on the layout and functionality, we moved to the prototyping phase. The design started to gain colors, text copy, and interactions.</p>
                     </div>
                     <div class="col-12">
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FtbMH0wyY1Ua5YupH0Bb6Uu%2FUX%252FUI-edited%3Fnode-id%3D13-12%26t%3DdYb5fYuE5Yj8VJTI-1" allowfullscreen></iframe>
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="650" src="https://embed.figma.com/design/n46g89f4LddbEyRYoipnUt/Blend-It.-Mockups?node-id=0-1&embed-host=share" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-8-lg">
-                        <img src="../assets/img/ezt/heatmapezt.png" alt="Heat Map EZT">
+                        <video loop muted autoplay playsinline loading="lazy" style="width: 100%;">
+                            <source src="../assets/video/figmablendit.mp4">
+                        </video>
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
@@ -161,11 +163,11 @@
                         <h4>code snippets:</h4>
                         <div class="code-show">
                             <div class="select">
-                                <span>drag and drop</span>
+                                <span>tailwind.config.js</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/dragdrop.php'; ?>
+                                <?php include '../components/tailwind.php'; ?>
                             </ul>
                         </div>
                     </div>
@@ -190,21 +192,27 @@
                     <div class="col-12 col-6-lg sp"> 
                         <p>Hero sction features a smoothie bowl carosel. Each bowl is placed along the circumference of an invisible circle using trigonometric calculations to determine its x and y coordinates. The bowls are evenly spaced by calculating an angle based on the total number of bowls, and each bowl is positioned with translate and rotate transforms to maintain alignment as the carousel rotates. The central background circle, which changes color based on the selected bowl, is absolutely centered with transforms to keep it responsive.</p>
                     </div>
-                    <div class="col-12 col-6-lg sp"> 
+                    <div class="col-12 col-8-lg"> 
                         <p>Each smoothie bowl has its own color scheme defined in an array of objects, with properties for background, fill, and text colors. When a bowl is selected, the selectedBowl state is updated, triggering a useEffect hook to apply the corresponding color scheme to the page so it matches the selcted bowl.</p>
-                    </div>
-                    <div class="col-12 col-6-lg npm">
-                        <img src="../assets/img/theblue/npminstall.png" alt="Installing Plugins with NPM">
                     </div>
                     <div class="col-12">
                         <h4>code snippets:</h4>
                         <div class="code-show">
                             <div class="select">
-                                <span>scroll reveal</span>
+                                <span>color scheme</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/scrollreveal.php'; ?>
+                                <?php include '../components/colors.php'; ?>
+                            </ul>
+                        </div>
+                        <div class="code-show">
+                            <div class="select">
+                                <span>carousel</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="code">
+                                <?php include '../components/carousel.php'; ?>
                             </ul>
                         </div>
                     </div>
@@ -218,11 +226,11 @@
                         <h4>code snippets:</h4>
                         <div class="code-show">
                             <div class="select">
-                                <span>drag and drop</span>
+                                <span>ingredient data</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/dragdrop.php'; ?>
+                                <?php include '../components/fruity.php'; ?>
                             </ul>
                         </div>
                     </div>

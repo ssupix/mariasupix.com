@@ -17,7 +17,7 @@
 
 <div class="off-screen-menu">
     <div class="intro-text">
-        <p>Front-end Developer & Web Designer - Maria Supikhanova.</p>
+        <p>Front-end Developer & Product Designer - Maria Supikhanova.</p>
         <p>Based in Vancouver, BC.</p>
     </div>
     <ul>
