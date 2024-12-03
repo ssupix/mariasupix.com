@@ -63,7 +63,7 @@
                             </a>
                         </li>
                     </ul>
-                    <li><a href="mailto:hello@mashasupix.com" class="email">hello@mashasupix.com</a></li>
+                    <li><a href="mailto:hello@mariasupix.com" class="email">hello@mariasupix.com</a></li>
                 </ul>
                 <p>It’s time to bring <br> more meaningful <br> experiences <br> to web spaces.</p>
             </div>
