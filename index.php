@@ -81,16 +81,16 @@
             <div class="grid">
                 <div class="project-description col-12 col-6-lg">
                 <h2>projects.</h2>
-                    <h3><span class="bold">featured: </span>the blue - water website</h3>
+                    <h3><span class="bold">featured: </span>blend it - online ordering</h3>
                     <div class="text">
-                        <p>An interactive visual experience designed to raise awareness around water pollution, created as an experiment to explore how far I can take your experience on my websites.</p>
-                        <p>Experimental website, created to see how I can extend functionality and interactivity of my work using different JavaScript plugins, Libraries or Frameworks. On this site you can see anything from basic effects like parallax and background videos, made with jQuery plugins to more complex animation and interactions using GSAP, Three.js and other. TheBlue showed me how far I’ve come in my web development journey and how much more is out there to know, experience and learn.</p>
+                        <p>Blend it wasnʼt just a new development experience for me, learning React.js and Tailwind CSS, it was an exellent example how a good team can help you grow tramendously and make it fun in the process. From prototyping in Figma to development in GitHub, our team embraced an agile workflow, constantly iterating and improving the final product.</p>
+                        <p>This project highlights my proficiency in interactive UI design, complex animations, and dynamic content rendering. I demonstrated my ability to structure reusable components, manage responsive layouts, and implement intuitive user flows. Key technical concepts include state-driven color transitions, trigonometric positioning for carousel elements, and JSON-driven modular data management. </p>
                     </div>
                     <a href="./projects/theblue">learn more</a>
                 </div>
                 <div class="project-video col-12 col-6-lg">
-                    <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/imac-theblue-poster.png" title="The Blue Website Showcase" onclick="window.location.href='./projects/theblue';">
-                        <source src="./assets/video/imac-theblue.mp4" type="video/mp4">
+                    <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/imac-blendit-poster.png" title="Blend It Website Showcase" onclick="window.location.href='./projects/blendit';">
+                        <source src="./assets/video/imac-blendit.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -99,15 +99,18 @@
             <div class="grid">
                 <div class="col-12 col-6-lg left">
                     <div class="grid">
-                        <div class="card small col-12 col-6-sm hover-content" onclick="window.location.href='./projects/meowdy';" data-hover-text="View project">
-                            <div class="cover">
-                                <img src="./assets/img/meowdy/meowdy-mockup.jpg" alt="Meowdy Box Mockup">
+                    <div class="card small col-12 col-6-sm hover-content" onclick="window.location.href='./projects/ezt';" data-hover-text="View project">
+                            <div class="cover video">
+                                <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/ezt-poster.png" title="EZT Prototype Mockup">
+                                    <source src="./assets/video/ezt.mp4" type="video/mp4">
+                                </video>
                             </div>
-                            <h4>meowdy! Cat surprise boxes</h4>
+                            <h4>ezt - online tea shop</h4>
                             <div class="tags">
+                                <div class="pill-blue">ux research</div>
+                                <div class="pill-pink">ui design</div>
                                 <div class="pill-pink">branding</div>
-                                <div class="pill-pink">Photoshop</div>
-                                <div class="pill-pink">Packaging</div>
+                                <div class="pill-pink">Figma</div>
                             </div>
                         </div>
                         <div class="card small col-12 col-6-sm hover-content" onclick="window.location.href='./projects/workflow';" data-hover-text="View project">
@@ -128,18 +131,18 @@
                     <a href="./work" class="desktop-link">more projects</a>
                 </div>
                 <div class="col-12 col-6-lg ">
-                    <div class="card hover-content" onclick="window.location.href='./projects/ezt';" data-hover-text="View project">
+                    <div class="card hover-content" onclick="window.location.href='./projects/theblue';" data-hover-text="View project">
                         <div class="cover video">
-                            <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/ezt-poster.png" title="EZT Prototype Mockup">
-                                <source src="./assets/video/ezt.mp4" type="video/mp4">
+                            <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/theblue-poster.png" title="EZT Prototype Mockup">
+                                <source src="./assets/video/theblue.mp4" type="video/mp4">
                             </video>
                         </div>
-                        <h4>ezt - online tea shop</h4>
+                        <h4>the blue - water website</h4>
                         <div class="tags">
-                            <div class="pill-blue">ux research</div>
-                            <div class="pill-pink">ui design</div>
-                            <div class="pill-pink">branding</div>
-                            <div class="pill-pink">Figma</div>
+                            <div class="pill-blue">html</div>
+                            <div class="pill-blue">css</div>
+                            <div class="pill-blue">javascript</div>
+                            <div class="pill-pink">we design</div>
                         </div>
                     </div>
                 </div>
