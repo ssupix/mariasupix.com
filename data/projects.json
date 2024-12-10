@@ -4,7 +4,7 @@
         "url": "./projects/blendit",
         "video": "./assets/video/blendit.mp4",
         "poster": "./assets/img/posters/blendit-poster.png",
-        "description": "This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.",
+        "description": "Using React.js and Tailwind CSS, our team wants to develop an online ordering with a uniquely interactive and fully customizable experience, empowering customers to create their perfect smoothie bowl blend.",
         "tags": [
             { "name": "react.js", "color": "blue" },
             { "name": "tailwind css", "color": "blue" },
