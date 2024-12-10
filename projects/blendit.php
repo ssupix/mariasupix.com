@@ -26,14 +26,14 @@
     <!-- Metadata -->
     <meta name="description" content=" Project: EZT - Online Tea Store. A user-centered design experience, incorporating UX research, UI design, branding, and prototyping. Built with Figma. " >
     <meta name="keywords" content="Maria Supikhanova, Web Developer, UX/UI Designer, Vancouver, Online Tea Store, EZT, User-Centered Design, UX Research, UI Design, Figma Prototyping, Branding, Front-End Development, Product Designer, Remote User Testing, Gemini AI, Interactive Web Design, Ecommerce, Wireframes, Journey Maps, Empathy Maps, Personas, User Scenarios, Prototyping, Responsive Design, Component-Based Design, Maze Testing, Web Development Portfolio">
-    <meta property="og:url" content="https://mariasupix.com/projects/ezt" />
+    <meta property="og:url" content="https://mariasupix.com/projects/blendit" />
     <meta property="og:title" content="mariasupix - ezt online tea store" />
     <meta property="og:description" content="How to create user-centered design experiences, incorporating UX research, UI design, branding, and prototyping" />
     <meta property="og:image" content="https://mariasupix.com/assets/img/posters/ezt-poster.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
-    <link rel="canonical" href="https://mariasupix.com/projects/ezt">
+    <link rel="canonical" href="https://mariasupix.com/projects/blendit">
 
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
@@ -81,8 +81,8 @@
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <a class="button live" href="https://www.figma.com/proto/tbMH0wyY1Ua5YupH0Bb6Uu/UX%2FUI-edited?node-id=13-12&t=QSpMu0qDfjdjmw9r-1" target="blank_">PROTOTYPE</a>
-                        <a class="button code" href="https://docs.google.com/document/d/1DLu6KTALZtDZALyaWxcWj7laMtEt6F-4XokN04e2fx4/pub" target="blank_">REPORT</a>
+                        <a class="button live context" data-tippy-content="Comming soon!" href="#" target="blank_">view live</a>
+                        <a class="button code" href="https://github.com/christianyipper/blendit" target="blank_">view code</a>
                     </div>
                 </div>
             </section>
@@ -176,8 +176,10 @@
                     <div class="col-12 col-6-lg sp"> 
                         <p>This website was developed with a mobile-first approach. This is my first time doing so, and now I totally understand why it works. It prioritizes essential content and functionality for smaller screens, leading to a more focused user experience. Also, adding breakpoints from smaller to larger screens makes more sense and creates a much smoother process.</p>
                     </div>
-                    <div class="col-12 col-6-lg si">
-                        <img src="../assets/img/ezt/after.png" alt="EZT Prototype Before">
+                    <div class="col-12 col-6-lg sp">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/blendit-mobile-poster.png" title="Blend It Showcase">
+                            <source src="../assets/video/blendit-mobile.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
                 <div class="grid">
@@ -185,8 +187,8 @@
                         <h2>carousel.</h2>
                     </div>
                     <div class="col-12 col-6-lg sp">
-                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/scroll-theblue-poster.png" title="The Blue Website Showcase">
-                            <source src="../assets/video/scroll-theblue.mp4" type="video/mp4">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/carousel-poster.png" title=" Blend It Showcase">
+                            <source src="../assets/video/carousel.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="col-12 col-6-lg sp"> 
@@ -244,15 +246,17 @@
                     </div>
                     <div class="visual col-12 col-8-lg">
                         <p>Blend it wasnʼt just a new development experience for me, learning React.js and Tailwind CSS, it was an exellent example how a good team can help you grow tramendously and make it fun in the process. We werenʼt afraid to try new things and take risks, thatʼs why the result is so rewarding! Canʼt discredit good time managment, constant communication and effective project managment workflow that helped us stay on track and achive wonderfull results as well.</p>
-                        <img src="../assets/img/theblue/water.png" alt="Water">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/blendit-poster.png" title="Blend It Showcase">
+                            <source src="../assets/video/imac-blendit.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </section>
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <a class="button live" href="https://www.figma.com/proto/tbMH0wyY1Ua5YupH0Bb6Uu/UX%2FUI-edited?node-id=13-12&t=QSpMu0qDfjdjmw9r-1" target="blank_">PROTOTYPE</a>
-                        <a class="button code" href="https://docs.google.com/document/d/1DLu6KTALZtDZALyaWxcWj7laMtEt6F-4XokN04e2fx4/pub" target="blank_">REPORT</a>
+                        <a class="button live context" data-tippy-content="Comming soon!" href="#" target="blank_">view live</a>
+                        <a class="button code" href="https://github.com/christianyipper/blendit" target="blank_">view code</a>
                     </div>
                 </div>
             </section>

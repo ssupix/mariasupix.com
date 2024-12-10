@@ -1,5 +1,20 @@
 [
     {
+        "title": "Blednit - online ordering",
+        "url": "./projects/blendit",
+        "video": "./assets/video/blendit.mp4",
+        "poster": "./assets/img/posters/blendit-poster.png",
+        "description": "This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.",
+        "tags": [
+            { "name": "react.js", "color": "blue" },
+            { "name": "tailwind css", "color": "blue" },
+            { "name": "js", "color": "blue" },
+            { "name": "step wizard", "color": "blue" },
+            { "name": "figma", "color": "pink" }
+        ],
+        "category": 1
+    },
+    {
         "title": "Water Website - The Blue",
         "url": "./projects/theblue",
         "video": "./assets/video/theblue.mp4",
@@ -9,6 +24,21 @@
             { "name": "html", "color": "blue" },
             { "name": "css", "color": "blue" },
             { "name": "javascript", "color": "blue" },
+            { "name": "ui design", "color": "pink" }
+        ],
+        "category": 1
+    },
+    {
+        "title": "Workflow - Promotional Landing",
+        "url": "./projects/workflow",
+        "video": "./assets/video/workflow.mp4",
+        "poster": "./assets/img/posters/workflow-poster.png",
+        "description": "This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.",
+        "tags": [
+            { "name": "html", "color": "blue" },
+            { "name": "scss", "color": "blue" },
+            { "name": "javascript", "color": "blue" },
+            { "name": "local storage", "color": "blue" },
             { "name": "ui design", "color": "pink" }
         ],
         "category": 1
@@ -39,20 +69,6 @@
             { "name": "packaging", "color": "pink" }
         ],
         "category": 3
-    },
-    {
-        "title": "Workflow - Promotional Landing",
-        "url": "./projects/workflow",
-        "video": "./assets/video/workflow.mp4",
-        "poster": "./assets/img/posters/workflow-poster.png",
-        "description": "This site was made as a term project for BCITs Web Scripting 1 course, as a part of the New Media Design & Web Development program to showcase usage of Vanilla JavaScript, JS Plugins and Libraries and my skills with CDN and NPM implementation.",
-        "tags": [
-            { "name": "html", "color": "blue" },
-            { "name": "scss", "color": "blue" },
-            { "name": "javascript", "color": "blue" },
-            { "name": "local storage", "color": "blue" },
-            { "name": "ui design", "color": "pink" }
-        ],
-        "category": 1
     }
 ]
+
