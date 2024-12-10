@@ -86,7 +86,7 @@
                         <p>Blend it wasnʼt just a new development experience for me, learning React.js and Tailwind CSS, it was an exellent example how a good team can help you grow tramendously and make it fun in the process. From prototyping in Figma to development in GitHub, our team embraced an agile workflow, constantly iterating and improving the final product.</p>
                         <p>This project highlights my proficiency in interactive UI design, complex animations, and dynamic content rendering. I demonstrated my ability to structure reusable components, manage responsive layouts, and implement intuitive user flows. Key technical concepts include state-driven color transitions, trigonometric positioning for carousel elements, and JSON-driven modular data management. </p>
                     </div>
-                    <a href="./projects/theblue">learn more</a>
+                    <a href="./projects/blendit">learn more</a>
                 </div>
                 <div class="project-video col-12 col-6-lg">
                     <video loop muted autoplay playsinline loading="lazy" poster="./assets/img/posters/imac-blendit-poster.png" title="Blend It Website Showcase" onclick="window.location.href='./projects/blendit';">
