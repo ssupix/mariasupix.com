@@ -24,12 +24,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- Metadata -->
-    <meta name="description" content=" Project: EZT - Online Tea Store. A user-centered design experience, incorporating UX research, UI design, branding, and prototyping. Built with Figma. " >
-    <meta name="keywords" content="Maria Supikhanova, Web Developer, UX/UI Designer, Vancouver, Online Tea Store, EZT, User-Centered Design, UX Research, UI Design, Figma Prototyping, Branding, Front-End Development, Product Designer, Remote User Testing, Gemini AI, Interactive Web Design, Ecommerce, Wireframes, Journey Maps, Empathy Maps, Personas, User Scenarios, Prototyping, Responsive Design, Component-Based Design, Maze Testing, Web Development Portfolio">
+    <meta name="description" content="Project: Blendit - Online Ordering. Built with React.js and Tailwind CSS, this interactive platform offers a fully customizable experience, empowering users to create their perfect smoothie bowl blend with ease and creativity." >
+    <meta name="keywords" content="Maria Supikhanova, Web Developer, UX/UI Designer, Vancouver, Blendit, Online Ordering, Smoothie Bowl Customization, UI Design, Figma Prototyping, Interactive Web Development, Front-End Development, React.js, Tailwind CSS, Responsive Design, Customizable User Experience, Digital Storytelling, Agile Development, Collaborative Design, Component-Based Design, Modern Web Development, Interactive Design, Portfolio Project">
     <meta property="og:url" content="https://mariasupix.com/projects/blendit" />
-    <meta property="og:title" content="mariasupix - ezt online tea store" />
-    <meta property="og:description" content="How to create user-centered design experiences, incorporating UX research, UI design, branding, and prototyping" />
-    <meta property="og:image" content="https://mariasupix.com/assets/img/posters/ezt-poster.png" />
+    <meta property="og:title" content="mariasupix - Blendit Online Ordering Platform" />
+    <meta property="og:description" content="Explore Blendit — a fully interactive, customizable online smoothie bowl ordering experience built with React.js and Tailwind CSS. Discover how UI design, agile development, and modern web technologies come together in this dynamic project." />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/blendit/blendit-banner.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->

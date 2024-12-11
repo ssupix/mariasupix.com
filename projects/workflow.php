@@ -29,7 +29,7 @@
     <meta property="og:url" content="https://mariasupix.com/projects/workflow" />
     <meta property="og:title" content="mariasupix - workflow promotional landing" />
     <meta property="og:description" content="A modern SaaS app promotional website with dynamic styling and user interaction features, designed by Masha Supikhanova." />
-    <meta property="og:image" content="https://mariasupix.com/assets/img/posters/workflow-poster.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/workflow/workflow-banner.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->

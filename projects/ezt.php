@@ -29,7 +29,7 @@
     <meta property="og:url" content="https://mariasupix.com/projects/ezt" />
     <meta property="og:title" content="mariasupix - ezt online tea store" />
     <meta property="og:description" content="How to create user-centered design experiences, incorporating UX research, UI design, branding, and prototyping" />
-    <meta property="og:image" content="https://mariasupix.com/assets/img/posters/ezt-poster.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/ezt/ezt-banner.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->

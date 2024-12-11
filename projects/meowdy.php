@@ -29,7 +29,7 @@
     <meta property="og:url" content="https://mariasupix.com/projects/meowdy" />
     <meta property="og:title" content="mariasupix - meowdy" />
     <meta property="og:description" content="Creating meaningful experiences online. Front-end developer & product designer." />
-    <meta property="og:image" content="https://mashasupix.com/assets/img/meowdy/meowdy-mockup.png" />
+    <meta property="og:image" content="https://mashasupix.com/assets/img/meowdy/meowdy-mockup.jpg" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->

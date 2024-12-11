@@ -29,7 +29,7 @@
     <meta property="og:url" content="https://mariasupix.com/projects/theblue" />
     <meta property="og:title" content="mariasupix - the blue" />
     <meta property="og:description" content="Visual experiences that showcases usage of Vanilla JavaScript, JS Plugins and Libraries for a good cause" />
-    <meta property="og:image" content="https://mariasupix.com/assets/img/posters/theblue-poster.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/theblue/theblue-banner.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
