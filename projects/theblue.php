@@ -61,7 +61,7 @@
                         <div class="pill-blue">html</div>
                         <div class="pill-blue">css</div>
                         <div class="pill-blue">javascript</div>
-                        <div class="pill-pink">we design</div>
+                        <div class="pill-pink">ui design</div>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
             <section class="thoughts">
                 <div class="grid">
                     <div class="quote col-12 col-4-lg ">
-                        <q>My very personal thoughts and concerns, interpreted for a good cause, though art online.</q>
+                        <q>My very personal thoughts and concerns, interpreted for a good cause, through art online.</q>
                         <p>I want to inspire hope and motivate action to combat the issue, by showcasing the beauty of water through <span class="context" data-tippy-content="like water">interactive</span> elements.</p>
                     </div>
                     <div class="visual col-12 col-8-lg ">

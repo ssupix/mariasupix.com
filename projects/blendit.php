@@ -240,8 +240,8 @@
             <section class="thoughts">
                 <div class="grid">
                     <div class="quote col-12 col-4-lg">
-                        <q>overall it sparked my creativity and me eager to collaborate more in my next projects</q>
-                        <p>Canʼt discredit good time managment, constant communication and effective project managment workflow that helped us stay on track and achive wonderfull results as well.</p>
+                        <q>overall it sparked my creativity and made me eager to collaborate more in my next projects</q>
+                        <p>Canʼt discredit good time management, constant communication and effective project managment workflow that helped us stay on track and achive wonderfull results as well.</p>
                     </div>
                     <div class="visual col-12 col-8-lg">
                         <p>Blend it wasnʼt just a new development experience for me, learning React.js and Tailwind CSS, it was an exellent example how a good team can help you grow tramendously and make it fun in the process. We werenʼt afraid to try new things and take risks, thatʼs why the result is so rewarding! Canʼt discredit good time managment, constant communication and effective project managment workflow that helped us stay on track and achive wonderfull results as well.</p>
