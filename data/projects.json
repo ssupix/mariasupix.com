@@ -8,9 +8,21 @@
         "tags": [
             { "name": "react.js", "color": "blue" },
             { "name": "tailwind css", "color": "blue" },
-            { "name": "js", "color": "blue" },
             { "name": "step wizard", "color": "blue" },
             { "name": "figma", "color": "pink" }
+        ],
+        "category": 1
+    },
+    {
+        "title": "Horizons - Api Project",
+        "url": "./projects/horizons",
+        "video": "./assets/video/horizons.mp4",
+        "poster": "./assets/img/posters/horizons-poster.png",
+        "description": "",
+        "tags": [
+            { "name": "react.js", "color": "blue" },
+            { "name": "tailwind", "color": "blue" },
+            { "name": "api integration", "color": "blue" }
         ],
         "category": 1
     },
