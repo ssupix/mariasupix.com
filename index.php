@@ -71,7 +71,7 @@
                         <img src="./assets/img/banner.png" alt="Masha Supikhanova">
                     </div>
                     <div class="banner-right-text col-12 col-3-lg">
-                        <p>[2024]</p>
+                        <p>[2025]</p>
                         <a href="./work" class="important">open to work</a>
                     </div>
                 </div>
