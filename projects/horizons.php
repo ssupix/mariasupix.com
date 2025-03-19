@@ -29,14 +29,14 @@
     <meta property="og:url" content="https://mariasupix.com/projects/horizons" />
     <meta property="og:title" content="mariasupix - horizons nasa api" />
     <meta property="og:description" content="" />
-    <meta property="og:image" content="https://mariasupix.com/assets/img/workflow/horizons-banner.png" />
+    <meta property="og:image" content="https://mariasupix.com/assets/img/horizons/horizons-banner.png" />
     <meta property="og:type" content="website" />
 
     <!-- Canonical Tag -->
     <link rel="canonical" href="https://mariasupix.com/projects/horizons">
 
 
-    <title>mariasupix - horizonsS</title>
+    <title>mariasupix - horizons nasa api</title>
     <link rel="icon" type="image/x-icon" href="../assets/img/logo.svg">
     <link rel="apple-touch-icon" href="../assets/img/logo.svg" />
 </head>
@@ -49,7 +49,7 @@
         <section class="title">
             <div class="grid">
                 <div class="col-12">
-                    <h2>horizons - api project</h2>
+                    <h2>horizons - nasa api</h2>
                 </div>
                 <div class="col-12">
                     <div class="tags">
@@ -85,13 +85,13 @@
                         <h3>Input</h3>
                         <p>Masha Supikhanova – Front-end developer</p>
                         <h3>Total Hours</h3>
-                        <p>6 hrs</p>
+                        <p>9 hrs</p>
                     </div>
                     <div class="col-12 col-6-md detail">
-                        <h3>Design Tools</h3>
-                        <p>Figma</p>
-                        <h3>Developer Stack</h3>
-                        <p>React.js, Tailwind CSS, <br> NASA API</p>
+                        <h3>Tools</h3>
+                        <p>Development - React.js, Tailwind CSS, NASA API <br> Design - Figma</p>
+                        <h3>Team</h3>
+                        <p>Paul Aries - Front-end developer <br> Nicole Espiritu - Product Designer</p>
                     </div>
                 </div>
             </section>
@@ -99,7 +99,7 @@
                 <div class="grid">
                     <div class="col-12 col-6-lg sp"> 
                         <h2>nasa api.</h2>
-                        <p>I created a classic dropdown accordion with smooth max-height transition <span class="context" data-tippy-content="See in a snippet">animation</span>. This specific design allows users to expand only the options they are interested in, automatically closing any previously opened sections. This keeps the interface <span class="context" data-tippy-content="Not overwhelming">clean</span> and <span class="context" data-tippy-content="Easy to get around">organized</span>, minimizing clutter.</p>
+                        <p>NASA’s APOD API was integrated using fetch inside useEffect, ensuring images load on mount. The API request retrieves data like titles, dates, and URLs, which are mapped into individual cards. For pagination, a Load More button triggers an additional request, appending new entries to the existing list, allowing users to explore more images dynamically without refreshing.</p>
                     </div>
                     <div class="col-12 col-6-lg sp">
                         <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/imac-horizons-poster.png" title="Horizons Website Showcase">
@@ -114,7 +114,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/dropdowns.php'; ?>
+                                <?php include '../components/fetch.php'; ?>
                             </ul>
                         </div>
                         <div class="code-show">                           
@@ -123,7 +123,7 @@
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/dropdowns.php'; ?>
+                                <?php include '../components/loadmore.php'; ?>
                             </ul>
                         </div>
                     </div>
@@ -131,27 +131,26 @@
                 <div class="grid">
                     <div class="col-12 col-7-lg sp"> 
                         <h2>using props.</h2>
-                        <p>To style the entire website, I utilized <span class="context" data-tippy-content="Like CSS but better"><a href="https://sass-lang.com/" target="_blank">SCSS</a></span>, taking advantage of features like file <span class="context" data-tippy-content="See in a snippet">nesting</span>, <span class="context" data-tippy-content="See in a snippet">variables</span>, and <span class="context" data-tippy-content="See in a snippet">functions</span> to create an easy to maintain codebase. SCSS allows for more organized styling, which significantly improved the efficiency of my workflow(haha).</p>
-                        <p><span class="context" data-tippy-content="Fun to me">Fun fact:</span> before I discovered SCSS, I used to manually attempt nesting and breaking down regular CSS files because I looked for a structured approach. Now, with SCSS, it feels even better as the nesting and variables fit my work process, making the styles more modular and scalable. </p>
+                        <p>The Card component was designed to be highly reusable by leveraging props to dynamically display content. Each card receives properties like the title, date, copyright, media type, image URL, and explanation, ensuring flexibility in rendering different types of data. By passing these values as props, the parent Gallery component maintains control over the data while keeping the Card component focused solely on presentation. This structure allows for clean, modular code, making it easy to manage and update the UI without modifying individual cards.</p>
                     </div>
                     <div class="col-12">
                         <h4>code snippets:</h4>
                         <div class="code-show">
                             <div class="select">
-                                <span>variables</span>
+                                <span>card component</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/variables.php'; ?>
+                                <?php include '../components/component.php'; ?>
                             </ul>
                         </div>
                         <div class="code-show">
                             <div class="select">
-                                <span>nesting</span>
+                                <span>map</span>
                                 <div class="caret"></div>
                             </div>
                             <ul class="code">
-                                <?php include '../components/nesting.php'; ?>
+                                <?php include '../components/map.php'; ?>
                             </ul>
                         </div>
                     </div>
@@ -160,12 +159,11 @@
             <section class="getting-started">
                 <div class="grid showcase">
                     <div class="col-12 col-8-lg">
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/design/O5Lg5KBskufVIfNrs4E1TI/workflow?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/design/evppmAL4SeM4aVgHyIyjdH/NASA---APOD---V2-Working-File?node-id=205-119&embed-host=share" allowfullscreen></iframe>
                     </div>
                     <div class="col-12 col-7-md col-4-lg co sp">
                         <div class="text-wrap">
-                            <p>Before development, I created simple mockups for both light and dark modes using <span class="context" data-tippy-content="My design software of choice">Figma</span>, following a <span class="context" data-tippy-content="Responsive and premade">12-column grid</span> layout. Though not interactive, these designs provided a clear visual guide for quick and efficient development.</p>
-                            <p> Visualization is crucial for me, as it helps ensure I know exactly what I'm working towards. </p>
+                            <p>Together, we created a brainstorming moodboard, which was shared with the designer to help them craft the mockup. As developers, we had the opportunity to give feedback and contribute to the design iterations. This back-and-forth process really reinforced how valuable it is to have a multidisciplinary team working together—each person focusing on their area of expertise but still contributing to a shared goal. It allowed us to stay engaged with the design while maintaining our focus on the technical aspects.</p>
                         </div>
                     </div>
                 </div>
@@ -173,11 +171,11 @@
             <section class="thoughts">
                 <div class="grid">
                     <div class="quote col-12 col-4-lg ">
-                        <q>The goal was to create a clean, modern website that effectively promotes the app's features and benefits.</q>
-                        <p>The hero section and some other elements use a <span class="context" data-tippy-content="More about this style"><a href="https://bentogrids.com/" target="_blank">bento-box</a></span> style layout, which organizes information in a way that feels intuitive, similar to what you'd expect from a dashboard in an app like Workflow.</p>
+                        <q>collaboration is the key to turning ideas into impactful, well-rounded solutions.</q>
+                        <p>With constant feedback loops and shared efforts, we were able to refine and improve the project, making it stronger on a short timeline, without feeling like we were working overtime. This project reinforced my passion for development and working with a team to solve real-world problems.</p>
                     </div>
                     <div class="visual col-12 col-8-lg ">
-                        <p>This project is based on one of my term projects from <span class="context" data-tippy-content="Part of my Diploma">Web Interactions</span> course at <span class="context" data-tippy-content="More about my Diploma"><a href="https://www.bcit.ca/programs/new-media-design-and-web-development-diploma-full-time-6525dipma/" target="_blank">BCIT</a></span>. The primary objective was to design and develop a comprehensive marketing page for a fictional SaaS app called Workflow, a project management tool tailored for remote teams.</p>
+                        <p>On the development side, using React allowed us to break down the application into reusable components, making it easier to maintain. This project solidified my technical skills in React, especially when it came to handling dynamic data from APIs and structuring components with props.</p>
                         <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/imac-horizons-poster.png" title="Horizons Website Showcase">
                             <source src="../assets/video/imac-horizons.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -188,8 +186,8 @@
             <section class="buttons">
                 <div class="grid">
                     <div class="col-12 button-wrap">
-                        <a class="button live" href="https://workflow.mariasupix.com/" target="_blank">VIEW LIVE</a>
-                        <a class="button code" href="https://github.com/ssupix/term-project-workflow" target="_blank">VIEW CODE</a>
+                        <a class="button live" href="https://horizons.mariasupix.com/" target="_blank">VIEW LIVE</a>
+                        <a class="button code" href="https://github.com/ssupix/horizons-api" target="_blank">VIEW CODE</a>
                     </div>
                 </div>
             </section>
