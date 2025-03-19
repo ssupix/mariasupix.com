@@ -176,8 +176,8 @@
                     </div>
                     <div class="visual col-12 col-8-lg ">
                         <p>On the development side, using React allowed us to break down the application into reusable components, making it easier to maintain. This project solidified my technical skills in React, especially when it came to handling dynamic data from APIs and structuring components with props.</p>
-                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/imac-horizons-poster.png" title="Horizons Website Showcase">
-                            <source src="../assets/video/imac-horizons.mp4" type="video/mp4">
+                        <video loop muted autoplay playsinline loading="lazy" poster="../assets/img/posters/horizons-imac-poster.png" title="Horizons Website Showcase">
+                            <source src="../assets/video/horizons-imac.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
