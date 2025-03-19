@@ -67,7 +67,7 @@
             <section class="description">
                 <div class="grid">
                 <div class="col-12">
-                    <h4>a real world example of Saas app bussiness promotional website, utilizing Local Storage memory personalized styling light and dark modes and scss to improve code structure.</h4>
+                    <h4>A React-based NASA API gallery featuring dynamic data fetching, a structured child component for display, and a “Load More” feature for pagination.</h4>
                 </div>
                 </div>
             </section>
