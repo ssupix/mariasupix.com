@@ -18,7 +18,7 @@
         "url": "./projects/horizons",
         "video": "./assets/video/horizons.mp4",
         "poster": "./assets/img/posters/horizons-poster.png",
-        "description": "",
+        "description": "This project was built to explore API integration in React, focusing on dynamically fetching and displaying NASA’s astronomy images. It showcases my ability to structure components, manage state efficiently, and implement a pagination system for an improved user experience.",
         "tags": [
             { "name": "react.js", "color": "blue" },
             { "name": "tailwind", "color": "blue" },
