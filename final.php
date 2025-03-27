@@ -34,9 +34,7 @@
     <main>
         <section class="error">
             <div class="grid error-box">
-                <div class="col-12">
-                    <a class="button live" href="./">DON'T ClICK</a>
-                </div>
+                <a class="button live" href="https://www.figma.com/slides/UtoBJwcaNFEeH8Cld9Kfx2/Final-Presentation?node-id=1-445&t=caFNc95QqXvVFcW1-1">DON'T ClICK</a>
             </div>
         </section>
     </main>
