@@ -35,19 +35,7 @@
         <section class="error">
             <div class="grid error-box">
                 <div class="col-12">
-                    <h1>404</h1>
-                </div>
-                <div class="col-6 image">
-                    <img src="./assets/img/miaupixels.png" alt="Cat with pixels">
-                    <img class="pixel-overlay" src="./assets/img/miau.png" alt="Cat">
-                </div>
-                <div class="col-6 message">
-                    <div class="text">
-                        <h2>ohhhh, now that's awkward...</h2>
-                        <p>It’s not you, it’s me. I might have moved some pages around or maybe this one never even existed. Who knows?</p>
-                        <p>Let’s get you back home and pretend this never happened. Peace!</p>
-                    </div>
-                    <a class="button live" href="./">BACK HOME</a>
+                    <a class="button live" href="./">DON'T ClICK</a>
                 </div>
             </div>
         </section>
